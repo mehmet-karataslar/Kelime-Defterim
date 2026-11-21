@@ -1,0 +1,15 @@
+# Bağımlılıklar
+node_modules/
+
+# Derleme çıktıları
+dist/
+tsconfig.tsbuildinfo
+
+# IDE / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Geçici dosyalar
+*.log
