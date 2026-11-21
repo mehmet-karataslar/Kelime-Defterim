@@ -410,6 +410,7 @@ export default function SettingsScreen() {
                     <label className="field-label">{t('settings.widgetType')}</label>
                     <select className="field-select" value={design.config.type} onChange={(e) => patchDesign({ type: e.target.value as WidgetConfig['type'] })}>
                       <option value="word">{t('settings.wTypeWord')}</option>
+                      <option value="list">{t('settings.wTypeList')}</option>
                       <option value="compact">{t('settings.wTypeCompact')}</option>
                       <option value="goal">{t('settings.wTypeGoal')}</option>
                       <option value="review">{t('settings.wTypeReview')}</option>
@@ -427,6 +428,18 @@ export default function SettingsScreen() {
                     </div>
                   </div>
                 </div>
+                {design.config.type === 'list' ? (
+                  <div className="field" style={{ marginTop: '0.4rem', marginBottom: '0.4rem' }}>
+                    <label className="field-label">{t('settings.widgetListCount')}</label>
+                    <div className="seg-inline">
+                      {[3, 4, 5].map((cnt) => (
+                        <button key={cnt} className={(design.config.listCount ?? 3) === cnt ? 'active' : ''} onClick={() => patchDesign({ listCount: cnt })}>
+                          {cnt}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+                ) : null}
                 <div className="field-row">
                   <div className="field">
                     <label className="field-label">{t('settings.widgetAlign')}</label>
@@ -444,6 +457,27 @@ export default function SettingsScreen() {
                     </select>
                   </div>
                 </div>
+                <div style={{ marginTop: '0.6rem' }}>
+                  <label className="field-label">{t('settings.widgetPresets')}</label>
+                  <div className="preset-grid">
+                    <button type="button" className="preset-btn" onClick={() => patchDesign({ bg: '#FFFFFF', text: '#1E1B2E', accent: '#4338CA', border: '#E5E1F5', bgOpacity: 100 })}>
+                      <div className="preset-swatch" style={{ background: '#FFFFFF', border: '1px solid #CBD5E1' }} />
+                      <span>{t('settings.presetLight')}</span>
+                    </button>
+                    <button type="button" className="preset-btn" onClick={() => patchDesign({ bg: '#0F172A', text: '#F8FAFC', accent: '#38BDF8', border: '#334155', bgOpacity: 100 })}>
+                      <div className="preset-swatch" style={{ background: '#0F172A' }} />
+                      <span>{t('settings.presetDark')}</span>
+                    </button>
+                    <button type="button" className="preset-btn" onClick={() => patchDesign({ bg: '#FFFFFF', text: '#0F172A', accent: '#6366F1', border: '#E2E8F0', bgOpacity: 75 })}>
+                      <div className="preset-swatch" style={{ background: 'rgba(255,255,255,0.7)', border: '1px solid #CBD5E1' }} />
+                      <span>{t('settings.presetGlass')}</span>
+                    </button>
+                    <button type="button" className="preset-btn" onClick={() => patchDesign({ bg: '#2E1065', text: '#FAF5FF', accent: '#C084FC', border: '#581C87', bgOpacity: 95 })}>
+                      <div className="preset-swatch" style={{ background: '#581C87' }} />
+                      <span>{t('settings.presetPurple')}</span>
+                    </button>
+                  </div>
+                </div>
                 <div className="color-grid">
                   {([['bg', 'widgetBg'], ['text', 'widgetText'], ['accent', 'widgetAccent'], ['border', 'widgetBorder']] as const).map(([k, label]) => (
                     <label className="color-field" key={k}>
@@ -453,13 +487,14 @@ export default function SettingsScreen() {
                   ))}
                 </div>
                 {([
-                  ['fontScale', 'widgetFontScale', 0.8, 1.4, 0.05, `${Math.round(design.config.fontScale * 100)}%`],
-                  ['radius', 'widgetRadius', 0, 28, 1, `${design.config.radius}px`],
+                  ['fontScale', 'widgetFontScale', 0.85, 1.8, 0.05, `${Math.round(design.config.fontScale * 100)}%`],
+                  ['bgOpacity', 'widgetBgOpacity', 25, 100, 5, `${design.config.bgOpacity ?? 100}%`],
+                  ['radius', 'widgetRadius', 0, 36, 2, `${design.config.radius}px`],
                   ['borderWidth', 'widgetBorderW', 0, 4, 0.5, `${design.config.borderWidth}px`],
                 ] as const).map(([k, label, min, max, step, val]) => (
                   <div className="w-slider" key={k}>
                     <div className="w-slider-head"><span>{t(`settings.${label}`)}</span><b>{val}</b></div>
-                    <input type="range" min={min} max={max} step={step} value={design.config[k]}
+                    <input type="range" min={min} max={max} step={step} value={design.config[k] ?? (k === 'bgOpacity' ? 100 : 0)}
                       onChange={(e) => patchDesign({ [k]: Number(e.target.value) } as Partial<WidgetConfig>)} />
                   </div>
                 ))}

@@ -154,12 +154,13 @@ export interface Settings {
   updateChannel: 'stable' | 'beta';
 }
 
-export type WidgetType = 'word' | 'compact' | 'goal' | 'review' | 'quiz';
+export type WidgetType = 'word' | 'list' | 'compact' | 'goal' | 'review' | 'quiz';
 
 export interface WidgetConfig {
   type: WidgetType;
   size: 'small' | 'medium' | 'large';
   bg: string;
+  bgOpacity?: number; // 20 - 100
   text: string;
   accent: string;
   border: string;
@@ -172,6 +173,7 @@ export interface WidgetConfig {
   showArticle: boolean;
   showMeaning: boolean;
   showExample: boolean;
+  listCount?: number; // 3, 4, 5
   source: 'all' | 'favorites' | 'daily' | 'collection';
   collectionId: string | null;
   refreshMinutes: number;

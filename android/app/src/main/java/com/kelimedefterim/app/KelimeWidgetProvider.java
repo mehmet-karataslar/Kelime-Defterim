@@ -141,20 +141,22 @@ public class KelimeWidgetProvider extends AppWidgetProvider {
             String size = cfg.optString("size", "medium");
 
             Bundle opts = mgr.getAppWidgetOptions(widgetId);
-            int fallbackW = "small".equals(size) ? 140 : "large".equals(size) ? 280 : 210;
-            int fallbackH = "small".equals(size) ? 70 : "large".equals(size) ? 170 : 110;
+            int fallbackW = "small".equals(size) ? 160 : "large".equals(size) ? 320 : 260;
+            int fallbackH = "small".equals(size) ? 90 : "large".equals(size) ? 220 : 150;
             int wDp = opts != null ? opts.getInt(AppWidgetManager.OPTION_APPWIDGET_MIN_WIDTH, fallbackW) : fallbackW;
             int hDp = opts != null ? opts.getInt(AppWidgetManager.OPTION_APPWIDGET_MIN_HEIGHT, fallbackH) : fallbackH;
             if (wDp < 80) wDp = fallbackW;
             if (hDp < 40) hDp = fallbackH;
 
-            // Cap bitmap dimensions to prevent TransactionTooLargeException (limit IPC parcel to < 400KB)
-            int W = Math.min(480, Math.max(220, Math.round(wDp * 1.35f)));
-            int H = Math.min(280, Math.max(110, Math.round(hDp * 1.35f)));
-            float drawScale = W / (float) wDp;
+            // Cap bitmap dimensions to prevent TransactionTooLargeException while providing crisp resolution
+            int W = Math.min(540, Math.max(300, Math.round(wDp * 1.5f)));
+            int H = Math.min(340, Math.max(130, Math.round(hDp * 1.5f)));
+            float drawScale = W / 320f;
 
             float fs = (float) cfg.optDouble("fontScale", 1.0);
-            int bg = color(cfg.optString("bg", "#FFFFFF"), Color.WHITE);
+            int bgRaw = color(cfg.optString("bg", "#FFFFFF"), Color.WHITE);
+            int opacity = Math.max(20, Math.min(100, cfg.optInt("bgOpacity", 100)));
+            int bg = alpha(bgRaw, Math.round(opacity * 2.55f));
             int text = color(cfg.optString("text", "#1E1B2E"), Color.parseColor("#1E1B2E"));
             int accent = color(cfg.optString("accent", "#4338CA"), Color.parseColor("#4338CA"));
             int border = color(cfg.optString("border", "#E5E1F5"), Color.parseColor("#E5E1F5"));
@@ -202,7 +204,7 @@ public class KelimeWidgetProvider extends AppWidgetProvider {
                 c.drawRoundRect(br, radius, radius, bp);
             }
 
-            float pad = 12 * drawScale;
+            float pad = 16 * drawScale;
             float maxW = W - pad * 2;
             String german = word != null ? word.optString("g", "die Möglichkeit") : "die Möglichkeit";
             String article = word != null ? word.optString("a", "die") : "die";
@@ -214,7 +216,60 @@ public class KelimeWidgetProvider extends AppWidgetProvider {
             tp.setColor(text);
 
             float y = pad;
-            if ("goal".equals(type)) {
+            if ("list".equals(type)) {
+                int count = Math.min(pool != null ? pool.length() : 0, cfg.optInt("listCount", 3));
+                if (count == 0) count = 1;
+                float availH = H - pad * 2;
+                float itemH = availH / count;
+                for (int i = 0; i < count; i++) {
+                    JSONObject item = (pool != null && i < pool.length()) ? pool.optJSONObject(i) : null;
+                    String iArt = item != null ? item.optString("a", "") : (i == 0 ? "die" : i == 1 ? "der" : "das");
+                    String iGer = item != null ? item.optString("g", "") : (i == 0 ? "Möglichkeit" : i == 1 ? "Tisch" : "Buch");
+                    String iMean = item != null ? item.optString("m", "") : (i == 0 ? "İmkân, olasılık" : i == 1 ? "Masa" : "Kitap");
+
+                    float itemY = pad + i * itemH;
+                    float curX = pad;
+                    float midY = itemY + itemH / 2;
+
+                    if (showArticle && !iArt.isEmpty()) {
+                        int ac = articleColor(iArt);
+                        tp.setTextSize(10.5f * fs * drawScale);
+                        tp.setFakeBoldText(true);
+                        float tw = tp.measureText(iArt);
+                        float cw = tw + 12 * drawScale;
+                        float ch = 17 * drawScale;
+                        Paint cp = new Paint(Paint.ANTI_ALIAS_FLAG);
+                        cp.setColor(alpha(ac, 40));
+                        c.drawRoundRect(new RectF(curX, midY - ch / 2, curX + cw, midY + ch / 2), ch / 2, ch / 2, cp);
+                        tp.setColor(ac);
+                        c.drawText(iArt, curX + 6 * drawScale, midY + tp.getTextSize() / 3, tp);
+                        curX += cw + 8 * drawScale;
+                    }
+
+                    tp.setColor(text);
+                    tp.setTextSize(15 * fs * drawScale);
+                    tp.setFakeBoldText(true);
+                    float maxWordW = (W - pad - curX) * 0.52f;
+                    drawText(c, tp, iGer, curX, midY + tp.getTextSize() / 3, maxWordW, false, W);
+                    curX += tp.measureText(iGer) + 8 * drawScale;
+
+                    if (showMeaning && !iMean.isEmpty()) {
+                        tp.setColor(alpha(text, 160));
+                        tp.setTextSize(12.5f * fs * drawScale);
+                        tp.setFakeBoldText(false);
+                        float remW = W - pad - curX;
+                        drawText(c, tp, iMean, curX, midY + tp.getTextSize() / 3, remW, false, W);
+                    }
+
+                    if (i < count - 1) {
+                        Paint divP = new Paint();
+                        divP.setColor(alpha(text, 25));
+                        divP.setStrokeWidth(1 * drawScale);
+                        float lineY = itemY + itemH;
+                        c.drawLine(pad, lineY, W - pad, lineY, divP);
+                    }
+                }
+            } else if ("goal".equals(type)) {
                 int done = data.optInt("done", 0);
                 int goal = Math.max(1, data.optInt("goal", 10));
                 tp.setTextSize(9 * fs * drawScale);
@@ -273,36 +328,36 @@ public class KelimeWidgetProvider extends AppWidgetProvider {
                 boolean compact = "compact".equals(type);
                 if (!compact && showArticle && !article.isEmpty()) {
                     int ac = articleColor(article);
-                    tp.setTextSize(9 * fs * drawScale);
+                    tp.setTextSize(11.5f * fs * drawScale);
                     tp.setFakeBoldText(true);
                     float tw = tp.measureText(article);
-                    float chipW = tw + 12 * drawScale;
-                    float chipH = 14 * drawScale;
+                    float chipW = tw + 16 * drawScale;
+                    float chipH = 18 * drawScale;
                     float cx = center ? (W - chipW) / 2 : pad;
                     Paint cp = new Paint(Paint.ANTI_ALIAS_FLAG);
-                    cp.setColor(alpha(ac, 36));
+                    cp.setColor(alpha(ac, 38));
                     c.drawRoundRect(new RectF(cx, y, cx + chipW, y + chipH), chipH / 2, chipH / 2, cp);
                     tp.setColor(ac);
-                    c.drawText(article, cx + 6 * drawScale, y + chipH / 2 + tp.getTextSize() / 3, tp);
-                    y += chipH + 3 * drawScale;
+                    c.drawText(article, cx + 8 * drawScale, y + chipH / 2 + tp.getTextSize() / 3, tp);
+                    y += chipH + 5 * drawScale;
                 }
                 tp.setColor(text);
-                tp.setTextSize((compact ? 14 : 17) * fs * drawScale);
+                tp.setTextSize((compact ? 17 : 24) * fs * drawScale);
                 tp.setFakeBoldText(true);
                 String head = (compact && showArticle && !article.isEmpty() ? article + " " : "") + german;
                 drawText(c, tp, head, pad, y + tp.getTextSize(), maxW, center, W);
-                y += (compact ? 16 : 20) * fs * drawScale + 2 * drawScale;
+                y += (compact ? 20 : 28) * fs * drawScale + 4 * drawScale;
                 if (showMeaning && !meaning.isEmpty()) {
                     tp.setColor(alpha(text, 160));
-                    tp.setTextSize(11 * fs * drawScale);
+                    tp.setTextSize(14 * fs * drawScale);
                     tp.setFakeBoldText(false);
                     drawText(c, tp, meaning, pad, y + tp.getTextSize(), maxW, center, W);
-                    y += 13 * fs * drawScale + 2 * drawScale;
+                    y += 17 * fs * drawScale + 4 * drawScale;
                 }
-                if (!compact && detailed && showExample && !example.isEmpty() && y < H - pad - 8 * drawScale) {
+                if (!compact && detailed && showExample && !example.isEmpty() && y < H - pad - 6 * drawScale) {
                     tp.setColor(alpha(text, 130));
-                    tp.setTextSize(9.5f * fs * drawScale);
-                    tp.setTextSkewX(-0.2f);
+                    tp.setTextSize(11.5f * fs * drawScale);
+                    tp.setTextSkewX(-0.15f);
                     drawText(c, tp, example, pad, y + tp.getTextSize(), maxW, center, W);
                     tp.setTextSkewX(0);
                 }
