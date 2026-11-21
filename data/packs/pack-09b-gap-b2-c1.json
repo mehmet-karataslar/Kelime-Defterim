@@ -1,0 +1,5772 @@
+[
+  {
+    "german": "Bördelgerät",
+    "article": "das",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Havşa açma aleti (boru ağzını konik genişletme aleti)",
+        "en": "flaring tool"
+      }
+    ],
+    "noun": {
+      "plural": "die Bördelgeräte",
+      "genitiv": "des Bördelgeräts"
+    },
+    "examples": [
+      {
+        "de": "Für die Kältemittelleitung der Split-Wärmepumpe brauchen wir ein exzentrisches Bördelgerät.",
+        "tr": "Split ısı pompasının soğutucu akışkan hattı için eksantrik bir havşa açma aletine ihtiyacımız var."
+      },
+      {
+        "de": "Prüf den Konus nach dem Einsatz des Bördelgeräts immer auf feine Risse.",
+        "tr": "Havşa açma aletini kullandıktan sonra konik ağzı her zaman ince çatlaklara karşı kontrol et."
+      }
+    ],
+    "synonyms": [
+      "Bördelwerkzeug"
+    ],
+    "antonyms": [],
+    "related": [
+      "bördeln",
+      "Bördelverbindung",
+      "Kupferrohr"
+    ],
+    "tags": [
+      "werkzeug",
+      "kältetechnik",
+      "rohrbearbeitung"
+    ],
+    "notes": "Split klima ve ısı pompası bakır borularında sızdırmaz havşa bağlantısı oluşturmak için kullanılır.",
+    "collections": [
+      "col-werkzeuge",
+      "col-waermepumpe",
+      "col-rohre",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Rohraufweiter",
+    "article": "der",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Boru genişletme aleti (muflu bağlantı açıcı)",
+        "en": "pipe expander"
+      }
+    ],
+    "noun": {
+      "plural": "die Rohraufweiter",
+      "genitiv": "des Rohraufweiters"
+    },
+    "examples": [
+      {
+        "de": "Mit dem Rohraufweiter sparen wir bei der Kupferinstallation zahlreiche Löt-Muffen ein.",
+        "tr": "Boru genişletme aletiyle bakır tesisatta çok sayıda lehim manşonundan tasarruf ediyoruz."
+      },
+      {
+        "de": "Wähle den passenden Kopf für den Rohraufweiter entsprechend dem Rohrdurchmesser aus.",
+        "tr": "Boru çapına uygun olarak boru genişletme aleti için doğru başlığı seç."
+      }
+    ],
+    "synonyms": [
+      "Aufweitzange",
+      "Expander"
+    ],
+    "antonyms": [],
+    "related": [
+      "aufweiten",
+      "Muffe",
+      "Kupferrohr"
+    ],
+    "tags": [
+      "werkzeug",
+      "rohrbearbeitung",
+      "montage"
+    ],
+    "collections": [
+      "col-werkzeuge",
+      "col-rohre",
+      "col-montage",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Gewindeschneidmaschine",
+    "article": "die",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Elektrikli diş açma makinesi (pafta makinesi)",
+        "en": "pipe threading machine"
+      }
+    ],
+    "noun": {
+      "plural": "die Gewindeschneidmaschinen",
+      "genitiv": "der Gewindeschneidmaschine"
+    },
+    "examples": [
+      {
+        "de": "Bei größeren Stahlrohren ab eineinhalb Zoll setzen wir auf der Baustelle die Gewindeschneidmaschine ein.",
+        "tr": "Bir buçuk inçten büyük çelik borularda şantiyede elektrikli diş açma makinesini kullanıyoruz."
+      },
+      {
+        "de": "Achte darauf, dass die automatische Ölzufuhr der Gewindeschneidmaschine sauber funktioniert.",
+        "tr": "Diş açma makinesinin otomatik yağ beslemesinin düzgün çalıştığından emin ol."
+      }
+    ],
+    "synonyms": [
+      "Rohrgewindeschneidmaschine"
+    ],
+    "antonyms": [],
+    "related": [
+      "Gewindeschneider",
+      "Schneidkluppe",
+      "Schneidöl"
+    ],
+    "tags": [
+      "maschine",
+      "werkzeug",
+      "stahlrohr"
+    ],
+    "collections": [
+      "col-werkzeuge",
+      "col-rohre",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Schallpegelmessgerät",
+    "article": "das",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Ses seviyesi ölçer, desibelmetre",
+        "en": "sound level meter"
+      }
+    ],
+    "noun": {
+      "plural": "die Schallpegelmessgeräte",
+      "genitiv": "des Schallpegelmessgeräts"
+    },
+    "examples": [
+      {
+        "de": "Mit dem Schallpegelmessgerät überprüfen wir den Geräuschpegel der Außeneinheit an der Grundstücksgrenze.",
+        "tr": "Ses seviyesi ölçerle dış ünitenin parsel sınırındaki gürültü seviyesini kontrol ediyoruz."
+      },
+      {
+        "de": "Vor der Messung muss das Schallpegelmessgerät mit einem akustischen Kalibrator justiert werden.",
+        "tr": "Ölçümden önce ses seviyesi ölçer akustik bir kalibratörle ayarlanmalıdır."
+      }
+    ],
+    "synonyms": [
+      "Dezibelmessgerät",
+      "Lärmmessgerät"
+    ],
+    "antonyms": [],
+    "related": [
+      "Schalldruckpegel",
+      "Schallimmission",
+      "Schallschutz"
+    ],
+    "tags": [
+      "messtechnik",
+      "werkzeug",
+      "akustik"
+    ],
+    "notes": "Isı pompası dış ünitelerinin TA Lärm sınır değerlerine uygunluğunu ölçmek için kullanılır.",
+    "collections": [
+      "col-werkzeuge",
+      "col-waermepumpe",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Anemometer",
+    "article": "das",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Anemometre, hava hızı ölçer",
+        "en": "anemometer, air velocity meter"
+      }
+    ],
+    "noun": {
+      "plural": "die Anemometer",
+      "genitiv": "des Anemometers"
+    },
+    "examples": [
+      {
+        "de": "Mit dem Flügelrad-Anemometer messen wir den genauen Volumenstrom am Zuluftdurchlass.",
+        "tr": "Pervaneli anemometre ile taze hava menfezindeki kesin debiyi ölçüyoruz."
+      },
+      {
+        "de": "Das Anemometer zeigt an, dass im Abluftkanal deutlich zu wenig Luft strömt.",
+        "tr": "Anemometre, egzoz hava kanalında belirgin şekilde çok az hava aktığını gösteriyor."
+      }
+    ],
+    "synonyms": [
+      "Strömungsmessgerät",
+      "Windmesser"
+    ],
+    "antonyms": [],
+    "related": [
+      "Volumenstrom",
+      "Zuluft",
+      "Lüftungsanlage"
+    ],
+    "tags": [
+      "messtechnik",
+      "werkzeug",
+      "lüftung"
+    ],
+    "collections": [
+      "col-werkzeuge",
+      "col-wartung",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Hygrometer",
+    "article": "das",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Higrometre, nem ölçer",
+        "en": "hygrometer, humidity meter"
+      }
+    ],
+    "noun": {
+      "plural": "die Hygrometer",
+      "genitiv": "des Hygrometers"
+    },
+    "examples": [
+      {
+        "de": "Das digitale Hygrometer meldet im Keller eine relative Luftfeuchtigkeit von über 75 Prozent.",
+        "tr": "Dijital nem ölçer bodrumda yüzde 75'in üzerinde bağıl hava nemi olduğunu bildiriyor."
+      },
+      {
+        "de": "Zur Beurteilung der Taupunktgefahr legen wir ein kalibriertes Hygrometer in den Raum.",
+        "tr": "Yoğuşma noktası riskini değerlendirmek için odaya kalibreli bir nem ölçer yerleştiriyoruz."
+      }
+    ],
+    "synonyms": [
+      "Feuchtigkeitsmesser",
+      "Luftfeuchtemesser"
+    ],
+    "antonyms": [],
+    "related": [
+      "Luftfeuchtigkeit",
+      "Taupunkt",
+      "Entfeuchtung"
+    ],
+    "tags": [
+      "messtechnik",
+      "werkzeug",
+      "bauphysik"
+    ],
+    "collections": [
+      "col-werkzeuge",
+      "col-wartung",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Stromzange",
+    "article": "die",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Pens ampermetre",
+        "en": "clamp meter, current clamp"
+      }
+    ],
+    "noun": {
+      "plural": "die Stromzangen",
+      "genitiv": "der Stromzange"
+    },
+    "examples": [
+      {
+        "de": "Mit der Stromzange messen wir die Stromaufnahme des Verdichters, ohne die Leitung aufzutrennen.",
+        "tr": "Pens ampermetre ile hattı kesmeden kompresörün çektiği akımı ölçüyoruz."
+      },
+      {
+        "de": "Umschließe mit der Stromzange immer nur eine einzelne Ader, niemals das ganze Kabel.",
+        "tr": "Pens ampermetre ile her zaman yalnızca tek bir iletkeni kavra, asla tüm kabloyu değil."
+      }
+    ],
+    "synonyms": [
+      "Zangenamperemeter"
+    ],
+    "antonyms": [],
+    "related": [
+      "Multimeter",
+      "Stromverbrauch",
+      "Verdichter"
+    ],
+    "tags": [
+      "messtechnik",
+      "werkzeug",
+      "elektro"
+    ],
+    "collections": [
+      "col-werkzeuge",
+      "col-wartung",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Isolationsmessgerät",
+    "article": "das",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "İzolasyon direnci ölçer, meger cihazı",
+        "en": "insulation resistance tester, megohmmeter"
+      }
+    ],
+    "noun": {
+      "plural": "die Isolationsmessgeräte",
+      "genitiv": "des Isolationsmessgeräts"
+    },
+    "examples": [
+      {
+        "de": "Bevor wir die Pumpe wieder anschließen, prüfen wir die Wicklung mit dem Isolationsmessgerät.",
+        "tr": "Pompayı tekrar bağlamadan önce sargıyı izolasyon ölçüm cihazıyla test ediyoruz."
+      },
+      {
+        "de": "Das Isolationsmessgerät erkennt einen beginnenden Erdschluss am elektrischen Heizstab.",
+        "tr": "İzolasyon ölçüm cihazı elektrikli ısıtıcı rezistansta başlayan bir toprak kaçağını tespit ediyor."
+      }
+    ],
+    "synonyms": [
+      "Isolationsprüfer"
+    ],
+    "antonyms": [],
+    "related": [
+      "VDE-Vorschrift",
+      "Fehlerstromschutzschalter",
+      "Heizstab"
+    ],
+    "tags": [
+      "messtechnik",
+      "werkzeug",
+      "elektro",
+      "sicherheit"
+    ],
+    "collections": [
+      "col-werkzeuge",
+      "col-sicherheit",
+      "col-wartung",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Vakuummeter",
+    "article": "das",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Vakummetre (dijital vakum ölçer)",
+        "en": "vacuum gauge"
+      }
+    ],
+    "noun": {
+      "plural": "die Vakuummeter",
+      "genitiv": "des Vakuummeters"
+    },
+    "examples": [
+      {
+        "de": "Während der Evakuierung des Kältekreises überwachen wir den Restdruck präzise am digitalen Vakuummeter.",
+        "tr": "Soğutma devresinin vakumlanması sırasında artık basıncı dijital vakummetrede hassas şekilde izliyoruz."
+      },
+      {
+        "de": "Steigt der Wert auf dem Vakuummeter nach dem Schließen des Ventils an, liegt noch eine Undichtigkeit vor.",
+        "tr": "Vana kapatıldıktan sonra vakummetredeki değer yükseliyorsa hâlâ bir kaçak var demektir."
+      }
+    ],
+    "synonyms": [
+      "Vakuummessgerät"
+    ],
+    "antonyms": [],
+    "related": [
+      "Vakuumpumpe",
+      "evakuieren",
+      "Monteurhilfe"
+    ],
+    "tags": [
+      "messtechnik",
+      "werkzeug",
+      "kältetechnik"
+    ],
+    "collections": [
+      "col-werkzeuge",
+      "col-waermepumpe",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Kältemittelwaage",
+    "article": "die",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Soğutucu akışkan terazisi",
+        "en": "refrigerant charging scale"
+      }
+    ],
+    "noun": {
+      "plural": "die Kältemittelwaagen",
+      "genitiv": "der Kältemittelwaage"
+    },
+    "examples": [
+      {
+        "de": "Beim Befüllen der Wärmepumpe dosieren wir das Kältemittel grammgenau mit der Kältemittelwaage.",
+        "tr": "Isı pompasını doldururken soğutucu akışkanı soğutucu terazisiyle gramı gramına ölçerek veriyoruz."
+      },
+      {
+        "de": "Stell die Kältemittelwaage auf eine völlig ebene Fläche, damit das Messergebnis nicht verfälscht wird.",
+        "tr": "Ölçüm sonucunun sapmaması için soğutucu akışkan terazisini tamamen düz bir zemine koy."
+      }
+    ],
+    "synonyms": [
+      "Füllwaage"
+    ],
+    "antonyms": [],
+    "related": [
+      "Kältemittel",
+      "Absaugstation",
+      "F-Gase-Verordnung"
+    ],
+    "tags": [
+      "messtechnik",
+      "werkzeug",
+      "kältetechnik"
+    ],
+    "collections": [
+      "col-werkzeuge",
+      "col-waermepumpe",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Schlitzfräse",
+    "article": "die",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Duvar kanal açma makinesi",
+        "en": "wall chaser, groove cutter"
+      }
+    ],
+    "noun": {
+      "plural": "die Schlitzfräsen",
+      "genitiv": "der Schlitzfräse"
+    },
+    "examples": [
+      {
+        "de": "Für die Unterputzleitungen fräsen wir saubere Kanäle mit der Schlitzfräse und angeschlossenem Industriesauger.",
+        "tr": "Sıva altı borular için bağlı sanayi süpürgesiyle birlikte kanal açma makinesiyle temiz kanallar açıyoruz."
+      },
+      {
+        "de": "Stell die Schnitttiefe an der Schlitzfräse exakt nach den statischen Vorgaben der Wand ein.",
+        "tr": "Kanal açma makinesindeki kesme derinliğini duvarın statik kurallarına göre tam olarak ayarla."
+      }
+    ],
+    "synonyms": [
+      "Mauernutfräse"
+    ],
+    "antonyms": [],
+    "related": [
+      "Mauerschlitz",
+      "Unterputzmontage",
+      "Staubabsaugung"
+    ],
+    "tags": [
+      "maschine",
+      "werkzeug",
+      "rohbau"
+    ],
+    "collections": [
+      "col-werkzeuge",
+      "col-montage",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Biegemaschine",
+    "article": "die",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Boru bükme makinesi",
+        "en": "pipe bending machine"
+      }
+    ],
+    "noun": {
+      "plural": "die Biegemaschinen",
+      "genitiv": "der Biegemaschine"
+    },
+    "examples": [
+      {
+        "de": "Mit der elektrohydraulischen Biegemaschine formen wir präzise Bögen ohne Querschnittsverengung.",
+        "tr": "Elektrohidrolik bükme makinesiyle kesit daralması olmadan hassas dirsekler şekillendiriyoruz."
+      },
+      {
+        "de": "Der Einsatz der Biegemaschine reduziert die Anzahl teurer Pressbögen erheblich.",
+        "tr": "Boru bükme makinesinin kullanımı pahalı pres dirseklerin sayısını önemli ölçüde azaltır."
+      }
+    ],
+    "synonyms": [
+      "Rohrbiegemaschine"
+    ],
+    "antonyms": [],
+    "related": [
+      "Rohrbieger",
+      "biegen",
+      "Biegefeder"
+    ],
+    "tags": [
+      "maschine",
+      "werkzeug",
+      "rohrbearbeitung"
+    ],
+    "collections": [
+      "col-werkzeuge",
+      "col-rohre",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Hartlötgerät",
+    "article": "das",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Sert lehim takımı / cihazı",
+        "en": "brazing torch set, brazing unit"
+      }
+    ],
+    "noun": {
+      "plural": "die Hartlötgeräte",
+      "genitiv": "des Hartlötgeräts"
+    },
+    "examples": [
+      {
+        "de": "Bei Arbeiten mit dem Hartlötgerät muss immer ein geeigneter Feuerlöscher griffbereit stehen.",
+        "tr": "Sert lehim cihazıyla çalışırken her zaman uygun bir yangın söndürücü el altında bulunmalıdır."
+      },
+      {
+        "de": "Vor dem Zünden des Hartlötgeräts kontrollieren wir alle Schläuche und Rückschlagsicherungen.",
+        "tr": "Sert lehim cihazını ateşlemeden önce tüm hortumları ve alev geri tepme emniyetlerini kontrol ediyoruz."
+      }
+    ],
+    "synonyms": [
+      "Autogen-Lötgerät"
+    ],
+    "antonyms": [],
+    "related": [
+      "Hartlöten",
+      "Lötlampe",
+      "Feuerarbeiten"
+    ],
+    "tags": [
+      "werkzeug",
+      "löten",
+      "sicherheit"
+    ],
+    "collections": [
+      "col-werkzeuge",
+      "col-rohre",
+      "col-sicherheit",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Crimpzange",
+    "article": "die",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Kablo pabucu / yüksük sıkma pensesi",
+        "en": "crimping pliers, crimping tool"
+      }
+    ],
+    "noun": {
+      "plural": "die Crimpzangen",
+      "genitiv": "der Crimpzange"
+    },
+    "examples": [
+      {
+        "de": "Die feindrähtigen Steuerleitungen der Heizungsregelung werden mit der Crimpzange sauber mit Aderendhülsen versehen.",
+        "tr": "Isıtma kontrol ünitesinin ince telli kumanda kablolarına sıkma pensesiyle temiz şekilde yüksük takılır."
+      },
+      {
+        "de": "Eine Crimpzange mit Zwangssperre gewährleistet einen gleichmäßigen Pressdruck bei jeder Verbindung.",
+        "tr": "Kilit mekanizmalı bir sıkma pensesi her bağlantıda eşit sıkma basıncı sağlar."
+      }
+    ],
+    "synonyms": [
+      "Presszange für Aderendhülsen"
+    ],
+    "antonyms": [],
+    "related": [
+      "Abisolierzange",
+      "Steuerleitung",
+      "Schaltplan"
+    ],
+    "tags": [
+      "werkzeug",
+      "elektro",
+      "regelungstechnik"
+    ],
+    "collections": [
+      "col-werkzeuge",
+      "col-montage",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Nivellierlaser",
+    "article": "der",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Lazer nivo, kot hizalama lazeri",
+        "en": "leveling laser, rotary laser level"
+      }
+    ],
+    "noun": {
+      "plural": "die Nivellierlaser",
+      "genitiv": "des Nivellierlasers"
+    },
+    "examples": [
+      {
+        "de": "Mit dem Nivellierlaser übertragen wir den Meterriss auf alle Wände im neuen Badezimmer.",
+        "tr": "Lazer nivo ile yeni banyodaki tüm duvarlara bir metre kot çizgisini aktarıyoruz."
+      },
+      {
+        "de": "Der selbstnivellierende Nivellierlaser erleichtert das exakte Ausrichten langer Abwasserleitungen mit Gefälle.",
+        "tr": "Otomatik terazilemeli lazer nivo, uzun atık su borularının eğimli ve hassas hizalanmasını kolaylaştırır."
+      }
+    ],
+    "synonyms": [
+      "Rotationslaser",
+      "Baulaser"
+    ],
+    "antonyms": [],
+    "related": [
+      "Kreuzlinienlaser",
+      "Wasserwaage",
+      "Gefälle"
+    ],
+    "tags": [
+      "messtechnik",
+      "werkzeug",
+      "montage"
+    ],
+    "collections": [
+      "col-werkzeuge",
+      "col-montage",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Leitfähigkeitsmessgerät",
+    "article": "das",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "İletkenlik ölçüm cihazı (ısıtma suyu analizi için)",
+        "en": "conductivity meter"
+      }
+    ],
+    "noun": {
+      "plural": "die Leitfähigkeitsmessgeräte",
+      "genitiv": "des Leitfähigkeitsmessgeräts"
+    },
+    "examples": [
+      {
+        "de": "Zur Kontrolle der Heizungswasserqualität nach VDI 2035 messen wir den Salzgehalt mit dem Leitfähigkeitsmessgerät.",
+        "tr": "VDI 2035'e göre ısıtma suyu kalitesini kontrol etmek için iletkenlik ölçüm cihazıyla tuz oranını ölçüyoruz."
+      },
+      {
+        "de": "Das Leitfähigkeitsmessgerät zeigt nach der Vollentsalzung nur noch 25 Mikrosiemens pro Zentimeter an.",
+        "tr": "İletkenlik ölçüm cihazı tam tuzsuzlaştırma sonrasında santimetre başına yalnızca 25 mikrosiemens gösteriyor."
+      }
+    ],
+    "synonyms": [
+      "Konduktometer"
+    ],
+    "antonyms": [],
+    "related": [
+      "Leitfähigkeit",
+      "Vollentsalzung",
+      "Heizungswasseraufbereitung"
+    ],
+    "tags": [
+      "messtechnik",
+      "werkzeug",
+      "wasseraufbereitung"
+    ],
+    "notes": "VDI 2035 standardına göre ısıtma suyunun elektriksel iletkenliğini (µS/cm) kontrol etmek için kullanılır.",
+    "collections": [
+      "col-werkzeuge",
+      "col-heizung",
+      "col-wartung",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "pH-Messgerät",
+    "article": "das",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "pH ölçüm cihazı, pH metre",
+        "en": "pH meter"
+      }
+    ],
+    "noun": {
+      "plural": "die pH-Messgeräte",
+      "genitiv": "des pH-Messgeräts"
+    },
+    "examples": [
+      {
+        "de": "Bei Aluminiumwärmetauschern überprüfen wir den pH-Wert des Heizwassers regelmäßig mit dem pH-Messgerät.",
+        "tr": "Alüminyum eşanjörlerde ısıtma suyunun pH değerini düzenli olarak pH ölçüm cihazıyla kontrol ediyoruz."
+      },
+      {
+        "de": "Die Elektrode des pH-Messgeräts muss nach Gebrauch stets feucht in Aufbewahrungslösung gelagert werden.",
+        "tr": "pH ölçüm cihazının elektrodu kullanımdan sonra daima saklama solüsyonunda nemli tutulmalıdır."
+      }
+    ],
+    "synonyms": [
+      "pH-Meter"
+    ],
+    "antonyms": [],
+    "related": [
+      "Heizungswasseraufbereitung",
+      "Korrosion",
+      "Inhibitor"
+    ],
+    "tags": [
+      "messtechnik",
+      "werkzeug",
+      "wasseraufbereitung"
+    ],
+    "collections": [
+      "col-werkzeuge",
+      "col-heizung",
+      "col-wartung",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Ultraschall-Durchflussmesser",
+    "article": "der",
+    "type": "noun",
+    "level": "C1",
+    "senses": [
+      {
+        "tr": "Ultrasonik debimetre (boruyu kesmeden dıştan akış ölçer)",
+        "en": "ultrasonic flow meter"
+      }
+    ],
+    "noun": {
+      "plural": "die Ultraschall-Durchflussmesser",
+      "genitiv": "des Ultraschall-Durchflussmessers"
+    },
+    "examples": [
+      {
+        "de": "Der mobile Ultraschall-Durchflussmesser ermöglicht eine berührungslose Volumenstrommessung im laufenden Betrieb.",
+        "tr": "Taşınabilir ultrasonik debimetre, sistem çalışırken boruya müdahale etmeden debi ölçümü yapılmasını sağlar."
+      },
+      {
+        "de": "Zur Fehlerdiagnose an der Bestandsanlage klemmen wir die Sensoren des Ultraschall-Durchflussmessers außen an die Vorlaufleitung.",
+        "tr": "Mevcut tesisteki arıza teşhisi için ultrasonik debimetrenin sensörlerini gidiş hattının dışına kelepçeliyoruz."
+      }
+    ],
+    "synonyms": [
+      "Clamp-on-Durchflussmesser"
+    ],
+    "antonyms": [],
+    "related": [
+      "Durchflussmesser",
+      "Volumenstrom",
+      "Fehlerdiagnose"
+    ],
+    "tags": [
+      "messtechnik",
+      "werkzeug",
+      "hydraulik",
+      "c1"
+    ],
+    "collections": [
+      "col-werkzeuge",
+      "col-heizung",
+      "col-c1"
+    ]
+  },
+  {
+    "german": "Stumpfschweißmaschine",
+    "article": "die",
+    "type": "noun",
+    "level": "C1",
+    "senses": [
+      {
+        "tr": "Alın kaynak makinesi (PE/HDPE borular için)",
+        "en": "butt fusion welding machine"
+      }
+    ],
+    "noun": {
+      "plural": "die Stumpfschweißmaschinen",
+      "genitiv": "der Stumpfschweißmaschine"
+    },
+    "examples": [
+      {
+        "de": "Großdimensionierte PE-Rohre für Erdwärmekollektoren werden mit einer hydraulischen Stumpfschweißmaschine dauerhaft verbunden.",
+        "tr": "Jeotermal kolektörler için büyük çaplı PE borular hidrolik alın kaynak makinesiyle kalıcı olarak birleştirilir."
+      },
+      {
+        "de": "Die Stumpfschweißmaschine protokolliert Anpressdruck, Schweißtemperatur und Abkühlzeit automatisch.",
+        "tr": "Alın kaynak makinesi baskı basıncını, kaynak sıcaklığını ve soğuma süresini otomatik olarak kaydeder."
+      }
+    ],
+    "synonyms": [
+      "Heizelement-Stumpfschweißmaschine"
+    ],
+    "antonyms": [],
+    "related": [
+      "Spiegelverschweißung",
+      "PE-Rohr",
+      "Elektromuffenschweißen"
+    ],
+    "tags": [
+      "maschine",
+      "werkzeug",
+      "schweißen",
+      "c1"
+    ],
+    "collections": [
+      "col-werkzeuge",
+      "col-rohre",
+      "col-c1"
+    ]
+  },
+  {
+    "german": "Kalibriergerät",
+    "article": "das",
+    "type": "noun",
+    "level": "C1",
+    "senses": [
+      {
+        "tr": "Kalibrasyon cihazı, kalibratör",
+        "en": "calibration instrument, calibrator"
+      }
+    ],
+    "noun": {
+      "plural": "die Kalibriergeräte",
+      "genitiv": "des Kalibriergeräts"
+    },
+    "examples": [
+      {
+        "de": "Mit einem zertifizierten Kalibriergerät überprüfen wir die Messgenauigkeit unserer Druck- und Temperatursensoren.",
+        "tr": "Sertifikalı bir kalibrasyon cihazıyla basınç ve sıcaklık sensörlerimizin ölçüm doğruluğunu kontrol ediyoruz."
+      },
+      {
+        "de": "Die Prüfwerte des Kalibriergeräts werden lückenlos im jährlichen Kalibrierprotokoll dokumentiert.",
+        "tr": "Kalibrasyon cihazının test değerleri yıllık kalibrasyon protokolüne eksiksiz olarak işlenir."
+      }
+    ],
+    "synonyms": [
+      "Kalibrator"
+    ],
+    "antonyms": [],
+    "related": [
+      "kalibrieren",
+      "Kalibrierprotokoll",
+      "Toleranz"
+    ],
+    "tags": [
+      "messtechnik",
+      "werkzeug",
+      "qualitätssicherung",
+      "c1"
+    ],
+    "collections": [
+      "col-werkzeuge",
+      "col-doku",
+      "col-c1"
+    ]
+  },
+  {
+    "german": "Wärmestrommessgerät",
+    "article": "das",
+    "type": "noun",
+    "level": "C1",
+    "senses": [
+      {
+        "tr": "Isı akısı / U-değeri ölçüm cihazı",
+        "en": "heat flux meter, U-value meter"
+      }
+    ],
+    "noun": {
+      "plural": "die Wärmestrommessgeräte",
+      "genitiv": "des Wärmestrommessgeräts"
+    },
+    "examples": [
+      {
+        "de": "Bei der energetischen Bestandsaufnahme ermittelt das Wärmestrommessgerät den realen U-Wert der Außenwand.",
+        "tr": "Enerji durumu tespitinde ısı akısı ölçüm cihazı dış duvarın gerçek U değerini belirler."
+      },
+      {
+        "de": "Die Sensoren des Wärmestrommessgeräts müssen über mindestens 72 Stunden vollflächig an der Wand anliegen.",
+        "tr": "Isı akısı ölçüm cihazının sensörleri en az 72 saat boyunca duvara tam yüzeyle temas etmelidir."
+      }
+    ],
+    "synonyms": [
+      "U-Wert-Messgerät"
+    ],
+    "antonyms": [],
+    "related": [
+      "Wärmedurchgangskoeffizient",
+      "Wärmeleitfähigkeit",
+      "Energieberater"
+    ],
+    "tags": [
+      "messtechnik",
+      "werkzeug",
+      "bauphysik",
+      "c1"
+    ],
+    "collections": [
+      "col-werkzeuge",
+      "col-heizung",
+      "col-c1"
+    ]
+  },
+  {
+    "german": "Differenztemperaturmessgerät",
+    "article": "das",
+    "type": "noun",
+    "level": "C1",
+    "senses": [
+      {
+        "tr": "Fark sıcaklık ölçüm cihazı (iki kanallı termometre)",
+        "en": "differential temperature meter"
+      }
+    ],
+    "noun": {
+      "plural": "die Differenztemperaturmessgeräte",
+      "genitiv": "des Differenztemperaturmessgeräts"
+    },
+    "examples": [
+      {
+        "de": "Mit dem Differenztemperaturmessgerät erfassen wir zeitgleich Vor- und Rücklauftemperatur sowie die exakte Spreizung.",
+        "tr": "Fark sıcaklık ölçüm cihazıyla gidiş ve dönüş sıcaklıklarını ve kesin sıcaklık farkını eş zamanlı olarak kaydediyoruz."
+      },
+      {
+        "de": "Die parallele Messung mit dem Differenztemperaturmessgerät zeigt sofort, ob der Plattenwärmetauscher verkalkt ist.",
+        "tr": "Fark sıcaklık ölçüm cihazıyla yapılan paralel ölçüm, plakalı eşanjörün kireçlenip kireçlenmediğini hemen gösterir."
+      }
+    ],
+    "synonyms": [
+      "Zweikanal-Thermometer"
+    ],
+    "antonyms": [],
+    "related": [
+      "Temperaturspreizung",
+      "Anlegethermometer",
+      "Wärmetauscher"
+    ],
+    "tags": [
+      "messtechnik",
+      "werkzeug",
+      "diagnose",
+      "c1"
+    ],
+    "collections": [
+      "col-werkzeuge",
+      "col-heizung",
+      "col-waermepumpe",
+      "col-c1"
+    ]
+  },
+  {
+    "german": "Wärmerückgewinnung",
+    "article": "die",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Isı geri kazanımı (WRG)",
+        "en": "heat recovery"
+      }
+    ],
+    "noun": {
+      "noPlural": true,
+      "genitiv": "der Wärmerückgewinnung"
+    },
+    "examples": [
+      {
+        "de": "Eine zentrale Lüftungsanlage mit Wärmerückgewinnung senkt die Lüftungswärmeverluste um bis zu 85 Prozent.",
+        "tr": "Isı geri kazanımlı merkezi bir havalandırma sistemi, havalandırma ısı kayıplarını yüzde 85'e kadar düşürür."
+      },
+      {
+        "de": "Im Sommerbetrieb wird die Wärmerückgewinnung über eine automatische Bypass-Klappe umgangen.",
+        "tr": "Yaz işletmesinde ısı geri kazanımı otomatik bir baypas damperi üzerinden devre dışı bırakılır."
+      }
+    ],
+    "synonyms": [
+      "WRG"
+    ],
+    "antonyms": [],
+    "related": [
+      "Lüftungsanlage",
+      "Enthalpietauscher",
+      "Wärmetauscher"
+    ],
+    "tags": [
+      "lüftung",
+      "energieeffizienz",
+      "bauphysik"
+    ],
+    "notes": "Kısaltması WRG'dir; modern pasif ve düşük enerjili binaların temel bileşenidir.",
+    "collections": [
+      "col-heizung",
+      "col-waermepumpe",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Lüftungsanlage",
+    "article": "die",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Havalandırma sistemi / tesisi",
+        "en": "ventilation system"
+      }
+    ],
+    "noun": {
+      "plural": "die Lüftungsanlagen",
+      "genitiv": "der Lüftungsanlage"
+    },
+    "examples": [
+      {
+        "de": "Die kontrollierte Wohnraumlüftung ist eine Lüftungsanlage, die kontinuierlich frische Luft zuführt.",
+        "tr": "Kontrollü konut havalandırması, kesintisiz taze hava sağlayan bir havalandırma sistemidir."
+      },
+      {
+        "de": "Die Filter der Lüftungsanlage sollten alle sechs Monate kontrolliert und bei Bedarf gewechselt werden.",
+        "tr": "Havalandırma sisteminin filtreleri altı ayda bir kontrol edilmeli ve gerektiğinde değiştirilmelidir."
+      }
+    ],
+    "synonyms": [
+      "RLT-Anlage"
+    ],
+    "antonyms": [],
+    "related": [
+      "Zuluft",
+      "Abluft",
+      "Wärmerückgewinnung"
+    ],
+    "tags": [
+      "lüftung",
+      "klima",
+      "gebäude"
+    ],
+    "collections": [
+      "col-heizung",
+      "col-wartung",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Zuluft",
+    "article": "die",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Taze hava, besleme havası (odanın içine verilen hava)",
+        "en": "supply air"
+      }
+    ],
+    "noun": {
+      "noPlural": true,
+      "genitiv": "der Zuluft"
+    },
+    "examples": [
+      {
+        "de": "Die gefilterte und vorgewärmte Zuluft wird in Wohn- und Schlafräume eingeleitet.",
+        "tr": "Filtrelenmiş ve ön ısıtılmış taze hava oturma ve yatak odalarına verilir."
+      },
+      {
+        "de": "Wenn die Zuluft zu kalt einströmt, empfinden die Bewohner unangenehme Zugluft.",
+        "tr": "Taze hava çok soğuk üflenirse bina sakinleri rahatsız edici hava akımı hisseder."
+      }
+    ],
+    "synonyms": [
+      "Frischluft"
+    ],
+    "antonyms": [
+      "Abluft"
+    ],
+    "related": [
+      "Fortluft",
+      "Außenluft",
+      "Luftdurchlass"
+    ],
+    "tags": [
+      "lüftung",
+      "klima"
+    ],
+    "collections": [
+      "col-heizung",
+      "col-montage",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Abluft",
+    "article": "die",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Egzoz havası, kirli emiş havası (odadan çekilen hava)",
+        "en": "exhaust air, extract air"
+      }
+    ],
+    "noun": {
+      "noPlural": true,
+      "genitiv": "der Abluft"
+    },
+    "examples": [
+      {
+        "de": "Aus Bad, WC und Küche wird die feuchte Abluft direkt abgesaugt.",
+        "tr": "Banyo, tuvalet ve mutfaktan nemli egzoz havası doğrudan emilir."
+      },
+      {
+        "de": "Im Kreuzstromwärmetauscher überträgt die warme Abluft ihre Energie an die kalte Außenluft.",
+        "tr": "Çapraz akışlı eşanjörde sıcak egzoz havası enerjisini soğuk dış havaya aktarır."
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [
+      "Zuluft"
+    ],
+    "related": [
+      "Fortluft",
+      "Wärmerückgewinnung",
+      "Lüftungsanlage"
+    ],
+    "tags": [
+      "lüftung",
+      "klima"
+    ],
+    "collections": [
+      "col-heizung",
+      "col-sanitaer",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Fortluft",
+    "article": "die",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Atık dış hava (ısı geri kazanımından sonra dışarı atılan hava)",
+        "en": "discharge air, exhaust air to outdoors"
+      }
+    ],
+    "noun": {
+      "noPlural": true,
+      "genitiv": "der Fortluft"
+    },
+    "examples": [
+      {
+        "de": "Die abgekühlte Fortluft wird über eine isolierte Dachhaube ins Freie abgeführt.",
+        "tr": "Soğutulmuş atık hava, yalıtımlı bir çatı bacası üzerinden dış ortama atılır."
+      },
+      {
+        "de": "Zwischen Außenluftansaugung und Fortluftauslass muss ein ausreichender Mindestabstand eingehalten werden.",
+        "tr": "Dış hava emişi ile atık hava çıkışı arasında yeterli asgari mesafe korunmalıdır."
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [
+      "Außenluft"
+    ],
+    "related": [
+      "Abluft",
+      "Zuluft",
+      "Lüftungsleitung"
+    ],
+    "tags": [
+      "lüftung",
+      "klima"
+    ],
+    "notes": "DIN EN 13779'da 4 hava türü ayrılır: Außenluft (dış hava), Zuluft (içeri verilen), Abluft (odadan çekilen), Fortluft (dışarı atılan).",
+    "collections": [
+      "col-heizung",
+      "col-montage",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Luftwechselrate",
+    "article": "die",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Hava değişim oranı (saatteki hava yenilenme katsayısı)",
+        "en": "air exchange rate, air change rate"
+      }
+    ],
+    "noun": {
+      "plural": "die Luftwechselraten",
+      "genitiv": "der Luftwechselrate"
+    },
+    "examples": [
+      {
+        "de": "Für Wohnräume empfiehlt die Norm eine hygienische Luftwechselrate von etwa 0,5 pro Stunde.",
+        "tr": "Standart, yaşam alanları için saatte yaklaşık 0,5'lik hijyenik bir hava değişim oranı önerir."
+      },
+      {
+        "de": "Eine zu niedrige Luftwechselrate führt in dichten Neubauten rasch zu erhöhter Feuchtigkeit.",
+        "tr": "Sızdırmaz yeni binalarda çok düşük bir hava değişim oranı hızla artan neme yol açar."
+      }
+    ],
+    "synonyms": [
+      "Luftwechselzahl"
+    ],
+    "antonyms": [],
+    "related": [
+      "Lüftungsanlage",
+      "Blower-Door-Test",
+      "Schimmelbildung"
+    ],
+    "tags": [
+      "lüftung",
+      "bauphysik",
+      "norm"
+    ],
+    "collections": [
+      "col-heizung",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Dampfsperre",
+    "article": "die",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Buhar bariyeri, buhar kesici folyo",
+        "en": "vapor barrier"
+      }
+    ],
+    "noun": {
+      "plural": "die Dampfsperren",
+      "genitiv": "der Dampfsperre"
+    },
+    "examples": [
+      {
+        "de": "Bei der Rohrdurchführung durch das Dach muss die Dampfsperre absolut luftdicht verklebt werden.",
+        "tr": "Borunun çatıdan geçişinde buhar bariyeri tamamen hava sızdırmaz şekilde bantlanmalıdır."
+      },
+      {
+        "de": "Kaltwasser- und Kältemittelleitungen benötigen eine geschlossenzellige Dämmung als Dampfsperre gegen Schwitzwasser.",
+        "tr": "Soğuk su ve soğutucu akışkan hatları, terleme suyuna karşı buhar bariyeri olarak kapalı gözenekli yalıtım gerektirir."
+      }
+    ],
+    "synonyms": [
+      "Dampfbremse"
+    ],
+    "antonyms": [],
+    "related": [
+      "Diffusionswiderstand",
+      "Taupunkt",
+      "Rohrdämmung"
+    ],
+    "tags": [
+      "bauphysik",
+      "dämmung",
+      "montage"
+    ],
+    "collections": [
+      "col-montage",
+      "col-rohre",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Wärmebrücke",
+    "article": "die",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Isı köprüsü",
+        "en": "thermal bridge"
+      }
+    ],
+    "noun": {
+      "plural": "die Wärmebrücken",
+      "genitiv": "der Wärmebrücke"
+    },
+    "examples": [
+      {
+        "de": "Mit der Wärmebildkamera lassen sich ungedämmte Wärmebrücken an Rohrdurchdringungen sofort erkennen.",
+        "tr": "Termal kamera ile boru geçişlerindeki yalıtımsız ısı köprüleri hemen tespit edilebilir."
+      },
+      {
+        "de": "An ausgeprägten Wärmebrücken sinkt die Oberflächentemperatur oft unter den Taupunkt.",
+        "tr": "Belirgin ısı köprülerinde yüzey sıcaklığı sıklıkla yoğuşma noktasının altına düşer."
+      }
+    ],
+    "synonyms": [
+      "Kältebrücke"
+    ],
+    "antonyms": [],
+    "related": [
+      "Wärmedämmung",
+      "Schimmelbildung",
+      "Wärmeverlust"
+    ],
+    "tags": [
+      "bauphysik",
+      "energieeffizienz",
+      "dämmung"
+    ],
+    "notes": "Teknik dilde 'Kältebrücke' yerine doğru fiziksel terim olan 'Wärmebrücke' tercih edilir.",
+    "collections": [
+      "col-heizung",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Luftfeuchtigkeit",
+    "article": "die",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Hava nemi, rutubet",
+        "en": "air humidity"
+      }
+    ],
+    "noun": {
+      "noPlural": true,
+      "genitiv": "der Luftfeuchtigkeit"
+    },
+    "examples": [
+      {
+        "de": "Im Wohnbereich sollte die relative Luftfeuchtigkeit idealerweise zwischen 40 und 60 Prozent liegen.",
+        "tr": "Yaşam alanında bağıl hava nemi ideal olarak yüzde 40 ile 60 arasında olmalıdır."
+      },
+      {
+        "de": "Eine dauerhaft hohe Luftfeuchtigkeit begünstigt Korrosion an ungeschützten Metallbauteilen.",
+        "tr": "Sürekli yüksek hava nemi, korumasız metal parçalarda korozyonu hızlandırır."
+      }
+    ],
+    "synonyms": [
+      "Luftfeuchte"
+    ],
+    "antonyms": [],
+    "related": [
+      "Hygrometer",
+      "Entfeuchtung",
+      "Taupunkt"
+    ],
+    "tags": [
+      "bauphysik",
+      "klima",
+      "lüftung"
+    ],
+    "collections": [
+      "col-heizung",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Schimmelbildung",
+    "article": "die",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Küf oluşumu",
+        "en": "mold formation, mould growth"
+      }
+    ],
+    "noun": {
+      "noPlural": true,
+      "genitiv": "der Schimmelbildung"
+    },
+    "examples": [
+      {
+        "de": "Eine bedarfsgerechte Lüftung verhindert wirksam Feuchteschäden und Schimmelbildung im Bad.",
+        "tr": "İhtiyaca uygun bir havalandırma, banyodaki nem hasarlarını ve küf oluşumunu etkili şekilde önler."
+      },
+      {
+        "de": "Nach einem unbemerkten Rohrbruch droht hinter der Vorwand rasche Schimmelbildung.",
+        "tr": "Fark edilmeyen bir boru patlağından sonra gömme duvar arkasında hızlı küf oluşumu tehlikesi doğar."
+      }
+    ],
+    "synonyms": [
+      "Schimmelbefall"
+    ],
+    "antonyms": [],
+    "related": [
+      "Wärmebrücke",
+      "Luftfeuchtigkeit",
+      "Wasserschaden"
+    ],
+    "tags": [
+      "bauphysik",
+      "hygiene",
+      "schaden"
+    ],
+    "collections": [
+      "col-sanitaer",
+      "col-heizung",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Brandschutzklappe",
+    "article": "die",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Yangın damperi (havalandırma kanallarında yangın kesici klape)",
+        "en": "fire damper"
+      }
+    ],
+    "noun": {
+      "plural": "die Brandschutzklappen",
+      "genitiv": "der Brandschutzklappe"
+    },
+    "examples": [
+      {
+        "de": "Wo eine Lüftungsleitung eine Brandwand durchdringt, muss zwingend eine zugelassene Brandschutzklappe eingebaut werden.",
+        "tr": "Bir havalandırma kanalının yangın duvarını geçtiği yerde mutlaka onaylı bir yangın damperi monte edilmelidir."
+      },
+      {
+        "de": "Bei der jährlichen Wartung prüfen wir die Auslösefunktion jeder Brandschutzklappe und dokumentieren das Ergebnis.",
+        "tr": "Yıllık bakımda her yangın damperinin tetikleme fonksiyonunu test ediyor ve sonucu belgeliyoruz."
+      }
+    ],
+    "synonyms": [
+      "BSK"
+    ],
+    "antonyms": [],
+    "related": [
+      "Brandschutzabschottung",
+      "Feuerwiderstandsklasse",
+      "Lüftungsleitung"
+    ],
+    "tags": [
+      "brandschutz",
+      "lüftung",
+      "sicherheit"
+    ],
+    "collections": [
+      "col-sicherheit",
+      "col-montage",
+      "col-wartung",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Schalldämpfer",
+    "article": "der",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Susturucu (havalandırma kanallarında ses yutucu)",
+        "en": "silencer, sound attenuator"
+      }
+    ],
+    "noun": {
+      "plural": "die Schalldämpfer",
+      "genitiv": "des Schalldämpfers"
+    },
+    "examples": [
+      {
+        "de": "Der Telefonie-Schalldämpfer verhindert, dass Gespräche über das Lüftungskanalnetz von Raum zu Raum übertragen werden.",
+        "tr": "Telefonik susturucu, konuşmaların havalandırma kanal ağı üzerinden odadan odaya aktarılmasını önler."
+      },
+      {
+        "de": "Direkt hinter dem Lüftungsgerät montieren wir einen Rohrschalldämpfer zur Reduzierung der Ventilatorgeräusche.",
+        "tr": "Fan seslerini azaltmak için havalandırma cihazının hemen arkasına bir boru susturucusu monte ediyoruz."
+      }
+    ],
+    "synonyms": [
+      "Rohrschalldämpfer"
+    ],
+    "antonyms": [],
+    "related": [
+      "Schallschutz",
+      "Luftschall",
+      "Lüftungsanlage"
+    ],
+    "tags": [
+      "lüftung",
+      "akustik",
+      "montage"
+    ],
+    "collections": [
+      "col-montage",
+      "col-heizung",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Volumenstromregler",
+    "article": "der",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Debi regülatörü, hacimsel akış kontrol cihazı (VAV)",
+        "en": "volume flow controller, VAV damper"
+      }
+    ],
+    "noun": {
+      "plural": "die Volumenstromregler",
+      "genitiv": "des Volumenstromreglers"
+    },
+    "examples": [
+      {
+        "de": "Der Volumenstromregler hält die Luftmenge im Konferenzraum unabhängig vom Kanaldruck konstant.",
+        "tr": "Debi regülatörü, kanal basıncından bağımsız olarak konferans odasındaki hava miktarını sabit tutar."
+      },
+      {
+        "de": "Bei der Inbetriebnahme programmieren wir den Minimal- und Maximalwert am Volumenstromregler.",
+        "tr": "Devreye alma sırasında debi regülatöründeki minimum ve maksimum değerleri programlıyoruz."
+      }
+    ],
+    "synonyms": [
+      "VSR"
+    ],
+    "antonyms": [],
+    "related": [
+      "Volumenstrom",
+      "Regelungstechnik",
+      "Einregulierung"
+    ],
+    "tags": [
+      "lüftung",
+      "regelungstechnik",
+      "hydraulik"
+    ],
+    "collections": [
+      "col-heizung",
+      "col-montage",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Wickelfalzrohr",
+    "article": "das",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Spiro kanal, spiral kenetli havalandırma borusu",
+        "en": "spiral duct, spiral-seam pipe"
+      }
+    ],
+    "noun": {
+      "plural": "die Wickelfalzrohre",
+      "genitiv": "des Wickelfalzrohrs"
+    },
+    "examples": [
+      {
+        "de": "Für die Hauptverteilleitungen im Technikraum verlegen wir verzinktes Wickelfalzrohr in Nennweite DN 200.",
+        "tr": "Teknik odadaki ana dağıtım hatları için DN 200 anma çapında galvanizli spiro kanal döşüyoruz."
+      },
+      {
+        "de": "Achte beim Zuschneiden des Wickelfalzrohrs auf scharfe Kanten und trag unbedingt Schnittschutzhandschuhe.",
+        "tr": "Spiro kanalı keserken keskin kenarlara dikkat et ve mutlaka kesilmeye dayanıklı eldiven tak."
+      }
+    ],
+    "synonyms": [
+      "Spiro-Rohr"
+    ],
+    "antonyms": [],
+    "related": [
+      "Lüftungsleitung",
+      "Schalldämpfer",
+      "Rohrschelle"
+    ],
+    "tags": [
+      "lüftung",
+      "rohre",
+      "material"
+    ],
+    "collections": [
+      "col-rohre",
+      "col-montage",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Luftdurchlass",
+    "article": "der",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Hava menfezi, anemostat, hava difüzörü",
+        "en": "air diffuser, air outlet"
+      }
+    ],
+    "noun": {
+      "plural": "die Luftdurchlässe",
+      "genitiv": "des Luftdurchlasses"
+    },
+    "examples": [
+      {
+        "de": "Der Decken-Luftdurchlass verteilt die gekühlte Zuluft zugfrei im gesamten Büro.",
+        "tr": "Tavan tipi hava difüzörü soğutulmuş taze havayı tüm ofise cereyan yapmadan dağıtır."
+      },
+      {
+        "de": "Beim Einregulieren der Anlage wird an jedem einzelnen Luftdurchlass die Luftmenge gemessen.",
+        "tr": "Sistemin balans ayarı yapılırken her bir hava menfezinde hava miktarı ölçülür."
+      }
+    ],
+    "synonyms": [
+      "Luftauslass",
+      "Tellerauslass"
+    ],
+    "antonyms": [],
+    "related": [
+      "Zuluft",
+      "Anemometer",
+      "Lüftungsanlage"
+    ],
+    "tags": [
+      "lüftung",
+      "klima",
+      "montage"
+    ],
+    "collections": [
+      "col-montage",
+      "col-heizung",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Entfeuchtung",
+    "article": "die",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Nem alma, kurutma",
+        "en": "dehumidification"
+      }
+    ],
+    "noun": {
+      "noPlural": true,
+      "genitiv": "der Entfeuchtung"
+    },
+    "examples": [
+      {
+        "de": "In Schwimmbädern und Wellnessbereichen ist eine leistungsfähige Entfeuchtung unverzichtbar.",
+        "tr": "Yüzme havuzlarında ve spa alanlarında yüksek kapasiteli nem alma vazgeçilmezdir."
+      },
+      {
+        "de": "Nach einem größeren Wasserschaden sorgt die technische Entfeuchtung dafür, dass der Estrich wieder austrocknet.",
+        "tr": "Büyük bir su hasarından sonra teknik nem alma işlemi şapın yeniden kurumasını sağlar."
+      }
+    ],
+    "synonyms": [
+      "Luftentfeuchtung"
+    ],
+    "antonyms": [
+      "Befeuchtung"
+    ],
+    "related": [
+      "entfeuchten",
+      "Luftfeuchtigkeit",
+      "Kondensat"
+    ],
+    "tags": [
+      "klima",
+      "bauphysik",
+      "lüftung"
+    ],
+    "collections": [
+      "col-heizung",
+      "col-wartung",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Enthalpietauscher",
+    "article": "der",
+    "type": "noun",
+    "level": "C1",
+    "senses": [
+      {
+        "tr": "Entalpi eşanjörü (hem ısı hem nem geri kazanımlı ısı değiştirici)",
+        "en": "enthalpy exchanger"
+      }
+    ],
+    "noun": {
+      "plural": "die Enthalpietauscher",
+      "genitiv": "des Enthalpietauschers"
+    },
+    "examples": [
+      {
+        "de": "Ein Enthalpietauscher gewinnt im Winter nicht nur Wärme, sondern auch einen Teil der Raumluftfeuchte zurück.",
+        "tr": "Bir entalpi eşanjörü kışın yalnızca ısıyı değil, aynı zamanda iç ortam hava neminin bir kısmını da geri kazanır."
+      },
+      {
+        "de": "Durch den Einbau eines Enthalpietauschers wird verhindert, dass die Raumluft in der Heizperiode zu stark austrocknet.",
+        "tr": "Entalpi eşanjörü takılması, ısıtma sezonunda oda havasının aşırı kurumasını önler."
+      }
+    ],
+    "synonyms": [
+      "Enthalpie-Wärmetauscher"
+    ],
+    "antonyms": [],
+    "related": [
+      "Wärmerückgewinnung",
+      "Wärmetauscher",
+      "Luftfeuchtigkeit"
+    ],
+    "tags": [
+      "lüftung",
+      "thermodynamik",
+      "c1"
+    ],
+    "collections": [
+      "col-heizung",
+      "col-waermepumpe",
+      "col-c1"
+    ]
+  },
+  {
+    "german": "Diffusionswiderstand",
+    "article": "der",
+    "type": "noun",
+    "level": "C1",
+    "senses": [
+      {
+        "tr": "Buhar difüzyon direnci (su buharı geçirgenliğine karşı direnç)",
+        "en": "vapor diffusion resistance"
+      }
+    ],
+    "noun": {
+      "plural": "die Diffusionswiderstände",
+      "genitiv": "des Diffusionswiderstands"
+    },
+    "examples": [
+      {
+        "de": "Kautschuk-Rohrisolierungen zeichnen sich durch einen besonders hohen Diffusionswiderstand aus.",
+        "tr": "Kauçuk boru yalıtımları özellikle yüksek buhar difüzyon direnciyle öne çıkar."
+      },
+      {
+        "de": "Je höher der Diffusionswiderstand einer Dämmschicht ist, desto geringer ist das Risiko von Tauwasserbildung.",
+        "tr": "Bir yalıtım katmanının difüzyon direnci ne kadar yüksekse yoğuşma suyu oluşma riski o kadar düşüktür."
+      }
+    ],
+    "synonyms": [
+      "Wasserdampfdiffusionswiderstand"
+    ],
+    "antonyms": [],
+    "related": [
+      "Dampfsperre",
+      "diffusionsdicht",
+      "Taupunkt"
+    ],
+    "tags": [
+      "bauphysik",
+      "dämmung",
+      "c1"
+    ],
+    "collections": [
+      "col-rohre",
+      "col-heizung",
+      "col-c1"
+    ]
+  },
+  {
+    "german": "Kühllastberechnung",
+    "article": "die",
+    "type": "noun",
+    "level": "C1",
+    "senses": [
+      {
+        "tr": "Soğutma yükü hesabı (VDI 2078)",
+        "en": "cooling load calculation"
+      }
+    ],
+    "noun": {
+      "plural": "die Kühllastberechnungen",
+      "genitiv": "der Kühllastberechnung"
+    },
+    "examples": [
+      {
+        "de": "Vor der Auslegung einer reversiblen Wärmepumpe mit Flächenkühlung erstellen wir eine fundierte Kühllastberechnung.",
+        "tr": "Yüzey soğutmalı tersinir bir ısı pompasının boyutlandırılmasından önce sağlam bir soğutma yükü hesabı hazırlarız."
+      },
+      {
+        "de": "Die Kühllastberechnung berücksichtigt neben der Sonneneinstrahlung auch innere Wärmelasten durch Geräte und Personen.",
+        "tr": "Soğutma yükü hesabı, güneş ışınımının yanı sıra cihazlardan ve kişilerden kaynaklanan iç ısı yüklerini de dikkate alır."
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [
+      "Heizlastberechnung"
+    ],
+    "related": [
+      "Kühlleistung",
+      "Kälteleistung",
+      "reversibel"
+    ],
+    "tags": [
+      "klima",
+      "planung",
+      "berechnung",
+      "c1"
+    ],
+    "collections": [
+      "col-waermepumpe",
+      "col-meister",
+      "col-c1"
+    ]
+  },
+  {
+    "german": "Blower-Door-Test",
+    "article": "der",
+    "type": "noun",
+    "level": "C1",
+    "senses": [
+      {
+        "tr": "Blower-Door testi (bina hava sızdırmazlık testi)",
+        "en": "blower door test, airtightness test"
+      }
+    ],
+    "noun": {
+      "plural": "die Blower-Door-Tests",
+      "genitiv": "des Blower-Door-Tests"
+    },
+    "examples": [
+      {
+        "de": "Beim Blower-Door-Test werden undichte Rohrdurchführungen in der Gebäudehülle schonungslos aufgedeckt.",
+        "tr": "Blower-Door testinde bina kabuğundaki hava kaçıran boru geçişleri acımasızca ortaya çıkarılır."
+      },
+      {
+        "de": "Erst nach dem bestandenen Blower-Door-Test wird der energetische Fördernachweis vollständig anerkannt.",
+        "tr": "Enerji teşvik belgesi ancak başarıyla geçilen Blower-Door testinden sonra tam olarak onaylanır."
+      }
+    ],
+    "synonyms": [
+      "Luftdichtheitsmessung",
+      "Differenzdruck-Messverfahren"
+    ],
+    "antonyms": [],
+    "related": [
+      "Luftdichtheitskonzept",
+      "Luftwechselrate",
+      "Dampfsperre"
+    ],
+    "tags": [
+      "bauphysik",
+      "prüfung",
+      "energieeffizienz",
+      "c1"
+    ],
+    "collections": [
+      "col-doku",
+      "col-heizung",
+      "col-c1"
+    ]
+  },
+  {
+    "german": "Luftdichtheitskonzept",
+    "article": "das",
+    "type": "noun",
+    "level": "C1",
+    "senses": [
+      {
+        "tr": "Hava sızdırmazlık konsepti / planı",
+        "en": "airtightness concept"
+      }
+    ],
+    "noun": {
+      "plural": "die Luftdichtheitskonzepte",
+      "genitiv": "des Luftdichtheitskonzepts"
+    },
+    "examples": [
+      {
+        "de": "Alle Gewerke müssen sich bei Durchdringungen strikt an das vorgegebene Luftdichtheitskonzept halten.",
+        "tr": "Tüm iş kolları geçiş noktalarında belirlenen hava sızdırmazlık konseptine kesinlikle uymak zorundadır."
+      },
+      {
+        "de": "Ein lückenloses Luftdichtheitskonzept ist die Grundvoraussetzung für den effizienten Betrieb einer Lüftungsanlage.",
+        "tr": "Eksiksiz bir hava sızdırmazlık konsepti, bir havalandırma sisteminin verimli çalışması için temel koşuldur."
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "related": [
+      "Blower-Door-Test",
+      "Dampfsperre",
+      "Ausführungsplanung"
+    ],
+    "tags": [
+      "bauphysik",
+      "planung",
+      "c1"
+    ],
+    "collections": [
+      "col-doku",
+      "col-meister",
+      "col-c1"
+    ]
+  },
+  {
+    "german": "Wärmespeicherfähigkeit",
+    "article": "die",
+    "type": "noun",
+    "level": "C1",
+    "senses": [
+      {
+        "tr": "Isı depolama kapasitesi / yeteneği",
+        "en": "thermal storage capacity, heat storage capacity"
+      }
+    ],
+    "noun": {
+      "noPlural": true,
+      "genitiv": "der Wärmespeicherfähigkeit"
+    },
+    "examples": [
+      {
+        "de": "Wasser eignet sich aufgrund seiner extrem hohen spezifischen Wärmespeicherfähigkeit ideal als Wärmeträger.",
+        "tr": "Su, son derece yüksek özgül ısı depolama kapasitesi nedeniyle ısı taşıyıcı olarak idealdir."
+      },
+      {
+        "de": "Massive Bauteile mit großer Wärmespeicherfähigkeit dämpfen sommerliche Temperaturspitzen im Gebäude.",
+        "tr": "Yüksek ısı depolama kapasitesine sahip masif yapı elemanları, binadaki yaz sıcaklık zirvelerini dengeler."
+      }
+    ],
+    "synonyms": [
+      "Wärmekapazität"
+    ],
+    "antonyms": [],
+    "related": [
+      "Wärmespeicher",
+      "Pufferspeicher",
+      "Wärmeträgermedium"
+    ],
+    "tags": [
+      "bauphysik",
+      "thermodynamik",
+      "c1"
+    ],
+    "collections": [
+      "col-heizung",
+      "col-waermepumpe",
+      "col-c1"
+    ]
+  },
+  {
+    "german": "Hydraulische Weiche",
+    "article": "die",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Denge kabı, hidrolik ayırıcı",
+        "en": "hydraulic separator, low-loss header"
+      }
+    ],
+    "noun": {
+      "plural": "die Hydraulischen Weichen",
+      "genitiv": "der Hydraulischen Weiche"
+    },
+    "examples": [
+      {
+        "de": "Die Hydraulische Weiche entkoppelt den Volumenstrom des Wärmeerzeugers von den nachgeschalteten Heizkreisen.",
+        "tr": "Denge kabı, ısı üreticisinin debisini arkadaki ısıtma devrelerinden hidrolik olarak ayırır."
+      },
+      {
+        "de": "Bei Wärmepumpen kann eine falsch eingebundene Hydraulische Weiche durch Rücklaufanhebung die Effizienz mindern.",
+        "tr": "Isı pompalarında yanlış bağlanmış bir denge kabı, dönüş sıcaklığını yükselterek verimliliği düşürebilir."
+      }
+    ],
+    "synonyms": [
+      "Weiche"
+    ],
+    "antonyms": [],
+    "related": [
+      "Volumenstrom",
+      "Pufferspeicher",
+      "Heizkreis"
+    ],
+    "tags": [
+      "hydraulik",
+      "heizung",
+      "wärmepumpe"
+    ],
+    "notes": "Isıtma tekniğinde birincil (kazan/ısı pompası) ve ikincil (radyatör/yerden ısıtma) devreleri birbirinden ayırmak için kullanılır.",
+    "collections": [
+      "col-heizung",
+      "col-waermepumpe",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Mischergruppe",
+    "article": "die",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Karışım vanalı pompa grubu",
+        "en": "mixing valve group, mixed pump group"
+      }
+    ],
+    "noun": {
+      "plural": "die Mischergruppen",
+      "genitiv": "der Mischergruppe"
+    },
+    "examples": [
+      {
+        "de": "Für die Fußbodenheizung installieren wir eine vormontierte Mischergruppe mit motorischem Dreiwegemischer.",
+        "tr": "Yerden ısıtma için motorlu üç yollu karışım vanalı ön montajlı bir karışım grubu kuruyoruz."
+      },
+      {
+        "de": "Die Mischergruppe regelt die Vorlauftemperatur präzise auf maximal 35 Grad Celsius herunter.",
+        "tr": "Karışım grubu gidiş suyu sıcaklığını hassas biçimde en fazla 35 santigrat dereceye düşürür."
+      }
+    ],
+    "synonyms": [
+      "Heizkreisgruppe mit Mischer"
+    ],
+    "antonyms": [],
+    "related": [
+      "Pumpengruppe",
+      "Dreiwegemischer",
+      "Stellmotor"
+    ],
+    "tags": [
+      "heizung",
+      "hydraulik",
+      "montage"
+    ],
+    "collections": [
+      "col-heizung",
+      "col-montage",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Pumpengruppe",
+    "article": "die",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Pompa grubu (kolektör üstü sirkülasyon ve vana seti)",
+        "en": "pump group, pump station"
+      }
+    ],
+    "noun": {
+      "plural": "die Pumpengruppen",
+      "genitiv": "der Pumpengruppe"
+    },
+    "examples": [
+      {
+        "de": "Jede Pumpengruppe verfügt über integrierte Thermometer, Absperrhähne und eine Schwerkraftbremse.",
+        "tr": "Her pompa grubu entegre termometrelere, kesme vanalarına ve bir çekvalfe (yerçekimi frenine) sahiptir."
+      },
+      {
+        "de": "Durch die vorgefertigte Pumpengruppe verkürzt sich die Montagezeit im Heizraum erheblich.",
+        "tr": "Ön montajlı pompa grubu sayesinde kazan dairesindeki montaj süresi önemli ölçüde kısalır."
+      }
+    ],
+    "synonyms": [
+      "Heizkreisgruppe"
+    ],
+    "antonyms": [],
+    "related": [
+      "Mischergruppe",
+      "Hocheffizienzpumpe",
+      "Schwerkraftbremse"
+    ],
+    "tags": [
+      "heizung",
+      "hydraulik",
+      "montage"
+    ],
+    "collections": [
+      "col-heizung",
+      "col-montage",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Überströmung",
+    "article": "die",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Baypas akışı, kısa devre akışı (hidrolikte)",
+        "en": "bypass flow, overflow"
+      }
+    ],
+    "noun": {
+      "plural": "die Überströmungen",
+      "genitiv": "der Überströmung"
+    },
+    "examples": [
+      {
+        "de": "Wenn alle Thermostatventile schließen, sichert die kontrollierte Überströmung den Mindestvolumenstrom der Wärmepumpe.",
+        "tr": "Tüm termostatik vanalar kapandığında, kontrollü baypas akışı ısı pompasının asgari debisini güvence altına alır."
+      },
+      {
+        "de": "Eine ungewollte Überströmung im Puffer zerstört die Temperaturschichtung und erhöht die Rücklauftemperatur.",
+        "tr": "Akümülasyon tankındaki istenmeyen bir kısa devre akışı sıcaklık katmanlaşmasını bozar ve dönüş sıcaklığını artırır."
+      }
+    ],
+    "synonyms": [
+      "Bypass-Strömung"
+    ],
+    "antonyms": [],
+    "related": [
+      "Überströmventil",
+      "Mindestvolumenstrom",
+      "Hydraulikschema"
+    ],
+    "tags": [
+      "hydraulik",
+      "heizung",
+      "wärmepumpe"
+    ],
+    "collections": [
+      "col-heizung",
+      "col-waermepumpe",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Solarthermie",
+    "article": "die",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Güneş enerjili ısıtma sistemi, solar termal enerji",
+        "en": "solar thermal energy"
+      }
+    ],
+    "noun": {
+      "noPlural": true,
+      "genitiv": "der Solarthermie"
+    },
+    "examples": [
+      {
+        "de": "Die Solarthermie unterstützt in den Sommermonaten fast vollständig die Warmwasserbereitung des Haushalts.",
+        "tr": "Güneş enerjili ısıtma sistemi yaz aylarında hanenin sıcak su üretimini neredeyse tamamen destekler."
+      },
+      {
+        "de": "Vor dem Winter prüfen wir den Frostschutzgehalt im Kreislauf der Solarthermie.",
+        "tr": "Kıştan önce güneş enerjili ısıtma devresindeki antifriz oranını kontrol ediyoruz."
+      }
+    ],
+    "synonyms": [
+      "Solarwärme"
+    ],
+    "antonyms": [],
+    "related": [
+      "Solaranlage",
+      "Kollektorfläche",
+      "Wärmeträgermedium"
+    ],
+    "tags": [
+      "erneuerbar",
+      "heizung",
+      "solar"
+    ],
+    "collections": [
+      "col-heizung",
+      "col-waermepumpe",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Kollektorfläche",
+    "article": "die",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Kolektör alanı (güneş kolektörü veya yer kolektörü yüzeyi)",
+        "en": "collector area"
+      }
+    ],
+    "noun": {
+      "plural": "die Kollektorflächen",
+      "genitiv": "der Kollektorfläche"
+    },
+    "examples": [
+      {
+        "de": "Für ein Vierpersonen-Einfamilienhaus kalkulieren wir rund sechs Quadratmeter Kollektorfläche für die Warmwasserbereitung.",
+        "tr": "Dört kişilik müstakil bir ev için sıcak su üretimi adına yaklaşık altı metrekare kolektör alanı hesaplıyoruz."
+      },
+      {
+        "de": "Die benötigte Kollektorfläche eines Erdwärme-Flächenkollektors hängt stark von der Bodenbeschaffenheit ab.",
+        "tr": "Bir jeotermal yüzey kolektörünün ihtiyaç duyduğu kolektör alanı büyük ölçüde zemin yapısına bağlıdır."
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "related": [
+      "Solarthermie",
+      "Flächenkollektor",
+      "Entzugsleistung"
+    ],
+    "tags": [
+      "solar",
+      "wärmepumpe",
+      "planung"
+    ],
+    "collections": [
+      "col-waermepumpe",
+      "col-heizung",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Wärmeträgermedium",
+    "article": "das",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Isı taşıyıcı akışkan / ortam",
+        "en": "heat transfer medium, heat transfer fluid"
+      }
+    ],
+    "noun": {
+      "plural": "die Wärmeträgermedien",
+      "genitiv": "des Wärmeträgermediums"
+    },
+    "examples": [
+      {
+        "de": "Im Solekreislauf dient ein Wasser-Glykol-Gemisch als frostsicheres Wärmeträgermedium.",
+        "tr": "Tuzlu su (sole) devresinde su-glikol karışımı donmaya dayanıklı ısı taşıyıcı akışkan olarak görev yapar."
+      },
+      {
+        "de": "Bei Stagnation in der Solaranlage kann das Wärmeträgermedium thermisch altern und muss getauscht werden.",
+        "tr": "Güneş enerjisi sisteminde durgunluk (stagnasyon) yaşandığında ısı taşıyıcı akışkan termal olarak yaşlanabilir ve değiştirilmesi gerekir."
+      }
+    ],
+    "synonyms": [
+      "Wärmeträgerflüssigkeit"
+    ],
+    "antonyms": [],
+    "related": [
+      "Sole",
+      "Frostschutzmittel",
+      "Heizwasser"
+    ],
+    "tags": [
+      "wärmepumpe",
+      "heizung",
+      "solar"
+    ],
+    "collections": [
+      "col-waermepumpe",
+      "col-heizung",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Heizlastreduzierung",
+    "article": "die",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Isı yükünün azaltılması",
+        "en": "heating load reduction"
+      }
+    ],
+    "noun": {
+      "plural": "die Heizlastreduzierungen",
+      "genitiv": "der Heizlastreduzierung"
+    },
+    "examples": [
+      {
+        "de": "Durch neue Fenster und eine Dachdämmung erreichen wir eine deutliche Heizlastreduzierung im Altbau.",
+        "tr": "Yeni pencereler ve çatı yalıtımı sayesinde eski binada belirgin bir ısı yükü azaltımı sağlıyoruz."
+      },
+      {
+        "de": "Eine konsequente Heizlastreduzierung ermöglicht den Einbau einer kleineren und günstigeren Wärmepumpe.",
+        "tr": "Tutarlı bir ısı yükü azaltımı, daha küçük ve daha ekonomik bir ısı pompasının kurulmasını mümkün kılar."
+      }
+    ],
+    "synonyms": [
+      "Heizlastsenkung"
+    ],
+    "antonyms": [],
+    "related": [
+      "Heizlast",
+      "Heizlastberechnung",
+      "Sanierungsfahrplan"
+    ],
+    "tags": [
+      "heizung",
+      "energieeffizienz",
+      "sanierung"
+    ],
+    "collections": [
+      "col-heizung",
+      "col-waermepumpe",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Energieausweis",
+    "article": "der",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Enerji kimlik belgesi (EKB)",
+        "en": "energy performance certificate"
+      }
+    ],
+    "noun": {
+      "plural": "die Energieausweise",
+      "genitiv": "des Energieausweises"
+    },
+    "examples": [
+      {
+        "de": "Beim Verkauf oder der Neuvermietung eines Gebäudes muss der aktuelle Energieausweis vorgelegt werden.",
+        "tr": "Bir binanın satışı veya yeniden kiralanması sırasında güncel enerji kimlik belgesi ibraz edilmelidir."
+      },
+      {
+        "de": "Der Bedarfs-Energieausweis gibt einen verlässlichen Überblick über den energetischen Zustand des Hauses.",
+        "tr": "İhtiyaç bazlı enerji kimlik belgesi, evin enerji durumu hakkında güvenilir bir genel bakış sunar."
+      }
+    ],
+    "synonyms": [
+      "Energiepass"
+    ],
+    "antonyms": [],
+    "related": [
+      "Gebäudeenergiegesetz",
+      "Effizienzklasse",
+      "Energieberater"
+    ],
+    "tags": [
+      "energieeffizienz",
+      "dokumentation",
+      "recht"
+    ],
+    "collections": [
+      "col-doku",
+      "col-heizung",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Effizienzklasse",
+    "article": "die",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Enerji verimliliği sınıfı",
+        "en": "efficiency class, energy efficiency rating"
+      }
+    ],
+    "noun": {
+      "plural": "die Effizienzklassen",
+      "genitiv": "der Effizienzklasse"
+    },
+    "examples": [
+      {
+        "de": "Moderne Luft-Wasser-Wärmepumpen erreichen im Niedertemperaturbetrieb die Effizienzklasse A+++.",
+        "tr": "Modern hava-su ısı pompaları düşük sıcaklık işletmesinde A+++ enerji verimliliği sınıfına ulaşır."
+      },
+      {
+        "de": "Die Effizienzklasse des Heizsystems wird auf dem EU-Energielabel übersichtlich dargestellt.",
+        "tr": "Isıtma sisteminin verimlilik sınıfı AB enerji etiketinde anlaşılır şekilde gösterilir."
+      }
+    ],
+    "synonyms": [
+      "Energieeffizienzklasse"
+    ],
+    "antonyms": [],
+    "related": [
+      "Energieausweis",
+      "Jahresarbeitszahl",
+      "energieeffizient"
+    ],
+    "tags": [
+      "energieeffizienz",
+      "wärmepumpe",
+      "kundenberatung"
+    ],
+    "collections": [
+      "col-waermepumpe",
+      "col-kunden",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Kälteleistung",
+    "article": "die",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Soğutma kapasitesi / gücü",
+        "en": "cooling capacity, refrigeration capacity"
+      }
+    ],
+    "noun": {
+      "plural": "die Kälteleistungen",
+      "genitiv": "der Kälteleistung"
+    },
+    "examples": [
+      {
+        "de": "Die Kälteleistung einer Wärmepumpe entspricht der aus der Umweltquelle aufgenommenen thermischen Energie.",
+        "tr": "Bir ısı pompasının soğutma gücü, çevre kaynağından alınan termal enerjiye karşılık gelir."
+      },
+      {
+        "de": "Im Kühlbetrieb über die Fußbodenheizung ist die nutzbare Kälteleistung durch den Taupunkt begrenzt.",
+        "tr": "Yerden ısıtma üzerinden yapılan soğutma işletmesinde kullanılabilir soğutma kapasitesi yoğuşma noktasıyla sınırlıdır."
+      }
+    ],
+    "synonyms": [
+      "Kühlleistung"
+    ],
+    "antonyms": [
+      "Heizleistung"
+    ],
+    "related": [
+      "Kühllastberechnung",
+      "Verdampfer",
+      "Leistungszahl"
+    ],
+    "tags": [
+      "kältetechnik",
+      "wärmepumpe",
+      "leistung"
+    ],
+    "collections": [
+      "col-waermepumpe",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Verdichterdrehzahl",
+    "article": "die",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Kompresör devir sayısı",
+        "en": "compressor speed"
+      }
+    ],
+    "noun": {
+      "plural": "die Verdichterdrehzahlen",
+      "genitiv": "der Verdichterdrehzahl"
+    },
+    "examples": [
+      {
+        "de": "Dank Invertertechnik passt die Steuerung die Verdichterdrehzahl stufenlos an den aktuellen Wärmebedarf an.",
+        "tr": "İnverter teknolojisi sayesinde kontrol ünitesi kompresör devir sayısını anlık ısı ihtiyacına kademesiz olarak uyarlar."
+      },
+      {
+        "de": "Im Flüstermodus wird die maximale Verdichterdrehzahl nachts begrenzt, um den Schallpegel zu senken.",
+        "tr": "Sessiz modda ses seviyesini düşürmek için geceleyin maksimum kompresör devir sayısı sınırlandırılır."
+      }
+    ],
+    "synonyms": [
+      "Kompressordrehzahl"
+    ],
+    "antonyms": [],
+    "related": [
+      "Verdichter",
+      "Invertertechnik",
+      "Modulation"
+    ],
+    "tags": [
+      "wärmepumpe",
+      "regelungstechnik",
+      "kältetechnik"
+    ],
+    "collections": [
+      "col-waermepumpe",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Schallimmission",
+    "article": "die",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Gürültü imisyonu (alıcı noktaya ulaşan ses etkisi)",
+        "en": "noise immission"
+      }
+    ],
+    "noun": {
+      "plural": "die Schallimmissionen",
+      "genitiv": "der Schallimmission"
+    },
+    "examples": [
+      {
+        "de": "Vor der Aufstellung einer Luft-Wärmepumpe berechnen wir die zu erwartende Schallimmission am Nachbarfenster.",
+        "tr": "Bir hava kaynaklı ısı pompası kurmadan önce komşu penceresinde beklenen gürültü imisyonunu hesaplıyoruz."
+      },
+      {
+        "de": "Eine geschickte Ausrichtung des Außengeräts reduziert die Schallimmission deutlich besser als nachträgliche Hauben.",
+        "tr": "Dış ünitenin akıllıca yönlendirilmesi, gürültü imisyonunu sonradan takılan kapaklara göre çok daha iyi azaltır."
+      }
+    ],
+    "synonyms": [
+      "Lärmimmission"
+    ],
+    "antonyms": [],
+    "related": [
+      "Immissionsrichtwert",
+      "Schalldruckpegel",
+      "Schallausbreitungsberechnung"
+    ],
+    "tags": [
+      "akustik",
+      "wärmepumpe",
+      "recht"
+    ],
+    "notes": "Schallemission = kaynağın yaydığı ses; Schallimmission = komşunun penceresinde/bahçesinde duyulan ses.",
+    "collections": [
+      "col-waermepumpe",
+      "col-doku",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Wärmeverteilung",
+    "article": "die",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Isı dağıtımı (bina içi boru ve ısıtıcı ağı)",
+        "en": "heat distribution"
+      }
+    ],
+    "noun": {
+      "noPlural": true,
+      "genitiv": "der Wärmeverteilung"
+    },
+    "examples": [
+      {
+        "de": "Eine schlecht gedämmte Wärmeverteilung im unbeheizten Keller verursacht unnötig hohe Verteilverluste.",
+        "tr": "Isıtılmayan bodrumdaki kötü yalıtılmış bir ısı dağıtımı gereksiz yere yüksek dağıtım kayıplarına yol açar."
+      },
+      {
+        "de": "Ohne hydraulischen Abgleich kommt es in der Wärmeverteilung zu unterversorgten Räumen im Obergeschoss.",
+        "tr": "Hidrolik balans ayarı olmadan ısı dağıtımında üst kattaki odalar yetersiz beslenir."
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "related": [
+      "Verteilleitung",
+      "Heizkreisverteiler",
+      "Rohrdämmung"
+    ],
+    "tags": [
+      "heizung",
+      "hydraulik"
+    ],
+    "collections": [
+      "col-heizung",
+      "col-rohre",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Heizungsmodernisierung",
+    "article": "die",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Isıtma sisteminin modernizasyonu / yenilenmesi",
+        "en": "heating system modernization"
+      }
+    ],
+    "noun": {
+      "plural": "die Heizungsmodernisierungen",
+      "genitiv": "der Heizungsmodernisierung"
+    },
+    "examples": [
+      {
+        "de": "Im Rahmen der Heizungsmodernisierung ersetzen wir den alten Ölkessel durch eine moderne Wärmepumpe.",
+        "tr": "Isıtma modernizasyonu kapsamında eski mazot kazanını modern bir ısı pompasıyla değiştiriyoruz."
+      },
+      {
+        "de": "Bei der Beratung zur Heizungsmodernisierung informieren wir den Kunden auch über staatliche Zuschüsse.",
+        "tr": "Isıtma modernizasyonu danışmanlığında müşteriyi devlet teşvikleri hakkında da bilgilendiriyoruz."
+      }
+    ],
+    "synonyms": [
+      "Heizungssanierung",
+      "Heizungstausch"
+    ],
+    "antonyms": [],
+    "related": [
+      "Sanierung",
+      "Förderung",
+      "Gebäudeenergiegesetz"
+    ],
+    "tags": [
+      "heizung",
+      "sanierung",
+      "kundenberatung"
+    ],
+    "collections": [
+      "col-heizung",
+      "col-kunden",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Raumheizlast",
+    "article": "die",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Oda ısı yükü (tek bir mahallin ısı kaybı)",
+        "en": "room heating load"
+      }
+    ],
+    "noun": {
+      "plural": "die Raumheizlasten",
+      "genitiv": "der Raumheizlast"
+    },
+    "examples": [
+      {
+        "de": "Die raumweise Berechnung der Raumheizlast ist die Grundlage für die richtige Dimensionierung der Heizkörper.",
+        "tr": "Oda ısı yükünün oda bazında hesaplanması, radyatörlerin doğru boyutlandırılmasının temelidir."
+      },
+      {
+        "de": "Im Badezimmer ist die Raumheizlast wegen der höheren Norm-Innentemperatur von 24 Grad besonders hoch.",
+        "tr": "Banyoda 24 derecelik daha yüksek standart iç ortam sıcaklığı nedeniyle oda ısı yükü özellikle yüksektir."
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "related": [
+      "Normheizlast",
+      "Heizlastberechnung",
+      "Heizflächenauslegung"
+    ],
+    "tags": [
+      "heizung",
+      "berechnung",
+      "planung"
+    ],
+    "collections": [
+      "col-heizung",
+      "col-meister",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Exergie",
+    "article": "die",
+    "type": "noun",
+    "level": "C1",
+    "senses": [
+      {
+        "tr": "Ekserji (işe dönüştürülebilir kullanılabilir enerji payı)",
+        "en": "exergy"
+      }
+    ],
+    "noun": {
+      "noPlural": true,
+      "genitiv": "der Exergie"
+    },
+    "examples": [
+      {
+        "de": "Aus thermodynamischer Sicht ist es ineffizient, hochwertige Exergie wie Strom direkt in einem Heizstab zu verheizen.",
+        "tr": "Termodinamik açıdan bakıldığında, elektrik gibi yüksek değerli ekserjiyi doğrudan bir rezistansta yakmak verimsizdir."
+      },
+      {
+        "de": "Niedertemperatursysteme minimieren den Verlust an Exergie bei der Raumbeheizung.",
+        "tr": "Düşük sıcaklıklı sistemler, mahal ısıtmasında ekserji kaybını en aza indirir."
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [
+      "Anergie"
+    ],
+    "related": [
+      "Carnot-Wirkungsgrad",
+      "thermodynamisch",
+      "Wirkungsgrad"
+    ],
+    "tags": [
+      "thermodynamik",
+      "energieeffizienz",
+      "c1"
+    ],
+    "collections": [
+      "col-waermepumpe",
+      "col-heizung",
+      "col-c1"
+    ]
+  },
+  {
+    "german": "Kaskadenregelung",
+    "article": "die",
+    "type": "noun",
+    "level": "C1",
+    "senses": [
+      {
+        "tr": "Kaskad kontrolü / kademeli çoklu cihaz yönetimi",
+        "en": "cascade control"
+      }
+    ],
+    "noun": {
+      "plural": "die Kaskadenregelungen",
+      "genitiv": "der Kaskadenregelung"
+    },
+    "examples": [
+      {
+        "de": "Die Kaskadenregelung schaltet bei steigender Heizlast automatisch den zweiten und dritten Wärmeerzeuger zu.",
+        "tr": "Kaskad kontrolü, ısı yükü arttığında ikinci ve üçüncü ısı üreticisini otomatik olarak devreye alır."
+      },
+      {
+        "de": "Um einen gleichmäßigen Verschleiß zu gewährleisten, wechselt die Kaskadenregelung regelmäßig die Führungsanlage.",
+        "tr": "Eşit aşınma sağlamak amacıyla kaskad kontrolü düzenli olarak ana (lider) cihazı değiştirir."
+      }
+    ],
+    "synonyms": [
+      "Kaskadensteuerung"
+    ],
+    "antonyms": [],
+    "related": [
+      "Kaskadenschaltung",
+      "Wärmepumpen-Kaskade",
+      "Regelungstechnik"
+    ],
+    "tags": [
+      "regelungstechnik",
+      "heizung",
+      "wärmepumpe",
+      "c1"
+    ],
+    "collections": [
+      "col-heizung",
+      "col-waermepumpe",
+      "col-c1"
+    ]
+  },
+  {
+    "german": "Gleichstromverdichter",
+    "article": "der",
+    "type": "noun",
+    "level": "C1",
+    "senses": [
+      {
+        "tr": "DC (doğru akım) inverter kompresör",
+        "en": "DC inverter compressor"
+      }
+    ],
+    "noun": {
+      "plural": "die Gleichstromverdichter",
+      "genitiv": "des Gleichstromverdichters"
+    },
+    "examples": [
+      {
+        "de": "Ein drehzahlgeregelter Gleichstromverdichter arbeitet im Teillastbetrieb deutlich effizienter als ein starrer Wechselstrommotor.",
+        "tr": "Devir kontrollü bir DC kompresör, kısmi yük işletmesinde sabit devirli bir AC motora göre çok daha verimli çalışır."
+      },
+      {
+        "de": "Bei einem Defekt am Gleichstromverdichter muss häufig auch die zugehörige Inverterplatine überprüft werden.",
+        "tr": "DC kompresördeki bir arızada genellikle ilgili inverter kartının da kontrol edilmesi gerekir."
+      }
+    ],
+    "synonyms": [
+      "DC-Inverter-Verdichter"
+    ],
+    "antonyms": [],
+    "related": [
+      "Verdichter",
+      "Invertertechnik",
+      "Teillastbetrieb"
+    ],
+    "tags": [
+      "wärmepumpe",
+      "kältetechnik",
+      "elektro",
+      "c1"
+    ],
+    "collections": [
+      "col-waermepumpe",
+      "col-c1"
+    ]
+  },
+  {
+    "german": "Wärmepumpen-Kaskade",
+    "article": "die",
+    "type": "noun",
+    "level": "C1",
+    "senses": [
+      {
+        "tr": "Isı pompası kaskad sistemi (birden fazla ısı pompasının paralel çalıştırılması)",
+        "en": "heat pump cascade"
+      }
+    ],
+    "noun": {
+      "plural": "die Wärmepumpen-Kaskaden",
+      "genitiv": "der Wärmepumpen-Kaskade"
+    },
+    "examples": [
+      {
+        "de": "In Mehrfamilienhäusern und Gewerbeobjekten bietet eine Wärmepumpen-Kaskade hohe Betriebssicherheit und breite Modulation.",
+        "tr": "Çok daireli binalarda ve ticari yapılarda ısı pompası kaskad sistemi yüksek işletme güvenliği ve geniş modülasyon sunar."
+      },
+      {
+        "de": "Fällt ein Gerät in der Wärmepumpen-Kaskade aus, übernehmen die übrigen Maschinen nahtlos die Grundversorgung.",
+        "tr": "Isı pompası kaskadındaki bir cihaz arızalanırsa diğer makineler temel beslemeyi kesintisiz devralır."
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "related": [
+      "Kaskadenregelung",
+      "Kaskadenschaltung",
+      "Wärmepumpe"
+    ],
+    "tags": [
+      "wärmepumpe",
+      "großanlage",
+      "c1"
+    ],
+    "collections": [
+      "col-waermepumpe",
+      "col-meister",
+      "col-c1"
+    ]
+  },
+  {
+    "german": "Niedertemperaturheizsystem",
+    "article": "das",
+    "type": "noun",
+    "level": "C1",
+    "senses": [
+      {
+        "tr": "Düşük sıcaklıklı ısıtma sistemi",
+        "en": "low-temperature heating system"
+      }
+    ],
+    "noun": {
+      "plural": "die Niedertemperaturheizsysteme",
+      "genitiv": "des Niedertemperaturheizsystems"
+    },
+    "examples": [
+      {
+        "de": "Ein Niedertemperaturheizsystem mit maximal 35 Grad Vorlauftemperatur maximiert die Jahresarbeitszahl jeder Wärmepumpe.",
+        "tr": "En fazla 35 derece gidiş sıcaklığına sahip düşük sıcaklıklı bir ısıtma sistemi, her ısı pompasının yıllık verimlilik katsayısını maksimize eder."
+      },
+      {
+        "de": "Flächenheizungen und großzügig dimensionierte Gebläsekonvektoren sind klassische Vertreter moderner Niedertemperaturheizsysteme.",
+        "tr": "Yüzey ısıtmaları ve geniş boyutlandırılmış fankoiller modern düşük sıcaklıklı ısıtma sistemlerinin klasik örnekleridir."
+      }
+    ],
+    "synonyms": [
+      "Niedertemperatursystem"
+    ],
+    "antonyms": [],
+    "related": [
+      "Flächenheizung",
+      "Vorlauftemperatur",
+      "Jahresarbeitszahl"
+    ],
+    "tags": [
+      "heizung",
+      "wärmepumpe",
+      "energieeffizienz",
+      "c1"
+    ],
+    "collections": [
+      "col-heizung",
+      "col-waermepumpe",
+      "col-c1"
+    ]
+  },
+  {
+    "german": "Wirtschaftlichkeitsberechnung",
+    "article": "die",
+    "type": "noun",
+    "level": "C1",
+    "senses": [
+      {
+        "tr": "Ekonomiklik / fizibilite hesabı (VDI 2067)",
+        "en": "economic feasibility calculation, cost-effectiveness analysis"
+      }
+    ],
+    "noun": {
+      "plural": "die Wirtschaftlichkeitsberechnungen",
+      "genitiv": "der Wirtschaftlichkeitsberechnung"
+    },
+    "examples": [
+      {
+        "de": "Die Wirtschaftlichkeitsberechnung vergleicht Investitions-, Wartungs- und Energiekosten über einen Zeitraum von zwanzig Jahren.",
+        "tr": "Ekonomiklik hesabı; yatırım, bakım ve enerji maliyetlerini yirmi yıllık bir dönem boyunca karşılaştırır."
+      },
+      {
+        "de": "Mit einer transparenten Wirtschaftlichkeitsberechnung lässt sich der Kunde fundiert von der Wärmepumpe überzeugen.",
+        "tr": "Şeffaf bir ekonomiklik hesabıyla müşteri ısı pompası konusunda sağlam temellere dayanarak ikna edilebilir."
+      }
+    ],
+    "synonyms": [
+      "Amortisationsrechnung"
+    ],
+    "antonyms": [],
+    "related": [
+      "wirtschaftlich",
+      "Förderung",
+      "Kostenschätzung"
+    ],
+    "tags": [
+      "planung",
+      "meister",
+      "kundenberatung",
+      "c1"
+    ],
+    "collections": [
+      "col-meister",
+      "col-kunden",
+      "col-c1"
+    ]
+  },
+  {
+    "german": "Trinkwasserschutz",
+    "article": "der",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "İçme suyu koruması (kirlenmeye karşı koruma)",
+        "en": "drinking water protection"
+      }
+    ],
+    "noun": {
+      "noPlural": true,
+      "genitiv": "des Trinkwasserschutzes"
+    },
+    "examples": [
+      {
+        "de": "Gemäß DIN EN 1717 steht der Trinkwasserschutz bei jeder Verbindung zu Heizungs- oder Regenwasseranlagen an oberster Stelle.",
+        "tr": "DIN EN 1717 uyarınca ısıtma veya yağmur suyu sistemlerine yapılan her bağlantıda içme suyu koruması en üst sırada yer alır."
+      },
+      {
+        "de": "Systemtrenner und freie Ausläufe sind zentrale Bausteine für einen zuverlässigen Trinkwasserschutz.",
+        "tr": "Sistem ayırıcılar ve serbest akış aralıkları, güvenilir bir içme suyu koruması için temel yapı taşlarıdır."
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "related": [
+      "Trinkwasserhygiene",
+      "Systemtrenner",
+      "Flüssigkeitskategorie"
+    ],
+    "tags": [
+      "sanitär",
+      "hygiene",
+      "norm"
+    ],
+    "collections": [
+      "col-sanitaer",
+      "col-sicherheit",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Wasserwechsel",
+    "article": "der",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Su değişimi, tesisattaki suyun yenilenmesi",
+        "en": "water exchange, water turnover"
+      }
+    ],
+    "noun": {
+      "plural": "die Wasserwechsel",
+      "genitiv": "des Wasserwechsels"
+    },
+    "examples": [
+      {
+        "de": "Zur Vermeidung von Verkeimung muss in Trinkwasserleitungen spätestens alle 72 Stunden ein vollständiger Wasserwechsel stattfinden.",
+        "tr": "Mikroorganizma üremesini önlemek için içme suyu hatlarında en geç 72 saatte bir tam su değişimi gerçekleşmelidir."
+      },
+      {
+        "de": "Durch intelligente Ringleitungen wird der regelmäßige Wasserwechsel auch an selten genutzten Zapfstellen gefördert.",
+        "tr": "Akıllı ring hatları sayesinde nadiren kullanılan musluklarda bile düzenli su değişimi teşvik edilir."
+      }
+    ],
+    "synonyms": [
+      "Wasseraustausch"
+    ],
+    "antonyms": [
+      "Stagnation"
+    ],
+    "related": [
+      "Spülplan",
+      "Stagnationswasser",
+      "Trinkwasserhygiene"
+    ],
+    "tags": [
+      "sanitär",
+      "hygiene"
+    ],
+    "collections": [
+      "col-sanitaer",
+      "col-wartung",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Spülplan",
+    "article": "der",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Yıkama / deşarj programı (içme suyu hijyeni için)",
+        "en": "flushing schedule, flushing plan"
+      }
+    ],
+    "noun": {
+      "plural": "die Spülpläne",
+      "genitiv": "des Spülplans"
+    },
+    "examples": [
+      {
+        "de": "Während eines längeren Leerstands muss der Betreiber einen dokumentierten Spülplan für alle Entnahmestellen umsetzen.",
+        "tr": "Uzun süreli boş kalma dönemlerinde işletmeci tüm kullanım noktaları için belgelenmiş bir yıkama programı uygulamalıdır."
+      },
+      {
+        "de": "Bei automatischen Hygienespülungen wird der Spülplan direkt in der Gebäudeleittechnik hinterlegt.",
+        "tr": "Otomatik hijyen yıkamalarında yıkama programı doğrudan bina otomasyon sistemine kaydedilir."
+      }
+    ],
+    "synonyms": [
+      "Hygienespülplan"
+    ],
+    "antonyms": [],
+    "related": [
+      "Spülprotokoll",
+      "Wasserwechsel",
+      "Legionellen"
+    ],
+    "tags": [
+      "sanitär",
+      "hygiene",
+      "dokumentation"
+    ],
+    "collections": [
+      "col-sanitaer",
+      "col-doku",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Trennstation",
+    "article": "die",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Ayırma istasyonu (serbest akışlı içme suyu ayırma ünitesi)",
+        "en": "separation station, break tank unit"
+      }
+    ],
+    "noun": {
+      "plural": "die Trennstationen",
+      "genitiv": "der Trennstation"
+    },
+    "examples": [
+      {
+        "de": "Für die Nachspeisung einer Regenwassernutzungsanlage ist eine Trennstation mit freiem Auslauf der Kategorie 5 vorgeschrieben.",
+        "tr": "Bir yağmur suyu kullanım sisteminin takviyesi için Kategori 5 serbest akışlı bir ayırma istasyonu zorunludur."
+      },
+      {
+        "de": "Die Trennstation schützt das öffentliche Trinkwassernetz zuverlässig vor dem Rückfließen von Nichttrinkwasser.",
+        "tr": "Ayırma istasyonu, şehir içme suyu şebekesini içme suyu olmayan sıvıların geri akışına karşı güvenle korur."
+      }
+    ],
+    "synonyms": [
+      "Systemtrennstation"
+    ],
+    "antonyms": [],
+    "related": [
+      "Trinkwasserschutz",
+      "Systemtrenner",
+      "freier Auslauf"
+    ],
+    "tags": [
+      "sanitär",
+      "hygiene",
+      "norm"
+    ],
+    "collections": [
+      "col-sanitaer",
+      "col-montage",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Rohrleitungsnetz",
+    "article": "das",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Boru hattı şebekesi / ağı",
+        "en": "piping network, pipeline network"
+      }
+    ],
+    "noun": {
+      "plural": "die Rohrleitungsnetze",
+      "genitiv": "des Rohrleitungsnetzes"
+    },
+    "examples": [
+      {
+        "de": "Vor der Inbetriebnahme wird das gesamte Rohrleitungsnetz gespült und einer Druckprüfung unterzogen.",
+        "tr": "Devreye almadan önce tüm boru hattı ağı yıkanır ve basınç testine tabi tutulur."
+      },
+      {
+        "de": "Ein hydraulisch optimiertes Rohrleitungsnetz reduziert sowohl Pumpenstrom als auch Strömungsgeräusche.",
+        "tr": "Hidrolik olarak optimize edilmiş bir boru hattı ağı hem pompa elektriğini hem de akış seslerini azaltır."
+      }
+    ],
+    "synonyms": [
+      "Rohrnetz",
+      "Leitungsnetz"
+    ],
+    "antonyms": [],
+    "related": [
+      "Rohrnetzberechnung",
+      "Verteilleitung",
+      "Druckverlust"
+    ],
+    "tags": [
+      "rohre",
+      "hydraulik",
+      "sanitär"
+    ],
+    "collections": [
+      "col-rohre",
+      "col-heizung",
+      "col-sanitaer",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Druckerhöhungsanlage",
+    "article": "die",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Hidrofor, basınç yükseltme sistemi",
+        "en": "pressure booster system"
+      }
+    ],
+    "noun": {
+      "plural": "die Druckerhöhungsanlagen",
+      "genitiv": "der Druckerhöhungsanlage"
+    },
+    "examples": [
+      {
+        "de": "In Hochhäusern stellt eine Druckerhöhungsanlage sicher, dass auch in den obersten Etagen genügend Fließdruck anliegt.",
+        "tr": "Yüksek binalarda hidrofor sistemi, en üst katlarda bile yeterli akış basıncının bulunmasını sağlar."
+      },
+      {
+        "de": "Die Druckerhöhungsanlage wird auf Schwingungsdämpfern gelagert, damit sich kein Körperschall überträgt.",
+        "tr": "Yapı kaynaklı sesin iletilmemesi için hidrofor sistemi titreşim takozları üzerine oturtulur."
+      }
+    ],
+    "synonyms": [
+      "DEA",
+      "Hauswasserwerk"
+    ],
+    "antonyms": [
+      "Druckminderer"
+    ],
+    "related": [
+      "Fließdruck",
+      "Schwingungsdämpfer",
+      "Pumpe"
+    ],
+    "tags": [
+      "sanitär",
+      "technik",
+      "druck"
+    ],
+    "collections": [
+      "col-sanitaer",
+      "col-montage",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Entwässerungsanlage",
+    "article": "die",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Drenaj / pis su tahliye sistemi",
+        "en": "drainage system"
+      }
+    ],
+    "noun": {
+      "plural": "die Entwässerungsanlagen",
+      "genitiv": "der Entwässerungsanlage"
+    },
+    "examples": [
+      {
+        "de": "Die Grundstücks-Entwässerungsanlage muss nach DIN 1986-100 geplant und ausreichend belüftet werden.",
+        "tr": "Parsel pis su tahliye sistemi DIN 1986-100'e göre planlanmalı ve yeterince havalandırılmalıdır."
+      },
+      {
+        "de": "Bei der Abnahme der Entwässerungsanlage prüfen wir das Gefälle und die Dichtheit aller Grundleitungen.",
+        "tr": "Tahliye sisteminin kabulünde tüm temel hatlarının eğimini ve sızdırmazlığını kontrol ediyoruz."
+      }
+    ],
+    "synonyms": [
+      "Abwasseranlage"
+    ],
+    "antonyms": [],
+    "related": [
+      "Abwasserleitung",
+      "Fallleitung",
+      "Rückstausicherung"
+    ],
+    "tags": [
+      "sanitär",
+      "abwasser",
+      "norm"
+    ],
+    "collections": [
+      "col-sanitaer",
+      "col-rohre",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Schmutzwasser",
+    "article": "das",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Pis su, kirli atık su (evsel ve ticari kullanım sonrası)",
+        "en": "wastewater, foul water"
+      }
+    ],
+    "noun": {
+      "noPlural": true,
+      "genitiv": "des Schmutzwassers"
+    },
+    "examples": [
+      {
+        "de": "Im Trennsystem wird häusliches Schmutzwasser strikt getrennt vom Regenwasser abgeleitet.",
+        "tr": "Ayrık sistemde evsel pis su, yağmur suyundan kesin olarak ayrı şekilde tahliye edilir."
+      },
+      {
+        "de": "Fäkalienhaltiges Schmutzwasser unterhalb der Rückstauebene darf nur über eine Hebeanlage entsorgt werden.",
+        "tr": "Geri tepme seviyesinin altındaki foseptik içerikli pis su yalnızca bir terfi istasyonu üzerinden tahliye edilebilir."
+      }
+    ],
+    "synonyms": [
+      "Abwasser"
+    ],
+    "antonyms": [
+      "Trinkwasser",
+      "Regenwasser"
+    ],
+    "related": [
+      "Schmutzwasserleitung",
+      "Hebeanlage",
+      "Trennsystem"
+    ],
+    "tags": [
+      "sanitär",
+      "abwasser"
+    ],
+    "collections": [
+      "col-sanitaer",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Rückstausicherung",
+    "article": "die",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Geri tepme önleme tertibatı / koruması",
+        "en": "backwater protection, backflow prevention"
+      }
+    ],
+    "noun": {
+      "plural": "die Rückstausicherungen",
+      "genitiv": "der Rückstausicherung"
+    },
+    "examples": [
+      {
+        "de": "Ohne funktionierende Rückstausicherung kann bei Starkregen Abwasser aus der Kanalisation in den Keller drücken.",
+        "tr": "Çalışan bir geri tepme koruması olmadan şiddetli yağmurda kanalizasyondan bodruma pis su basabilir."
+      },
+      {
+        "de": "Wir weisen den Bauherrn schriftlich darauf hin, dass die Rückstausicherung zweimal jährlich gewartet werden muss.",
+        "tr": "Yapı sahibine geri tepme korumasının yılda iki kez bakımının yapılması gerektiğini yazılı olarak bildiriyoruz."
+      }
+    ],
+    "synonyms": [
+      "Rückstauschutz"
+    ],
+    "antonyms": [],
+    "related": [
+      "Rückstauverschluss",
+      "Rückstauebene",
+      "Abwasserhebeanlage"
+    ],
+    "tags": [
+      "sanitär",
+      "abwasser",
+      "sicherheit"
+    ],
+    "collections": [
+      "col-sanitaer",
+      "col-sicherheit",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Schallschutzanforderung",
+    "article": "die",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Ses yalıtımı gereksinimi / şartı (DIN 4109)",
+        "en": "sound insulation requirement"
+      }
+    ],
+    "noun": {
+      "plural": "die Schallschutzanforderungen",
+      "genitiv": "der Schallschutzanforderung"
+    },
+    "examples": [
+      {
+        "de": "In Mehrfamilienhäusern gelten erhöhte Schallschutzanforderungen für Abwasserfallleitungen und Vorwandelemente.",
+        "tr": "Çok daireli binalarda pis su düşey boruları ve gömme rezervuar modülleri için artırılmış ses yalıtımı şartları geçerlidir."
+      },
+      {
+        "de": "Um alle Schallschutzanforderungen einzuhalten, verwenden wir schallgedämmte Rohre und entkoppelte Rohrschellen.",
+        "tr": "Tüm ses yalıtımı gereksinimlerini karşılamak için ses yalıtımlı borular ve titreşim izoleli kelepçeler kullanıyoruz."
+      }
+    ],
+    "synonyms": [
+      "Schallschutzvorgabe"
+    ],
+    "antonyms": [],
+    "related": [
+      "Schallschutz",
+      "Körperschall",
+      "Schallentkopplung"
+    ],
+    "tags": [
+      "sanitär",
+      "akustik",
+      "norm"
+    ],
+    "collections": [
+      "col-sanitaer",
+      "col-montage",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Ausdehnungsbogen",
+    "article": "der",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Genleşme dirseği / U-genleşme parçası (Lira)",
+        "en": "expansion loop, expansion U-bend"
+      }
+    ],
+    "noun": {
+      "plural": "die Ausdehnungsbögen",
+      "genitiv": "des Ausdehnungsbogens"
+    },
+    "examples": [
+      {
+        "de": "Auf langen geraden Warmwasserleitungen nimmt ein Ausdehnungsbogen die thermische Längenänderung sicher auf.",
+        "tr": "Uzun düz sıcak su hatlarında bir genleşme dirseği ısıl boy değişimini güvenle karşılar."
+      },
+      {
+        "de": "Achte beim Verlegen darauf, dass der Ausdehnungsbogen genügend Bewegungsfreiheit in der Dämmung behält.",
+        "tr": "Döşeme sırasında genleşme dirseğinin yalıtım içinde yeterli hareket serbestliğine sahip olmasına dikkat et."
+      }
+    ],
+    "synonyms": [
+      "Dehnungsbogen",
+      "U-Bogen"
+    ],
+    "antonyms": [],
+    "related": [
+      "Längenausdehnung",
+      "Kompensator",
+      "Festpunkt",
+      "Gleitlager"
+    ],
+    "tags": [
+      "rohre",
+      "montage",
+      "heizung"
+    ],
+    "collections": [
+      "col-rohre",
+      "col-montage",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Rohrbefestigung",
+    "article": "die",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Boru sabitleme / askılama tertibatı",
+        "en": "pipe mounting, pipe fastening"
+      }
+    ],
+    "noun": {
+      "plural": "die Rohrbefestigungen",
+      "genitiv": "der Rohrbefestigung"
+    },
+    "examples": [
+      {
+        "de": "Bei der Rohrbefestigung müssen die vom Hersteller vorgegebenen maximalen Schellenabstände eingehalten werden.",
+        "tr": "Boru sabitlemesinde üretici tarafından belirtilen maksimum kelepçe aralıklarına uyulmalıdır."
+      },
+      {
+        "de": "In Fluchtwegen darf die Rohrbefestigung ausschließlich mit nicht brennbaren Dübeln und Stahlschellen erfolgen.",
+        "tr": "Kaçış yollarında boru sabitlemesi yalnızca yanmaz dübeller ve çelik kelepçelerle yapılabilir."
+      }
+    ],
+    "synonyms": [
+      "Rohrhalterung"
+    ],
+    "antonyms": [],
+    "related": [
+      "Rohrschelle",
+      "Befestigungstechnik",
+      "Festpunkt"
+    ],
+    "tags": [
+      "rohre",
+      "montage",
+      "befestigung"
+    ],
+    "collections": [
+      "col-rohre",
+      "col-montage",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Gefährdungsanalyse",
+    "article": "die",
+    "type": "noun",
+    "level": "C1",
+    "senses": [
+      {
+        "tr": "Tehlike / risk analizi (özellikle TrinkwV kapsamında lejyonella tespitinde)",
+        "en": "hazard analysis, risk assessment"
+      }
+    ],
+    "noun": {
+      "plural": "die Gefährdungsanalysen",
+      "genitiv": "der Gefährdungsanalyse"
+    },
+    "examples": [
+      {
+        "de": "Wird der technische Maßnahmenwert für Legionellen überschritten, schreibt die Trinkwasserverordnung eine Gefährdungsanalyse vor.",
+        "tr": "Lejyonella için teknik önlem değeri aşılırsa, İçme Suyu Yönetmeliği bir tehlike analizi yapılmasını zorunlu kılar."
+      },
+      {
+        "de": "Die Gefährdungsanalyse deckt bautechnische Mängel wie ungenutzte Totleitungen oder zu niedrige Speichertemperaturen auf.",
+        "tr": "Tehlike analizi, kullanılmayan kör hatlar veya çok düşük boyler sıcaklıkları gibi yapısal kusurları ortaya çıkarır."
+      }
+    ],
+    "synonyms": [
+      "Risikoabschätzung"
+    ],
+    "antonyms": [],
+    "related": [
+      "Trinkwasserverordnung",
+      "Legionellen",
+      "Totleitung"
+    ],
+    "tags": [
+      "sanitär",
+      "hygiene",
+      "recht",
+      "c1"
+    ],
+    "collections": [
+      "col-sanitaer",
+      "col-doku",
+      "col-c1"
+    ]
+  },
+  {
+    "german": "Strömungsteiler",
+    "article": "der",
+    "type": "noun",
+    "level": "C1",
+    "senses": [
+      {
+        "tr": "Akış bölücü / yönlendirici (ring hattında su dolaşımını zorlayan parça)",
+        "en": "flow splitter, venturi flow divider"
+      }
+    ],
+    "noun": {
+      "plural": "die Strömungsteiler",
+      "genitiv": "des Strömungsteilers"
+    },
+    "examples": [
+      {
+        "de": "Ein Strömungsteiler lenkt bei jeder Wasserentnahme einen Teilstrom durch die gesamte Ringleitung.",
+        "tr": "Bir akış bölücü, her su alımında akışın bir kısmını tüm ring hattı boyunca yönlendirir."
+      },
+      {
+        "de": "Durch den gezielten Einsatz von Strömungsteilern wird Stagnation in selten genutzten Gäste-WCs zuverlässig verhindert.",
+        "tr": "Akış bölücülerin bilinçli kullanımıyla nadiren kullanılan misafir tuvaletlerinde suyun durgunlaşması güvenle önlenir."
+      }
+    ],
+    "synonyms": [
+      "Venturi-Strömungsteiler"
+    ],
+    "antonyms": [],
+    "related": [
+      "Ringleitung",
+      "Wasserwechsel",
+      "Trinkwasserhygiene"
+    ],
+    "tags": [
+      "sanitär",
+      "hygiene",
+      "hydraulik",
+      "c1"
+    ],
+    "collections": [
+      "col-sanitaer",
+      "col-rohre",
+      "col-c1"
+    ]
+  },
+  {
+    "german": "Druckstoßdämpfer",
+    "article": "der",
+    "type": "noun",
+    "level": "C1",
+    "senses": [
+      {
+        "tr": "Koç darbesi önleyici, basınç darbesi sönümleyici",
+        "en": "water hammer arrestor, surge dampener"
+      }
+    ],
+    "noun": {
+      "plural": "die Druckstoßdämpfer",
+      "genitiv": "des Druckstoßdämpfers"
+    },
+    "examples": [
+      {
+        "de": "Vor schnell schließenden Magnetventilen von Waschmaschinen bauen wir einen Druckstoßdämpfer ein.",
+        "tr": "Çamaşır makinelerinin hızlı kapanan selenoid vanalarının önüne bir koç darbesi önleyici takıyoruz."
+      },
+      {
+        "de": "Der Druckstoßdämpfer schützt Armaturen und Rohrverbindungen vor lauten Schlägen und Materialermüdung.",
+        "tr": "Koç darbesi önleyici, armatürleri ve boru bağlantılarını yüksek vuruntu seslerinden ve malzeme yorulmasından korur."
+      }
+    ],
+    "synonyms": [
+      "Wasserschlagdämpfer"
+    ],
+    "antonyms": [],
+    "related": [
+      "Druckstoß",
+      "Magnetventil",
+      "Armatur"
+    ],
+    "tags": [
+      "sanitär",
+      "hydraulik",
+      "schallschutz",
+      "c1"
+    ],
+    "collections": [
+      "col-sanitaer",
+      "col-rohre",
+      "col-c1"
+    ]
+  },
+  {
+    "german": "Sanitärkeramik",
+    "article": "die",
+    "type": "noun",
+    "level": "C1",
+    "senses": [
+      {
+        "tr": "Vitrifiye, sıhhi seramik ürünleri",
+        "en": "sanitary ceramics, vitreous china"
+      }
+    ],
+    "noun": {
+      "plural": "die Sanitärkeramiken",
+      "genitiv": "der Sanitärkeramik"
+    },
+    "examples": [
+      {
+        "de": "Bei der Fertigmontage wird die empfindliche Sanitärkeramik erst nach Abschluss aller Fliesenarbeiten angebracht.",
+        "tr": "Son montajda hassas vitrifiye ürünleri ancak tüm fayans işleri tamamlandıktan sonra takılır."
+      },
+      {
+        "de": "Hochwertige Sanitärkeramik mit Spezialglasur erleichtert die Reinigung und reduziert Kalkablagerungen.",
+        "tr": "Özel sırlı kaliteli vitrifiye seramik, temizliği kolaylaştırır ve kireç birikimini azaltır."
+      }
+    ],
+    "synonyms": [
+      "Keramikobjekte"
+    ],
+    "antonyms": [],
+    "related": [
+      "Sanitärobjekt",
+      "Waschtisch",
+      "Fertigmontage"
+    ],
+    "tags": [
+      "sanitär",
+      "material",
+      "c1"
+    ],
+    "collections": [
+      "col-sanitaer",
+      "col-montage",
+      "col-c1"
+    ]
+  },
+  {
+    "german": "Bauzeitverzögerung",
+    "article": "die",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "İnşaat / şantiye süresi gecikmesi",
+        "en": "construction delay"
+      }
+    ],
+    "noun": {
+      "plural": "die Bauzeitverzögerungen",
+      "genitiv": "der Bauzeitverzögerung"
+    },
+    "examples": [
+      {
+        "de": "Wegen fehlender Vorleistungen des Rohbaus droht uns eine mehrwöchige Bauzeitverzögerung.",
+        "tr": "Kaba inşaatın eksik ön işleri nedeniyle birkaç haftalık bir inşaat gecikmesi tehlikesiyle karşı karşıyayız."
+      },
+      {
+        "de": "Jede unverschuldete Bauzeitverzögerung muss umgehend per Behinderungsanzeige schriftlich gemeldet werden.",
+        "tr": "Kusurumuz dışındaki her inşaat gecikmesi derhal engelleme bildirimiyle yazılı olarak rapor edilmelidir."
+      }
+    ],
+    "synonyms": [
+      "Bauverzögerung"
+    ],
+    "antonyms": [],
+    "related": [
+      "Bauzeitenplan",
+      "Behinderungsanzeige",
+      "Ausführungsfrist"
+    ],
+    "tags": [
+      "baurecht",
+      "vob",
+      "baustelle"
+    ],
+    "collections": [
+      "col-doku",
+      "col-meister",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Abnahmefrist",
+    "article": "die",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "İş kabul süresi / mühleti",
+        "en": "acceptance deadline, acceptance period"
+      }
+    ],
+    "noun": {
+      "plural": "die Abnahmefristen",
+      "genitiv": "der Abnahmefrist"
+    },
+    "examples": [
+      {
+        "de": "Nach Fertigstellung der Anlage setzen wir dem Auftraggeber eine verbindliche Abnahmefrist von zwölf Werktagen.",
+        "tr": "Tesisin tamamlanmasının ardından işverene on iki iş günlük bağlayıcı bir kabul süresi tanıyoruz."
+      },
+      {
+        "de": "Verstreicht die Abnahmefrist ohne berechtigte Mängelrüge, gilt die Leistung unter Umständen als fiktiv abgenommen.",
+        "tr": "Kabul süresi haklı bir kusur bildirimi olmadan geçerse, iş belirli koşullarda zımnen kabul edilmiş sayılır."
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "related": [
+      "Abnahme",
+      "Abnahmeprotokoll",
+      "Frist"
+    ],
+    "tags": [
+      "baurecht",
+      "vob",
+      "dokumentation"
+    ],
+    "collections": [
+      "col-doku",
+      "col-meister",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Mängelbeseitigung",
+    "article": "die",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Kusur / ayıp giderme",
+        "en": "defect rectification, remediation of defects"
+      }
+    ],
+    "noun": {
+      "plural": "die Mängelbeseitigungen",
+      "genitiv": "der Mängelbeseitigung"
+    },
+    "examples": [
+      {
+        "de": "Die fristgerechte Mängelbeseitigung an der Zirkulationsleitung wurde heute vom Bauleiter schriftlich bestätigt.",
+        "tr": "Sirkülasyon hattındaki kusurun süresinde giderildiği bugün şantiye şefi tarafından yazılı olarak onaylandı."
+      },
+      {
+        "de": "Nach erfolgreicher Mängelbeseitigung erstellen wir ein kurzes Nachtragsprotokoll mit Fotos.",
+        "tr": "Başarılı kusur gideriminin ardından fotoğraflı kısa bir ek protokol hazırlıyoruz."
+      }
+    ],
+    "synonyms": [
+      "Mängelbehebung",
+      "Nachbesserung"
+    ],
+    "antonyms": [],
+    "related": [
+      "Mängelliste",
+      "Mängelrüge",
+      "Gewährleistung"
+    ],
+    "tags": [
+      "baurecht",
+      "vob",
+      "qualität"
+    ],
+    "collections": [
+      "col-doku",
+      "col-meister",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Ausführungsfrist",
+    "article": "die",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "İcra / yapım süresi (VOB/B)",
+        "en": "execution period, completion deadline"
+      }
+    ],
+    "noun": {
+      "plural": "die Ausführungsfristen",
+      "genitiv": "der Ausführungsfrist"
+    },
+    "examples": [
+      {
+        "de": "Die vertraglich vereinbarte Ausführungsfrist verlängert sich bei nachgewiesenen Lieferengpässen entsprechend.",
+        "tr": "Sözleşmede kararlaştırılan yapım süresi, kanıtlanmış tedarik sıkıntılarında buna uygun olarak uzar."
+      },
+      {
+        "de": "Um die knappe Ausführungsfrist einzuhalten, setzen wir in dieser Woche zwei zusätzliche Monteure ein.",
+        "tr": "Dar yapım süresine uymak için bu hafta iki ilave montaj teknisyeni görevlendiriyoruz."
+      }
+    ],
+    "synonyms": [
+      "Fertigstellungsfrist"
+    ],
+    "antonyms": [],
+    "related": [
+      "Bauzeitenplan",
+      "Bauzeitverzögerung",
+      "Vertragsstrafe"
+    ],
+    "tags": [
+      "baurecht",
+      "vob",
+      "planung"
+    ],
+    "collections": [
+      "col-doku",
+      "col-meister",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Leistungsbeschreibung",
+    "article": "die",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "İş tanımı, teknik şartname",
+        "en": "service specification, bill of work"
+      }
+    ],
+    "noun": {
+      "plural": "die Leistungsbeschreibungen",
+      "genitiv": "der Leistungsbeschreibung"
+    },
+    "examples": [
+      {
+        "de": "Eine eindeutige Leistungsbeschreibung verhindert spätere Streitigkeiten über enthaltene Nebenleistungen.",
+        "tr": "Net bir teknik şartname, dahil olan yan işler hakkındaki sonraki anlaşmazlıkları önler."
+      },
+      {
+        "de": "Arbeiten, die nicht in der Leistungsbeschreibung stehen, müssen vor Ausführung als Nachtrag angemeldet werden.",
+        "tr": "Teknik şartnamede yer almayan işler, yapılmadan önce ek iş (Nachtrag) olarak bildirilmelidir."
+      }
+    ],
+    "synonyms": [
+      "Baubeschreibung"
+    ],
+    "antonyms": [],
+    "related": [
+      "Leistungsverzeichnis",
+      "Ausschreibung",
+      "Nachtrag"
+    ],
+    "tags": [
+      "baurecht",
+      "vob",
+      "dokumentation"
+    ],
+    "collections": [
+      "col-doku",
+      "col-meister",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Stundenlohnarbeit",
+    "article": "die",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Saatlik ücretle yapılan iş, yevmiye işi (Regiearbeit)",
+        "en": "hourly-rate work, daywork"
+      }
+    ],
+    "noun": {
+      "plural": "die Stundenlohnarbeiten",
+      "genitiv": "der Stundenlohnarbeit"
+    },
+    "examples": [
+      {
+        "de": "Nach VOB/B wird eine Stundenlohnarbeit nur vergütet, wenn sie vorab ausdrücklich vereinbart wurde.",
+        "tr": "VOB/B'ye göre saatlik ücretli iş ancak önceden açıkça kararlaştırılmışsa ödenir."
+      },
+      {
+        "de": "Alle geleisteten Stundenlohnarbeiten tragen wir täglich auf dem Regiebericht ein und lassen sie gegenzeichnen.",
+        "tr": "Yapılan tüm saatlik işleri günlük olarak puantaj raporuna işliyor ve karşılıklı imzalatıyoruz."
+      }
+    ],
+    "synonyms": [
+      "Regiearbeit"
+    ],
+    "antonyms": [
+      "Pauschalpreis"
+    ],
+    "related": [
+      "Regiebericht",
+      "Stundenverrechnungssatz",
+      "Stundenzettel"
+    ],
+    "tags": [
+      "baurecht",
+      "vob",
+      "abrechnung"
+    ],
+    "collections": [
+      "col-doku",
+      "col-meister",
+      "col-beruf",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Projektbesprechung",
+    "article": "die",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Proje toplantısı",
+        "en": "project meeting"
+      }
+    ],
+    "noun": {
+      "plural": "die Projektbesprechungen",
+      "genitiv": "der Projektbesprechung"
+    },
+    "examples": [
+      {
+        "de": "In der wöchentlichen Projektbesprechung stimmen wir die Termine mit dem Elektriker und dem Trockenbauer ab.",
+        "tr": "Haftalık proje toplantısında elektrikçi ve alçıpancıyla tarihleri koordine ediyoruz."
+      },
+      {
+        "de": "Alle wichtigen Beschlüsse der Projektbesprechung werden schriftlich im Besprechungsprotokoll festgehalten.",
+        "tr": "Proje toplantısının tüm önemli kararları yazılı olarak toplantı tutanağına geçirilir."
+      }
+    ],
+    "synonyms": [
+      "Baubesprechung"
+    ],
+    "antonyms": [],
+    "related": [
+      "Baustellenbesprechung",
+      "Schnittstellenkoordination",
+      "Protokoll"
+    ],
+    "tags": [
+      "beruf",
+      "kommunikation",
+      "planung"
+    ],
+    "collections": [
+      "col-beruf",
+      "col-techkom",
+      "col-meister",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Einsatzbereitschaft",
+    "article": "die",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Göreve hazır olma, özveri, iş istekliliği",
+        "en": "operational readiness, commitment, willingness to act"
+      }
+    ],
+    "noun": {
+      "noPlural": true,
+      "genitiv": "der Einsatzbereitschaft"
+    },
+    "examples": [
+      {
+        "de": "Im winterlichen Notdienst schätzen unsere Kunden besonders die schnelle Einsatzbereitschaft unseres Teams.",
+        "tr": "Kışın acil servis hizmetinde müşterilerimiz özellikle ekibimizin hızlı göreve hazır olmasını takdir ediyor."
+      },
+      {
+        "de": "Hohe Einsatzbereitschaft und Zuverlässigkeit sind im Handwerk entscheidende Eigenschaften.",
+        "tr": "Yüksek özveri ve güvenilirlik zanaat sektöründe belirleyici özelliklerdir."
+      }
+    ],
+    "synonyms": [
+      "Engagement"
+    ],
+    "antonyms": [],
+    "related": [
+      "Bereitschaftsdienst",
+      "Zuverlässigkeit",
+      "Eigeninitiative"
+    ],
+    "tags": [
+      "beruf",
+      "softskills"
+    ],
+    "collections": [
+      "col-beruf",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Kundenbetreuung",
+    "article": "die",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Müşteri ilişkileri / müşteri hizmetleri ve takibi",
+        "en": "customer care, customer support"
+      }
+    ],
+    "noun": {
+      "noPlural": true,
+      "genitiv": "der Kundenbetreuung"
+    },
+    "examples": [
+      {
+        "de": "Eine persönliche und kompetente Kundenbetreuung sorgt für langfristige Wartungsverträge.",
+        "tr": "Kişisel ve yetkin bir müşteri takibi, uzun vadeli bakım sözleşmeleri sağlar."
+      },
+      {
+        "de": "Nach der Übergabe der neuen Heizung gehört die telefonische Rückfrage zur guten Kundenbetreuung.",
+        "tr": "Yeni ısıtma sisteminin tesliminden sonra telefonla geri dönüş yapmak iyi müşteri hizmetinin bir parçasıdır."
+      }
+    ],
+    "synonyms": [
+      "Kundenservice"
+    ],
+    "antonyms": [],
+    "related": [
+      "Kundenbindung",
+      "kundenorientiert",
+      "Kundendienst"
+    ],
+    "tags": [
+      "kunden",
+      "beruf",
+      "kommunikation"
+    ],
+    "collections": [
+      "col-kunden",
+      "col-beruf",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Arbeitsvorbereitung",
+    "article": "die",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "İş hazırlığı (malzeme, takım ve planlama organizasyonu)",
+        "en": "work preparation, job planning"
+      }
+    ],
+    "noun": {
+      "noPlural": true,
+      "genitiv": "der Arbeitsvorbereitung"
+    },
+    "examples": [
+      {
+        "de": "Eine gründliche Arbeitsvorbereitung am Vorabend verhindert unnötige Fahrten zum Großhandel.",
+        "tr": "Bir önceki akşam yapılan titiz bir iş hazırlığı, toptancıya gereksiz gidip gelmeleri önler."
+      },
+      {
+        "de": "Zur Arbeitsvorbereitung gehören die Prüfung der Stückliste sowie das Bereitstellen aller Spezialwerkzeuge.",
+        "tr": "Malzeme listesinin kontrolü ve tüm özel aletlerin hazır edilmesi iş hazırlığına dahildir."
+      }
+    ],
+    "synonyms": [
+      "AV",
+      "Einsatzvorbereitung"
+    ],
+    "antonyms": [],
+    "related": [
+      "Einsatzplanung",
+      "Stückliste",
+      "Materialbedarf"
+    ],
+    "tags": [
+      "beruf",
+      "montage",
+      "organisation"
+    ],
+    "collections": [
+      "col-beruf",
+      "col-montage",
+      "col-meister",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Gefahrenzulage",
+    "article": "die",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Tehlike tazminatı / risk primi",
+        "en": "hazard pay, danger allowance"
+      }
+    ],
+    "noun": {
+      "plural": "die Gefahrenzulagen",
+      "genitiv": "der Gefahrenzulage"
+    },
+    "examples": [
+      {
+        "de": "Für Arbeiten in engen Abwasserschächten oder stark belasteten Bereichen erhalten Monteure oft eine Gefahrenzulage.",
+        "tr": "Dar kanalizasyon şaftlarında veya yüksek riskli alanlarda yapılan çalışmalar için teknisyenler genellikle tehlike tazminatı alır."
+      },
+      {
+        "de": "Die Höhe der Gefahrenzulage ist im jeweiligen Tarifvertrag genau geregelt.",
+        "tr": "Tehlike tazminatının tutarı ilgili toplu iş sözleşmesinde kesin olarak düzenlenmiştir."
+      }
+    ],
+    "synonyms": [
+      "Erschwerniszulage"
+    ],
+    "antonyms": [],
+    "related": [
+      "Gehalt",
+      "Lohnabrechnung",
+      "Arbeitsschutz"
+    ],
+    "tags": [
+      "beruf",
+      "sicherheit",
+      "lohn"
+    ],
+    "collections": [
+      "col-beruf",
+      "col-sicherheit",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Sicherheitsunterweisung",
+    "article": "die",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "İş güvenliği eğitimi / bilgilendirmesi",
+        "en": "safety briefing, safety instruction"
+      }
+    ],
+    "noun": {
+      "plural": "die Sicherheitsunterweisungen",
+      "genitiv": "der Sicherheitsunterweisung"
+    },
+    "examples": [
+      {
+        "de": "Jeder Mitarbeiter muss mindestens einmal jährlich an der verpflichtenden Sicherheitsunterweisung teilnehmen.",
+        "tr": "Her çalışan yılda en az bir kez zorunlu iş güvenliği eğitimine katılmak zorundadır."
+      },
+      {
+        "de": "Vor dem ersten Einsatz auf einer Großbaustelle findet eine objektbezogene Sicherheitsunterweisung statt.",
+        "tr": "Büyük bir şantiyedeki ilk görevden önce projeye özel bir iş güvenliği bilgilendirmesi yapılır."
+      }
+    ],
+    "synonyms": [
+      "Arbeitsschutzunterweisung"
+    ],
+    "antonyms": [],
+    "related": [
+      "Unterweisung",
+      "Unterweisungsnachweis",
+      "Arbeitsschutz"
+    ],
+    "tags": [
+      "sicherheit",
+      "beruf",
+      "dokumentation"
+    ],
+    "collections": [
+      "col-sicherheit",
+      "col-beruf",
+      "col-doku",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Prüfzeugnis",
+    "article": "das",
+    "type": "noun",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Test sertifikası, muayene belgesi",
+        "en": "test certificate, inspection certificate"
+      }
+    ],
+    "noun": {
+      "plural": "die Prüfzeugnisse",
+      "genitiv": "des Prüfzeugnisses"
+    },
+    "examples": [
+      {
+        "de": "Für die verbauten Brandschutzmanschetten legen wir der Dokumentation das allgemeine bauaufsichtliche Prüfzeugnis bei.",
+        "tr": "Takılan yangın manşonları için dokümantasyona genel yapı denetim test sertifikasını ekliyoruz."
+      },
+      {
+        "de": "Ohne gültiges Prüfzeugnis darf das Bauteil im Trinkwasserbereich nicht verwendet werden.",
+        "tr": "Geçerli test sertifikası olmadan bu yapı elemanı içme suyu alanında kullanılamaz."
+      }
+    ],
+    "synonyms": [
+      "Prüfzertifikat"
+    ],
+    "antonyms": [],
+    "related": [
+      "Zulassung",
+      "Prüfbericht",
+      "Konformitätserklärung"
+    ],
+    "tags": [
+      "dokumentation",
+      "qualität",
+      "norm"
+    ],
+    "collections": [
+      "col-doku",
+      "col-sicherheit",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "Vertragsstrafe",
+    "article": "die",
+    "type": "noun",
+    "level": "C1",
+    "senses": [
+      {
+        "tr": "Sözleşme cezası, gecikme cezası (VOB/B)",
+        "en": "contractual penalty, liquidated damages"
+      }
+    ],
+    "noun": {
+      "plural": "die Vertragsstrafen",
+      "genitiv": "der Vertragsstrafe"
+    },
+    "examples": [
+      {
+        "de": "Bei schuldhafter Überschreitung des Fertigstellungstermins kann der Auftraggeber eine Vertragsstrafe geltend machen.",
+        "tr": "Teslim tarihinin kusurlu olarak aşılması durumunda işveren sözleşme cezası talep edebilir."
+      },
+      {
+        "de": "In der Rechtsprechung ist die Höhe einer zulässigen Vertragsstrafe im Bauvertrag auf maximal fünf Prozent der Auftragssumme begrenzt.",
+        "tr": "Yargı içtihatlarında inşaat sözleşmesindeki geçerli sözleşme cezası tutarı, ihale bedelinin en fazla yüzde beşiyle sınırlandırılmıştır."
+      }
+    ],
+    "synonyms": [
+      "Konventionalstrafe"
+    ],
+    "antonyms": [],
+    "related": [
+      "Ausführungsfrist",
+      "Bauzeitverzögerung",
+      "Haftung"
+    ],
+    "tags": [
+      "baurecht",
+      "vob",
+      "meister",
+      "c1"
+    ],
+    "collections": [
+      "col-meister",
+      "col-doku",
+      "col-c1"
+    ]
+  },
+  {
+    "german": "Schadensersatzanspruch",
+    "article": "der",
+    "type": "noun",
+    "level": "C1",
+    "senses": [
+      {
+        "tr": "Tazminat hakkı / zarar tazmini talebi",
+        "en": "claim for damages"
+      }
+    ],
+    "noun": {
+      "plural": "die Schadensersatzansprüche",
+      "genitiv": "des Schadensersatzanspruchs"
+    },
+    "examples": [
+      {
+        "de": "Entsteht durch eine unsachgemäße Pressverbindung ein Wasserschaden, hat der Kunde einen Schadensersatzanspruch.",
+        "tr": "Usulüne uygun olmayan bir pres bağlantısı nedeniyle su hasarı oluşursa, müşterinin tazminat hakkı doğar."
+      },
+      {
+        "de": "Um unberechtigte Schadensersatzansprüche abzuwehren, ist eine lückenlose Fotodokumentation unverzichtbar.",
+        "tr": "Haksız tazminat taleplerini bertaraf etmek için eksiksiz bir fotoğraf dokümantasyonu vazgeçilmezdir."
+      }
+    ],
+    "synonyms": [
+      "Ersatzanspruch"
+    ],
+    "antonyms": [],
+    "related": [
+      "Haftung",
+      "Haftpflichtversicherung",
+      "Schadensmeldung"
+    ],
+    "tags": [
+      "baurecht",
+      "recht",
+      "meister",
+      "c1"
+    ],
+    "collections": [
+      "col-meister",
+      "col-doku",
+      "col-c1"
+    ]
+  },
+  {
+    "german": "Gewährleistungseinbehalt",
+    "article": "der",
+    "type": "noun",
+    "level": "C1",
+    "senses": [
+      {
+        "tr": "Garanti teminat kesintisi (VOB/B)",
+        "en": "warranty retention, defects retention"
+      }
+    ],
+    "noun": {
+      "plural": "die Gewährleistungseinbehalte",
+      "genitiv": "des Gewährleistungseinbehalts"
+    },
+    "examples": [
+      {
+        "de": "Bei der Schlussrechnung behält der Auftraggeber vertraglich fünf Prozent als Gewährleistungseinbehalt ein.",
+        "tr": "Kesin hesap faturasında işveren, sözleşme gereği yüzde beşlik kısmı garanti teminat kesintisi olarak alıkoyar."
+      },
+      {
+        "de": "Der Gewährleistungseinbehalt kann häufig durch eine Bankbürgschaft abgelöst werden, um die Liquidität zu sichern.",
+        "tr": "Garanti teminat kesintisi, nakit akışını güvence altına almak için sıklıkla banka teminat mektubuyla değiştirilebilir."
+      }
+    ],
+    "synonyms": [
+      "Sicherheitseinbehalt"
+    ],
+    "antonyms": [],
+    "related": [
+      "Gewährleistung",
+      "Schlussrechnung",
+      "Gewährleistungsfrist"
+    ],
+    "tags": [
+      "baurecht",
+      "vob",
+      "finanzen",
+      "c1"
+    ],
+    "collections": [
+      "col-meister",
+      "col-doku",
+      "col-c1"
+    ]
+  },
+  {
+    "german": "Subunternehmervertrag",
+    "article": "der",
+    "type": "noun",
+    "level": "C1",
+    "senses": [
+      {
+        "tr": "Taşeron sözleşmesi, alt yüklenici sözleşmesi",
+        "en": "subcontractor agreement, subcontract"
+      }
+    ],
+    "noun": {
+      "plural": "die Subunternehmerverträge",
+      "genitiv": "des Subunternehmervertrags"
+    },
+    "examples": [
+      {
+        "de": "Im Subunternehmervertrag werden Leistungsumfang, Gewährleistungsfristen und Sicherheitsauflagen klar geregelt.",
+        "tr": "Taşeron sözleşmesinde iş kapsamı, garanti süreleri ve güvenlik şartları açıkça düzenlenir."
+      },
+      {
+        "de": "Vor Unterzeichnung des Subunternehmervertrags prüfen wir die Unbedenklichkeitsbescheinigungen des Partners.",
+        "tr": "Taşeron sözleşmesini imzalamadan önce iş ortağının borcu yoktur belgelerini kontrol ediyoruz."
+      }
+    ],
+    "synonyms": [
+      "Nachunternehmervertrag"
+    ],
+    "antonyms": [],
+    "related": [
+      "Subunternehmer",
+      "Auftragnehmer",
+      "Auftraggeber"
+    ],
+    "tags": [
+      "baurecht",
+      "meister",
+      "vertrag",
+      "c1"
+    ],
+    "collections": [
+      "col-meister",
+      "col-doku",
+      "col-c1"
+    ]
+  },
+  {
+    "german": "Ausschreibungsunterlagen",
+    "article": "die",
+    "type": "noun",
+    "level": "C1",
+    "senses": [
+      {
+        "tr": "İhale dokümanları / dosyası",
+        "en": "tender documents, bidding documents"
+      }
+    ],
+    "noun": {
+      "pluralOnly": true,
+      "genitiv": "der Ausschreibungsunterlagen"
+    },
+    "examples": [
+      {
+        "de": "Wir prüfen die Ausschreibungsunterlagen sorgfältig auf technische Widersprüche, bevor wir ein Angebot abgeben.",
+        "tr": "Teklif vermeden önce ihale dokümanlarını teknik çelişkilere karşı titizlikle inceliyoruz."
+      },
+      {
+        "de": "Zu den Ausschreibungsunterlagen zählen das Leistungsverzeichnis, die Grundrisse und die besonderen Vertragsbedingungen.",
+        "tr": "Keşif özeti, kat planları ve özel sözleşme şartları ihale dokümanları arasında yer alır."
+      }
+    ],
+    "synonyms": [
+      "Vergabeunterlagen"
+    ],
+    "antonyms": [],
+    "related": [
+      "Ausschreibung",
+      "Leistungsverzeichnis",
+      "Angebot"
+    ],
+    "tags": [
+      "baurecht",
+      "meister",
+      "dokumentation",
+      "c1"
+    ],
+    "notes": "Yalnızca çoğul (Pluralwort) olarak kullanılır: die Ausschreibungsunterlagen.",
+    "collections": [
+      "col-meister",
+      "col-doku",
+      "col-c1"
+    ]
+  },
+  {
+    "german": "bördeln",
+    "article": null,
+    "type": "verb",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Havşa açmak (boru ucunu konik olarak genişletmek)",
+        "en": "to flare (a pipe)"
+      }
+    ],
+    "verb": {
+      "praesens3": "bördelt",
+      "praeteritum": "bördelte",
+      "partizip2": "gebördelt",
+      "auxiliary": "haben",
+      "irregular": false
+    },
+    "examples": [
+      {
+        "de": "Vergiss nicht, die Überwurfmutter auf das Kupferrohr zu schieben, bevor du das Ende bördelst.",
+        "tr": "Borunun ucuna havşa açmadan önce rakor somununu bakır boruya geçirmeyi unutma."
+      },
+      {
+        "de": "Nach dem Entgraten bördeln wir die Kältemittelleitung sauber und ziehen sie mit dem Drehmomentschlüssel an.",
+        "tr": "Çapak aldıktan sonra soğutucu akışkan borusuna temizce havşa açıyor ve tork anahtarıyla sıkıyoruz."
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "related": [
+      "Bördelgerät",
+      "Bördelverbindung",
+      "Überwurfmutter"
+    ],
+    "tags": [
+      "verb",
+      "kältetechnik",
+      "rohrbearbeitung"
+    ],
+    "collections": [
+      "col-verben",
+      "col-rohre",
+      "col-waermepumpe",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "dimensionieren",
+    "article": null,
+    "type": "verb",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Boyutlandırmak, kapasitesini / çapını hesaplamak",
+        "en": "to dimension, to size"
+      }
+    ],
+    "verb": {
+      "praesens3": "dimensioniert",
+      "praeteritum": "dimensionierte",
+      "partizip2": "dimensioniert",
+      "auxiliary": "haben",
+      "irregular": false
+    },
+    "examples": [
+      {
+        "de": "Wärmepumpen darf man niemals zu groß dimensionieren, da sie sonst in der Übergangszeit ständig takten.",
+        "tr": "Isı pompaları asla gereğinden büyük boyutlandırılmamalıdır, aksi halde geçiş mevsimlerinde sürekli dur-kalk yaparlar."
+      },
+      {
+        "de": "Wir dimensionieren die Trinkwasserleitungen knapp, um das Leitungsvolumen und das Stagnationsrisiko gering zu halten.",
+        "tr": "Hat hacmini ve durgunluk riskini düşük tutmak için içme suyu borularını dar (optimum) boyutlandırıyoruz."
+      }
+    ],
+    "synonyms": [
+      "auslegen",
+      "bemessen"
+    ],
+    "antonyms": [],
+    "related": [
+      "Auslegungstemperatur",
+      "Rohrnetzberechnung",
+      "Heizlastberechnung"
+    ],
+    "tags": [
+      "verb",
+      "planung",
+      "technik"
+    ],
+    "notes": "-ieren ile biten fiillerde Partizip II'de 'ge-' ön eki gelmez: dimensioniert.",
+    "collections": [
+      "col-verben",
+      "col-meister",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "entfeuchten",
+    "article": null,
+    "type": "verb",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Nemini almak, kurutmak",
+        "en": "to dehumidify"
+      }
+    ],
+    "verb": {
+      "praesens3": "entfeuchtet",
+      "praeteritum": "entfeuchtete",
+      "partizip2": "entfeuchtet",
+      "auxiliary": "haben",
+      "irregular": false
+    },
+    "examples": [
+      {
+        "de": "Der Bautrockner entfeuchtet den feuchten Kellerraum innerhalb weniger Tage zuverlässig.",
+        "tr": "Şantiye kurutma cihazı nemli bodrum odasının nemini birkaç gün içinde güvenle alır."
+      },
+      {
+        "de": "Im Sommer entfeuchtet die Klimaanlage die schwüle Raumluft automatisch über das Kühlregister.",
+        "tr": "Yazın klima sistemi bunaltıcı oda havasının nemini soğutma bataryası üzerinden otomatik olarak alır."
+      }
+    ],
+    "synonyms": [
+      "trocknen"
+    ],
+    "antonyms": [
+      "befeuchten"
+    ],
+    "related": [
+      "Entfeuchtung",
+      "Luftfeuchtigkeit",
+      "Kondensat"
+    ],
+    "tags": [
+      "verb",
+      "klima",
+      "bauphysik"
+    ],
+    "collections": [
+      "col-verben",
+      "col-heizung",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "nachdämmen",
+    "article": null,
+    "type": "verb",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Sonradan yalıtmak, yalıtımı takviye etmek",
+        "en": "to retrofit insulation, to re-insulate"
+      }
+    ],
+    "verb": {
+      "praesens3": "dämmt nach",
+      "praeteritum": "dämmte nach",
+      "partizip2": "nachgedämmt",
+      "auxiliary": "haben",
+      "irregular": false,
+      "separable": true
+    },
+    "examples": [
+      {
+        "de": "Alle ungedämmten Heizungsrohre im Keller sollten wir sofort nach GEG-Vorgaben nachdämmen.",
+        "tr": "Bodrumdaki tüm yalıtımsız ısıtma borularını GEG kurallarına göre derhal sonradan yalıtmalıyız."
+      },
+      {
+        "de": "Der Eigentümer lässt zuerst die oberste Geschossdecke nachdämmen, bevor die neue Heizung installiert wird.",
+        "tr": "Mülk sahibi yeni ısıtma sistemi kurulmadan önce en üst kat tavanının yalıtımını takviye ettiriyor."
+      }
+    ],
+    "synonyms": [
+      "nachträglich isolieren"
+    ],
+    "antonyms": [],
+    "related": [
+      "dämmen",
+      "Wärmedämmung",
+      "Rohrdämmung"
+    ],
+    "tags": [
+      "verb",
+      "dämmung",
+      "sanierung"
+    ],
+    "collections": [
+      "col-verben",
+      "col-heizung",
+      "col-montage",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "einmessen",
+    "article": null,
+    "type": "verb",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Ölçümle yerini belirlemek, kot/eksen ölçüp ayarlamak",
+        "en": "to measure in, to survey, to calibrate"
+      }
+    ],
+    "verb": {
+      "praesens3": "misst ein",
+      "praeteritum": "maß ein",
+      "partizip2": "eingemessen",
+      "auxiliary": "haben",
+      "irregular": true,
+      "separable": true
+    },
+    "examples": [
+      {
+        "de": "Vor dem Setzen der Vorwandelemente messen wir alle Anschlussmaße exakt mit dem Laser ein.",
+        "tr": "Gömme rezervuar modüllerini yerleştirmeden önce tüm bağlantı ölçülerini lazerle tam olarak ölçüp belirliyoruz."
+      },
+      {
+        "de": "Bei der Abnahme der Lüftungsanlage werden sämtliche Ventile auf die geplanten Luftmengen eingemessen.",
+        "tr": "Havalandırma sisteminin kabulünde tüm menfezler planlanan hava debilerine göre ölçülerek ayarlanır."
+      }
+    ],
+    "synonyms": [
+      "vermessungstechnisch festlegen",
+      "einregulieren"
+    ],
+    "antonyms": [],
+    "related": [
+      "messen",
+      "Nivellierlaser",
+      "Einregulierung"
+    ],
+    "tags": [
+      "verb",
+      "montage",
+      "messtechnik"
+    ],
+    "collections": [
+      "col-verben",
+      "col-montage",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "abdrücken",
+    "article": null,
+    "type": "verb",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Basınç testi yapmak (boruyu su veya hava basarak sızdırmazlık testine almak)",
+        "en": "to pressure-test (pipes)"
+      }
+    ],
+    "verb": {
+      "praesens3": "drückt ab",
+      "praeteritum": "drückte ab",
+      "partizip2": "abgedrückt",
+      "auxiliary": "haben",
+      "irregular": false,
+      "separable": true
+    },
+    "examples": [
+      {
+        "de": "Bevor der Estrich eingebracht wird, drücken wir alle Fußbodenheizkreise mit dem vorgeschriebenen Prüfdruck ab.",
+        "tr": "Şap dökülmeden önce tüm yerden ısıtma devrelerini öngörülen test basıncıyla basınç testine alıyoruz."
+      },
+      {
+        "de": "Wir haben die neue Kupferleitung mit ölfreier Druckluft abgedrückt und das Ergebnis protokolliert.",
+        "tr": "Yeni bakır hattı yağsız basınçlı havayla basınç testine tabi tuttuk ve sonucu protokole işledik."
+      }
+    ],
+    "synonyms": [
+      "einer Druckprüfung unterziehen"
+    ],
+    "antonyms": [],
+    "related": [
+      "Druckprüfung",
+      "Druckprüfpumpe",
+      "Prüfdruck"
+    ],
+    "tags": [
+      "verb",
+      "prüfung",
+      "rohre"
+    ],
+    "notes": "SHK şantiye jargonunda 'eine Leitung abdrücken' = boru hattına basınç/sızdırmazlık testi uygulamak.",
+    "collections": [
+      "col-verben",
+      "col-rohre",
+      "col-montage",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "verfugen",
+    "article": null,
+    "type": "verb",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Derz çekmek, silikonla sızdırmazlık çekmek",
+        "en": "to grout, to seal joints"
+      }
+    ],
+    "verb": {
+      "praesens3": "verfugt",
+      "praeteritum": "verfugte",
+      "partizip2": "verfugt",
+      "auxiliary": "haben",
+      "irregular": false
+    },
+    "examples": [
+      {
+        "de": "Nach der Montage der Duschwanne verfugen wir alle Anschlusskanten sauber mit fungizidem Sanitärsilikon.",
+        "tr": "Duş teknesinin montajından sonra tüm birleşim kenarlarına küf önleyici sıhhi silikonla temizce derz çekiyoruz."
+      },
+      {
+        "de": "Der Untergrund muss völlig trocken und fettfrei sein, bevor du den Waschtisch neu verfugst.",
+        "tr": "Lavaboya yeniden silikon çekmeden önce yüzey tamamen kuru ve yağsız olmalıdır."
+      }
+    ],
+    "synonyms": [
+      "abspritzen",
+      "abdichten"
+    ],
+    "antonyms": [],
+    "related": [
+      "Silikonfuge",
+      "Sanitärsilikon",
+      "Kartuschenpresse"
+    ],
+    "tags": [
+      "verb",
+      "sanitär",
+      "montage"
+    ],
+    "collections": [
+      "col-verben",
+      "col-sanitaer",
+      "col-montage",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "auswuchten",
+    "article": null,
+    "type": "verb",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Balansını almak, dengelemek (fan, rotor vb.)",
+        "en": "to balance (a rotor, fan)"
+      }
+    ],
+    "verb": {
+      "praesens3": "wuchtet aus",
+      "praeteritum": "wuchtete aus",
+      "partizip2": "ausgewuchtet",
+      "auxiliary": "haben",
+      "irregular": false,
+      "separable": true
+    },
+    "examples": [
+      {
+        "de": "Nach der Reinigung des verschmutzten Ventilatorlaufrads müssen wir es auf Unwucht prüfen und bei Bedarf auswuchten.",
+        "tr": "Kirlenmiş fan çarkını temizledikten sonra balanssızlık açısından kontrol etmeli ve gerekirse balansını almalıyız."
+      },
+      {
+        "de": "Ein sauber ausgewuchtetes Gebläse läuft deutlich ruhiger und schont die Kugellager.",
+        "tr": "Temiz şekilde balansı alınmış bir fan çok daha sessiz çalışır ve rulmanları korur."
+      }
+    ],
+    "synonyms": [
+      "balancieren"
+    ],
+    "antonyms": [],
+    "related": [
+      "Ventilator",
+      "Schwingungsdämpfer",
+      "Geräusch"
+    ],
+    "tags": [
+      "verb",
+      "wartung",
+      "lüftung"
+    ],
+    "collections": [
+      "col-verben",
+      "col-wartung",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "nachbessern",
+    "article": null,
+    "type": "verb",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Kusuru gidermek, düzeltme yapmak, rötuş yapmak",
+        "en": "to rectify, to rework, to touch up"
+      }
+    ],
+    "verb": {
+      "praesens3": "bessert nach",
+      "praeteritum": "besserte nach",
+      "partizip2": "nachgebessert",
+      "auxiliary": "haben",
+      "irregular": false,
+      "separable": true
+    },
+    "examples": [
+      {
+        "de": "Bei einer berechtigten Mängelrüge hat der Handwerksbetrieb das Recht, die beanstandete Stelle selbst nachzubessern.",
+        "tr": "Haklı bir kusur bildiriminde zanaat işletmesinin itiraz edilen noktayı bizzat düzeltme hakkı vardır."
+      },
+      {
+        "de": "Die Dämmung im Technikraum war lückenhaft, deshalb mussten wir gestern noch zwei Stunden nachbessern.",
+        "tr": "Teknik odadaki yalıtım eksikti, bu yüzden dün iki saat daha düzeltme yapmak zorunda kaldık."
+      }
+    ],
+    "synonyms": [
+      "beheben",
+      "korrigieren"
+    ],
+    "antonyms": [],
+    "related": [
+      "Nachbesserung",
+      "Mängelbeseitigung",
+      "Nacherfüllung"
+    ],
+    "tags": [
+      "verb",
+      "baurecht",
+      "qualität"
+    ],
+    "collections": [
+      "col-verben",
+      "col-beruf",
+      "col-doku",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "freigeben",
+    "article": null,
+    "type": "verb",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Onaylamak, kullanıma / işletmeye açmak",
+        "en": "to release, to approve, to clear for operation"
+      }
+    ],
+    "verb": {
+      "praesens3": "gibt frei",
+      "praeteritum": "gab frei",
+      "partizip2": "freigegeben",
+      "auxiliary": "haben",
+      "irregular": true,
+      "separable": true
+    },
+    "examples": [
+      {
+        "de": "Erst nach erfolgreichem Probelauf und bestandener Sicherheitsprüfung geben wir die Gasanlage wieder frei.",
+        "tr": "Gaz tesisatını ancak başarılı deneme çalışması ve geçilen güvenlik testinden sonra tekrar kullanıma açıyoruz."
+      },
+      {
+        "de": "Der Bauleiter muss die Ausführungspläne schriftlich freigeben, bevor wir das Material bestellen.",
+        "tr": "Malzemeyi sipariş etmeden önce şantiye şefinin uygulama planlarını yazılı olarak onaylaması gerekiyor."
+      }
+    ],
+    "synonyms": [
+      "genehmigen",
+      "bewilligen"
+    ],
+    "antonyms": [
+      "sperren"
+    ],
+    "related": [
+      "Freigabe",
+      "Inbetriebnahme",
+      "Prüfprotokoll"
+    ],
+    "tags": [
+      "verb",
+      "beruf",
+      "sicherheit"
+    ],
+    "collections": [
+      "col-verben",
+      "col-beruf",
+      "col-sicherheit",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "veranschlagen",
+    "article": null,
+    "type": "verb",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Tahmin etmek, öngörmek (maliyet veya süre)",
+        "en": "to estimate, to budget (costs or time)"
+      }
+    ],
+    "verb": {
+      "praesens3": "veranschlagt",
+      "praeteritum": "veranschlagte",
+      "partizip2": "veranschlagt",
+      "auxiliary": "haben",
+      "irregular": false
+    },
+    "examples": [
+      {
+        "de": "Für den kompletten Austausch der Heizungsanlage veranschlagen wir etwa vier Arbeitstage.",
+        "tr": "Isıtma sisteminin komple değişimi için yaklaşık dört iş günü öngörüyoruz."
+      },
+      {
+        "de": "Bei einer Altbausanierung sollte man immer einen Puffer für unvorhergesehene Kosten veranschlagen.",
+        "tr": "Eski bina tadilatında öngörülemeyen maliyetler için her zaman bir pay (tampon) hesaplamak gerekir."
+      }
+    ],
+    "synonyms": [
+      "kalkulieren",
+      "schätzen"
+    ],
+    "antonyms": [],
+    "related": [
+      "Kostenvoranschlag",
+      "Kostenschätzung",
+      "Angebot"
+    ],
+    "tags": [
+      "verb",
+      "meister",
+      "kalkulation"
+    ],
+    "collections": [
+      "col-verben",
+      "col-meister",
+      "col-beruf",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "abwickeln",
+    "article": null,
+    "type": "verb",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Yürütmek, sonuçlandırmak, yönetmek (sipariş, proje, hasar süreci)",
+        "en": "to process, to handle, to execute (an order or project)"
+      }
+    ],
+    "verb": {
+      "praesens3": "wickelt ab",
+      "praeteritum": "wickelte ab",
+      "partizip2": "abgewickelt",
+      "auxiliary": "haben",
+      "irregular": false,
+      "separable": true
+    },
+    "examples": [
+      {
+        "de": "Unser Meisterbüro wickelt die gesamte Förderantragstellung und Projektkoordination professionell ab.",
+        "tr": "Usta ofisimiz tüm teşvik başvuru sürecini ve proje koordinasyonunu profesyonelce yürütüyor."
+      },
+      {
+        "de": "Reklamationen müssen wir zügig und kundenorientiert abwickeln, um das Vertrauen nicht zu verlieren.",
+        "tr": "Güveni kaybetmemek için şikayetleri hızlı ve müşteri odaklı şekilde sonuçlandırmalıyız."
+      }
+    ],
+    "synonyms": [
+      "durchführen",
+      "bearbeiten"
+    ],
+    "antonyms": [],
+    "related": [
+      "Auftrag",
+      "Reklamation",
+      "Projektbesprechung"
+    ],
+    "tags": [
+      "verb",
+      "beruf",
+      "organisation"
+    ],
+    "collections": [
+      "col-verben",
+      "col-beruf",
+      "col-meister",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "konzipieren",
+    "article": null,
+    "type": "verb",
+    "level": "C1",
+    "senses": [
+      {
+        "tr": "Tasarlamak, kurgulamak, konseptini oluşturmak",
+        "en": "to design, to conceptualize"
+      }
+    ],
+    "verb": {
+      "praesens3": "konzipiert",
+      "praeteritum": "konzipierte",
+      "partizip2": "konzipiert",
+      "auxiliary": "haben",
+      "irregular": false
+    },
+    "examples": [
+      {
+        "de": "Für den Gewerbeneubau konzipieren wir ein hybrides Energiesystem aus Photovoltaik und Wärmepumpen.",
+        "tr": "Yeni ticari bina için fotovoltaik ve ısı pompalarından oluşan hibrit bir enerji sistemi tasarlıyoruz."
+      },
+      {
+        "de": "Die Trinkwasserinstallation wurde bewusst so konzipiert, dass keinerlei Totleitungen entstehen.",
+        "tr": "İçme suyu tesisatı, hiçbir kör hat oluşmayacak şekilde bilinçli olarak tasarlandı."
+      }
+    ],
+    "synonyms": [
+      "entwerfen",
+      "planen"
+    ],
+    "antonyms": [],
+    "related": [
+      "Brandschutzkonzept",
+      "Luftdichtheitskonzept",
+      "Ausführungsplanung"
+    ],
+    "tags": [
+      "verb",
+      "planung",
+      "c1"
+    ],
+    "collections": [
+      "col-verben",
+      "col-meister",
+      "col-c1"
+    ]
+  },
+  {
+    "german": "subventionieren",
+    "article": null,
+    "type": "verb",
+    "level": "C1",
+    "senses": [
+      {
+        "tr": "Sübvanse etmek, devlet teşvikiyle desteklemek",
+        "en": "to subsidize"
+      }
+    ],
+    "verb": {
+      "praesens3": "subventioniert",
+      "praeteritum": "subventionierte",
+      "partizip2": "subventioniert",
+      "auxiliary": "haben",
+      "irregular": false
+    },
+    "examples": [
+      {
+        "de": "Der Staat subventioniert den Umstieg von fossilen Heizungen auf klimafreundliche Wärmepumpen erheblich.",
+        "tr": "Devlet, fosil yakıtlı ısıtma sistemlerinden iklim dostu ısı pompalarına geçişi önemli ölçüde sübvanse ediyor."
+      },
+      {
+        "de": "Auch begleitende Maßnahmen wie der hydraulische Abgleich werden im Rahmen der BEG subventioniert.",
+        "tr": "Hidrolik balans ayarı gibi eşlik eden önlemler de BEG kapsamında devlet teşvikiyle destekleniyor."
+      }
+    ],
+    "synonyms": [
+      "fördern",
+      "bezuschussen"
+    ],
+    "antonyms": [],
+    "related": [
+      "Förderung",
+      "Zuschuss",
+      "förderfähig"
+    ],
+    "tags": [
+      "verb",
+      "förderung",
+      "wirtschaft",
+      "c1"
+    ],
+    "collections": [
+      "col-verben",
+      "col-kunden",
+      "col-c1"
+    ]
+  },
+  {
+    "german": "rekalibrieren",
+    "article": null,
+    "type": "verb",
+    "level": "C1",
+    "senses": [
+      {
+        "tr": "Yeniden kalibre etmek",
+        "en": "to recalibrate"
+      }
+    ],
+    "verb": {
+      "praesens3": "rekalibriert",
+      "praeteritum": "rekalibrierte",
+      "partizip2": "rekalibriert",
+      "auxiliary": "haben",
+      "irregular": false
+    },
+    "examples": [
+      {
+        "de": "Das Abgasmessgerät muss einmal im Jahr beim zertifizierten Prüfservice rekalibriert werden.",
+        "tr": "Baca gazı analiz cihazı yılda bir kez yetkili test servisinde yeniden kalibre edilmelidir."
+      },
+      {
+        "de": "Nach dem Austausch der Messzelle rekalibrieren wir den Gaswarnmelder mit Prüfgas.",
+        "tr": "Ölçüm hücresinin değiştirilmesinden sonra gaz alarm dedektörünü test gazıyla yeniden kalibre ediyoruz."
+      }
+    ],
+    "synonyms": [
+      "nachkalibrieren",
+      "neu eichen"
+    ],
+    "antonyms": [],
+    "related": [
+      "kalibrieren",
+      "Kalibriergerät",
+      "Kalibrierprotokoll"
+    ],
+    "tags": [
+      "verb",
+      "messtechnik",
+      "wartung",
+      "c1"
+    ],
+    "collections": [
+      "col-verben",
+      "col-werkzeuge",
+      "col-wartung",
+      "col-c1"
+    ]
+  },
+  {
+    "german": "energieeffizient",
+    "article": null,
+    "type": "adjective",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Enerji verimli, az enerji tüketen",
+        "en": "energy-efficient"
+      }
+    ],
+    "adjective": {
+      "komparativ": "energieeffizienter",
+      "superlativ": "am energieeffizientesten"
+    },
+    "examples": [
+      {
+        "de": "Durch die Optimierung der Heizkurve arbeitet die Anlage spürbar energieeffizienter.",
+        "tr": "Isıtma eğrisinin optimize edilmesi sayesinde sistem hissedilir derecede daha enerji verimli çalışıyor."
+      },
+      {
+        "de": "Kunden fragen heute gezielt nach energieeffizienten Lösungen zur Senkung ihrer Heizkosten.",
+        "tr": "Müşteriler bugün ısıtma maliyetlerini düşürmek için özellikle enerji verimli çözümler soruyor."
+      }
+    ],
+    "synonyms": [
+      "energiesparend",
+      "effizient"
+    ],
+    "antonyms": [
+      "energieintensiv"
+    ],
+    "related": [
+      "Effizienzklasse",
+      "Hocheffizienzpumpe",
+      "Energieausweis"
+    ],
+    "tags": [
+      "adjektiv",
+      "energieeffizienz",
+      "heizung"
+    ],
+    "collections": [
+      "col-adj-adv",
+      "col-waermepumpe",
+      "col-heizung",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "wartungsarm",
+    "article": null,
+    "type": "adjective",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Az bakım gerektiren",
+        "en": "low-maintenance"
+      }
+    ],
+    "adjective": {
+      "komparativ": "wartungsärmer",
+      "superlativ": "am wartungsärmsten"
+    },
+    "examples": [
+      {
+        "de": "Im Vergleich zu einem Pelletkessel ist eine moderne Wärmepumpe deutlich wartungsärmer.",
+        "tr": "Bir pelet kazanıyla karşılaştırıldığında modern bir ısı pompası belirgin şekilde daha az bakım gerektirir."
+      },
+      {
+        "de": "Bürstenlose Hocheffizienzpumpen gelten als besonders langlebig und wartungsarm.",
+        "tr": "Fırçasız yüksek verimli pompalar özellikle uzun ömürlü ve az bakım gerektiren cihazlar olarak kabul edilir."
+      }
+    ],
+    "synonyms": [
+      "pflegeleicht"
+    ],
+    "antonyms": [
+      "wartungsintensiv"
+    ],
+    "related": [
+      "Wartung",
+      "Wartungsintervall",
+      "Lebensdauer"
+    ],
+    "tags": [
+      "adjektiv",
+      "wartung",
+      "kundenberatung"
+    ],
+    "collections": [
+      "col-adj-adv",
+      "col-wartung",
+      "col-kunden",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "korrosionsfrei",
+    "article": null,
+    "type": "adjective",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Korozyonsuz, paslanmaz, aşınmaya uğramayan",
+        "en": "corrosion-free"
+      }
+    ],
+    "adjective": {},
+    "examples": [
+      {
+        "de": "Hochwertige Mehrschichtverbundrohre bleiben über Jahrzehnte hinweg vollkommen korrosionsfrei.",
+        "tr": "Kaliteli çok katmanlı kompozit borular on yıllar boyunca tamamen korozyonsuz kalır."
+      },
+      {
+        "de": "Ein korrosionsfreier Betrieb setzt bei Mischinstallationen korrekt aufbereitetes Heizungswasser voraus.",
+        "tr": "Karma tesisatlarda korozyonsuz bir işletme, doğru şartlandırılmış ısıtma suyu gerektirir."
+      }
+    ],
+    "synonyms": [
+      "rostfrei",
+      "korrosionsbeständig"
+    ],
+    "antonyms": [
+      "korrosionsanfällig"
+    ],
+    "related": [
+      "Korrosion",
+      "Edelstahlrohr",
+      "Inhibitor"
+    ],
+    "tags": [
+      "adjektiv",
+      "material",
+      "rohre"
+    ],
+    "collections": [
+      "col-adj-adv",
+      "col-rohre",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "schallgedämmt",
+    "article": null,
+    "type": "adjective",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Ses yalıtımlı, ses geçirmezliği artırılmış",
+        "en": "sound-insulated, soundproofed"
+      }
+    ],
+    "adjective": {},
+    "examples": [
+      {
+        "de": "In Mehrfamilienhäusern verlegen wir im Fallstrang ausschließlich schallgedämmte Abwasserrohre.",
+        "tr": "Çok daireli binalarda düşey hatta yalnızca ses yalıtımlı atık su boruları döşüyoruz."
+      },
+      {
+        "de": "Das schallgedämmte Gehäuse der neuen Wärmepumpe reduziert die Betriebsgeräusche erheblich.",
+        "tr": "Yeni ısı pompasının ses yalıtımlı gövdesi çalışma seslerini önemli ölçüde azaltır."
+      }
+    ],
+    "synonyms": [
+      "schallisoliert"
+    ],
+    "antonyms": [
+      "ungedämmt"
+    ],
+    "related": [
+      "Schallschutz",
+      "Schallschutzmatte",
+      "Schalldämpfer"
+    ],
+    "tags": [
+      "adjektiv",
+      "akustik",
+      "sanitär"
+    ],
+    "collections": [
+      "col-adj-adv",
+      "col-sanitaer",
+      "col-waermepumpe",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "druckbeständig",
+    "article": null,
+    "type": "adjective",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Basınca dayanıklı",
+        "en": "pressure-resistant"
+      }
+    ],
+    "adjective": {
+      "komparativ": "druckbeständiger",
+      "superlativ": "am druckbeständigsten"
+    },
+    "examples": [
+      {
+        "de": "Für den Anschluss der Druckerhöhungsanlage verwenden wir besonders druckbeständige Edelstahlleitungen.",
+        "tr": "Hidrofor bağlantısı için özellikle basınca dayanıklı paslanmaz çelik borular kullanıyoruz."
+      },
+      {
+        "de": "Die Dichtung muss sowohl temperatur- als auch dauerhaft druckbeständig sein.",
+        "tr": "Contanın hem sıcaklığa hem de sürekli basınca dayanıklı olması gerekir."
+      }
+    ],
+    "synonyms": [
+      "druckfest"
+    ],
+    "antonyms": [],
+    "related": [
+      "Betriebsdruck",
+      "Prüfdruck",
+      "Druckleitung"
+    ],
+    "tags": [
+      "adjektiv",
+      "material",
+      "druck"
+    ],
+    "collections": [
+      "col-adj-adv",
+      "col-rohre",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "temperaturbeständig",
+    "article": null,
+    "type": "adjective",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Sıcaklığa dayanıklı, ısıya dirençli",
+        "en": "temperature-resistant"
+      }
+    ],
+    "adjective": {
+      "komparativ": "temperaturbeständiger",
+      "superlativ": "am temperaturbeständigsten"
+    },
+    "examples": [
+      {
+        "de": "Im Solarkreislauf dürfen nur hoch temperaturbeständige Dichtungen und Dämmstoffe eingesetzt werden.",
+        "tr": "Güneş enerjisi devresinde yalnızca yüksek sıcaklığa dayanıklı contalar ve yalıtım malzemeleri kullanılabilir."
+      },
+      {
+        "de": "HT-Rohre aus Polypropylen sind deutlich temperaturbeständiger als einfache PVC-Rohre.",
+        "tr": "Polipropilenden üretilen HT borular, basit PVC borulara göre sıcaklığa belirgin şekilde daha dayanıklıdır."
+      }
+    ],
+    "synonyms": [
+      "hitzebeständig",
+      "wärmebeständig"
+    ],
+    "antonyms": [
+      "temperaturempfindlich"
+    ],
+    "related": [
+      "Solarthermie",
+      "HT-Rohr",
+      "Übertemperatur"
+    ],
+    "tags": [
+      "adjektiv",
+      "material",
+      "temperatur"
+    ],
+    "collections": [
+      "col-adj-adv",
+      "col-rohre",
+      "col-heizung",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "bedarfsgerecht",
+    "article": null,
+    "type": "adjective",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "İhtiyaca uygun, talep odaklı",
+        "en": "demand-driven, tailored to needs"
+      }
+    ],
+    "adjective": {
+      "komparativ": "bedarfsgerechter",
+      "superlativ": "am bedarfsgerechtesten"
+    },
+    "examples": [
+      {
+        "de": "Eine bedarfsgerechte Regelung schaltet die Zirkulationspumpe nur zu den tatsächlichen Nutzungszeiten ein.",
+        "tr": "İhtiyaca uygun bir kontrol sistemi, sirkülasyon pompasını yalnızca gerçek kullanım saatlerinde devreye alır."
+      },
+      {
+        "de": "Mit CO2-Sensoren lässt sich die Lüftungsanlage in Klassenräumen vollautomatisch und bedarfsgerecht steuern.",
+        "tr": "CO2 sensörleriyle dersliklerdeki havalandırma sistemi tam otomatik ve ihtiyaca uygun şekilde yönetilebilir."
+      }
+    ],
+    "synonyms": [
+      "bedarfsorientiert",
+      "angemessen"
+    ],
+    "antonyms": [],
+    "related": [
+      "Wärmebedarf",
+      "Regelungstechnik",
+      "Modulation"
+    ],
+    "tags": [
+      "adjektiv",
+      "regelungstechnik",
+      "energieeffizienz"
+    ],
+    "collections": [
+      "col-adj-adv",
+      "col-heizung",
+      "col-beruf",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "gegebenenfalls",
+    "article": null,
+    "type": "adverb",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Gerektiğinde, icabında, duruma göre (kısaltma: ggf.)",
+        "en": "if applicable, if necessary, where appropriate"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Wir prüfen die Opferanode im Speicher und tauschen sie gegebenenfalls direkt während der Wartung aus.",
+        "tr": "Boylerdeki magnezyum anodu kontrol ediyoruz ve gerekirse doğrudan bakım sırasında değiştiriyoruz."
+      },
+      {
+        "de": "Sollte der Vordruck im Ausdehnungsgefäß zu niedrig sein, füllen wir ihn gegebenenfalls mit Stickstoff nach.",
+        "tr": "Genleşme tankındaki ön basınç çok düşükse, duruma göre azotla takviye ediyoruz."
+      }
+    ],
+    "synonyms": [
+      "eventuell",
+      "unter Umständen",
+      "notfalls"
+    ],
+    "antonyms": [
+      "keinesfalls"
+    ],
+    "related": [
+      "sofern",
+      "falls"
+    ],
+    "tags": [
+      "adverb",
+      "grammatik",
+      "dokumentation"
+    ],
+    "notes": "Teknik raporlarda ve protokollerde sıkça 'ggf.' şeklinde kısaltılır.",
+    "collections": [
+      "col-adj-adv",
+      "col-grammatik",
+      "col-doku",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "fachmännisch",
+    "article": null,
+    "type": "adjective",
+    "level": "B2",
+    "senses": [
+      {
+        "tr": "Ustaca, uzmanına yakışır şekilde, tekniğine uygun",
+        "en": "professional, expert, workmanlike"
+      }
+    ],
+    "adjective": {
+      "komparativ": "fachmännischer",
+      "superlativ": "am fachmännischsten"
+    },
+    "examples": [
+      {
+        "de": "Der Rohrbruch wurde von unserem Kundendienst schnell, sauber und absolut fachmännisch behoben.",
+        "tr": "Boru patlağı teknik servisimiz tarafından hızlı, temiz ve tamamen tekniğine uygun şekilde giderildi."
+      },
+      {
+        "de": "Für den sicheren Betrieb der Gastherme ist eine fachmännische Wartung durch einen Meisterbetrieb unerlässlich.",
+        "tr": "Kombinin güvenli çalışması için yetkili bir usta işletme tarafından yapılan uzman bakımı vazgeçilmezdir."
+      }
+    ],
+    "synonyms": [
+      "fachgerecht",
+      "sachkundig",
+      "professionell"
+    ],
+    "antonyms": [
+      "laienhaft",
+      "unsachgemäß"
+    ],
+    "related": [
+      "Fachkraft",
+      "Meister",
+      "fachgerecht"
+    ],
+    "tags": [
+      "adjektiv",
+      "beruf",
+      "qualität"
+    ],
+    "collections": [
+      "col-adj-adv",
+      "col-beruf",
+      "col-kunden",
+      "col-b2"
+    ]
+  },
+  {
+    "german": "unverhältnismäßig",
+    "article": null,
+    "type": "adjective",
+    "level": "C1",
+    "senses": [
+      {
+        "tr": "Orantısız, ölçüsüz, haddinden fazla",
+        "en": "disproportionate, excessive"
+      }
+    ],
+    "adjective": {
+      "komparativ": "unverhältnismäßiger",
+      "superlativ": "am unverhältnismäßigsten"
+    },
+    "examples": [
+      {
+        "de": "Nach VOB/B kann der Auftragnehmer eine Mängelbeseitigung verweigern, wenn sie einen unverhältnismäßig hohen Aufwand erfordert.",
+        "tr": "VOB/B'ye göre yüklenici, orantısız derecede yüksek bir masraf gerektiriyorsa kusur giderimini reddedebilir."
+      },
+      {
+        "de": "Ein unverhältnismäßiger Stromverbrauch der Wärmepumpe deutet oft auf einen dauerhaft laufenden Heizstab hin.",
+        "tr": "Isı pompasının orantısız elektrik tüketimi sıklıkla sürekli çalışan bir elektrikli rezistansa işaret eder."
+      }
+    ],
+    "synonyms": [
+      "übermäßig",
+      "unangemessen"
+    ],
+    "antonyms": [
+      "verhältnismäßig",
+      "angemessen"
+    ],
+    "related": [
+      "Verhältnismäßigkeit",
+      "Zumutbarkeit",
+      "Mängelbeseitigung"
+    ],
+    "tags": [
+      "adjektiv",
+      "baurecht",
+      "vob",
+      "c1"
+    ],
+    "collections": [
+      "col-adj-adv",
+      "col-meister",
+      "col-doku",
+      "col-c1"
+    ]
+  }
+]

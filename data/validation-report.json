@@ -1,0 +1,1976 @@
+{
+  "generatedAt": "2026-11-21T21:11:55.219Z",
+  "packStats": {
+    "pack-01-heizung.json": 265,
+    "pack-02-sanitaer.json": 265,
+    "pack-03-waermepumpe.json": 265,
+    "pack-04-werkzeuge-rohre.json": 255,
+    "pack-05-montage-wartung.json": 260,
+    "pack-06-sicherheit-doku.json": 250,
+    "pack-07-meister-kunden.json": 250,
+    "pack-08-alltag-grammatik.json": 250,
+    "pack-09a-gap-a1-a2-b1.json": 125,
+    "pack-09b-gap-b2-c1.json": 125
+  },
+  "totalRawEntries": 2310,
+  "crossPackMergesCount": 285,
+  "crossPackMerges": [
+    {
+      "german": "trocken",
+      "type": "adjective",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-02-sanitaer.json"
+    },
+    {
+      "german": "spülen",
+      "type": "verb",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-02-sanitaer.json"
+    },
+    {
+      "german": "Kalkablagerung",
+      "type": "noun",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-02-sanitaer.json"
+    },
+    {
+      "german": "entkalken",
+      "type": "verb",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-02-sanitaer.json"
+    },
+    {
+      "german": "aufdrehen",
+      "type": "verb",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-02-sanitaer.json"
+    },
+    {
+      "german": "Systemtrenner",
+      "type": "noun",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-02-sanitaer.json"
+    },
+    {
+      "german": "Sicherheitsventil",
+      "type": "noun",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-02-sanitaer.json"
+    },
+    {
+      "german": "Wasserhärte",
+      "type": "noun",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-02-sanitaer.json"
+    },
+    {
+      "german": "absperren",
+      "type": "verb",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-02-sanitaer.json"
+    },
+    {
+      "german": "Druckverlustberechnung",
+      "type": "noun",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-02-sanitaer.json"
+    },
+    {
+      "german": "Wärme",
+      "type": "noun",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-03-waermepumpe.json"
+    },
+    {
+      "german": "Kälte",
+      "type": "noun",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-03-waermepumpe.json"
+    },
+    {
+      "german": "Luft",
+      "type": "noun",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-03-waermepumpe.json"
+    },
+    {
+      "german": "Strom",
+      "type": "noun",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-03-waermepumpe.json"
+    },
+    {
+      "german": "Energie",
+      "type": "noun",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-03-waermepumpe.json"
+    },
+    {
+      "german": "heizen",
+      "type": "verb",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-03-waermepumpe.json"
+    },
+    {
+      "german": "Pumpe",
+      "type": "noun",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-03-waermepumpe.json"
+    },
+    {
+      "german": "sparen",
+      "type": "verb",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-03-waermepumpe.json"
+    },
+    {
+      "german": "einschalten",
+      "type": "verb",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-03-waermepumpe.json"
+    },
+    {
+      "german": "ausschalten",
+      "type": "verb",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-03-waermepumpe.json"
+    },
+    {
+      "german": "sparsam",
+      "type": "adjective",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-03-waermepumpe.json"
+    },
+    {
+      "german": "Pufferspeicher",
+      "type": "noun",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-03-waermepumpe.json"
+    },
+    {
+      "german": "Wirkungsgrad",
+      "type": "noun",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-03-waermepumpe.json"
+    },
+    {
+      "german": "Kondensat",
+      "type": "noun",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-03-waermepumpe.json"
+    },
+    {
+      "german": "Druck",
+      "type": "noun",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-03-waermepumpe.json"
+    },
+    {
+      "german": "regeln",
+      "type": "verb",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-03-waermepumpe.json"
+    },
+    {
+      "german": "effizient",
+      "type": "adjective",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-03-waermepumpe.json"
+    },
+    {
+      "german": "umweltfreundlich",
+      "type": "adjective",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-03-waermepumpe.json"
+    },
+    {
+      "german": "frostsicher",
+      "type": "adjective",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-03-waermepumpe.json"
+    },
+    {
+      "german": "Dichtheitsprüfung",
+      "type": "noun",
+      "keptFrom": "pack-02-sanitaer.json",
+      "mergedFrom": "pack-03-waermepumpe.json"
+    },
+    {
+      "german": "Vorlauftemperatur",
+      "type": "noun",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-03-waermepumpe.json"
+    },
+    {
+      "german": "Rücklauftemperatur",
+      "type": "noun",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-03-waermepumpe.json"
+    },
+    {
+      "german": "Spreizung",
+      "type": "noun",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-03-waermepumpe.json"
+    },
+    {
+      "german": "Volumenstrom",
+      "type": "noun",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-03-waermepumpe.json"
+    },
+    {
+      "german": "Nachtabsenkung",
+      "type": "noun",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-03-waermepumpe.json"
+    },
+    {
+      "german": "Kondensatablauf",
+      "type": "noun",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-03-waermepumpe.json"
+    },
+    {
+      "german": "Wärmemengenzähler",
+      "type": "noun",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-03-waermepumpe.json"
+    },
+    {
+      "german": "Überströmventil",
+      "type": "noun",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-03-waermepumpe.json"
+    },
+    {
+      "german": "Schlammabscheider",
+      "type": "noun",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-03-waermepumpe.json"
+    },
+    {
+      "german": "Magnetitabscheider",
+      "type": "noun",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-03-waermepumpe.json"
+    },
+    {
+      "german": "Plattenwärmetauscher",
+      "type": "noun",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-03-waermepumpe.json"
+    },
+    {
+      "german": "Heizkurve",
+      "type": "noun",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-03-waermepumpe.json"
+    },
+    {
+      "german": "Heizlastberechnung",
+      "type": "noun",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-03-waermepumpe.json"
+    },
+    {
+      "german": "modulieren",
+      "type": "verb",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-03-waermepumpe.json"
+    },
+    {
+      "german": "takten",
+      "type": "verb",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-03-waermepumpe.json"
+    },
+    {
+      "german": "dämmen",
+      "type": "verb",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-03-waermepumpe.json"
+    },
+    {
+      "german": "bivalent",
+      "type": "adjective",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-03-waermepumpe.json"
+    },
+    {
+      "german": "modulierend",
+      "type": "adjective",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-03-waermepumpe.json"
+    },
+    {
+      "german": "witterungsgeführt",
+      "type": "adjective",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-03-waermepumpe.json"
+    },
+    {
+      "german": "die Heizkurve anpassen",
+      "type": "phrase",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-03-waermepumpe.json"
+    },
+    {
+      "german": "Jahresnutzungsgrad",
+      "type": "noun",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-03-waermepumpe.json"
+    },
+    {
+      "german": "thermisch",
+      "type": "adjective",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-03-waermepumpe.json"
+    },
+    {
+      "german": "Druck",
+      "type": "noun",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-04-werkzeuge-rohre.json"
+    },
+    {
+      "german": "Strom",
+      "type": "noun",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-04-werkzeuge-rohre.json"
+    },
+    {
+      "german": "dicht",
+      "type": "adjective",
+      "keptFrom": "pack-02-sanitaer.json",
+      "mergedFrom": "pack-04-werkzeuge-rohre.json"
+    },
+    {
+      "german": "abdichten",
+      "type": "verb",
+      "keptFrom": "pack-02-sanitaer.json",
+      "mergedFrom": "pack-04-werkzeuge-rohre.json"
+    },
+    {
+      "german": "undicht",
+      "type": "adjective",
+      "keptFrom": "pack-02-sanitaer.json",
+      "mergedFrom": "pack-04-werkzeuge-rohre.json"
+    },
+    {
+      "german": "Vakuumpumpe",
+      "type": "noun",
+      "keptFrom": "pack-03-waermepumpe.json",
+      "mergedFrom": "pack-04-werkzeuge-rohre.json"
+    },
+    {
+      "german": "Rohrreinigungsspirale",
+      "type": "noun",
+      "keptFrom": "pack-02-sanitaer.json",
+      "mergedFrom": "pack-04-werkzeuge-rohre.json"
+    },
+    {
+      "german": "absperren",
+      "type": "verb",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-04-werkzeuge-rohre.json"
+    },
+    {
+      "german": "entlüften",
+      "type": "verb",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-04-werkzeuge-rohre.json"
+    },
+    {
+      "german": "durchspülen",
+      "type": "verb",
+      "keptFrom": "pack-02-sanitaer.json",
+      "mergedFrom": "pack-04-werkzeuge-rohre.json"
+    },
+    {
+      "german": "korrosionsbeständig",
+      "type": "adjective",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-04-werkzeuge-rohre.json"
+    },
+    {
+      "german": "Dichtheitsprüfung",
+      "type": "noun",
+      "keptFrom": "pack-02-sanitaer.json",
+      "mergedFrom": "pack-04-werkzeuge-rohre.json"
+    },
+    {
+      "german": "Ventil",
+      "type": "noun",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-04-werkzeuge-rohre.json"
+    },
+    {
+      "german": "Abflussrohr",
+      "type": "noun",
+      "keptFrom": "pack-02-sanitaer.json",
+      "mergedFrom": "pack-04-werkzeuge-rohre.json"
+    },
+    {
+      "german": "Dichtung",
+      "type": "noun",
+      "keptFrom": "pack-02-sanitaer.json",
+      "mergedFrom": "pack-04-werkzeuge-rohre.json"
+    },
+    {
+      "german": "HT-Rohr",
+      "type": "noun",
+      "keptFrom": "pack-02-sanitaer.json",
+      "mergedFrom": "pack-04-werkzeuge-rohre.json"
+    },
+    {
+      "german": "KG-Rohr",
+      "type": "noun",
+      "keptFrom": "pack-02-sanitaer.json",
+      "mergedFrom": "pack-04-werkzeuge-rohre.json"
+    },
+    {
+      "german": "Absperrventil",
+      "type": "noun",
+      "keptFrom": "pack-02-sanitaer.json",
+      "mergedFrom": "pack-04-werkzeuge-rohre.json"
+    },
+    {
+      "german": "Schrägsitzventil",
+      "type": "noun",
+      "keptFrom": "pack-02-sanitaer.json",
+      "mergedFrom": "pack-04-werkzeuge-rohre.json"
+    },
+    {
+      "german": "Sicherheitsventil",
+      "type": "noun",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-04-werkzeuge-rohre.json"
+    },
+    {
+      "german": "Überströmventil",
+      "type": "noun",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-04-werkzeuge-rohre.json"
+    },
+    {
+      "german": "Entlüftungsventil",
+      "type": "noun",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-04-werkzeuge-rohre.json"
+    },
+    {
+      "german": "Schnellentlüfter",
+      "type": "noun",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-04-werkzeuge-rohre.json"
+    },
+    {
+      "german": "Eckventil",
+      "type": "noun",
+      "keptFrom": "pack-02-sanitaer.json",
+      "mergedFrom": "pack-04-werkzeuge-rohre.json"
+    },
+    {
+      "german": "Druckminderer",
+      "type": "noun",
+      "keptFrom": "pack-02-sanitaer.json",
+      "mergedFrom": "pack-04-werkzeuge-rohre.json"
+    },
+    {
+      "german": "Schlammabscheider",
+      "type": "noun",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-04-werkzeuge-rohre.json"
+    },
+    {
+      "german": "Luftabscheider",
+      "type": "noun",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-04-werkzeuge-rohre.json"
+    },
+    {
+      "german": "Panzerschlauch",
+      "type": "noun",
+      "keptFrom": "pack-02-sanitaer.json",
+      "mergedFrom": "pack-04-werkzeuge-rohre.json"
+    },
+    {
+      "german": "Systemtrenner",
+      "type": "noun",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-04-werkzeuge-rohre.json"
+    },
+    {
+      "german": "Rückflussverhinderer",
+      "type": "noun",
+      "keptFrom": "pack-02-sanitaer.json",
+      "mergedFrom": "pack-04-werkzeuge-rohre.json"
+    },
+    {
+      "german": "Strangregulierventil",
+      "type": "noun",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-04-werkzeuge-rohre.json"
+    },
+    {
+      "german": "Differenzdruckregler",
+      "type": "noun",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-04-werkzeuge-rohre.json"
+    },
+    {
+      "german": "Boden",
+      "type": "noun",
+      "keptFrom": "pack-03-waermepumpe.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "Loch",
+      "type": "noun",
+      "keptFrom": "pack-04-werkzeuge-rohre.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "bohren",
+      "type": "verb",
+      "keptFrom": "pack-04-werkzeuge-rohre.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "messen",
+      "type": "verb",
+      "keptFrom": "pack-04-werkzeuge-rohre.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "halten",
+      "type": "verb",
+      "keptFrom": "pack-04-werkzeuge-rohre.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "fest",
+      "type": "adjective",
+      "keptFrom": "pack-04-werkzeuge-rohre.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "gerade",
+      "type": "adjective",
+      "keptFrom": "pack-04-werkzeuge-rohre.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "Abstand",
+      "type": "noun",
+      "keptFrom": "pack-03-waermepumpe.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "befestigen",
+      "type": "verb",
+      "keptFrom": "pack-04-werkzeuge-rohre.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "Dübel",
+      "type": "noun",
+      "keptFrom": "pack-04-werkzeuge-rohre.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "Gefälle",
+      "type": "noun",
+      "keptFrom": "pack-02-sanitaer.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "Anschluss",
+      "type": "noun",
+      "keptFrom": "pack-04-werkzeuge-rohre.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "verbinden",
+      "type": "verb",
+      "keptFrom": "pack-04-werkzeuge-rohre.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "Vorwandinstallation",
+      "type": "noun",
+      "keptFrom": "pack-02-sanitaer.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "Vorwandelement",
+      "type": "noun",
+      "keptFrom": "pack-02-sanitaer.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "Rohrschelle",
+      "type": "noun",
+      "keptFrom": "pack-04-werkzeuge-rohre.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "Steigleitung",
+      "type": "noun",
+      "keptFrom": "pack-02-sanitaer.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "verschrauben",
+      "type": "verb",
+      "keptFrom": "pack-04-werkzeuge-rohre.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "verpressen",
+      "type": "verb",
+      "keptFrom": "pack-04-werkzeuge-rohre.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "entgraten",
+      "type": "verb",
+      "keptFrom": "pack-04-werkzeuge-rohre.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "Festpunkt",
+      "type": "noun",
+      "keptFrom": "pack-04-werkzeuge-rohre.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "Gleitlager",
+      "type": "noun",
+      "keptFrom": "pack-04-werkzeuge-rohre.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "Längenausdehnung",
+      "type": "noun",
+      "keptFrom": "pack-04-werkzeuge-rohre.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "Kompensator",
+      "type": "noun",
+      "keptFrom": "pack-04-werkzeuge-rohre.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "Verlegeabstand",
+      "type": "noun",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "prüfen",
+      "type": "verb",
+      "keptFrom": "pack-04-werkzeuge-rohre.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "sauber",
+      "type": "adjective",
+      "keptFrom": "pack-02-sanitaer.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "spülen",
+      "type": "verb",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "dicht",
+      "type": "adjective",
+      "keptFrom": "pack-02-sanitaer.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "undicht",
+      "type": "adjective",
+      "keptFrom": "pack-02-sanitaer.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "dämmen",
+      "type": "verb",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "Isolierung",
+      "type": "noun",
+      "keptFrom": "pack-04-werkzeuge-rohre.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "abdichten",
+      "type": "verb",
+      "keptFrom": "pack-02-sanitaer.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "befüllen",
+      "type": "verb",
+      "keptFrom": "pack-03-waermepumpe.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "entlüften",
+      "type": "verb",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "entleeren",
+      "type": "verb",
+      "keptFrom": "pack-02-sanitaer.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "Störung",
+      "type": "noun",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "Schallschutz",
+      "type": "noun",
+      "keptFrom": "pack-03-waermepumpe.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "Schallentkopplung",
+      "type": "noun",
+      "keptFrom": "pack-02-sanitaer.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "Rohrdämmung",
+      "type": "noun",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "Körperschall",
+      "type": "noun",
+      "keptFrom": "pack-03-waermepumpe.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "Druckprüfung",
+      "type": "noun",
+      "keptFrom": "pack-02-sanitaer.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "Dichtheitsprüfung",
+      "type": "noun",
+      "keptFrom": "pack-02-sanitaer.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "Spülung",
+      "type": "noun",
+      "keptFrom": "pack-02-sanitaer.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "Betriebsdruck",
+      "type": "noun",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "Druckprobe",
+      "type": "noun",
+      "keptFrom": "pack-04-werkzeuge-rohre.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "heiß",
+      "type": "adjective",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "kalt",
+      "type": "adjective",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "nass",
+      "type": "adjective",
+      "keptFrom": "pack-02-sanitaer.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "trocken",
+      "type": "adjective",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "laufen",
+      "type": "verb",
+      "keptFrom": "pack-03-waermepumpe.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "tropfen",
+      "type": "verb",
+      "keptFrom": "pack-02-sanitaer.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "fließen",
+      "type": "verb",
+      "keptFrom": "pack-02-sanitaer.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "brennen",
+      "type": "verb",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "drehen",
+      "type": "verb",
+      "keptFrom": "pack-04-werkzeuge-rohre.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "Rost",
+      "type": "noun",
+      "keptFrom": "pack-02-sanitaer.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "Kalk",
+      "type": "noun",
+      "keptFrom": "pack-02-sanitaer.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "entkalken",
+      "type": "verb",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "verstopfen",
+      "type": "verb",
+      "keptFrom": "pack-02-sanitaer.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "ausfallen",
+      "type": "verb",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "defekt",
+      "type": "adjective",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "absperren",
+      "type": "verb",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "einstellen",
+      "type": "verb",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "nachfüllen",
+      "type": "verb",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "Rohrbruch",
+      "type": "noun",
+      "keptFrom": "pack-02-sanitaer.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "Leckage",
+      "type": "noun",
+      "keptFrom": "pack-03-waermepumpe.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "Leck",
+      "type": "noun",
+      "keptFrom": "pack-02-sanitaer.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "Wasserschaden",
+      "type": "noun",
+      "keptFrom": "pack-02-sanitaer.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "Korrosion",
+      "type": "noun",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "Überhitzung",
+      "type": "noun",
+      "keptFrom": "pack-03-waermepumpe.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "überhitzen",
+      "type": "verb",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "kalibrieren",
+      "type": "verb",
+      "keptFrom": "pack-04-werkzeuge-rohre.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "nachziehen",
+      "type": "verb",
+      "keptFrom": "pack-04-werkzeuge-rohre.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "Rohrreinigung",
+      "type": "noun",
+      "keptFrom": "pack-02-sanitaer.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "Verschlammung",
+      "type": "noun",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "Kavitation",
+      "type": "noun",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "Druckstoß",
+      "type": "noun",
+      "keptFrom": "pack-02-sanitaer.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "Kesselstein",
+      "type": "noun",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-05-montage-wartung.json"
+    },
+    {
+      "german": "Feuer",
+      "type": "noun",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-06-sicherheit-doku.json"
+    },
+    {
+      "german": "Leiter",
+      "type": "noun",
+      "keptFrom": "pack-04-werkzeuge-rohre.json",
+      "mergedFrom": "pack-06-sicherheit-doku.json"
+    },
+    {
+      "german": "Notfall",
+      "type": "noun",
+      "keptFrom": "pack-05-montage-wartung.json",
+      "mergedFrom": "pack-06-sicherheit-doku.json"
+    },
+    {
+      "german": "Rauch",
+      "type": "noun",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-06-sicherheit-doku.json"
+    },
+    {
+      "german": "Brandschutz",
+      "type": "noun",
+      "keptFrom": "pack-05-montage-wartung.json",
+      "mergedFrom": "pack-06-sicherheit-doku.json"
+    },
+    {
+      "german": "Spannungsprüfer",
+      "type": "noun",
+      "keptFrom": "pack-04-werkzeuge-rohre.json",
+      "mergedFrom": "pack-06-sicherheit-doku.json"
+    },
+    {
+      "german": "Sichtprüfung",
+      "type": "noun",
+      "keptFrom": "pack-05-montage-wartung.json",
+      "mergedFrom": "pack-06-sicherheit-doku.json"
+    },
+    {
+      "german": "Sicherheitsventil",
+      "type": "noun",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-06-sicherheit-doku.json"
+    },
+    {
+      "german": "Plan",
+      "type": "noun",
+      "keptFrom": "pack-05-montage-wartung.json",
+      "mergedFrom": "pack-06-sicherheit-doku.json"
+    },
+    {
+      "german": "prüfen",
+      "type": "verb",
+      "keptFrom": "pack-04-werkzeuge-rohre.json",
+      "mergedFrom": "pack-06-sicherheit-doku.json"
+    },
+    {
+      "german": "Fehler",
+      "type": "noun",
+      "keptFrom": "pack-05-montage-wartung.json",
+      "mergedFrom": "pack-06-sicherheit-doku.json"
+    },
+    {
+      "german": "Maß",
+      "type": "noun",
+      "keptFrom": "pack-05-montage-wartung.json",
+      "mergedFrom": "pack-06-sicherheit-doku.json"
+    },
+    {
+      "german": "Montageanleitung",
+      "type": "noun",
+      "keptFrom": "pack-05-montage-wartung.json",
+      "mergedFrom": "pack-06-sicherheit-doku.json"
+    },
+    {
+      "german": "Hydraulikschema",
+      "type": "noun",
+      "keptFrom": "pack-03-waermepumpe.json",
+      "mergedFrom": "pack-06-sicherheit-doku.json"
+    },
+    {
+      "german": "Lecksuchspray",
+      "type": "noun",
+      "keptFrom": "pack-04-werkzeuge-rohre.json",
+      "mergedFrom": "pack-06-sicherheit-doku.json"
+    },
+    {
+      "german": "absperren",
+      "type": "verb",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-06-sicherheit-doku.json"
+    },
+    {
+      "german": "evakuieren",
+      "type": "verb",
+      "keptFrom": "pack-03-waermepumpe.json",
+      "mergedFrom": "pack-06-sicherheit-doku.json"
+    },
+    {
+      "german": "brennbar",
+      "type": "adjective",
+      "keptFrom": "pack-03-waermepumpe.json",
+      "mergedFrom": "pack-06-sicherheit-doku.json"
+    },
+    {
+      "german": "spannungsfrei",
+      "type": "adjective",
+      "keptFrom": "pack-04-werkzeuge-rohre.json",
+      "mergedFrom": "pack-06-sicherheit-doku.json"
+    },
+    {
+      "german": "abgleichen",
+      "type": "verb",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-06-sicherheit-doku.json"
+    },
+    {
+      "german": "Messwert",
+      "type": "noun",
+      "keptFrom": "pack-05-montage-wartung.json",
+      "mergedFrom": "pack-06-sicherheit-doku.json"
+    },
+    {
+      "german": "Abnahme",
+      "type": "noun",
+      "keptFrom": "pack-05-montage-wartung.json",
+      "mergedFrom": "pack-06-sicherheit-doku.json"
+    },
+    {
+      "german": "Wartung",
+      "type": "noun",
+      "keptFrom": "pack-05-montage-wartung.json",
+      "mergedFrom": "pack-06-sicherheit-doku.json"
+    },
+    {
+      "german": "Anlage",
+      "type": "noun",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-06-sicherheit-doku.json"
+    },
+    {
+      "german": "Prüfprotokoll",
+      "type": "noun",
+      "keptFrom": "pack-05-montage-wartung.json",
+      "mergedFrom": "pack-06-sicherheit-doku.json"
+    },
+    {
+      "german": "Abnahmeprotokoll",
+      "type": "noun",
+      "keptFrom": "pack-05-montage-wartung.json",
+      "mergedFrom": "pack-06-sicherheit-doku.json"
+    },
+    {
+      "german": "Wartungsprotokoll",
+      "type": "noun",
+      "keptFrom": "pack-05-montage-wartung.json",
+      "mergedFrom": "pack-06-sicherheit-doku.json"
+    },
+    {
+      "german": "Toleranz",
+      "type": "noun",
+      "keptFrom": "pack-05-montage-wartung.json",
+      "mergedFrom": "pack-06-sicherheit-doku.json"
+    },
+    {
+      "german": "Sollwert",
+      "type": "noun",
+      "keptFrom": "pack-05-montage-wartung.json",
+      "mergedFrom": "pack-06-sicherheit-doku.json"
+    },
+    {
+      "german": "Istwert",
+      "type": "noun",
+      "keptFrom": "pack-05-montage-wartung.json",
+      "mergedFrom": "pack-06-sicherheit-doku.json"
+    },
+    {
+      "german": "Dichtheitsprüfung",
+      "type": "noun",
+      "keptFrom": "pack-02-sanitaer.json",
+      "mergedFrom": "pack-06-sicherheit-doku.json"
+    },
+    {
+      "german": "Druckprüfung",
+      "type": "noun",
+      "keptFrom": "pack-02-sanitaer.json",
+      "mergedFrom": "pack-06-sicherheit-doku.json"
+    },
+    {
+      "german": "Funktionsprüfung",
+      "type": "noun",
+      "keptFrom": "pack-05-montage-wartung.json",
+      "mergedFrom": "pack-06-sicherheit-doku.json"
+    },
+    {
+      "german": "protokollieren",
+      "type": "verb",
+      "keptFrom": "pack-03-waermepumpe.json",
+      "mergedFrom": "pack-06-sicherheit-doku.json"
+    },
+    {
+      "german": "Inbetriebnahmeprotokoll",
+      "type": "noun",
+      "keptFrom": "pack-03-waermepumpe.json",
+      "mergedFrom": "pack-06-sicherheit-doku.json"
+    },
+    {
+      "german": "Gebäudeenergiegesetz",
+      "type": "noun",
+      "keptFrom": "pack-03-waermepumpe.json",
+      "mergedFrom": "pack-06-sicherheit-doku.json"
+    },
+    {
+      "german": "Gewährleistung",
+      "type": "noun",
+      "keptFrom": "pack-05-montage-wartung.json",
+      "mergedFrom": "pack-06-sicherheit-doku.json"
+    },
+    {
+      "german": "Mängelrüge",
+      "type": "noun",
+      "keptFrom": "pack-05-montage-wartung.json",
+      "mergedFrom": "pack-06-sicherheit-doku.json"
+    },
+    {
+      "german": "Wartungsvertrag",
+      "type": "noun",
+      "keptFrom": "pack-05-montage-wartung.json",
+      "mergedFrom": "pack-06-sicherheit-doku.json"
+    },
+    {
+      "german": "Hilfe",
+      "type": "noun",
+      "keptFrom": "pack-06-sicherheit-doku.json",
+      "mergedFrom": "pack-07-meister-kunden.json"
+    },
+    {
+      "german": "Rechnung",
+      "type": "noun",
+      "keptFrom": "pack-06-sicherheit-doku.json",
+      "mergedFrom": "pack-07-meister-kunden.json"
+    },
+    {
+      "german": "Schlüssel",
+      "type": "noun",
+      "keptFrom": "pack-04-werkzeuge-rohre.json",
+      "mergedFrom": "pack-07-meister-kunden.json"
+    },
+    {
+      "german": "warten",
+      "type": "verb",
+      "keptFrom": "pack-05-montage-wartung.json",
+      "mergedFrom": "pack-07-meister-kunden.json"
+    },
+    {
+      "german": "Baustelle",
+      "type": "noun",
+      "keptFrom": "pack-05-montage-wartung.json",
+      "mergedFrom": "pack-07-meister-kunden.json"
+    },
+    {
+      "german": "Auftrag",
+      "type": "noun",
+      "keptFrom": "pack-06-sicherheit-doku.json",
+      "mergedFrom": "pack-07-meister-kunden.json"
+    },
+    {
+      "german": "Unterschrift",
+      "type": "noun",
+      "keptFrom": "pack-06-sicherheit-doku.json",
+      "mergedFrom": "pack-07-meister-kunden.json"
+    },
+    {
+      "german": "Lärm",
+      "type": "noun",
+      "keptFrom": "pack-06-sicherheit-doku.json",
+      "mergedFrom": "pack-07-meister-kunden.json"
+    },
+    {
+      "german": "erklären",
+      "type": "verb",
+      "keptFrom": "pack-06-sicherheit-doku.json",
+      "mergedFrom": "pack-07-meister-kunden.json"
+    },
+    {
+      "german": "unterschreiben",
+      "type": "verb",
+      "keptFrom": "pack-06-sicherheit-doku.json",
+      "mergedFrom": "pack-07-meister-kunden.json"
+    },
+    {
+      "german": "Ersatzteil",
+      "type": "noun",
+      "keptFrom": "pack-05-montage-wartung.json",
+      "mergedFrom": "pack-07-meister-kunden.json"
+    },
+    {
+      "german": "Stundenzettel",
+      "type": "noun",
+      "keptFrom": "pack-06-sicherheit-doku.json",
+      "mergedFrom": "pack-07-meister-kunden.json"
+    },
+    {
+      "german": "Sicherheitsschuh",
+      "type": "noun",
+      "keptFrom": "pack-06-sicherheit-doku.json",
+      "mergedFrom": "pack-07-meister-kunden.json"
+    },
+    {
+      "german": "Garantie",
+      "type": "noun",
+      "keptFrom": "pack-06-sicherheit-doku.json",
+      "mergedFrom": "pack-07-meister-kunden.json"
+    },
+    {
+      "german": "Notdienst",
+      "type": "noun",
+      "keptFrom": "pack-05-montage-wartung.json",
+      "mergedFrom": "pack-07-meister-kunden.json"
+    },
+    {
+      "german": "dokumentieren",
+      "type": "verb",
+      "keptFrom": "pack-06-sicherheit-doku.json",
+      "mergedFrom": "pack-07-meister-kunden.json"
+    },
+    {
+      "german": "überprüfen",
+      "type": "verb",
+      "keptFrom": "pack-05-montage-wartung.json",
+      "mergedFrom": "pack-07-meister-kunden.json"
+    },
+    {
+      "german": "eintragen",
+      "type": "verb",
+      "keptFrom": "pack-06-sicherheit-doku.json",
+      "mergedFrom": "pack-07-meister-kunden.json"
+    },
+    {
+      "german": "bestätigen",
+      "type": "verb",
+      "keptFrom": "pack-06-sicherheit-doku.json",
+      "mergedFrom": "pack-07-meister-kunden.json"
+    },
+    {
+      "german": "fachgerecht",
+      "type": "adjective",
+      "keptFrom": "pack-06-sicherheit-doku.json",
+      "mergedFrom": "pack-07-meister-kunden.json"
+    },
+    {
+      "german": "Gewerk",
+      "type": "noun",
+      "keptFrom": "pack-05-montage-wartung.json",
+      "mergedFrom": "pack-07-meister-kunden.json"
+    },
+    {
+      "german": "Abnahme",
+      "type": "noun",
+      "keptFrom": "pack-05-montage-wartung.json",
+      "mergedFrom": "pack-07-meister-kunden.json"
+    },
+    {
+      "german": "Abnahmeprotokoll",
+      "type": "noun",
+      "keptFrom": "pack-05-montage-wartung.json",
+      "mergedFrom": "pack-07-meister-kunden.json"
+    },
+    {
+      "german": "Lieferschein",
+      "type": "noun",
+      "keptFrom": "pack-06-sicherheit-doku.json",
+      "mergedFrom": "pack-07-meister-kunden.json"
+    },
+    {
+      "german": "Aufmaß",
+      "type": "noun",
+      "keptFrom": "pack-06-sicherheit-doku.json",
+      "mergedFrom": "pack-07-meister-kunden.json"
+    },
+    {
+      "german": "Mangel",
+      "type": "noun",
+      "keptFrom": "pack-06-sicherheit-doku.json",
+      "mergedFrom": "pack-07-meister-kunden.json"
+    },
+    {
+      "german": "Mängelrüge",
+      "type": "noun",
+      "keptFrom": "pack-05-montage-wartung.json",
+      "mergedFrom": "pack-07-meister-kunden.json"
+    },
+    {
+      "german": "Gewährleistung",
+      "type": "noun",
+      "keptFrom": "pack-05-montage-wartung.json",
+      "mergedFrom": "pack-07-meister-kunden.json"
+    },
+    {
+      "german": "Haftung",
+      "type": "noun",
+      "keptFrom": "pack-06-sicherheit-doku.json",
+      "mergedFrom": "pack-07-meister-kunden.json"
+    },
+    {
+      "german": "Nachtrag",
+      "type": "noun",
+      "keptFrom": "pack-06-sicherheit-doku.json",
+      "mergedFrom": "pack-07-meister-kunden.json"
+    },
+    {
+      "german": "Wartungsvertrag",
+      "type": "noun",
+      "keptFrom": "pack-05-montage-wartung.json",
+      "mergedFrom": "pack-07-meister-kunden.json"
+    },
+    {
+      "german": "Bedienungsanleitung",
+      "type": "noun",
+      "keptFrom": "pack-06-sicherheit-doku.json",
+      "mergedFrom": "pack-07-meister-kunden.json"
+    },
+    {
+      "german": "Übergabe",
+      "type": "noun",
+      "keptFrom": "pack-06-sicherheit-doku.json",
+      "mergedFrom": "pack-07-meister-kunden.json"
+    },
+    {
+      "german": "Störungsmeldung",
+      "type": "noun",
+      "keptFrom": "pack-05-montage-wartung.json",
+      "mergedFrom": "pack-07-meister-kunden.json"
+    },
+    {
+      "german": "Fehlerdiagnose",
+      "type": "noun",
+      "keptFrom": "pack-05-montage-wartung.json",
+      "mergedFrom": "pack-07-meister-kunden.json"
+    },
+    {
+      "german": "Frist",
+      "type": "noun",
+      "keptFrom": "pack-06-sicherheit-doku.json",
+      "mergedFrom": "pack-07-meister-kunden.json"
+    },
+    {
+      "german": "protokollieren",
+      "type": "verb",
+      "keptFrom": "pack-03-waermepumpe.json",
+      "mergedFrom": "pack-07-meister-kunden.json"
+    },
+    {
+      "german": "beheben",
+      "type": "verb",
+      "keptFrom": "pack-05-montage-wartung.json",
+      "mergedFrom": "pack-07-meister-kunden.json"
+    },
+    {
+      "german": "absichern",
+      "type": "verb",
+      "keptFrom": "pack-06-sicherheit-doku.json",
+      "mergedFrom": "pack-07-meister-kunden.json"
+    },
+    {
+      "german": "beanstanden",
+      "type": "verb",
+      "keptFrom": "pack-06-sicherheit-doku.json",
+      "mergedFrom": "pack-07-meister-kunden.json"
+    },
+    {
+      "german": "verbindlich",
+      "type": "adjective",
+      "keptFrom": "pack-06-sicherheit-doku.json",
+      "mergedFrom": "pack-07-meister-kunden.json"
+    },
+    {
+      "german": "Schnittstellenkoordination",
+      "type": "noun",
+      "keptFrom": "pack-05-montage-wartung.json",
+      "mergedFrom": "pack-07-meister-kunden.json"
+    },
+    {
+      "german": "Bedenkenanmeldung",
+      "type": "noun",
+      "keptFrom": "pack-06-sicherheit-doku.json",
+      "mergedFrom": "pack-07-meister-kunden.json"
+    },
+    {
+      "german": "Leistungsverzeichnis",
+      "type": "noun",
+      "keptFrom": "pack-06-sicherheit-doku.json",
+      "mergedFrom": "pack-07-meister-kunden.json"
+    },
+    {
+      "german": "Schlüssel",
+      "type": "noun",
+      "keptFrom": "pack-04-werkzeuge-rohre.json",
+      "mergedFrom": "pack-08-alltag-grammatik.json"
+    },
+    {
+      "german": "Termin",
+      "type": "noun",
+      "keptFrom": "pack-07-meister-kunden.json",
+      "mergedFrom": "pack-08-alltag-grammatik.json"
+    },
+    {
+      "german": "Rechnung",
+      "type": "noun",
+      "keptFrom": "pack-06-sicherheit-doku.json",
+      "mergedFrom": "pack-08-alltag-grammatik.json"
+    },
+    {
+      "german": "Feierabend",
+      "type": "noun",
+      "keptFrom": "pack-07-meister-kunden.json",
+      "mergedFrom": "pack-08-alltag-grammatik.json"
+    },
+    {
+      "german": "Antrag",
+      "type": "noun",
+      "keptFrom": "pack-03-waermepumpe.json",
+      "mergedFrom": "pack-08-alltag-grammatik.json"
+    },
+    {
+      "german": "Frist",
+      "type": "noun",
+      "keptFrom": "pack-06-sicherheit-doku.json",
+      "mergedFrom": "pack-08-alltag-grammatik.json"
+    },
+    {
+      "german": "Übergabeprotokoll",
+      "type": "noun",
+      "keptFrom": "pack-06-sicherheit-doku.json",
+      "mergedFrom": "pack-08-alltag-grammatik.json"
+    },
+    {
+      "german": "Beschwerde",
+      "type": "noun",
+      "keptFrom": "pack-07-meister-kunden.json",
+      "mergedFrom": "pack-08-alltag-grammatik.json"
+    },
+    {
+      "german": "Genehmigung",
+      "type": "noun",
+      "keptFrom": "pack-03-waermepumpe.json",
+      "mergedFrom": "pack-08-alltag-grammatik.json"
+    },
+    {
+      "german": "Gewährleistung",
+      "type": "noun",
+      "keptFrom": "pack-05-montage-wartung.json",
+      "mergedFrom": "pack-08-alltag-grammatik.json"
+    },
+    {
+      "german": "anrufen",
+      "type": "verb",
+      "keptFrom": "pack-07-meister-kunden.json",
+      "mergedFrom": "pack-08-alltag-grammatik.json"
+    },
+    {
+      "german": "mitbringen",
+      "type": "verb",
+      "keptFrom": "pack-07-meister-kunden.json",
+      "mergedFrom": "pack-08-alltag-grammatik.json"
+    },
+    {
+      "german": "ausfüllen",
+      "type": "verb",
+      "keptFrom": "pack-06-sicherheit-doku.json",
+      "mergedFrom": "pack-08-alltag-grammatik.json"
+    },
+    {
+      "german": "erklären",
+      "type": "verb",
+      "keptFrom": "pack-06-sicherheit-doku.json",
+      "mergedFrom": "pack-08-alltag-grammatik.json"
+    },
+    {
+      "german": "vereinbaren",
+      "type": "verb",
+      "keptFrom": "pack-07-meister-kunden.json",
+      "mergedFrom": "pack-08-alltag-grammatik.json"
+    },
+    {
+      "german": "verschieben",
+      "type": "verb",
+      "keptFrom": "pack-07-meister-kunden.json",
+      "mergedFrom": "pack-08-alltag-grammatik.json"
+    },
+    {
+      "german": "absagen",
+      "type": "verb",
+      "keptFrom": "pack-07-meister-kunden.json",
+      "mergedFrom": "pack-08-alltag-grammatik.json"
+    },
+    {
+      "german": "beantragen",
+      "type": "verb",
+      "keptFrom": "pack-03-waermepumpe.json",
+      "mergedFrom": "pack-08-alltag-grammatik.json"
+    },
+    {
+      "german": "vermeiden",
+      "type": "verb",
+      "keptFrom": "pack-06-sicherheit-doku.json",
+      "mergedFrom": "pack-08-alltag-grammatik.json"
+    },
+    {
+      "german": "aufpassen",
+      "type": "verb",
+      "keptFrom": "pack-07-meister-kunden.json",
+      "mergedFrom": "pack-08-alltag-grammatik.json"
+    },
+    {
+      "german": "feststellen",
+      "type": "verb",
+      "keptFrom": "pack-07-meister-kunden.json",
+      "mergedFrom": "pack-08-alltag-grammatik.json"
+    },
+    {
+      "german": "einhalten",
+      "type": "verb",
+      "keptFrom": "pack-06-sicherheit-doku.json",
+      "mergedFrom": "pack-08-alltag-grammatik.json"
+    },
+    {
+      "german": "überprüfen",
+      "type": "verb",
+      "keptFrom": "pack-05-montage-wartung.json",
+      "mergedFrom": "pack-08-alltag-grammatik.json"
+    },
+    {
+      "german": "nachweisen",
+      "type": "verb",
+      "keptFrom": "pack-06-sicherheit-doku.json",
+      "mergedFrom": "pack-08-alltag-grammatik.json"
+    },
+    {
+      "german": "erörtern",
+      "type": "verb",
+      "keptFrom": "pack-07-meister-kunden.json",
+      "mergedFrom": "pack-08-alltag-grammatik.json"
+    },
+    {
+      "german": "nachvollziehen",
+      "type": "verb",
+      "keptFrom": "pack-07-meister-kunden.json",
+      "mergedFrom": "pack-08-alltag-grammatik.json"
+    },
+    {
+      "german": "einräumen",
+      "type": "verb",
+      "keptFrom": "pack-07-meister-kunden.json",
+      "mergedFrom": "pack-08-alltag-grammatik.json"
+    },
+    {
+      "german": "neu",
+      "type": "adjective",
+      "keptFrom": "pack-05-montage-wartung.json",
+      "mergedFrom": "pack-08-alltag-grammatik.json"
+    },
+    {
+      "german": "pünktlich",
+      "type": "adjective",
+      "keptFrom": "pack-07-meister-kunden.json",
+      "mergedFrom": "pack-08-alltag-grammatik.json"
+    },
+    {
+      "german": "sicher",
+      "type": "adjective",
+      "keptFrom": "pack-06-sicherheit-doku.json",
+      "mergedFrom": "pack-08-alltag-grammatik.json"
+    },
+    {
+      "german": "sauber",
+      "type": "adjective",
+      "keptFrom": "pack-02-sanitaer.json",
+      "mergedFrom": "pack-08-alltag-grammatik.json"
+    },
+    {
+      "german": "defekt",
+      "type": "adjective",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-08-alltag-grammatik.json"
+    },
+    {
+      "german": "zuverlässig",
+      "type": "adjective",
+      "keptFrom": "pack-07-meister-kunden.json",
+      "mergedFrom": "pack-08-alltag-grammatik.json"
+    },
+    {
+      "german": "sorgfältig",
+      "type": "adjective",
+      "keptFrom": "pack-07-meister-kunden.json",
+      "mergedFrom": "pack-08-alltag-grammatik.json"
+    },
+    {
+      "german": "vollständig",
+      "type": "adjective",
+      "keptFrom": "pack-06-sicherheit-doku.json",
+      "mergedFrom": "pack-08-alltag-grammatik.json"
+    },
+    {
+      "german": "dicht",
+      "type": "adjective",
+      "keptFrom": "pack-02-sanitaer.json",
+      "mergedFrom": "pack-08-alltag-grammatik.json"
+    },
+    {
+      "german": "effizient",
+      "type": "adjective",
+      "keptFrom": "pack-01-heizung.json",
+      "mergedFrom": "pack-08-alltag-grammatik.json"
+    },
+    {
+      "german": "nachhaltig",
+      "type": "adjective",
+      "keptFrom": "pack-03-waermepumpe.json",
+      "mergedFrom": "pack-08-alltag-grammatik.json"
+    },
+    {
+      "german": "verbindlich",
+      "type": "adjective",
+      "keptFrom": "pack-06-sicherheit-doku.json",
+      "mergedFrom": "pack-08-alltag-grammatik.json"
+    },
+    {
+      "german": "kurzfristig",
+      "type": "adjective",
+      "keptFrom": "pack-07-meister-kunden.json",
+      "mergedFrom": "pack-08-alltag-grammatik.json"
+    }
+  ],
+  "summary": {
+    "totalUniqueWords": 2025,
+    "levelCounts": {
+      "A1": 153,
+      "A2": 253,
+      "B1": 454,
+      "B2": 908,
+      "C1": 257,
+      "C2": 0
+    },
+    "typeCounts": {
+      "noun": 1431,
+      "verb": 323,
+      "adjective": 165,
+      "phrase": 38,
+      "adverb": 24,
+      "preposition": 23,
+      "conjunction": 20,
+      "pronoun": 1
+    },
+    "totalCollections": 19,
+    "totalExamples": 4617,
+    "totalRelations": 10624,
+    "invalidForeignKeys": 0,
+    "errorsCount": 0,
+    "warningsCount": 1,
+    "duplicateExamplesCount": 0,
+    "fullBackupBytes": 2622822,
+    "fullBackupMB": 2.5
+  },
+  "targetChecks": {
+    "totalUniqueWords": {
+      "actual": 2025,
+      "target": 2000,
+      "pass": true
+    },
+    "A1": {
+      "actual": 153,
+      "target": 150,
+      "pass": true
+    },
+    "A2": {
+      "actual": 253,
+      "target": 250,
+      "pass": true
+    },
+    "B1": {
+      "actual": 454,
+      "target": 450,
+      "pass": true
+    },
+    "B2": {
+      "actual": 908,
+      "target": 900,
+      "pass": true
+    },
+    "C1": {
+      "actual": 257,
+      "target": 250,
+      "pass": true
+    }
+  },
+  "collectionChecks": [
+    {
+      "id": "col-heizung",
+      "name": "Heizungstechnik – Isıtma Sistemleri",
+      "category": "mesleki",
+      "actual": 406,
+      "target": 220,
+      "pass": true
+    },
+    {
+      "id": "col-sanitaer",
+      "name": "Sanitärtechnik – Sıhhi Tesisat",
+      "category": "mesleki",
+      "actual": 326,
+      "target": 220,
+      "pass": true
+    },
+    {
+      "id": "col-waermepumpe",
+      "name": "Wärmepumpentechnik – Isı Pompaları",
+      "category": "mesleki",
+      "actual": 306,
+      "target": 250,
+      "pass": true
+    },
+    {
+      "id": "col-werkzeuge",
+      "name": "Werkzeuge und Maschinen – Aletler ve Makineler",
+      "category": "mesleki",
+      "actual": 220,
+      "target": 180,
+      "pass": true
+    },
+    {
+      "id": "col-rohre",
+      "name": "Rohre, Ventile und Verbindungen – Borular ve Bağlantılar",
+      "category": "mesleki",
+      "actual": 279,
+      "target": 170,
+      "pass": true
+    },
+    {
+      "id": "col-montage",
+      "name": "Installation und Montage – Kurulum ve Montaj",
+      "category": "mesleki",
+      "actual": 569,
+      "target": 180,
+      "pass": true
+    },
+    {
+      "id": "col-wartung",
+      "name": "Wartung und Reparatur – Bakım ve Onarım",
+      "category": "mesleki",
+      "actual": 350,
+      "target": 160,
+      "pass": true
+    },
+    {
+      "id": "col-sicherheit",
+      "name": "Arbeitssicherheit – İş Güvenliği",
+      "category": "mesleki",
+      "actual": 335,
+      "target": 140,
+      "pass": true
+    },
+    {
+      "id": "col-techkom",
+      "name": "Technische Kommunikation – Teknik İletişim",
+      "category": "mesleki",
+      "actual": 212,
+      "target": 160,
+      "pass": true
+    },
+    {
+      "id": "col-kunden",
+      "name": "Kundenkommunikation – Müşteri İletişimi",
+      "category": "mesleki",
+      "actual": 276,
+      "target": 130,
+      "pass": true
+    },
+    {
+      "id": "col-meister",
+      "name": "Arbeitsalltag mit dem Meister – Ustayla Günlük Çalışma",
+      "category": "mesleki",
+      "actual": 325,
+      "target": 180,
+      "pass": true
+    },
+    {
+      "id": "col-doku",
+      "name": "Technische Dokumentation – Teknik Dokümantasyon",
+      "category": "mesleki",
+      "actual": 262,
+      "target": 160,
+      "pass": true
+    },
+    {
+      "id": "col-alltag",
+      "name": "Alltag und Kommunikation – Günlük Yaşam",
+      "category": "genel",
+      "actual": 384,
+      "target": 0,
+      "pass": true
+    },
+    {
+      "id": "col-verben",
+      "name": "Häufige Verben – Sık Kullanılan Fiiller",
+      "category": "genel",
+      "actual": 323,
+      "target": 0,
+      "pass": true
+    },
+    {
+      "id": "col-adj-adv",
+      "name": "Adjektive und Adverbien – Sıfatlar ve Zarflar",
+      "category": "genel",
+      "actual": 189,
+      "target": 0,
+      "pass": true
+    },
+    {
+      "id": "col-grammatik",
+      "name": "Grammatik und Präpositionen – Dil Bilgisi ve Edatlar",
+      "category": "genel",
+      "actual": 88,
+      "target": 0,
+      "pass": true
+    },
+    {
+      "id": "col-beruf",
+      "name": "Berufliche Gespräche – Mesleki Görüşmeler",
+      "category": "genel",
+      "actual": 275,
+      "target": 0,
+      "pass": true
+    },
+    {
+      "id": "col-b2",
+      "name": "B2 Prüfungsvorbereitung – B2 Sınav Hazırlığı",
+      "category": "genel",
+      "actual": 938,
+      "target": 0,
+      "pass": true
+    },
+    {
+      "id": "col-c1",
+      "name": "Technisches Deutsch C1 – Teknik Almanca C1",
+      "category": "genel",
+      "actual": 268,
+      "target": 0,
+      "pass": true
+    }
+  ],
+  "chunkFiles": [
+    {
+      "file": "kelime-defterim-part-01.json",
+      "words": 507,
+      "collections": 18,
+      "bytes": 710072
+    },
+    {
+      "file": "kelime-defterim-part-02.json",
+      "words": 507,
+      "collections": 18,
+      "bytes": 632292
+    },
+    {
+      "file": "kelime-defterim-part-03.json",
+      "words": 507,
+      "collections": 18,
+      "bytes": 684647
+    },
+    {
+      "file": "kelime-defterim-part-04.json",
+      "words": 504,
+      "collections": 19,
+      "bytes": 609590
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "Noun not capitalized: pH-Messgerät"
+  ],
+  "duplicateExamples": []
+}

@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
 import {
   FolderOpen, Plus, GraduationCap, MessageCircle, Plane, Zap, Flame, BookOpen,
   Briefcase, Music, Heart, Star, Trash2, Pencil, Play, Check, Search,
@@ -85,6 +85,7 @@ export function CollectionsScreen() {
   const words = useStore((s) => s.words);
   const { push, back } = useNav();
   const [editorOpen, setEditorOpen] = useState(false);
+  const wordById = useMemo(() => new Map(words.map((w) => [w.id, w])), [words]);
 
   return (
     <div className="screen">
@@ -95,9 +96,16 @@ export function CollectionsScreen() {
           <EmptyState icon={<FolderOpen size={28} />} title={t('collections.empty')} desc={t('collections.emptyDesc')}
             actionLabel={t('collections.create')} onAction={() => setEditorOpen(true)} />
         ) : collections.map((c) => {
-          const ws = words.filter((w) => c.wordIds.includes(w.id));
-          const learned = ws.filter((w) => w.srs.state === 'learned').length;
-          const pct = ws.length > 0 ? Math.round((learned / ws.length) * 100) : 0;
+          let total = 0;
+          let learned = 0;
+          for (const wid of c.wordIds) {
+            const w = wordById.get(wid);
+            if (w) {
+              total += 1;
+              if (w.srs.state === 'learned') learned += 1;
+            }
+          }
+          const pct = total > 0 ? Math.round((learned / total) * 100) : 0;
           return (
             <button key={c.id} className="card collection-card anim-in" style={{ ['--accent' as string]: c.color }}
               onClick={() => push({ name: 'collectionDetail', id: c.id })}>
@@ -109,7 +117,7 @@ export function CollectionsScreen() {
                 </div>
               </div>
               <div className="collection-meta">
-                <span>{t('collections.wordsCount', { n: ws.length })}</span>
+                <span>{t('collections.wordsCount', { n: total })}</span>
                 <div className="collection-track"><div className="collection-fill" style={{ width: `${pct}%` }} /></div>
                 <span>{t('collections.progress', { n: pct })}</span>
               </div>
@@ -139,8 +147,20 @@ export function CollectionDetailScreen({ id }: { id: string }) {
   const [delOpen, setDelOpen] = useState(false);
   const [manageOpen, setManageOpen] = useState(false);
   const [query, setQuery] = useState('');
+  const [visibleCount, setVisibleCount] = useState(60);
 
   const c = collections.find((x) => x.id === id);
+  const wordById = useMemo(() => new Map(words.map((w) => [w.id, w])), [words]);
+  const ws = useMemo(() => {
+    if (!c) return [];
+    const out = [];
+    for (const wid of c.wordIds) {
+      const w = wordById.get(wid);
+      if (w) out.push(w);
+    }
+    return out;
+  }, [c, wordById]);
+
   if (!c) {
     return (
       <div className="screen">
@@ -149,12 +169,11 @@ export function CollectionDetailScreen({ id }: { id: string }) {
       </div>
     );
   }
-  const ws = words.filter((w) => c.wordIds.includes(w.id));
   const learned = ws.filter((w) => w.srs.state === 'learned').length;
   const pct = ws.length > 0 ? Math.round((learned / ws.length) * 100) : 0;
-  const manageList = query.trim()
+  const manageList = (query.trim()
     ? words.filter((w) => foldForSearch(w.german).includes(foldForSearch(query)) || w.senses.some((s) => foldForSearch(s.tr).includes(foldForSearch(query))))
-    : words;
+    : words).slice(0, 80);
 
   return (
     <div className="screen">
@@ -183,7 +202,7 @@ export function CollectionDetailScreen({ id }: { id: string }) {
           </div>
         </div>
 
-        {ws.map((w) => (
+        {ws.slice(0, visibleCount).map((w) => (
           <button key={w.id} className="card recent-row" onClick={() => push({ name: 'wordDetail', id: w.id })}>
             <ArticleBadge article={w.article} solid />
             <div>
@@ -193,6 +212,13 @@ export function CollectionDetailScreen({ id }: { id: string }) {
             {w.level ? <span className="level-chip" style={{ marginLeft: 'auto' }}>{w.level}</span> : null}
           </button>
         ))}
+        {visibleCount < ws.length ? (
+          <div style={{ display: 'flex', justifyContent: 'center', padding: '0.9rem 0 1.5rem' }}>
+            <button className="btn outline" onClick={() => setVisibleCount((n) => Math.min(ws.length, n + 60))}>
+              +{Math.min(60, ws.length - visibleCount)} ({visibleCount}/{ws.length})
+            </button>
+          </div>
+        ) : null}
         {ws.length === 0 ? <EmptyState icon={<BookOpen size={26} />} title={t('words.empty')} desc={t('collections.emptyDesc')} actionLabel={t('collections.addWords')} onAction={() => setManageOpen(true)} /> : null}
       </div>
 

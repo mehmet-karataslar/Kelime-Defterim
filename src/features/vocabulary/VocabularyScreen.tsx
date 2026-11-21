@@ -1,4 +1,4 @@
-import { useMemo, useRef, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import {
   BookOpen, Search, X, SlidersHorizontal, FolderOpen, ArrowUpDown,
   List, LayoutGrid, Volume2, Heart, Plus, Trash2, Bookmark, Star, Clock, Download,
@@ -107,6 +107,8 @@ export default function VocabularyScreen() {
   const [selected, setSelected] = useState<Set<string>>(new Set());
   const [confirmDelete, setConfirmDelete] = useState(false);
   const [colPicker, setColPicker] = useState(false);
+  const [visibleCount, setVisibleCount] = useState(60);
+  const loadMoreRef = useRef<HTMLDivElement | null>(null);
 
   const selecting = selected.size > 0;
   const extraFilters = [typeFilter, statusFilter, articleFilter, colFilter].filter(Boolean).length;
@@ -142,6 +144,27 @@ export default function VocabularyScreen() {
     }
     return sorted;
   }, [words, collections, query, quick, sort, typeFilter, statusFilter, articleFilter, colFilter]);
+
+  useEffect(() => {
+    setVisibleCount(60);
+  }, [query, quick, sort, typeFilter, statusFilter, articleFilter, colFilter]);
+
+  useEffect(() => {
+    const el = loadMoreRef.current;
+    if (!el || visibleCount >= filtered.length) return;
+    const obs = new IntersectionObserver(
+      (entries) => {
+        if (entries[0]?.isIntersecting) {
+          setVisibleCount((c) => Math.min(filtered.length, c + 60));
+        }
+      },
+      { rootMargin: '300px' },
+    );
+    obs.observe(el);
+    return () => obs.disconnect();
+  }, [visibleCount, filtered.length]);
+
+  const visibleWords = useMemo(() => filtered.slice(0, visibleCount), [filtered, visibleCount]);
 
   const toggleSelect = (id: string) =>
     setSelected((prev) => {
@@ -190,7 +213,7 @@ export default function VocabularyScreen() {
         <div className="filter-row anim-in-2">
           <button className={`filter-chip ${quick === 'all' ? 'active' : ''}`} onClick={() => setQuick('all')}>{t('common.all')}</button>
           <button className={`filter-chip ${quick === 'fav' ? 'active' : ''}`} onClick={() => setQuick('fav')}>{t('common.favorites')}</button>
-          {(['A1', 'A2', 'B1'] as Level[]).map((l) => (
+          {(['A1', 'A2', 'B1', 'B2', 'C1'] as Level[]).map((l) => (
             <button key={l} className={`filter-chip ${quick === l ? 'active' : ''}`} onClick={() => setQuick(quick === l ? 'all' : l)}>{l}</button>
           ))}
           <button className={`filter-icon-btn ${extraFilters > 0 ? 'on' : ''}`} onClick={() => setFilterOpen(true)} aria-label={t('words.filterTitle')}>
@@ -221,17 +244,26 @@ export default function VocabularyScreen() {
         ) : filtered.length === 0 ? (
           <EmptyState icon={<Search size={28} />} title={t('words.noResults')} desc={t('words.noResultsDesc')} />
         ) : (
-          <div className={grid ? 'words-grid' : ''}>
-            {filtered.map((w) => (
-              <WordCard
-                key={w.id} w={w} grid={grid}
-                selecting={selecting} selected={selected.has(w.id)}
-                onOpen={() => push({ name: 'wordDetail', id: w.id })}
-                onLongPress={() => toggleSelect(w.id)}
-                onToggle={() => toggleSelect(w.id)}
-              />
-            ))}
-          </div>
+          <>
+            <div className={grid ? 'words-grid' : ''}>
+              {visibleWords.map((w) => (
+                <WordCard
+                  key={w.id} w={w} grid={grid}
+                  selecting={selecting} selected={selected.has(w.id)}
+                  onOpen={() => push({ name: 'wordDetail', id: w.id })}
+                  onLongPress={() => toggleSelect(w.id)}
+                  onToggle={() => toggleSelect(w.id)}
+                />
+              ))}
+            </div>
+            {visibleCount < filtered.length ? (
+              <div ref={loadMoreRef} style={{ display: 'flex', justifyContent: 'center', padding: '1rem 0 2rem' }}>
+                <button className="btn outline" onClick={() => setVisibleCount((c) => Math.min(filtered.length, c + 60))}>
+                  +{Math.min(60, filtered.length - visibleCount)} ({visibleCount}/{filtered.length})
+                </button>
+              </div>
+            ) : null}
+          </>
         )}
       </div>
 

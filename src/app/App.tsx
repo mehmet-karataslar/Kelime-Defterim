@@ -18,6 +18,7 @@ import { CollectionsScreen, CollectionDetailScreen } from '../features/collectio
 import Onboarding from '../features/onboarding/Onboarding';
 import { syncNotificationSchedule, notifyOnOpen } from '../features/notifications/service';
 import { syncWidgetSnapshot } from '../features/widgets/service';
+import { ensureBuiltInPackLoaded } from '../core/builtInPack';
 
 function RouteView({ route }: { route: Route }) {
   switch (route.name) {
@@ -47,6 +48,17 @@ export default function App() {
   useEffect(() => {
     if (Capacitor.isNativePlatform()) {
       document.documentElement.classList.add('is-native');
+    }
+  }, []);
+
+  useEffect(() => {
+    const runPack = () => {
+      void ensureBuiltInPackLoaded();
+    };
+    if (useStore.persist.hasHydrated()) {
+      runPack();
+    } else {
+      return useStore.persist.onFinishHydration(runPack);
     }
   }, []);
 

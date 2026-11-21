@@ -1,10 +1,11 @@
 import { create } from 'zustand';
-import { persist } from 'zustand/middleware';
+import { createJSONStorage, persist } from 'zustand/middleware';
 import {
   Collection, Rating, ReviewLog, SessionRecord, Settings, StudyMode, Word, uid,
 } from './types';
 import { freshSrs, scheduleNext } from './srs';
 import { buildSeed } from './seed';
+import { idbStorage } from './idbStorage';
 
 export const defaultSettings: Settings = {
   uiLang: 'tr',
@@ -67,6 +68,7 @@ interface AppState {
   sessions: SessionRecord[];
   settings: Settings;
   sampleData: boolean;
+  installedPacks: string[];
   undoBuffer: UndoBuffer | null;
 
   addWord: (w: Word) => void;
@@ -89,6 +91,7 @@ interface AppState {
   updateSettings: (patch: Partial<Settings>) => void;
   seedSample: () => void;
   removeSample: () => void;
+  installBuiltInPack: (packId: string, packWords: Word[], packCollections: Collection[]) => number;
   resetAll: () => void;
   exportBackup: () => BackupFile;
   importBackup: (b: BackupFile, mode: 'merge' | 'replace') => number;
@@ -103,6 +106,7 @@ export const useStore = create<AppState>()(
       sessions: [],
       settings: defaultSettings,
       sampleData: false,
+      installedPacks: [],
       undoBuffer: null,
 
       addWord: (w) => set((s) => ({ words: [w, ...s.words] })),
@@ -208,10 +212,63 @@ export const useStore = create<AppState>()(
           sampleData: false,
         });
       },
+      installBuiltInPack: (packId, packWords, packCollections) => {
+        const s = get();
+        if (s.installedPacks.includes(packId)) return 0;
+
+        const existingIds = new Set(s.words.map((w) => w.id));
+        const existingByKey = new Map<string, string>();
+        for (const w of s.words) {
+          existingByKey.set(`${w.german.normalize('NFC').toLocaleLowerCase('de-DE')}|${w.type}`, w.id);
+        }
+
+        const idRemap = new Map<string, string>();
+        const toAdd: Word[] = [];
+        for (const pw of packWords) {
+          if (existingIds.has(pw.id)) {
+            idRemap.set(pw.id, pw.id);
+            continue;
+          }
+          const key = `${pw.german.normalize('NFC').toLocaleLowerCase('de-DE')}|${pw.type}`;
+          const matchId = existingByKey.get(key);
+          if (matchId) {
+            // Preserve user's existing word & SRS progress; link collections to it
+            idRemap.set(pw.id, matchId);
+            continue;
+          }
+          idRemap.set(pw.id, pw.id);
+          toAdd.push(pw);
+        }
+
+        const existingColMap = new Map(s.collections.map((c) => [c.id, c]));
+        const nextCols = [...s.collections];
+        for (const pc of packCollections) {
+          const mappedWordIds = [...new Set(pc.wordIds.map((wid) => idRemap.get(wid) ?? wid))];
+          const existingCol = existingColMap.get(pc.id);
+          if (existingCol) {
+            const idx = nextCols.findIndex((c) => c.id === pc.id);
+            if (idx >= 0) {
+              nextCols[idx] = {
+                ...existingCol,
+                wordIds: [...new Set([...existingCol.wordIds, ...mappedWordIds])],
+              };
+            }
+          } else {
+            nextCols.push({ ...pc, wordIds: mappedWordIds });
+          }
+        }
+
+        set({
+          words: [...s.words, ...toAdd],
+          collections: nextCols,
+          installedPacks: [...s.installedPacks, packId],
+        });
+        return toAdd.length;
+      },
       resetAll: () =>
         set({
           words: [], collections: [], reviewLogs: [], sessions: [],
-          sampleData: false, undoBuffer: null,
+          sampleData: false, installedPacks: [], undoBuffer: null,
           settings: { ...get().settings, onboarded: true },
         }),
 
@@ -235,11 +292,21 @@ export const useStore = create<AppState>()(
         const s = get();
         const existing = new Set(s.words.map((w) => w.id));
         const newWords = b.words.filter((w) => !existing.has(w.id));
-        const existingCols = new Set(s.collections.map((c) => c.id));
+        const existingColsMap = new Map(s.collections.map((c) => [c.id, c]));
+        const mergedCols = [...s.collections];
+        for (const c of b.collections ?? []) {
+          const ex = existingColsMap.get(c.id);
+          if (ex) {
+            const idx = mergedCols.findIndex((x) => x.id === c.id);
+            if (idx >= 0) mergedCols[idx] = { ...ex, wordIds: [...new Set([...ex.wordIds, ...c.wordIds])] };
+          } else {
+            mergedCols.push(c);
+          }
+        }
         const existingLogs = new Set(s.reviewLogs.map((l) => l.id));
         set({
           words: [...newWords, ...s.words],
-          collections: [...s.collections, ...(b.collections ?? []).filter((c) => !existingCols.has(c.id))],
+          collections: mergedCols,
           reviewLogs: [...s.reviewLogs, ...(b.reviewLogs ?? []).filter((l) => !existingLogs.has(l.id))],
           sessions: [...(b.sessions ?? []), ...s.sessions],
         });
@@ -248,13 +315,20 @@ export const useStore = create<AppState>()(
     }),
     {
       name: 'kelime-defterim-v1',
+      storage: createJSONStorage(() => idbStorage),
       merge: (persisted, current) => {
         const p = (persisted ?? {}) as Partial<AppState>;
-        return { ...current, ...p, settings: { ...defaultSettings, ...(p.settings ?? {}) } };
+        return {
+          ...current,
+          ...p,
+          installedPacks: Array.isArray(p.installedPacks) ? p.installedPacks : [],
+          settings: { ...defaultSettings, ...(p.settings ?? {}) },
+        };
       },
       partialize: (s) => ({
         words: s.words, collections: s.collections, reviewLogs: s.reviewLogs,
         sessions: s.sessions, settings: s.settings, sampleData: s.sampleData,
+        installedPacks: s.installedPacks,
       }),
     },
   ),

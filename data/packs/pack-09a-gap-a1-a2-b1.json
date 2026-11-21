@@ -1,0 +1,5900 @@
+[
+  {
+    "german": "Taschenlampe",
+    "article": "die",
+    "type": "noun",
+    "level": "A1",
+    "senses": [
+      {
+        "tr": "El feneri",
+        "en": "flashlight, torch"
+      }
+    ],
+    "noun": {
+      "plural": "die Taschenlampen",
+      "genitiv": "der Taschenlampe"
+    },
+    "examples": [
+      {
+        "de": "Im dunklen Heizungskeller brauche ich unbedingt eine Taschenlampe.",
+        "tr": "Karanlık kazan dairesinde mutlaka bir el fenerine ihtiyacım var."
+      },
+      {
+        "de": "Die Batterien meiner Taschenlampe sind leider leer.",
+        "tr": "El fenerimin pilleri maalesef bitmiş."
+      }
+    ],
+    "synonyms": [
+      "Handlampe"
+    ],
+    "antonyms": [],
+    "related": [
+      "Stirnlampe",
+      "Baustrahler",
+      "Batterie",
+      "Licht"
+    ],
+    "tags": [
+      "werkzeug",
+      "beleuchtung",
+      "alltag"
+    ],
+    "collections": [
+      "col-werkzeuge",
+      "col-alltag",
+      "col-montage"
+    ]
+  },
+  {
+    "german": "Klebeband",
+    "article": "das",
+    "type": "noun",
+    "level": "A1",
+    "senses": [
+      {
+        "tr": "Yapışkan bant, koli bandı",
+        "en": "adhesive tape, duct tape"
+      }
+    ],
+    "noun": {
+      "plural": "die Klebebänder",
+      "genitiv": "des Klebebandes"
+    },
+    "examples": [
+      {
+        "de": "Kannst du den Karton bitte mit Klebeband verschließen?",
+        "tr": "Kartonu lütfen bantla kapatabilir misin?"
+      },
+      {
+        "de": "Wir befestigen die Schutzfolie mit starkem Klebeband am Boden.",
+        "tr": "Koruma folyosunu güçlü bantla zemine sabitliyoruz."
+      }
+    ],
+    "synonyms": [
+      "Tesafilm",
+      "Panzertape"
+    ],
+    "antonyms": [],
+    "related": [
+      "kleben",
+      "Isolierband",
+      "Verpackung"
+    ],
+    "tags": [
+      "werkzeug",
+      "material",
+      "alltag"
+    ],
+    "collections": [
+      "col-werkzeuge",
+      "col-alltag",
+      "col-montage"
+    ]
+  },
+  {
+    "german": "Teppichmesser",
+    "article": "das",
+    "type": "noun",
+    "level": "A1",
+    "senses": [
+      {
+        "tr": "Maket bıçağı, falçata",
+        "en": "utility knife, box cutter"
+      }
+    ],
+    "noun": {
+      "plural": "die Teppichmesser",
+      "genitiv": "des Teppichmessers"
+    },
+    "examples": [
+      {
+        "de": "Sei vorsichtig mit dem Teppichmesser, die Klinge ist sehr scharf.",
+        "tr": "Maket bıçağıyla dikkatli ol, bıçağı çok keskin."
+      },
+      {
+        "de": "Mit dem Teppichmesser schneide ich die Rohrisolierung sauber zu.",
+        "tr": "Maket bıçağıyla boru yalıtımını düzgünce kesiyorum."
+      }
+    ],
+    "synonyms": [
+      "Cuttermesser",
+      "Cutter"
+    ],
+    "antonyms": [],
+    "related": [
+      "Klinge",
+      "schneiden",
+      "Werkzeug"
+    ],
+    "tags": [
+      "werkzeug",
+      "handwerkzeug",
+      "montage"
+    ],
+    "collections": [
+      "col-werkzeuge",
+      "col-montage"
+    ]
+  },
+  {
+    "german": "Stehleiter",
+    "article": "die",
+    "type": "noun",
+    "level": "A1",
+    "senses": [
+      {
+        "tr": "Çift taraflı merdiven, A tipi merdiven",
+        "en": "stepladder"
+      }
+    ],
+    "noun": {
+      "plural": "die Stehleitern",
+      "genitiv": "der Stehleiter"
+    },
+    "examples": [
+      {
+        "de": "Stell die Stehleiter auf einen festen und ebenen Boden.",
+        "tr": "Merdiveni sağlam ve düz bir zemine yerleştir."
+      },
+      {
+        "de": "Um die Deckenrohre zu erreichen, hole ich die Stehleiter aus dem Transporter.",
+        "tr": "Tavan borularına ulaşmak için minibüsten merdiveni getiriyorum."
+      }
+    ],
+    "synonyms": [
+      "Klappleiter",
+      "Bockleiter"
+    ],
+    "antonyms": [],
+    "related": [
+      "Leiter",
+      "Sprosse",
+      "Gerüst",
+      "Arbeitssicherheit"
+    ],
+    "tags": [
+      "werkzeug",
+      "baustelle",
+      "sicherheit"
+    ],
+    "collections": [
+      "col-werkzeuge",
+      "col-montage",
+      "col-sicherheit"
+    ]
+  },
+  {
+    "german": "Baueimer",
+    "article": "der",
+    "type": "noun",
+    "level": "A1",
+    "senses": [
+      {
+        "tr": "İnşaat kovası, plastik harç kovası",
+        "en": "builder's bucket, heavy-duty bucket"
+      }
+    ],
+    "noun": {
+      "plural": "die Baueimer",
+      "genitiv": "des Baueimers"
+    },
+    "examples": [
+      {
+        "de": "Stell einen Baueimer unter das Ventil, bevor du die Leitung öffnest.",
+        "tr": "Hattı açmadan önce vananın altına bir inşaat kovası koy."
+      },
+      {
+        "de": "Wir sammeln den Bauschutt und die Rohrreste im Baueimer.",
+        "tr": "İnşaat molozunu ve boru artıklarını kovada topluyoruz."
+      }
+    ],
+    "synonyms": [
+      "Mörteleimer",
+      "Eimer"
+    ],
+    "antonyms": [],
+    "related": [
+      "Schubkarre",
+      "Bauschutt",
+      "Wasser"
+    ],
+    "tags": [
+      "werkzeug",
+      "baustelle",
+      "montage"
+    ],
+    "collections": [
+      "col-werkzeuge",
+      "col-montage"
+    ]
+  },
+  {
+    "german": "Fenster",
+    "article": "das",
+    "type": "noun",
+    "level": "A1",
+    "senses": [
+      {
+        "tr": "Pencere",
+        "en": "window"
+      }
+    ],
+    "noun": {
+      "plural": "die Fenster",
+      "genitiv": "des Fensters"
+    },
+    "examples": [
+      {
+        "de": "Im Winter sollte man beim Stoßlüften das Fenster kurz weit öffnen.",
+        "tr": "Kışın şok havalandırma yaparken pencereyi kısa süreliğine tamamen açmak gerekir."
+      },
+      {
+        "de": "Der neue Heizkörper wird direkt unter dem Fenster montiert.",
+        "tr": "Yeni radyatör doğrudan pencerenin altına monte ediliyor."
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "related": [
+      "Fensterbank",
+      "lüften",
+      "Wärmeverlust",
+      "Tür"
+    ],
+    "tags": [
+      "wohnen",
+      "alltag",
+      "heizung"
+    ],
+    "collections": [
+      "col-alltag",
+      "col-heizung"
+    ]
+  },
+  {
+    "german": "Tür",
+    "article": "die",
+    "type": "noun",
+    "level": "A1",
+    "senses": [
+      {
+        "tr": "Kapı",
+        "en": "door"
+      }
+    ],
+    "noun": {
+      "plural": "die Türen",
+      "genitiv": "der Tür"
+    },
+    "examples": [
+      {
+        "de": "Bitte schließ die Tür zum Technikraum nach der Arbeit wieder ab.",
+        "tr": "Lütfen işten sonra teknik odanın kapısını tekrar kilitle."
+      },
+      {
+        "de": "Passt der neue Pufferspeicher überhaupt durch diese schmale Tür?",
+        "tr": "Yeni tampon tankı bu dar kapıdan geçiyor mu?"
+      }
+    ],
+    "synonyms": [
+      "Eingang"
+    ],
+    "antonyms": [],
+    "related": [
+      "Haustür",
+      "Schlüssel",
+      "Schloss",
+      "Fenster"
+    ],
+    "tags": [
+      "wohnen",
+      "alltag",
+      "baustelle"
+    ],
+    "collections": [
+      "col-alltag",
+      "col-montage"
+    ]
+  },
+  {
+    "german": "Treppe",
+    "article": "die",
+    "type": "noun",
+    "level": "A1",
+    "senses": [
+      {
+        "tr": "Merdiven (bina içi/dışı)",
+        "en": "stairs, staircase"
+      }
+    ],
+    "noun": {
+      "plural": "die Treppen",
+      "genitiv": "der Treppe"
+    },
+    "examples": [
+      {
+        "de": "Wir müssen den alten Heizkessel vorsichtig die Treppe hochtragen.",
+        "tr": "Eski ısıtma kazanını dikkatlice merdivenden yukarı taşımalıyız."
+      },
+      {
+        "de": "Das Badezimmer befindet sich im ersten Stock gleich rechts neben der Treppe.",
+        "tr": "Banyo birinci katta, merdivenin hemen sağında yer alıyor."
+      }
+    ],
+    "synonyms": [
+      "Stiege"
+    ],
+    "antonyms": [
+      "Aufzug"
+    ],
+    "related": [
+      "Treppenhaus",
+      "Stufe",
+      "Geländer",
+      "Keller"
+    ],
+    "tags": [
+      "wohnen",
+      "alltag",
+      "baustelle"
+    ],
+    "collections": [
+      "col-alltag",
+      "col-montage"
+    ]
+  },
+  {
+    "german": "Keller",
+    "article": "der",
+    "type": "noun",
+    "level": "A1",
+    "senses": [
+      {
+        "tr": "Bodrum, mahzen",
+        "en": "basement, cellar"
+      }
+    ],
+    "noun": {
+      "plural": "die Keller",
+      "genitiv": "des Kellers"
+    },
+    "examples": [
+      {
+        "de": "Die Hauptwasserleitung und der Gaszähler befinden sich im Keller.",
+        "tr": "Ana su hattı ve gaz sayacı bodrumda bulunuyor."
+      },
+      {
+        "de": "Im Keller ist es im Sommer angenehm kühl.",
+        "tr": "Yazın bodrum hoş bir şekilde serin olur."
+      }
+    ],
+    "synonyms": [
+      "Untergeschoss",
+      "Kellergeschoss"
+    ],
+    "antonyms": [
+      "Dachboden"
+    ],
+    "related": [
+      "Heizungskeller",
+      "Treppe",
+      "Technikraum"
+    ],
+    "tags": [
+      "wohnen",
+      "alltag",
+      "heizung"
+    ],
+    "collections": [
+      "col-alltag",
+      "col-heizung",
+      "col-montage"
+    ]
+  },
+  {
+    "german": "Bahnhof",
+    "article": "der",
+    "type": "noun",
+    "level": "A1",
+    "senses": [
+      {
+        "tr": "Tren istasyonu, gar",
+        "en": "train station"
+      }
+    ],
+    "noun": {
+      "plural": "die Bahnhöfe",
+      "genitiv": "des Bahnhofs"
+    },
+    "examples": [
+      {
+        "de": "Mein Zug fährt um sieben Uhr vom Hauptbahnhof ab.",
+        "tr": "Trenim saat yedide ana istasyondan kalkıyor."
+      },
+      {
+        "de": "Die Baustelle liegt nur fünf Minuten zu Fuß vom Bahnhof entfernt.",
+        "tr": "Şantiye tren istasyonundan yürüyerek sadece beş dakika uzaklıkta."
+      }
+    ],
+    "synonyms": [
+      "Station"
+    ],
+    "antonyms": [],
+    "related": [
+      "Hauptbahnhof",
+      "Zug",
+      "Gleis",
+      "Fahrkarte"
+    ],
+    "tags": [
+      "verkehr",
+      "alltag"
+    ],
+    "collections": [
+      "col-alltag"
+    ]
+  },
+  {
+    "german": "Frühstück",
+    "article": "das",
+    "type": "noun",
+    "level": "A1",
+    "senses": [
+      {
+        "tr": "Kahvaltı",
+        "en": "breakfast"
+      }
+    ],
+    "noun": {
+      "plural": "die Frühstücke",
+      "genitiv": "des Frühstücks"
+    },
+    "examples": [
+      {
+        "de": "Vor der Arbeit esse ich ein schnelles Frühstück mit Brot und Käse.",
+        "tr": "İşten önce ekmek ve peynirle hızlı bir kahvaltı yapıyorum."
+      },
+      {
+        "de": "Um neun Uhr machen die Kollegen auf der Baustelle eine kurze Frühstückspause.",
+        "tr": "Saat dokuzda şantiyedeki meslektaşlar kısa bir kahvaltı molası veriyor."
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [
+      "Abendessen"
+    ],
+    "related": [
+      "frühstücken",
+      "Mittagessen",
+      "Pause",
+      "Kaffee"
+    ],
+    "tags": [
+      "essen",
+      "alltag"
+    ],
+    "collections": [
+      "col-alltag"
+    ]
+  },
+  {
+    "german": "Geld",
+    "article": "das",
+    "type": "noun",
+    "level": "A1",
+    "senses": [
+      {
+        "tr": "Para",
+        "en": "money"
+      }
+    ],
+    "noun": {
+      "plural": "die Gelder",
+      "genitiv": "des Geldes"
+    },
+    "examples": [
+      {
+        "de": "Mit einer modernen Wärmepumpe kann man langfristig viel Geld sparen.",
+        "tr": "Modern bir ısı pompasıyla uzun vadede çok para tasarruf edilebilir."
+      },
+      {
+        "de": "Hast du genug Bargeld dabei oder zahlst du mit Karte?",
+        "tr": "Yanında yeterince nakit para var mı yoksa kartla mı ödüyorsun?"
+      }
+    ],
+    "synonyms": [
+      "Bargeld",
+      "Zahlungsmittel"
+    ],
+    "antonyms": [],
+    "related": [
+      "bezahlen",
+      "kosten",
+      "Konto",
+      "Rechnung"
+    ],
+    "tags": [
+      "finanzen",
+      "alltag"
+    ],
+    "notes": "Günlük dilde genellikle tekil kullanılır; çoğulu 'die Gelder' daha çok 'fonlar / ödenekler' anlamındadır.",
+    "collections": [
+      "col-alltag",
+      "col-kunden"
+    ]
+  },
+  {
+    "german": "Uhr",
+    "article": "die",
+    "type": "noun",
+    "level": "A1",
+    "senses": [
+      {
+        "tr": "Saat (cihaz)",
+        "en": "clock, watch"
+      },
+      {
+        "tr": "Saat (zaman bildirimi)",
+        "en": "o'clock"
+      }
+    ],
+    "noun": {
+      "plural": "die Uhren",
+      "genitiv": "der Uhr"
+    },
+    "examples": [
+      {
+        "de": "Unser Termin beim Kunden beginnt pünktlich um acht Uhr.",
+        "tr": "Müşterideki randevumuz tam saat sekizde başlıyor."
+      },
+      {
+        "de": "Die alte Zeitschaltuhr an der Heizung muss neu eingestellt werden.",
+        "tr": "Isıtmadaki eski zaman saatinin yeniden ayarlanması gerekiyor."
+      }
+    ],
+    "synonyms": [
+      "Armbanduhr",
+      "Wanduhr"
+    ],
+    "antonyms": [],
+    "related": [
+      "Uhrzeit",
+      "Zeitschaltuhr",
+      "Stunde",
+      "Minute"
+    ],
+    "tags": [
+      "zeit",
+      "alltag"
+    ],
+    "collections": [
+      "col-alltag"
+    ]
+  },
+  {
+    "german": "lesen",
+    "article": null,
+    "type": "verb",
+    "level": "A1",
+    "senses": [
+      {
+        "tr": "Okumak",
+        "en": "to read"
+      }
+    ],
+    "verb": {
+      "praesens3": "liest",
+      "praeteritum": "las",
+      "partizip2": "gelesen",
+      "auxiliary": "haben",
+      "irregular": true
+    },
+    "examples": [
+      {
+        "de": "Bitte lies die Montageanleitung vor dem Einbau genau durch.",
+        "tr": "Lütfen montajdan önce montaj kılavuzunu dikkatlice oku."
+      },
+      {
+        "de": "Abends lese ich oft Fachartikel über neue Heizungstechnik.",
+        "tr": "Akşamları sık sık yeni ısıtma teknolojileri hakkında mesleki makaleler okuyorum."
+      }
+    ],
+    "synonyms": [
+      "durchlesen",
+      "studieren"
+    ],
+    "antonyms": [
+      "schreiben"
+    ],
+    "related": [
+      "ablesen",
+      "Leser",
+      "Anleitung"
+    ],
+    "tags": [
+      "verben",
+      "alltag",
+      "kommunikation"
+    ],
+    "collections": [
+      "col-verben",
+      "col-alltag"
+    ]
+  },
+  {
+    "german": "schreiben",
+    "article": null,
+    "type": "verb",
+    "level": "A1",
+    "senses": [
+      {
+        "tr": "Yazmak",
+        "en": "to write"
+      }
+    ],
+    "verb": {
+      "praesens3": "schreibt",
+      "praeteritum": "schrieb",
+      "partizip2": "geschrieben",
+      "auxiliary": "haben",
+      "irregular": true
+    },
+    "examples": [
+      {
+        "de": "Ich schreibe dem Kunden heute noch eine kurze E-Mail zur Terminbestätigung.",
+        "tr": "Müşteriye bugün randevu onayı için kısa bir e-posta yazıyorum."
+      },
+      {
+        "de": "Der Geselle hat alle Messwerte sauber ins Protokoll geschrieben.",
+        "tr": "Kalfa tüm ölçüm değerlerini protokole düzgünce yazdı."
+      }
+    ],
+    "synonyms": [
+      "notieren",
+      "aufschreiben"
+    ],
+    "antonyms": [
+      "lesen"
+    ],
+    "related": [
+      "unterschreiben",
+      "aufschreiben",
+      "Brief",
+      "Protokoll"
+    ],
+    "tags": [
+      "verben",
+      "alltag",
+      "kommunikation"
+    ],
+    "collections": [
+      "col-verben",
+      "col-alltag",
+      "col-doku"
+    ]
+  },
+  {
+    "german": "sprechen",
+    "article": null,
+    "type": "verb",
+    "level": "A1",
+    "senses": [
+      {
+        "tr": "Konuşmak",
+        "en": "to speak, to talk"
+      }
+    ],
+    "verb": {
+      "praesens3": "spricht",
+      "praeteritum": "sprach",
+      "partizip2": "gesprochen",
+      "auxiliary": "haben",
+      "irregular": true,
+      "preposition": "mit / über",
+      "prepCase": "Dativ / Akkusativ"
+    },
+    "examples": [
+      {
+        "de": "Wir sprechen morgen mit dem Meister über den neuen Zeitplan.",
+        "tr": "Yarın ustayla yeni zaman planı hakkında konuşacağız."
+      },
+      {
+        "de": "Können Sie bitte etwas langsamer sprechen?",
+        "tr": "Lütfen biraz daha yavaş konuşabilir misiniz?"
+      }
+    ],
+    "synonyms": [
+      "reden",
+      "sich unterhalten"
+    ],
+    "antonyms": [
+      "schweigen"
+    ],
+    "related": [
+      "besprechen",
+      "absprechen",
+      "Gespräch",
+      "Sprache"
+    ],
+    "tags": [
+      "verben",
+      "alltag",
+      "kommunikation"
+    ],
+    "collections": [
+      "col-verben",
+      "col-alltag",
+      "col-kunden"
+    ]
+  },
+  {
+    "german": "suchen",
+    "article": null,
+    "type": "verb",
+    "level": "A1",
+    "senses": [
+      {
+        "tr": "Aramak",
+        "en": "to look for, to search"
+      }
+    ],
+    "verb": {
+      "praesens3": "sucht",
+      "praeteritum": "suchte",
+      "partizip2": "gesucht",
+      "auxiliary": "haben",
+      "irregular": false
+    },
+    "examples": [
+      {
+        "de": "Ich suche seit zehn Minuten meinen Zehner-Schlüssel.",
+        "tr": "On dakikadır onluk anahtarımı arıyorum."
+      },
+      {
+        "de": "Wir suchen das Leck in der Fußbodenheizung mit einer Wärmebildkamera.",
+        "tr": "Yerden ısıtmadaki kaçağı termal kamera ile arıyoruz."
+      }
+    ],
+    "synonyms": [
+      "nachsehen"
+    ],
+    "antonyms": [
+      "finden"
+    ],
+    "related": [
+      "Suche",
+      "untersuchen",
+      "besuchen",
+      "Leitungssucher"
+    ],
+    "tags": [
+      "verben",
+      "alltag"
+    ],
+    "collections": [
+      "col-verben",
+      "col-alltag"
+    ]
+  },
+  {
+    "german": "finden",
+    "article": null,
+    "type": "verb",
+    "level": "A1",
+    "senses": [
+      {
+        "tr": "Bulmak",
+        "en": "to find"
+      },
+      {
+        "tr": "(Bir şey hakkında) düşünmek, bulmak",
+        "en": "to think, to consider"
+      }
+    ],
+    "verb": {
+      "praesens3": "findet",
+      "praeteritum": "fand",
+      "partizip2": "gefunden",
+      "auxiliary": "haben",
+      "irregular": true
+    },
+    "examples": [
+      {
+        "de": "Zum Glück haben wir den Fehler in der Steuerung schnell gefunden.",
+        "tr": "Neyse ki kumandadaki arızayı hızlıca bulduk."
+      },
+      {
+        "de": "Wie finden Sie unseren Vorschlag für das neue Badezimmer?",
+        "tr": "Yeni banyo için önerimizi nasıl buluyorsunuz?"
+      }
+    ],
+    "synonyms": [
+      "entdecken",
+      "auffinden"
+    ],
+    "antonyms": [
+      "verlieren",
+      "suchen"
+    ],
+    "related": [
+      "stattfinden",
+      "befinden",
+      "Fund"
+    ],
+    "tags": [
+      "verben",
+      "alltag"
+    ],
+    "collections": [
+      "col-verben",
+      "col-alltag"
+    ]
+  },
+  {
+    "german": "bezahlen",
+    "article": null,
+    "type": "verb",
+    "level": "A1",
+    "senses": [
+      {
+        "tr": "Ödemek",
+        "en": "to pay"
+      }
+    ],
+    "verb": {
+      "praesens3": "bezahlt",
+      "praeteritum": "bezahlte",
+      "partizip2": "bezahlt",
+      "auxiliary": "haben",
+      "irregular": false
+    },
+    "examples": [
+      {
+        "de": "Die Kundin möchte die Rechnung per Überweisung bezahlen.",
+        "tr": "Müşteri faturayı havale ile ödemek istiyor."
+      },
+      {
+        "de": "An der Kasse im Baumarkt habe ich das Material sofort bezahlt.",
+        "tr": "Yapı marketteki kasada malzemeyi hemen ödedim."
+      }
+    ],
+    "synonyms": [
+      "zahlen",
+      "begleichen"
+    ],
+    "antonyms": [],
+    "related": [
+      "Bezahlung",
+      "Rechnung",
+      "Anzahlung",
+      "Geld"
+    ],
+    "tags": [
+      "verben",
+      "finanzen",
+      "alltag"
+    ],
+    "collections": [
+      "col-verben",
+      "col-alltag",
+      "col-kunden"
+    ]
+  },
+  {
+    "german": "lang",
+    "article": null,
+    "type": "adjective",
+    "level": "A1",
+    "senses": [
+      {
+        "tr": "Uzun (mesafe veya süre)",
+        "en": "long"
+      }
+    ],
+    "adjective": {
+      "komparativ": "länger",
+      "superlativ": "am längsten"
+    },
+    "examples": [
+      {
+        "de": "Dieses Kupferrohr ist zwei Meter lang und muss gekürzt werden.",
+        "tr": "Bu bakır boru iki metre uzunluğunda ve kısaltılması gerekiyor."
+      },
+      {
+        "de": "Die Reparatur hat heute etwas länger gedauert als geplant.",
+        "tr": "Onarım bugün planlanandan biraz daha uzun sürdü."
+      }
+    ],
+    "synonyms": [
+      "ausgedehnt"
+    ],
+    "antonyms": [
+      "kurz"
+    ],
+    "related": [
+      "Länge",
+      "verlängern",
+      "langsam"
+    ],
+    "tags": [
+      "adjektiv",
+      "maße",
+      "alltag"
+    ],
+    "collections": [
+      "col-adj-adv",
+      "col-alltag"
+    ]
+  },
+  {
+    "german": "kurz",
+    "article": null,
+    "type": "adjective",
+    "level": "A1",
+    "senses": [
+      {
+        "tr": "Kısa",
+        "en": "short, brief"
+      }
+    ],
+    "adjective": {
+      "komparativ": "kürzer",
+      "superlativ": "am kürzesten"
+    },
+    "examples": [
+      {
+        "de": "Das Anschlusskabel ist leider zu kurz für die Steckdose.",
+        "tr": "Bağlantı kablosu maalesef priz için fazla kısa."
+      },
+      {
+        "de": "Haben Sie kurz Zeit für eine Rückfrage zum Auftrag?",
+        "tr": "Siparişle ilgili kısa bir soru için vaktiniz var mı?"
+      }
+    ],
+    "synonyms": [
+      "knapp"
+    ],
+    "antonyms": [
+      "lang"
+    ],
+    "related": [
+      "kürzen",
+      "Kürze",
+      "kurzfristig"
+    ],
+    "tags": [
+      "adjektiv",
+      "maße",
+      "alltag"
+    ],
+    "collections": [
+      "col-adj-adv",
+      "col-alltag"
+    ]
+  },
+  {
+    "german": "hell",
+    "article": null,
+    "type": "adjective",
+    "level": "A1",
+    "senses": [
+      {
+        "tr": "Aydınlık, parlak, açık (renk)",
+        "en": "bright, light"
+      }
+    ],
+    "adjective": {
+      "komparativ": "heller",
+      "superlativ": "am hellsten"
+    },
+    "examples": [
+      {
+        "de": "Mit dem neuen LED-Baustrahler ist der ganze Raum angenehm hell.",
+        "tr": "Yeni LED şantiye projektörüyle tüm oda hoş bir şekilde aydınlık."
+      },
+      {
+        "de": "Im Sommer bleibt es abends sehr lange hell.",
+        "tr": "Yazın akşamları hava çok uzun süre aydınlık kalır."
+      }
+    ],
+    "synonyms": [
+      "licht",
+      "leuchtend"
+    ],
+    "antonyms": [
+      "dunkel"
+    ],
+    "related": [
+      "Helligkeit",
+      "Licht",
+      "Baustrahler"
+    ],
+    "tags": [
+      "adjektiv",
+      "alltag"
+    ],
+    "collections": [
+      "col-adj-adv",
+      "col-alltag"
+    ]
+  },
+  {
+    "german": "dunkel",
+    "article": null,
+    "type": "adjective",
+    "level": "A1",
+    "senses": [
+      {
+        "tr": "Karanlık, koyu (renk)",
+        "en": "dark"
+      }
+    ],
+    "adjective": {
+      "komparativ": "dunkler",
+      "superlativ": "am dunkelsten"
+    },
+    "examples": [
+      {
+        "de": "Im Heizungskeller ist es ohne Licht völlig dunkel.",
+        "tr": "Kazan dairesinde ışıksız tamamen karanlık oluyor."
+      },
+      {
+        "de": "Das Heizungswasser ist sehr dunkel, wir sollten die Anlage spülen.",
+        "tr": "Isıtma suyu çok koyu renkli, tesisatı yıkamamız gerekiyor."
+      }
+    ],
+    "synonyms": [
+      "finster"
+    ],
+    "antonyms": [
+      "hell"
+    ],
+    "related": [
+      "Dunkelheit",
+      "Taschenlampe",
+      "Stirnlampe"
+    ],
+    "tags": [
+      "adjektiv",
+      "alltag"
+    ],
+    "collections": [
+      "col-adj-adv",
+      "col-alltag"
+    ]
+  },
+  {
+    "german": "sofort",
+    "article": null,
+    "type": "adverb",
+    "level": "A1",
+    "senses": [
+      {
+        "tr": "Hemen, derhal",
+        "en": "immediately, right away"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Bei Gasgeruch müssen Sie sofort das Hauptventil schließen und lüften.",
+        "tr": "Gaz kokusu durumunda ana vanayı hemen kapatıp havalandırmalısınız."
+      },
+      {
+        "de": "Ich rufe den Kunden sofort zurück.",
+        "tr": "Müşteriyi hemen geri arıyorum."
+      }
+    ],
+    "synonyms": [
+      "gleich",
+      "umgehend",
+      "unverzüglich"
+    ],
+    "antonyms": [
+      "später"
+    ],
+    "related": [
+      "sofortig",
+      "Notdienst",
+      "dringend"
+    ],
+    "tags": [
+      "adverb",
+      "zeit",
+      "alltag"
+    ],
+    "collections": [
+      "col-adj-adv",
+      "col-alltag",
+      "col-kunden"
+    ]
+  },
+  {
+    "german": "immer",
+    "article": null,
+    "type": "adverb",
+    "level": "A1",
+    "senses": [
+      {
+        "tr": "Her zaman, daima",
+        "en": "always"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Auf der Baustelle tragen wir immer Sicherheitsschuhe.",
+        "tr": "Şantiyede her zaman iş güvenliği ayakkabısı giyiyoruz."
+      },
+      {
+        "de": "Der Wasserdruck sollte immer im grünen Bereich bleiben.",
+        "tr": "Su basıncı her zaman yeşil aralıkta kalmalıdır."
+      }
+    ],
+    "synonyms": [
+      "stets",
+      "jederzeit"
+    ],
+    "antonyms": [
+      "nie",
+      "niemals"
+    ],
+    "related": [
+      "oft",
+      "manchmal",
+      "selten"
+    ],
+    "tags": [
+      "adverb",
+      "häufigkeit",
+      "alltag"
+    ],
+    "collections": [
+      "col-adj-adv",
+      "col-alltag",
+      "col-grammatik"
+    ]
+  },
+  {
+    "german": "Gummihammer",
+    "article": "der",
+    "type": "noun",
+    "level": "A2",
+    "senses": [
+      {
+        "tr": "Lastik çekiç, plastik tokmak",
+        "en": "rubber mallet"
+      }
+    ],
+    "noun": {
+      "plural": "die Gummihämmer",
+      "genitiv": "des Gummihammers"
+    },
+    "examples": [
+      {
+        "de": "Klopf die Abflussrohre vorsichtig mit dem Gummihammer zusammen.",
+        "tr": "Atık su borularını lastik çekiçle dikkatlice birbirine oturt."
+      },
+      {
+        "de": "Der Gummihammer hinterlässt keine Kratzer auf empfindlichen Fliesen.",
+        "tr": "Lastik çekiç hassas fayanslarda çizik bırakmaz."
+      }
+    ],
+    "synonyms": [
+      "Schonhammer"
+    ],
+    "antonyms": [],
+    "related": [
+      "Hammer",
+      "Fäustel",
+      "klopfen"
+    ],
+    "tags": [
+      "werkzeug",
+      "handwerkzeug",
+      "montage"
+    ],
+    "collections": [
+      "col-werkzeuge",
+      "col-montage"
+    ]
+  },
+  {
+    "german": "Kombizange",
+    "article": "die",
+    "type": "noun",
+    "level": "A2",
+    "senses": [
+      {
+        "tr": "Pense, kombine pense",
+        "en": "combination pliers"
+      }
+    ],
+    "noun": {
+      "plural": "die Kombizangen",
+      "genitiv": "der Kombizange"
+    },
+    "examples": [
+      {
+        "de": "Mit der Kombizange kann man Drähte greifen, biegen und abschneiden.",
+        "tr": "Pense ile telleri tutabilir, bükebilir ve kesebilirsin."
+      },
+      {
+        "de": "Die Kombizange gehört zur Grundausstattung in jedem Werkzeugkoffer.",
+        "tr": "Kombine pense her alet çantasının temel donanımına dahildir."
+      }
+    ],
+    "synonyms": [
+      "Kombinationszange"
+    ],
+    "antonyms": [],
+    "related": [
+      "Zange",
+      "Spitzzange",
+      "Rohrzange",
+      "Seitenschneider"
+    ],
+    "tags": [
+      "werkzeug",
+      "handwerkzeug",
+      "montage"
+    ],
+    "collections": [
+      "col-werkzeuge",
+      "col-montage"
+    ]
+  },
+  {
+    "german": "Spitzzange",
+    "article": "die",
+    "type": "noun",
+    "level": "A2",
+    "senses": [
+      {
+        "tr": "Kargaburun pense",
+        "en": "needle-nose pliers, long-nose pliers"
+      }
+    ],
+    "noun": {
+      "plural": "die Spitzzangen",
+      "genitiv": "der Spitzzange"
+    },
+    "examples": [
+      {
+        "de": "Für enge Stellen im Schaltkasten ist die Spitzzange ideal.",
+        "tr": "Kumanda panosundaki dar yerler için kargaburun pense idealdir."
+      },
+      {
+        "de": "Hol den kleinen Splint bitte mit der Spitzzange heraus.",
+        "tr": "Lütfen küçük pimi kargaburun penseyle çıkar."
+      }
+    ],
+    "synonyms": [
+      "Flachrundzange",
+      "Telefonzange"
+    ],
+    "antonyms": [],
+    "related": [
+      "Kombizange",
+      "Zange",
+      "spitz"
+    ],
+    "tags": [
+      "werkzeug",
+      "handwerkzeug",
+      "montage"
+    ],
+    "collections": [
+      "col-werkzeuge",
+      "col-montage"
+    ]
+  },
+  {
+    "german": "Schleifpapier",
+    "article": "das",
+    "type": "noun",
+    "level": "A2",
+    "senses": [
+      {
+        "tr": "Zımpara kağıdı",
+        "en": "sandpaper, abrasive paper"
+      }
+    ],
+    "noun": {
+      "plural": "die Schleifpapiere",
+      "genitiv": "des Schleifpapiers"
+    },
+    "examples": [
+      {
+        "de": "Vor dem Löten reinige ich das Kupferrohr gründlich mit feinem Schleifpapier.",
+        "tr": "Lehimlemeden önce bakır boruyu ince zımpara kağıdıyla iyice temizliyorum."
+      },
+      {
+        "de": "Wir brauchen noch Schleifpapier mit Körnung 120 für die Holzverkleidung.",
+        "tr": "Ahşap kaplama için 120 kum zımpara kağıdına daha ihtiyacımız var."
+      }
+    ],
+    "synonyms": [
+      "Sandpapier",
+      "Schmirgelpapier"
+    ],
+    "antonyms": [],
+    "related": [
+      "schleifen",
+      "Drahtbürste",
+      "Schleifvlies"
+    ],
+    "tags": [
+      "werkzeug",
+      "material",
+      "montage"
+    ],
+    "collections": [
+      "col-werkzeuge",
+      "col-montage"
+    ]
+  },
+  {
+    "german": "Drahtbürste",
+    "article": "die",
+    "type": "noun",
+    "level": "A2",
+    "senses": [
+      {
+        "tr": "Tel fırça",
+        "en": "wire brush"
+      }
+    ],
+    "noun": {
+      "plural": "die Drahtbürsten",
+      "genitiv": "der Drahtbürste"
+    },
+    "examples": [
+      {
+        "de": "Entferne den alten Rost am Gewinde zuerst mit einer Drahtbürste.",
+        "tr": "Dişlerdeki eski pası önce bir tel fırçayla temizle."
+      },
+      {
+        "de": "Bei der Kesselwartung bürsten wir den Wärmetauscher mit einer speziellen Drahtbürste ab.",
+        "tr": "Kazan bakımında eşanjörü özel bir tel fırçayla fırçalıyoruz."
+      }
+    ],
+    "synonyms": [
+      "Stahlbürste"
+    ],
+    "antonyms": [],
+    "related": [
+      "bürsten",
+      "Rost",
+      "Reinigung",
+      "Schleifpapier"
+    ],
+    "tags": [
+      "werkzeug",
+      "wartung",
+      "reinigung"
+    ],
+    "collections": [
+      "col-werkzeuge",
+      "col-wartung"
+    ]
+  },
+  {
+    "german": "Spachtel",
+    "article": "der",
+    "type": "noun",
+    "level": "A2",
+    "senses": [
+      {
+        "tr": "Spatula, macun bıçağı",
+        "en": "putty knife, spatula, scraper"
+      }
+    ],
+    "noun": {
+      "plural": "die Spachtel",
+      "genitiv": "des Spachtels"
+    },
+    "examples": [
+      {
+        "de": "Nach dem Stemmen verschließen wir den Schlitz in der Wand mit Gips und einem Spachtel.",
+        "tr": "Kırma işleminden sonra duvardaki kanalı alçı ve spatulayla kapatıyoruz."
+      },
+      {
+        "de": "Kratz die alte Dichtungsmasse vorsichtig mit dem Spachtel ab.",
+        "tr": "Eski sızdırmazlık macununu spatulayla dikkatlice kazı."
+      }
+    ],
+    "synonyms": [
+      "Malerspachtel"
+    ],
+    "antonyms": [],
+    "related": [
+      "spachteln",
+      "Gips",
+      "Kelle",
+      "Wand"
+    ],
+    "tags": [
+      "werkzeug",
+      "handwerkzeug",
+      "montage"
+    ],
+    "notes": "Almancada hem 'der Spachtel' (alet) hem de 'die Spachtel' (bölgesel) kullanılır; teknik dilde standart olan 'der Spachtel'dir.",
+    "collections": [
+      "col-werkzeuge",
+      "col-montage"
+    ]
+  },
+  {
+    "german": "Werkbank",
+    "article": "die",
+    "type": "noun",
+    "level": "A2",
+    "senses": [
+      {
+        "tr": "Çalışma tezgâhı, marangoz/atölye tezgâhı",
+        "en": "workbench"
+      }
+    ],
+    "noun": {
+      "plural": "die Werkbänke",
+      "genitiv": "der Werkbank"
+    },
+    "examples": [
+      {
+        "de": "Räum bitte am Feierabend die Werkbank sauber auf.",
+        "tr": "Lütfen paydosta çalışma tezgâhını temizce topla."
+      },
+      {
+        "de": "Auf der Werkbank ist ein schwerer Schraubstock fest montiert.",
+        "tr": "Çalışma tezgâhının üzerinde ağır bir mengene sabit olarak monte edilmiş."
+      }
+    ],
+    "synonyms": [
+      "Arbeitstisch"
+    ],
+    "antonyms": [],
+    "related": [
+      "Werkstatt",
+      "Schraubstock",
+      "Werkzeug"
+    ],
+    "tags": [
+      "werkzeug",
+      "werkstatt",
+      "beruf"
+    ],
+    "collections": [
+      "col-werkzeuge",
+      "col-beruf"
+    ]
+  },
+  {
+    "german": "Kabelbinder",
+    "article": "der",
+    "type": "noun",
+    "level": "A2",
+    "senses": [
+      {
+        "tr": "Kablo bağı, plastik kelepçe",
+        "en": "cable tie, zip tie"
+      }
+    ],
+    "noun": {
+      "plural": "die Kabelbinder",
+      "genitiv": "des Kabelbinders"
+    },
+    "examples": [
+      {
+        "de": "Wir bündeln die Fühlerkabel ordentlich mit schwarzen Kabelbindern.",
+        "tr": "Sensör kablolarını siyah kablo bağlarıyla düzgünce topluyoruz."
+      },
+      {
+        "de": "Schneide das überstehende Ende des Kabelbinders bündig ab.",
+        "tr": "Kablo bağının taşan ucunu sıfır olarak kes."
+      }
+    ],
+    "synonyms": [
+      "Straps"
+    ],
+    "antonyms": [],
+    "related": [
+      "Kabel",
+      "Isolierband",
+      "befestigen"
+    ],
+    "tags": [
+      "werkzeug",
+      "befestigung",
+      "montage"
+    ],
+    "collections": [
+      "col-werkzeuge",
+      "col-montage"
+    ]
+  },
+  {
+    "german": "Isolierband",
+    "article": "das",
+    "type": "noun",
+    "level": "A2",
+    "senses": [
+      {
+        "tr": "Elektrik bandı, izole bant",
+        "en": "electrical tape, insulating tape"
+      }
+    ],
+    "noun": {
+      "plural": "die Isolierbänder",
+      "genitiv": "des Isolierbandes"
+    },
+    "examples": [
+      {
+        "de": "Wickle das Isolierband sauber um die abisolierte Stelle.",
+        "tr": "İzole bandı soyulmuş yerin etrafına düzgünce sar."
+      },
+      {
+        "de": "Im Werkzeugkoffer habe ich immer eine Rolle Isolierband dabei.",
+        "tr": "Alet çantasında her zaman bir rulo elektrik bandı bulundururum."
+      }
+    ],
+    "synonyms": [
+      "Isoband"
+    ],
+    "antonyms": [],
+    "related": [
+      "isolieren",
+      "Klebeband",
+      "Kabel",
+      "Elektrik"
+    ],
+    "tags": [
+      "werkzeug",
+      "elektrik",
+      "sicherheit"
+    ],
+    "collections": [
+      "col-werkzeuge",
+      "col-montage",
+      "col-sicherheit"
+    ]
+  },
+  {
+    "german": "Stirnlampe",
+    "article": "die",
+    "type": "noun",
+    "level": "A2",
+    "senses": [
+      {
+        "tr": "Kafa lambası, alın feneri",
+        "en": "headlamp, head torch"
+      }
+    ],
+    "noun": {
+      "plural": "die Stirnlampen",
+      "genitiv": "der Stirnlampe"
+    },
+    "examples": [
+      {
+        "de": "Mit einer Stirnlampe habe ich im dunklen Schacht beide Hände frei.",
+        "tr": "Kafa lambasıyla karanlık şaftta iki elim de serbest kalıyor."
+      },
+      {
+        "de": "Vergiss nicht, die Stirnlampe vor dem Einsatz aufzuladen.",
+        "tr": "Görevden önce kafa lambasını şarj etmeyi unutma."
+      }
+    ],
+    "synonyms": [
+      "Kopflampe"
+    ],
+    "antonyms": [],
+    "related": [
+      "Taschenlampe",
+      "Baustrahler",
+      "Licht"
+    ],
+    "tags": [
+      "werkzeug",
+      "beleuchtung",
+      "wartung"
+    ],
+    "collections": [
+      "col-werkzeuge",
+      "col-wartung",
+      "col-sicherheit"
+    ]
+  },
+  {
+    "german": "Schubkarre",
+    "article": "die",
+    "type": "noun",
+    "level": "A2",
+    "senses": [
+      {
+        "tr": "El arabası",
+        "en": "wheelbarrow"
+      }
+    ],
+    "noun": {
+      "plural": "die Schubkarren",
+      "genitiv": "der Schubkarre"
+    },
+    "examples": [
+      {
+        "de": "Wir fahren den ausgehobenen Kies mit der Schubkarre in den Container.",
+        "tr": "Kazılan çakılı el arabasıyla konteynere taşıyoruz."
+      },
+      {
+        "de": "Der Reifen der Schubkarre hat zu wenig Luft.",
+        "tr": "El arabasının lastiğinde hava çok az."
+      }
+    ],
+    "synonyms": [
+      "Scheibtruhe"
+    ],
+    "antonyms": [],
+    "related": [
+      "Sackkarre",
+      "Baueimer",
+      "Transport"
+    ],
+    "tags": [
+      "werkzeug",
+      "baustelle",
+      "transport"
+    ],
+    "collections": [
+      "col-werkzeuge",
+      "col-montage"
+    ]
+  },
+  {
+    "german": "Sackkarre",
+    "article": "die",
+    "type": "noun",
+    "level": "A2",
+    "senses": [
+      {
+        "tr": "Yük taşıma arabası, çuval arabası",
+        "en": "hand truck, sack truck, dolly"
+      }
+    ],
+    "noun": {
+      "plural": "die Sackkarren",
+      "genitiv": "der Sackkarre"
+    },
+    "examples": [
+      {
+        "de": "Den schweren Warmwasserspeicher transportieren wir sicher mit einer Sackkarre.",
+        "tr": "Ağır sıcak su boylerini yük taşıma arabasıyla güvenli şekilde taşıyoruz."
+      },
+      {
+        "de": "Zurr die Gasflasche mit einem Gurt auf der Sackkarre fest.",
+        "tr": "Gaz tüpünü bir kayışla taşıma arabasına sıkıca bağla."
+      }
+    ],
+    "synonyms": [
+      "Transportkarre",
+      "Stechkarre"
+    ],
+    "antonyms": [],
+    "related": [
+      "Schubkarre",
+      "Transporter",
+      "heben"
+    ],
+    "tags": [
+      "werkzeug",
+      "transport",
+      "montage"
+    ],
+    "collections": [
+      "col-werkzeuge",
+      "col-montage"
+    ]
+  },
+  {
+    "german": "Parkplatz",
+    "article": "der",
+    "type": "noun",
+    "level": "A2",
+    "senses": [
+      {
+        "tr": "Park yeri, otopark",
+        "en": "parking space, parking lot"
+      }
+    ],
+    "noun": {
+      "plural": "die Parkplätze",
+      "genitiv": "des Parkplatzes"
+    },
+    "examples": [
+      {
+        "de": "In der Innenstadt ist es morgens schwer, einen Parkplatz für den Transporter zu finden.",
+        "tr": "Şehir merkezinde sabahları minibüs için park yeri bulmak zor."
+      },
+      {
+        "de": "Der Kunde hat uns einen Parkplatz direkt vor der Einfahrt freigehalten.",
+        "tr": "Müşteri bizim için garaj girişinin hemen önünde bir park yeri boş tuttu."
+      }
+    ],
+    "synonyms": [
+      "Stellplatz"
+    ],
+    "antonyms": [],
+    "related": [
+      "parken",
+      "Transporter",
+      "Anfahrt"
+    ],
+    "tags": [
+      "verkehr",
+      "alltag",
+      "montage"
+    ],
+    "collections": [
+      "col-alltag",
+      "col-montage"
+    ]
+  },
+  {
+    "german": "Umleitung",
+    "article": "die",
+    "type": "noun",
+    "level": "A2",
+    "senses": [
+      {
+        "tr": "Trafik yönlendirmesi, alternatif güzergâh",
+        "en": "detour, diversion"
+      }
+    ],
+    "noun": {
+      "plural": "die Umleitungen",
+      "genitiv": "der Umleitung"
+    },
+    "examples": [
+      {
+        "de": "Wegen einer Baustelle und der Umleitung kommen wir zehn Minuten später.",
+        "tr": "Yol çalışması ve trafik yönlendirmesi yüzünden on dakika geç geleceğiz."
+      },
+      {
+        "de": "Folge bitte den gelben Schildern für die Umleitung.",
+        "tr": "Lütfen alternatif güzergâh için sarı tabelaları takip et."
+      }
+    ],
+    "synonyms": [
+      "Ausweichstrecke"
+    ],
+    "antonyms": [],
+    "related": [
+      "umleiten",
+      "Stau",
+      "Anfahrt",
+      "Baustelle"
+    ],
+    "tags": [
+      "verkehr",
+      "alltag"
+    ],
+    "collections": [
+      "col-alltag",
+      "col-kunden"
+    ]
+  },
+  {
+    "german": "Kassenbon",
+    "article": "der",
+    "type": "noun",
+    "level": "A2",
+    "senses": [
+      {
+        "tr": "Kasa fişi, alışveriş fişi",
+        "en": "receipt, sales slip"
+      }
+    ],
+    "noun": {
+      "plural": "die Kassenbons",
+      "genitiv": "des Kassenbons"
+    },
+    "examples": [
+      {
+        "de": "Heb den Kassenbon vom Baumarkt gut für die Buchhaltung auf.",
+        "tr": "Yapı marketten aldığın kasa fişini muhasebe için iyi sakla."
+      },
+      {
+        "de": "Ohne Kassenbon kann man den Artikel leider nicht umtauschen.",
+        "tr": "Kasa fişi olmadan ürünü maalesef değiştiremiyorsunuz."
+      }
+    ],
+    "synonyms": [
+      "Kassenzettel",
+      "Beleg",
+      "Quittung"
+    ],
+    "antonyms": [],
+    "related": [
+      "Kasse",
+      "Rechnung",
+      "bezahlen",
+      "umtauschen"
+    ],
+    "tags": [
+      "einkauf",
+      "finanzen",
+      "alltag"
+    ],
+    "collections": [
+      "col-alltag",
+      "col-kunden"
+    ]
+  },
+  {
+    "german": "Rabatt",
+    "article": "der",
+    "type": "noun",
+    "level": "A2",
+    "senses": [
+      {
+        "tr": "İndirim, iskonto",
+        "en": "discount, rebate"
+      }
+    ],
+    "noun": {
+      "plural": "die Rabatte",
+      "genitiv": "des Rabatts"
+    },
+    "examples": [
+      {
+        "de": "Als Handwerksbetrieb bekommen wir beim Großhändler einen guten Rabatt.",
+        "tr": "Esnaf işletmesi olarak toptancıdan iyi bir indirim alıyoruz."
+      },
+      {
+        "de": "Bei Barzahlung gewähren wir drei Prozent Rabatt.",
+        "tr": "Nakit ödemede yüzde üç indirim uyguluyoruz."
+      }
+    ],
+    "synonyms": [
+      "Preisnachlass",
+      "Nachlass"
+    ],
+    "antonyms": [
+      "Aufschlag"
+    ],
+    "related": [
+      "Preis",
+      "Angebot",
+      "günstig",
+      "Rechnung"
+    ],
+    "tags": [
+      "finanzen",
+      "kunden",
+      "alltag"
+    ],
+    "collections": [
+      "col-kunden",
+      "col-alltag"
+    ]
+  },
+  {
+    "german": "Schicht",
+    "article": "die",
+    "type": "noun",
+    "level": "A2",
+    "senses": [
+      {
+        "tr": "Vardiya",
+        "en": "work shift"
+      },
+      {
+        "tr": "Katman, tabaka",
+        "en": "layer, coating"
+      }
+    ],
+    "noun": {
+      "plural": "die Schichten",
+      "genitiv": "der Schicht"
+    },
+    "examples": [
+      {
+        "de": "Diese Woche habe ich Frühschicht und meine Schicht beginnt um sechs Uhr.",
+        "tr": "Bu hafta sabah vardiyasındayım ve vardiyam saat altıda başlıyor."
+      },
+      {
+        "de": "Auf dem Wärmetauscher hat sich eine dicke Kalkschicht gebildet.",
+        "tr": "Eşanjörün üzerinde kalın bir kireç tabakası oluşmuş."
+      }
+    ],
+    "synonyms": [
+      "Arbeitsschicht",
+      "Lage"
+    ],
+    "antonyms": [],
+    "related": [
+      "Schichtarbeit",
+      "Dämmschicht",
+      "Arbeitszeit"
+    ],
+    "tags": [
+      "beruf",
+      "alltag",
+      "technik"
+    ],
+    "collections": [
+      "col-beruf",
+      "col-meister"
+    ]
+  },
+  {
+    "german": "Lohn",
+    "article": "der",
+    "type": "noun",
+    "level": "A2",
+    "senses": [
+      {
+        "tr": "Ücret, maaş (özellikle saatlik/işçi ücreti)",
+        "en": "wage, pay"
+      }
+    ],
+    "noun": {
+      "plural": "die Löhne",
+      "genitiv": "des Lohns"
+    },
+    "examples": [
+      {
+        "de": "Der Lohn wird am Ende des Monats pünktlich überwiesen.",
+        "tr": "Ücret ay sonunda zamanında hesaba yatırılıyor."
+      },
+      {
+        "de": "Auf der Rechnung sind Materialkosten und Arbeitslohn getrennt aufgeführt.",
+        "tr": "Faturada malzeme maliyetleri ve işçilik ücreti ayrı ayrı belirtilmiş."
+      }
+    ],
+    "synonyms": [
+      "Verdienst",
+      "Entgelt"
+    ],
+    "antonyms": [],
+    "related": [
+      "Stundenlohn",
+      "Gehalt",
+      "verdienen",
+      "Überstunde"
+    ],
+    "tags": [
+      "beruf",
+      "finanzen"
+    ],
+    "notes": "Almanya'da 'Lohn' genellikle saatlik/işçi ücreti (ör. Handwerker), 'Gehalt' ise sabit aylık maaş için kullanılır.",
+    "collections": [
+      "col-beruf",
+      "col-alltag"
+    ]
+  },
+  {
+    "german": "Karton",
+    "article": "der",
+    "type": "noun",
+    "level": "A2",
+    "senses": [
+      {
+        "tr": "Karton kutu, koli",
+        "en": "cardboard box, carton"
+      }
+    ],
+    "noun": {
+      "plural": "die Kartons",
+      "genitiv": "des Kartons"
+    },
+    "examples": [
+      {
+        "de": "Im großen Karton liegen die neuen Thermostatventile.",
+        "tr": "Büyük karton kutunun içinde yeni termostatik vanalar var."
+      },
+      {
+        "de": "Falte die leeren Kartons bitte zusammen und wirf sie ins Altpapier.",
+        "tr": "Boş kolileri lütfen katla ve atık kağıda at."
+      }
+    ],
+    "synonyms": [
+      "Pappkarton",
+      "Schachtel"
+    ],
+    "antonyms": [],
+    "related": [
+      "Verpackung",
+      "Klebeband",
+      "Lieferung"
+    ],
+    "tags": [
+      "alltag",
+      "montage",
+      "lager"
+    ],
+    "collections": [
+      "col-montage",
+      "col-alltag"
+    ]
+  },
+  {
+    "german": "Abfall",
+    "article": "der",
+    "type": "noun",
+    "level": "A2",
+    "senses": [
+      {
+        "tr": "Atık, çöp",
+        "en": "waste, garbage, rubbish"
+      },
+      {
+        "tr": "Düşüş (ör. basınç düşüşü)",
+        "en": "drop, fall"
+      }
+    ],
+    "noun": {
+      "plural": "die Abfälle",
+      "genitiv": "des Abfalls"
+    },
+    "examples": [
+      {
+        "de": "Wir trennen den Abfall auf der Baustelle in Metall, Kunststoff und Restmüll.",
+        "tr": "Şantiyedeki atıkları metal, plastik ve karışık çöp olarak ayırıyoruz."
+      },
+      {
+        "de": "Ein plötzlicher Druckabfall deutet auf eine Undichtigkeit hin.",
+        "tr": "Ani bir basınç düşüşü bir sızıntıya işaret eder."
+      }
+    ],
+    "synonyms": [
+      "Müll",
+      "Unrat"
+    ],
+    "antonyms": [],
+    "related": [
+      "Sondermüll",
+      "Druckabfall",
+      "Entsorgung"
+    ],
+    "tags": [
+      "umwelt",
+      "baustelle",
+      "alltag"
+    ],
+    "collections": [
+      "col-montage",
+      "col-alltag",
+      "col-sicherheit"
+    ]
+  },
+  {
+    "german": "Schmutz",
+    "article": "der",
+    "type": "noun",
+    "level": "A2",
+    "senses": [
+      {
+        "tr": "Kir, pislik",
+        "en": "dirt, grime, filth"
+      }
+    ],
+    "noun": {
+      "noPlural": true,
+      "genitiv": "des Schmutzes"
+    },
+    "examples": [
+      {
+        "de": "Der Schmutzfänger hält Rost und Schmutz von der Heizungspumpe fern.",
+        "tr": "Pislik tutucu pas ve kiri ısıtma pompasından uzak tutar."
+      },
+      {
+        "de": "Nach dem Bohren saugen wir den ganzen Schmutz sofort weg.",
+        "tr": "Delme işleminden sonra tüm kiri hemen elektrik süpürgesiyle çekiyoruz."
+      }
+    ],
+    "synonyms": [
+      "Dreck",
+      "Verunreinigung"
+    ],
+    "antonyms": [
+      "Sauberkeit"
+    ],
+    "related": [
+      "schmutzig",
+      "Schmutzfänger",
+      "reinigen"
+    ],
+    "tags": [
+      "wartung",
+      "alltag"
+    ],
+    "collections": [
+      "col-wartung",
+      "col-alltag"
+    ]
+  },
+  {
+    "german": "Transporter",
+    "article": "der",
+    "type": "noun",
+    "level": "A2",
+    "senses": [
+      {
+        "tr": "Servis minibüsü, panelvan, nakliye aracı",
+        "en": "van, transporter"
+      }
+    ],
+    "noun": {
+      "plural": "die Transporter",
+      "genitiv": "des Transporters"
+    },
+    "examples": [
+      {
+        "de": "Morgens laden wir alle Rohre und Werkzeuge in den Transporter.",
+        "tr": "Sabahları tüm boruları ve aletleri servis minibüsüne yüklüyoruz."
+      },
+      {
+        "de": "Unser Transporter hat ein praktisches Regalsystem für Kleinteile.",
+        "tr": "Servis aracımızda küçük parçalar için pratik bir raf sistemi var."
+      }
+    ],
+    "synonyms": [
+      "Lieferwagen",
+      "Kastenwagen"
+    ],
+    "antonyms": [],
+    "related": [
+      "transportieren",
+      "Ladungssicherung",
+      "Parkplatz"
+    ],
+    "tags": [
+      "fahrzeug",
+      "montage",
+      "beruf"
+    ],
+    "collections": [
+      "col-montage",
+      "col-beruf"
+    ]
+  },
+  {
+    "german": "umziehen",
+    "article": null,
+    "type": "verb",
+    "level": "A2",
+    "senses": [
+      {
+        "tr": "Taşınmak (ev/işyeri)",
+        "en": "to move house, to relocate"
+      },
+      {
+        "tr": "Üstünü değiştirmek (sich umziehen)",
+        "en": "to change clothes"
+      }
+    ],
+    "verb": {
+      "praesens3": "zieht um",
+      "praeteritum": "zog um",
+      "partizip2": "umgezogen",
+      "auxiliary": "sein",
+      "irregular": true,
+      "separable": true
+    },
+    "examples": [
+      {
+        "de": "Nächsten Monat ziehen wir in eine größere Wohnung um.",
+        "tr": "Gelecek ay daha büyük bir daireye taşınıyoruz."
+      },
+      {
+        "de": "Nach der staubigen Arbeit ziehe ich mich in der Werkstatt kurz um.",
+        "tr": "Tozlu işten sonra atölyede kısaca üstümü değiştiriyorum."
+      }
+    ],
+    "synonyms": [
+      "übersiedeln",
+      "Kleidung wechseln"
+    ],
+    "antonyms": [],
+    "related": [
+      "Umzug",
+      "einziehen",
+      "ausziehen"
+    ],
+    "tags": [
+      "verben",
+      "wohnen",
+      "alltag"
+    ],
+    "notes": "'Taşınmak' anlamında 'sein' ile (ist umgezogen), 'üstünü değiştirmek' anlamında dönüşlü olarak 'haben' ile (hat sich umgezogen) çekimlenir.",
+    "collections": [
+      "col-verben",
+      "col-alltag"
+    ]
+  },
+  {
+    "german": "vergessen",
+    "article": null,
+    "type": "verb",
+    "level": "A2",
+    "senses": [
+      {
+        "tr": "Unutmak",
+        "en": "to forget"
+      }
+    ],
+    "verb": {
+      "praesens3": "vergisst",
+      "praeteritum": "vergaß",
+      "partizip2": "vergessen",
+      "auxiliary": "haben",
+      "irregular": true
+    },
+    "examples": [
+      {
+        "de": "Vergiss bitte nicht, den Hauptschalter wieder einzuschalten.",
+        "tr": "Lütfen ana şalteri tekrar açmayı unutma."
+      },
+      {
+        "de": "Ich habe leider das Maßband im Lager vergessen.",
+        "tr": "Maalesef şerit metreyi depoda unutmuşum."
+      }
+    ],
+    "synonyms": [
+      "versäumen"
+    ],
+    "antonyms": [
+      "erinnern",
+      "merken"
+    ],
+    "related": [
+      "vergesslich",
+      "Erinnerung"
+    ],
+    "tags": [
+      "verben",
+      "alltag"
+    ],
+    "collections": [
+      "col-verben",
+      "col-alltag"
+    ]
+  },
+  {
+    "german": "verlieren",
+    "article": null,
+    "type": "verb",
+    "level": "A2",
+    "senses": [
+      {
+        "tr": "Kaybetmek",
+        "en": "to lose"
+      }
+    ],
+    "verb": {
+      "praesens3": "verliert",
+      "praeteritum": "verlor",
+      "partizip2": "verloren",
+      "auxiliary": "haben",
+      "irregular": true
+    },
+    "examples": [
+      {
+        "de": "Die Heizungsanlage verliert ständig Wasser und Druck.",
+        "tr": "Isıtma tesisatı sürekli su ve basınç kaybediyor."
+      },
+      {
+        "de": "Pass auf, dass du die kleinen Dichtungsringe nicht verlierst.",
+        "tr": "Küçük contaları kaybetmemeye dikkat et."
+      }
+    ],
+    "synonyms": [
+      "einbüßen"
+    ],
+    "antonyms": [
+      "finden",
+      "gewinnen"
+    ],
+    "related": [
+      "Verlust",
+      "Wärmeverlust",
+      "Druckverlust"
+    ],
+    "tags": [
+      "verben",
+      "alltag",
+      "technik"
+    ],
+    "collections": [
+      "col-verben",
+      "col-alltag"
+    ]
+  },
+  {
+    "german": "verpassen",
+    "article": null,
+    "type": "verb",
+    "level": "A2",
+    "senses": [
+      {
+        "tr": "Kaçırmak (tren, randevu, fırsat)",
+        "en": "to miss (train, appointment, opportunity)"
+      }
+    ],
+    "verb": {
+      "praesens3": "verpasst",
+      "praeteritum": "verpasste",
+      "partizip2": "verpasst",
+      "auxiliary": "haben",
+      "irregular": false
+    },
+    "examples": [
+      {
+        "de": "Ich habe heute Morgen leider die S-Bahn verpasst.",
+        "tr": "Bu sabah maalesef banliyö trenini kaçırdım."
+      },
+      {
+        "de": "Wir dürfen die Frist für den Förderantrag auf keinen Fall verpassen.",
+        "tr": "Teşvik başvurusu için son tarihi kesinlikle kaçırmamalıyız."
+      }
+    ],
+    "synonyms": [
+      "versäumen"
+    ],
+    "antonyms": [
+      "erreichen"
+    ],
+    "related": [
+      "Termin",
+      "Frist",
+      "spät"
+    ],
+    "tags": [
+      "verben",
+      "zeit",
+      "alltag"
+    ],
+    "collections": [
+      "col-verben",
+      "col-alltag"
+    ]
+  },
+  {
+    "german": "erreichen",
+    "article": null,
+    "type": "verb",
+    "level": "A2",
+    "senses": [
+      {
+        "tr": "Ulaşmak, erişmek (kişiye, hedefe, değere)",
+        "en": "to reach, to achieve"
+      }
+    ],
+    "verb": {
+      "praesens3": "erreicht",
+      "praeteritum": "erreichte",
+      "partizip2": "erreicht",
+      "auxiliary": "haben",
+      "irregular": false
+    },
+    "examples": [
+      {
+        "de": "Telefonisch erreichen Sie unseren Kundendienst ab sieben Uhr.",
+        "tr": "Müşteri hizmetlerimize telefonla saat yediden itibaren ulaşabilirsiniz."
+      },
+      {
+        "de": "Nach zwanzig Minuten hat das Warmwasser die gewünschte Temperatur erreicht.",
+        "tr": "Yirmi dakika sonra sıcak su istenen sıcaklığa ulaştı."
+      }
+    ],
+    "synonyms": [
+      "erlangen",
+      "antreffen"
+    ],
+    "antonyms": [
+      "verpassen"
+    ],
+    "related": [
+      "erreichbar",
+      "Erreichbarkeit"
+    ],
+    "tags": [
+      "verben",
+      "kunden",
+      "alltag"
+    ],
+    "collections": [
+      "col-verben",
+      "col-kunden",
+      "col-alltag"
+    ]
+  },
+  {
+    "german": "zurückgeben",
+    "article": null,
+    "type": "verb",
+    "level": "A2",
+    "senses": [
+      {
+        "tr": "Geri vermek, iade etmek",
+        "en": "to give back, to return"
+      }
+    ],
+    "verb": {
+      "praesens3": "gibt zurück",
+      "praeteritum": "gab zurück",
+      "partizip2": "zurückgegeben",
+      "auxiliary": "haben",
+      "irregular": true,
+      "separable": true
+    },
+    "examples": [
+      {
+        "de": "Wir können die nicht gebrauchten Fittings beim Großhändler zurückgeben.",
+        "tr": "Kullanılmayan bağlantı parçalarını toptancıya iade edebiliriz."
+      },
+      {
+        "de": "Bitte gib mir das Messgerät nach der Prüfung wieder zurück.",
+        "tr": "Lütfen testten sonra ölçüm cihazını bana geri ver."
+      }
+    ],
+    "synonyms": [
+      "retournieren",
+      "erstatten"
+    ],
+    "antonyms": [
+      "behalten"
+    ],
+    "related": [
+      "Rückgabe",
+      "umtauschen",
+      "leihen"
+    ],
+    "tags": [
+      "verben",
+      "alltag",
+      "einkauf"
+    ],
+    "collections": [
+      "col-verben",
+      "col-alltag",
+      "col-kunden"
+    ]
+  },
+  {
+    "german": "umtauschen",
+    "article": null,
+    "type": "verb",
+    "level": "A2",
+    "senses": [
+      {
+        "tr": "Değiştirmek (ürün iade edip yenisini almak)",
+        "en": "to exchange (a product)"
+      }
+    ],
+    "verb": {
+      "praesens3": "tauscht um",
+      "praeteritum": "tauschte um",
+      "partizip2": "umgetauscht",
+      "auxiliary": "haben",
+      "irregular": false,
+      "separable": true
+    },
+    "examples": [
+      {
+        "de": "Das Ventil hat das falsche Gewinde, ich muss es im Fachhandel umtauschen.",
+        "tr": "Vananın dişi yanlış, onu teknik markette değiştirmem gerekiyor."
+      },
+      {
+        "de": "Mit dem Kassenbon können Sie die Arbeitsschuhe problemlos umtauschen.",
+        "tr": "Kasa fişiyle iş ayakkabılarını sorunsuzca değiştirebilirsiniz."
+      }
+    ],
+    "synonyms": [
+      "austauschen",
+      "wechseln"
+    ],
+    "antonyms": [],
+    "related": [
+      "Umtausch",
+      "zurückgeben",
+      "Kassenbon"
+    ],
+    "tags": [
+      "verben",
+      "einkauf",
+      "alltag"
+    ],
+    "collections": [
+      "col-verben",
+      "col-alltag",
+      "col-kunden"
+    ]
+  },
+  {
+    "german": "mieten",
+    "article": null,
+    "type": "verb",
+    "level": "A2",
+    "senses": [
+      {
+        "tr": "Kiralamak (kiracı olarak)",
+        "en": "to rent, to hire"
+      }
+    ],
+    "verb": {
+      "praesens3": "mietet",
+      "praeteritum": "mietete",
+      "partizip2": "gemietet",
+      "auxiliary": "haben",
+      "irregular": false
+    },
+    "examples": [
+      {
+        "de": "Für den großen Umbau mieten wir ein mobiles Gerüst.",
+        "tr": "Büyük tadilat için seyyar bir iskele kiralıyoruz."
+      },
+      {
+        "de": "Die Familie mietet seit drei Jahren ein Haus am Stadtrand.",
+        "tr": "Aile üç yıldır şehrin kenarında bir ev kiralıyor."
+      }
+    ],
+    "synonyms": [
+      "anmieten",
+      "ausleihen"
+    ],
+    "antonyms": [
+      "vermieten",
+      "kaufen"
+    ],
+    "related": [
+      "Miete",
+      "Mieter",
+      "Vermieter"
+    ],
+    "tags": [
+      "verben",
+      "wohnen",
+      "beruf"
+    ],
+    "collections": [
+      "col-verben",
+      "col-alltag",
+      "col-beruf"
+    ]
+  },
+  {
+    "german": "praktisch",
+    "article": null,
+    "type": "adjective",
+    "level": "A2",
+    "senses": [
+      {
+        "tr": "Pratik, kullanışlı",
+        "en": "practical, handy"
+      },
+      {
+        "tr": "Uygulamalı (teorik karşıtı)",
+        "en": "practical, hands-on"
+      }
+    ],
+    "adjective": {
+      "komparativ": "praktischer",
+      "superlativ": "am praktischsten"
+    },
+    "examples": [
+      {
+        "de": "Eine magnetische Werkzeughalterung ist auf der Leiter sehr praktisch.",
+        "tr": "Mıknatıslı bir alet tutucu merdiven üzerinde çok kullanışlı."
+      },
+      {
+        "de": "Die praktische Prüfung für den Gesellenbrief findet in der Werkstatt statt.",
+        "tr": "Kalfalık belgesi için uygulamalı sınav atölyede yapılıyor."
+      }
+    ],
+    "synonyms": [
+      "nützlich",
+      "handlich"
+    ],
+    "antonyms": [
+      "unpraktisch",
+      "theoretisch"
+    ],
+    "related": [
+      "Praxis",
+      "Praktikum"
+    ],
+    "tags": [
+      "adjektiv",
+      "alltag",
+      "beruf"
+    ],
+    "collections": [
+      "col-adj-adv",
+      "col-alltag"
+    ]
+  },
+  {
+    "german": "bequem",
+    "article": null,
+    "type": "adjective",
+    "level": "A2",
+    "senses": [
+      {
+        "tr": "Rahat, konforlu",
+        "en": "comfortable, convenient"
+      }
+    ],
+    "adjective": {
+      "komparativ": "bequemer",
+      "superlativ": "am bequemsten"
+    },
+    "examples": [
+      {
+        "de": "Mit einer App lässt sich die Heizung bequem vom Sofa aus steuern.",
+        "tr": "Bir uygulama ile ısıtma koltuktan rahatça kontrol edilebiliyor."
+      },
+      {
+        "de": "Gute Arbeitsschuhe müssen sicher und gleichzeitig bequem sein.",
+        "tr": "İyi iş ayakkabıları hem güvenli hem de aynı zamanda rahat olmalıdır."
+      }
+    ],
+    "synonyms": [
+      "komfortabel",
+      "angenehm"
+    ],
+    "antonyms": [
+      "unbequem"
+    ],
+    "related": [
+      "Bequemlichkeit",
+      "Komfort"
+    ],
+    "tags": [
+      "adjektiv",
+      "alltag"
+    ],
+    "collections": [
+      "col-adj-adv",
+      "col-alltag"
+    ]
+  },
+  {
+    "german": "eng",
+    "article": null,
+    "type": "adjective",
+    "level": "A2",
+    "senses": [
+      {
+        "tr": "Dar, sıkışık",
+        "en": "narrow, tight"
+      }
+    ],
+    "adjective": {
+      "komparativ": "enger",
+      "superlativ": "am engsten"
+    },
+    "examples": [
+      {
+        "de": "Im engen Installationsschacht lässt sich der Rohrschlüssel kaum drehen.",
+        "tr": "Dar tesisat şaftında boru anahtarı neredeyse hiç döndürülemiyor."
+      },
+      {
+        "de": "Wir arbeiten eng mit dem Elektriker zusammen.",
+        "tr": "Elektrikçiyle yakın iş birliği içinde çalışıyoruz."
+      }
+    ],
+    "synonyms": [
+      "schmal",
+      "knapp"
+    ],
+    "antonyms": [
+      "breit",
+      "weit"
+    ],
+    "related": [
+      "Enge",
+      "Engpass"
+    ],
+    "tags": [
+      "adjektiv",
+      "maße",
+      "montage"
+    ],
+    "collections": [
+      "col-adj-adv",
+      "col-montage"
+    ]
+  },
+  {
+    "german": "breit",
+    "article": null,
+    "type": "adjective",
+    "level": "A2",
+    "senses": [
+      {
+        "tr": "Geniş, enli",
+        "en": "wide, broad"
+      }
+    ],
+    "adjective": {
+      "komparativ": "breiter",
+      "superlativ": "am breitesten"
+    },
+    "examples": [
+      {
+        "de": "Der neue Badheizkörper ist 60 Zentimeter breit und 180 Zentimeter hoch.",
+        "tr": "Yeni banyo radyatörü 60 santimetre genişliğinde ve 180 santimetre yüksekliğinde."
+      },
+      {
+        "de": "Die Einfahrt ist breit genug für den Lieferwagen.",
+        "tr": "Giriş yolu nakliye aracı için yeterince geniş."
+      }
+    ],
+    "synonyms": [
+      "weit"
+    ],
+    "antonyms": [
+      "schmal",
+      "eng"
+    ],
+    "related": [
+      "Breite",
+      "verbreitern"
+    ],
+    "tags": [
+      "adjektiv",
+      "maße",
+      "montage"
+    ],
+    "collections": [
+      "col-adj-adv",
+      "col-montage"
+    ]
+  },
+  {
+    "german": "tief",
+    "article": null,
+    "type": "adjective",
+    "level": "A2",
+    "senses": [
+      {
+        "tr": "Derin",
+        "en": "deep"
+      },
+      {
+        "tr": "Düşük (sıcaklık, değer)",
+        "en": "low"
+      }
+    ],
+    "adjective": {
+      "komparativ": "tiefer",
+      "superlativ": "am tiefsten"
+    },
+    "examples": [
+      {
+        "de": "Die Wasserleitung im Garten muss mindestens 80 Zentimeter tief liegen, damit sie nicht einfriert.",
+        "tr": "Bahçedeki su hattı donmaması için en az 80 santimetre derinde olmalıdır."
+      },
+      {
+        "de": "Bei sehr tiefen Außentemperaturen arbeitet die Wärmepumpe intensiver.",
+        "tr": "Çok düşük dış sıcaklıklarda ısı pompası daha yoğun çalışır."
+      }
+    ],
+    "synonyms": [
+      "niedrig"
+    ],
+    "antonyms": [
+      "flach",
+      "hoch"
+    ],
+    "related": [
+      "Tiefe",
+      "Erdsondenbohrung",
+      "Frosttiefe"
+    ],
+    "tags": [
+      "adjektiv",
+      "maße",
+      "montage"
+    ],
+    "collections": [
+      "col-adj-adv",
+      "col-montage"
+    ]
+  },
+  {
+    "german": "kostenlos",
+    "article": null,
+    "type": "adjective",
+    "level": "A2",
+    "senses": [
+      {
+        "tr": "Ücretsiz, bedava",
+        "en": "free of charge, complimentary"
+      }
+    ],
+    "adjective": {
+      "komparativ": "",
+      "superlativ": ""
+    },
+    "examples": [
+      {
+        "de": "Die erste telefonische Beratung ist bei uns völlig kostenlos.",
+        "tr": "İlk telefon danışmanlığı bizde tamamen ücretsizdir."
+      },
+      {
+        "de": "Vor dem Gebäude stehen kostenlose Parkplätze für Kunden zur Verfügung.",
+        "tr": "Binanın önünde müşteriler için ücretsiz park yerleri mevcuttur."
+      }
+    ],
+    "synonyms": [
+      "gratis",
+      "umsonst",
+      "gebührenfrei"
+    ],
+    "antonyms": [
+      "kostenpflichtig"
+    ],
+    "related": [
+      "Kosten",
+      "Gebühr",
+      "Preis"
+    ],
+    "tags": [
+      "adjektiv",
+      "finanzen",
+      "kunden"
+    ],
+    "collections": [
+      "col-adj-adv",
+      "col-kunden",
+      "col-alltag"
+    ]
+  },
+  {
+    "german": "gegenüber",
+    "article": null,
+    "type": "preposition",
+    "level": "A2",
+    "senses": [
+      {
+        "tr": "Karşısında",
+        "en": "opposite, across from"
+      },
+      {
+        "tr": "Karşı (tutum/davranış)",
+        "en": "towards"
+      }
+    ],
+    "preposition": {
+      "cases": [
+        "Dativ"
+      ],
+      "wechsel": false
+    },
+    "examples": [
+      {
+        "de": "Der Fachgroßhandel befindet sich direkt gegenüber dem Bahnhof.",
+        "tr": "Teknik toptancı doğrudan tren istasyonunun karşısında bulunuyor."
+      },
+      {
+        "de": "Gegenüber Kunden treten wir stets höflich und professionell auf.",
+        "tr": "Müşterilere karşı her zaman nazik ve profesyonel davranırız."
+      }
+    ],
+    "synonyms": [
+      "vis-à-vis"
+    ],
+    "antonyms": [],
+    "related": [
+      "gegenüberliegen",
+      "gegenüberstehen"
+    ],
+    "tags": [
+      "präposition",
+      "grammatik",
+      "dativ"
+    ],
+    "notes": "Dativ alır. Zamirlerle kullanıldığında genellikle zamirden sonra gelir (ör. 'mir gegenüber').",
+    "collections": [
+      "col-grammatik",
+      "col-alltag"
+    ]
+  },
+  {
+    "german": "entlang",
+    "article": null,
+    "type": "preposition",
+    "level": "A2",
+    "senses": [
+      {
+        "tr": "Boyunca",
+        "en": "along"
+      }
+    ],
+    "preposition": {
+      "cases": [
+        "Akkusativ",
+        "Dativ"
+      ],
+      "wechsel": false
+    },
+    "examples": [
+      {
+        "de": "Wir verlegen die Heizungsrohre sauber die Kellerwand entlang.",
+        "tr": "Isıtma borularını bodrum duvarı boyunca düzgünce döşüyoruz."
+      },
+      {
+        "de": "Fahren Sie einfach die Hauptstraße entlang bis zur zweiten Ampel.",
+        "tr": "Ana cadde boyunca ikinci trafik ışığına kadar devam edin."
+      }
+    ],
+    "synonyms": [
+      "längs"
+    ],
+    "antonyms": [
+      "quer"
+    ],
+    "related": [
+      "lang",
+      "Strecke",
+      "verlegen"
+    ],
+    "tags": [
+      "präposition",
+      "grammatik"
+    ],
+    "notes": "İsimden sonra geldiğinde Akkusativ alır (die Wand entlang); isimden önce geldiğinde Dativ veya Genitiv ile kullanılır.",
+    "collections": [
+      "col-grammatik",
+      "col-alltag"
+    ]
+  },
+  {
+    "german": "bevor",
+    "article": null,
+    "type": "conjunction",
+    "level": "A2",
+    "senses": [
+      {
+        "tr": "-den önce, önce",
+        "en": "before"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Bevor du das Rohr aufschneidest, musst du das Wasser absperren.",
+        "tr": "Boruyu kesmeden önce suyu kapatmalısın."
+      },
+      {
+        "de": "Wir prüfen alle Dichtungen, bevor wir die Anlage wieder befüllen.",
+        "tr": "Tesisatı yeniden doldurmadan önce tüm contaları kontrol ediyoruz."
+      }
+    ],
+    "synonyms": [
+      "ehe"
+    ],
+    "antonyms": [
+      "nachdem"
+    ],
+    "related": [
+      "vorher",
+      "vor"
+    ],
+    "tags": [
+      "konjunktion",
+      "grammatik",
+      "nebensatz"
+    ],
+    "notes": "Yan cümle (Nebensatz) bağlacıdır; yan cümlede çekimli fiil en sona gider.",
+    "collections": [
+      "col-grammatik",
+      "col-alltag"
+    ]
+  },
+  {
+    "german": "nachdem",
+    "article": null,
+    "type": "conjunction",
+    "level": "A2",
+    "senses": [
+      {
+        "tr": "-dikten sonra",
+        "en": "after"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Nachdem wir die Anlage entlüftet hatten, wurden alle Heizkörper sofort warm.",
+        "tr": "Tesisatın havasını aldıktan sonra tüm radyatörler hemen ısındı."
+      },
+      {
+        "de": "Nachdem der Kunde unterschrieben hat, schicken wir die Rechnung raus.",
+        "tr": "Müşteri imzaladıktan sonra faturayı gönderiyoruz."
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [
+      "bevor"
+    ],
+    "related": [
+      "nachher",
+      "danach",
+      "nach"
+    ],
+    "tags": [
+      "konjunktion",
+      "grammatik",
+      "nebensatz"
+    ],
+    "notes": "Zaman uyumu (Zeitenfolge) gerektirir: Ana cümle Präsens ise yan cümle Perfekt, ana cümle Präteritum/Perfekt ise yan cümle Plusquamperfekt olur.",
+    "collections": [
+      "col-grammatik",
+      "col-alltag"
+    ]
+  },
+  {
+    "german": "vielleicht",
+    "article": null,
+    "type": "adverb",
+    "level": "A2",
+    "senses": [
+      {
+        "tr": "Belki, muhtemelen",
+        "en": "maybe, perhaps"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Vielleicht ist nur die Sicherung der Heizungspumpe herausgesprungen.",
+        "tr": "Belki de sadece ısıtma pompasının sigortası atmıştır."
+      },
+      {
+        "de": "Können wir den Wartungstermin vielleicht auf Donnerstag verschieben?",
+        "tr": "Bakım randevusunu belki perşembeye erteleyebilir miyiz?"
+      }
+    ],
+    "synonyms": [
+      "möglicherweise",
+      "eventuell"
+    ],
+    "antonyms": [
+      "sicherlich",
+      "bestimmt"
+    ],
+    "related": [
+      "wahrscheinlich",
+      "hoffentlich"
+    ],
+    "tags": [
+      "adverb",
+      "grammatik",
+      "alltag"
+    ],
+    "collections": [
+      "col-adj-adv",
+      "col-grammatik",
+      "col-alltag"
+    ]
+  },
+  {
+    "german": "plötzlich",
+    "article": null,
+    "type": "adverb",
+    "level": "A2",
+    "senses": [
+      {
+        "tr": "Aniden, birdenbire",
+        "en": "suddenly, abruptly"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Gestern Abend ist die Heizung plötzlich ausgefallen.",
+        "tr": "Dün akşam ısıtma aniden arızalandı."
+      },
+      {
+        "de": "Das Sicherheitsventil hat plötzlich ausgelöst und Wasser abgelassen.",
+        "tr": "Emniyet ventili birdenbire açıldı ve su tahliye etti."
+      }
+    ],
+    "synonyms": [
+      "auf einmal",
+      "unerwartet"
+    ],
+    "antonyms": [
+      "allmählich",
+      "langsam"
+    ],
+    "related": [
+      "sofort",
+      "Störung"
+    ],
+    "tags": [
+      "adverb",
+      "zeit",
+      "alltag"
+    ],
+    "collections": [
+      "col-adj-adv",
+      "col-alltag"
+    ]
+  },
+  {
+    "german": "Fäustel",
+    "article": "der",
+    "type": "noun",
+    "level": "B1",
+    "senses": [
+      {
+        "tr": "Balyoz çekiç, kısa saplı ağır çekiç",
+        "en": "club hammer, lump hammer"
+      }
+    ],
+    "noun": {
+      "plural": "die Fäustel",
+      "genitiv": "des Fäustels"
+    },
+    "examples": [
+      {
+        "de": "Für den Wanddurchbruch benutze ich einen schweren Fäustel und einen Flachmeißel.",
+        "tr": "Duvar delme işlemi için ağır bir balyoz çekiç ve düz keski kullanıyorum."
+      },
+      {
+        "de": "Mit dem Fäustel hat man beim Stemmen deutlich mehr Schlagkraft als mit einem normalen Hammer.",
+        "tr": "Kırma işinde balyoz çekiçle normal bir çekice göre belirgin şekilde daha fazla darbe gücü elde edilir."
+      }
+    ],
+    "synonyms": [
+      "Handfäustel",
+      "Maurerfäustel"
+    ],
+    "antonyms": [],
+    "related": [
+      "Hammer",
+      "Meißel",
+      "Gummihammer",
+      "stemmen"
+    ],
+    "tags": [
+      "werkzeug",
+      "handwerkzeug",
+      "montage"
+    ],
+    "collections": [
+      "col-werkzeuge",
+      "col-montage"
+    ]
+  },
+  {
+    "german": "Gabelschlüssel",
+    "article": "der",
+    "type": "noun",
+    "level": "B1",
+    "senses": [
+      {
+        "tr": "Açık ağızlı anahtar, çatal anahtar",
+        "en": "open-end wrench, spanner"
+      }
+    ],
+    "noun": {
+      "plural": "die Gabelschlüssel",
+      "genitiv": "des Gabelschlüssels"
+    },
+    "examples": [
+      {
+        "de": "Gib mir bitte den 17er-Gabelschlüssel für die Verschraubung.",
+        "tr": "Rakor bağlantısı için lütfen 17'lik açık ağızlı anahtarı ver."
+      },
+      {
+        "de": "Mit zwei Gabelschlüsseln kann ich die Überwurfmutter sicher kontern.",
+        "tr": "İki açık ağızlı anahtarla rakor somununu güvenli şekilde kontralayabilirim."
+      }
+    ],
+    "synonyms": [
+      "Maulschlüssel"
+    ],
+    "antonyms": [],
+    "related": [
+      "Schraubenschlüssel",
+      "Knarre",
+      "Mutter",
+      "kontern"
+    ],
+    "tags": [
+      "werkzeug",
+      "handwerkzeug",
+      "rohre"
+    ],
+    "collections": [
+      "col-werkzeuge",
+      "col-rohre",
+      "col-montage"
+    ]
+  },
+  {
+    "german": "Torxschlüssel",
+    "article": "der",
+    "type": "noun",
+    "level": "B1",
+    "senses": [
+      {
+        "tr": "Torx anahtarı, yıldız alyan anahtar",
+        "en": "Torx key, Torx wrench"
+      }
+    ],
+    "noun": {
+      "plural": "die Torxschlüssel",
+      "genitiv": "des Torxschlüssels"
+    },
+    "examples": [
+      {
+        "de": "Für das Gehäuse der Wärmepumpe brauchen wir einen T20-Torxschlüssel.",
+        "tr": "Isı pompasının gövdesi için bir T20 Torx anahtarına ihtiyacımız var."
+      },
+      {
+        "de": "Der Torxschlüssel rutscht beim Festziehen seltener ab als ein Kreuzschlitz.",
+        "tr": "Torx anahtarı sıkarken yıldız tornavidaya göre daha az kayar."
+      }
+    ],
+    "synonyms": [
+      "Torx-Winkelschlüssel"
+    ],
+    "antonyms": [],
+    "related": [
+      "Inbusschlüssel",
+      "Schraube",
+      "Schraubendreher"
+    ],
+    "tags": [
+      "werkzeug",
+      "handwerkzeug",
+      "montage"
+    ],
+    "collections": [
+      "col-werkzeuge",
+      "col-montage"
+    ]
+  },
+  {
+    "german": "Knarre",
+    "article": "die",
+    "type": "noun",
+    "level": "B1",
+    "senses": [
+      {
+        "tr": "Cırcır kolu, cırcır anahtarı",
+        "en": "ratchet, socket wrench"
+      }
+    ],
+    "noun": {
+      "plural": "die Knarren",
+      "genitiv": "der Knarre"
+    },
+    "examples": [
+      {
+        "de": "Mit der Knarre und der 13er-Nuss lassen sich die Flanschschrauben schnell lösen.",
+        "tr": "Cırcır kolu ve 13'lük lokma ile flanş cıvataları hızla gevşetilebiliyor."
+      },
+      {
+        "de": "Stell den Hebel an der Knarre um, um von Lösen auf Festziehen zu wechseln.",
+        "tr": "Gevşetmeden sıkmaya geçmek için cırcır kolundaki mandalı çevir."
+      }
+    ],
+    "synonyms": [
+      "Ratsche",
+      "Umschaltknarre"
+    ],
+    "antonyms": [],
+    "related": [
+      "Steckschlüssel",
+      "Gabelschlüssel",
+      "Drehmomentschlüssel"
+    ],
+    "tags": [
+      "werkzeug",
+      "handwerkzeug",
+      "montage"
+    ],
+    "collections": [
+      "col-werkzeuge",
+      "col-montage"
+    ]
+  },
+  {
+    "german": "Blechschere",
+    "article": "die",
+    "type": "noun",
+    "level": "B1",
+    "senses": [
+      {
+        "tr": "Sac makası, teneke makası",
+        "en": "tin snips, aviation snips, sheet metal shears"
+      }
+    ],
+    "noun": {
+      "plural": "die Blechscheren",
+      "genitiv": "der Blechschere"
+    },
+    "examples": [
+      {
+        "de": "Mit der Blechschere schneide ich die Aluminium-Ummantelung der Rohrdämmung passend zu.",
+        "tr": "Sac makasıyla boru yalıtımının alüminyum kaplamasını ölçüsüne göre kesiyorum."
+      },
+      {
+        "de": "Trag beim Arbeiten mit der Blechschere unbedingt Schnittschutzhandschuhe.",
+        "tr": "Sac makasıyla çalışırken mutlaka kesilme korumalı eldiven giy."
+      }
+    ],
+    "synonyms": [
+      "Metallschere"
+    ],
+    "antonyms": [],
+    "related": [
+      "Blech",
+      "schneiden",
+      "Bolzenschneider"
+    ],
+    "tags": [
+      "werkzeug",
+      "handwerkzeug",
+      "montage"
+    ],
+    "collections": [
+      "col-werkzeuge",
+      "col-montage"
+    ]
+  },
+  {
+    "german": "Bolzenschneider",
+    "article": "der",
+    "type": "noun",
+    "level": "B1",
+    "senses": [
+      {
+        "tr": "Demir kesme makası, cıvata kesici",
+        "en": "bolt cutter"
+      }
+    ],
+    "noun": {
+      "plural": "die Bolzenschneider",
+      "genitiv": "des Bolzenschneiders"
+    },
+    "examples": [
+      {
+        "de": "Mit dem Bolzenschneider kürzen wir die Gewindestange in wenigen Sekunden.",
+        "tr": "Demir kesme makasıyla saplama çubuğunu birkaç saniyede kısaltıyoruz."
+      },
+      {
+        "de": "Für das dicke Stahlband um die Palette brauchen wir den großen Bolzenschneider.",
+        "tr": "Paletin etrafındaki kalın çelik şerit için büyük demir kesme makasına ihtiyacımız var."
+      }
+    ],
+    "synonyms": [
+      "Stahlschneider"
+    ],
+    "antonyms": [],
+    "related": [
+      "Blechschere",
+      "Seitenschneider",
+      "Bolzen"
+    ],
+    "tags": [
+      "werkzeug",
+      "handwerkzeug",
+      "montage"
+    ],
+    "collections": [
+      "col-werkzeuge",
+      "col-montage"
+    ]
+  },
+  {
+    "german": "Bügelsäge",
+    "article": "die",
+    "type": "noun",
+    "level": "B1",
+    "senses": [
+      {
+        "tr": "Demir testeresi, yaylı el testeresi",
+        "en": "hacksaw, bow saw"
+      }
+    ],
+    "noun": {
+      "plural": "die Bügelsägen",
+      "genitiv": "der Bügelsäge"
+    },
+    "examples": [
+      {
+        "de": "Spann das Stahlrohr fest ein, bevor du es mit der Bügelsäge abtrennst.",
+        "tr": "Çelik boruyu demir testeresiyle kesmeden önce sağlamca sıkıştır."
+      },
+      {
+        "de": "Das Sägeblatt der Bügelsäge muss immer straff gespannt sein.",
+        "tr": "Demir testeresinin bıçağı her zaman gergin şekilde gerilmiş olmalıdır."
+      }
+    ],
+    "synonyms": [
+      "Metallsäge"
+    ],
+    "antonyms": [],
+    "related": [
+      "Sägeblatt",
+      "sägen",
+      "Rohrabschneider"
+    ],
+    "tags": [
+      "werkzeug",
+      "handwerkzeug",
+      "rohre"
+    ],
+    "collections": [
+      "col-werkzeuge",
+      "col-rohre"
+    ]
+  },
+  {
+    "german": "Schraubzwinge",
+    "article": "die",
+    "type": "noun",
+    "level": "B1",
+    "senses": [
+      {
+        "tr": "İşkence (sıkıştırma aleti)",
+        "en": "screw clamp, F-clamp, G-clamp"
+      }
+    ],
+    "noun": {
+      "plural": "die Schraubzwingen",
+      "genitiv": "der Schraubzwinge"
+    },
+    "examples": [
+      {
+        "de": "Fixiere die Montageschiene zuerst mit zwei Schraubzwingen, bevor du bohrst.",
+        "tr": "Delmeden önce montaj rayını iki işkenceyle sabitle."
+      },
+      {
+        "de": "Eine stabile Schraubzwinge ersetzt auf der Baustelle oft eine dritte Hand.",
+        "tr": "Sağlam bir işkence şantiyede sık sık üçüncü bir elin yerini tutar."
+      }
+    ],
+    "synonyms": [
+      "Zwinge",
+      "Spannzwinge"
+    ],
+    "antonyms": [],
+    "related": [
+      "Schraubstock",
+      "einspannen",
+      "fixieren"
+    ],
+    "tags": [
+      "werkzeug",
+      "handwerkzeug",
+      "montage"
+    ],
+    "collections": [
+      "col-werkzeuge",
+      "col-montage"
+    ]
+  },
+  {
+    "german": "Anschlagwinkel",
+    "article": "der",
+    "type": "noun",
+    "level": "B1",
+    "senses": [
+      {
+        "tr": "Gönye, şapkalı gönye",
+        "en": "try square, framing square"
+      }
+    ],
+    "noun": {
+      "plural": "die Anschlagwinkel",
+      "genitiv": "des Anschlagwinkels"
+    },
+    "examples": [
+      {
+        "de": "Prüfe mit dem Anschlagwinkel, ob der Rahmen genau im rechten Winkel sitzt.",
+        "tr": "Çerçevenin tam dik açıda oturup oturmadığını gönyeyle kontrol et."
+      },
+      {
+        "de": "Ich zeichne die Schnittlinie am Blechkanal mit dem Anschlagwinkel an.",
+        "tr": "Sac kanaldaki kesim çizgisini gönyeyle işaretliyorum."
+      }
+    ],
+    "synonyms": [
+      "Schlosserwinkel",
+      "Winkel"
+    ],
+    "antonyms": [],
+    "related": [
+      "Wasserwaage",
+      "anzeichnen",
+      "messen"
+    ],
+    "tags": [
+      "werkzeug",
+      "messgerät",
+      "montage"
+    ],
+    "collections": [
+      "col-werkzeuge",
+      "col-montage"
+    ]
+  },
+  {
+    "german": "Leitungssucher",
+    "article": "der",
+    "type": "noun",
+    "level": "B1",
+    "senses": [
+      {
+        "tr": "Duvar içi hat/kablo/boru tespit cihazı",
+        "en": "stud finder, wall scanner, cable detector"
+      }
+    ],
+    "noun": {
+      "plural": "die Leitungssucher",
+      "genitiv": "des Leitungssuchers"
+    },
+    "examples": [
+      {
+        "de": "Vor dem Bohren prüfe ich die Wand immer mit dem Leitungssucher auf Strom- und Wasserleitungen.",
+        "tr": "Delmeden önce duvarı her zaman tespit cihazıyla elektrik ve su hatlarına karşı kontrol ederim."
+      },
+      {
+        "de": "Der Leitungssucher hat genau an der markierten Stelle ein Kupferrohr gemeldet.",
+        "tr": "Hat tespit cihazı tam işaretlenen noktada bir bakır boru algıladı."
+      }
+    ],
+    "synonyms": [
+      "Ortungsgerät",
+      "Leitungsfinder"
+    ],
+    "antonyms": [],
+    "related": [
+      "Leitung",
+      "bohren",
+      "suchen",
+      "Sicherheit"
+    ],
+    "tags": [
+      "werkzeug",
+      "messgerät",
+      "sicherheit"
+    ],
+    "collections": [
+      "col-werkzeuge",
+      "col-sicherheit",
+      "col-montage"
+    ]
+  },
+  {
+    "german": "Bohrfutter",
+    "article": "das",
+    "type": "noun",
+    "level": "B1",
+    "senses": [
+      {
+        "tr": "Matkap mandreni",
+        "en": "drill chuck"
+      }
+    ],
+    "noun": {
+      "plural": "die Bohrfutter",
+      "genitiv": "des Bohrfutters"
+    },
+    "examples": [
+      {
+        "de": "Zieh das Schnellspann-Bohrfutter fest zu, damit der Bohrer nicht durchrutscht.",
+        "tr": "Matkap ucunun kaymaması için anahtarsız mandreni iyice sık."
+      },
+      {
+        "de": "Das Bohrfutter klemmt, weil sich Bohrstaub darin angesammelt hat.",
+        "tr": "İçinde delme tozu biriktiği için matkap mandreni sıkışıyor."
+      }
+    ],
+    "synonyms": [
+      "Spannfutter"
+    ],
+    "antonyms": [],
+    "related": [
+      "Bohrmaschine",
+      "Bohrer",
+      "Akkuschrauber"
+    ],
+    "tags": [
+      "werkzeug",
+      "maschine",
+      "montage"
+    ],
+    "collections": [
+      "col-werkzeuge",
+      "col-montage"
+    ]
+  },
+  {
+    "german": "Sägeblatt",
+    "article": "das",
+    "type": "noun",
+    "level": "B1",
+    "senses": [
+      {
+        "tr": "Testere bıçağı, testere ağzı",
+        "en": "saw blade"
+      }
+    ],
+    "noun": {
+      "plural": "die Sägeblätter",
+      "genitiv": "des Sägeblatts"
+    },
+    "examples": [
+      {
+        "de": "Das Sägeblatt ist stumpf geworden, wir müssen es gegen ein neues austauschen.",
+        "tr": "Testere bıçağı köreldi, yenisiyle değiştirmemiz gerekiyor."
+      },
+      {
+        "de": "Für Edelstahlrohre brauchst du ein feinzahniges Sägeblatt.",
+        "tr": "Paslanmaz çelik borular için ince dişli bir testere bıçağına ihtiyacın var."
+      }
+    ],
+    "synonyms": [
+      "Blatt"
+    ],
+    "antonyms": [],
+    "related": [
+      "Bügelsäge",
+      "sägen",
+      "stumpf",
+      "Trennscheibe"
+    ],
+    "tags": [
+      "werkzeug",
+      "zubehör",
+      "montage"
+    ],
+    "collections": [
+      "col-werkzeuge",
+      "col-montage"
+    ]
+  },
+  {
+    "german": "Lochsäge",
+    "article": "die",
+    "type": "noun",
+    "level": "B1",
+    "senses": [
+      {
+        "tr": "Panç, delik testeresi",
+        "en": "hole saw"
+      }
+    ],
+    "noun": {
+      "plural": "die Lochsägen",
+      "genitiv": "der Lochsäge"
+    },
+    "examples": [
+      {
+        "de": "Mit einer 68-mm-Lochsäge schneiden wir saubere Öffnungen in die Trockenbauwand.",
+        "tr": "68 mm'lik bir panç ile alçıpan duvarda düzgün delikler açıyoruz."
+      },
+      {
+        "de": "Arbeite mit der Lochsäge bei niedriger Drehzahl, damit das Material nicht verbrennt.",
+        "tr": "Malzemenin yanmaması için panç ile düşük devirde çalış."
+      }
+    ],
+    "synonyms": [
+      "Dosenbohrer",
+      "Kreisschneider"
+    ],
+    "antonyms": [],
+    "related": [
+      "Bohrkrone",
+      "Bohrmaschine",
+      "bohren"
+    ],
+    "tags": [
+      "werkzeug",
+      "zubehör",
+      "montage"
+    ],
+    "collections": [
+      "col-werkzeuge",
+      "col-montage"
+    ]
+  },
+  {
+    "german": "Schlagschrauber",
+    "article": "der",
+    "type": "noun",
+    "level": "B1",
+    "senses": [
+      {
+        "tr": "Darbeli somun sıkma / vidalama makinesi",
+        "en": "impact driver, impact wrench"
+      }
+    ],
+    "noun": {
+      "plural": "die Schlagschrauber",
+      "genitiv": "des Schlagschraubers"
+    },
+    "examples": [
+      {
+        "de": "Mit dem Akku-Schlagschrauber lösen sich selbst verrostete Muttern mühelos.",
+        "tr": "Akülü darbeli somun sıkma ile paslanmış somunlar bile zahmetsizce gevşiyor."
+      },
+      {
+        "de": "Für die langen Holzschrauben in der Dachkonstruktion nehmen wir den Schlagschrauber.",
+        "tr": "Çatı konstrüksiyonundaki uzun ahşap vidalar için darbeli vidalama makinesini alıyoruz."
+      }
+    ],
+    "synonyms": [
+      "Impulsschrauber"
+    ],
+    "antonyms": [],
+    "related": [
+      "Akkuschrauber",
+      "Drehmoment",
+      "Schraube"
+    ],
+    "tags": [
+      "werkzeug",
+      "maschine",
+      "montage"
+    ],
+    "collections": [
+      "col-werkzeuge",
+      "col-montage"
+    ]
+  },
+  {
+    "german": "Stemmhammer",
+    "article": "der",
+    "type": "noun",
+    "level": "B1",
+    "senses": [
+      {
+        "tr": "Kırıcı (elektrikli hilti / kırıcı çekiç)",
+        "en": "demolition hammer, jackhammer, chipping hammer"
+      }
+    ],
+    "noun": {
+      "plural": "die Stemmhämmer",
+      "genitiv": "des Stemmhammers"
+    },
+    "examples": [
+      {
+        "de": "Mit dem Stemmhammer schlagen wir die alten Fliesen im Bad ab.",
+        "tr": "Kırıcıyla banyodaki eski fayansları söküyoruz."
+      },
+      {
+        "de": "Beim Arbeiten mit dem Stemmhammer sind Gehörschutz und Schutzbrille Pflicht.",
+        "tr": "Kırıcıyla çalışırken kulak koruyucu ve koruyucu gözlük zorunludur."
+      }
+    ],
+    "synonyms": [
+      "Abbruchhammer",
+      "Meißelhammer"
+    ],
+    "antonyms": [],
+    "related": [
+      "Bohrhammer",
+      "Meißel",
+      "stemmen",
+      "Lärm"
+    ],
+    "tags": [
+      "werkzeug",
+      "maschine",
+      "montage"
+    ],
+    "collections": [
+      "col-werkzeuge",
+      "col-montage"
+    ]
+  },
+  {
+    "german": "Betrieb",
+    "article": "der",
+    "type": "noun",
+    "level": "B1",
+    "senses": [
+      {
+        "tr": "İşletme, firma",
+        "en": "business, company, enterprise"
+      },
+      {
+        "tr": "Çalışma, işletim (makine/tesisat)",
+        "en": "operation, running"
+      }
+    ],
+    "noun": {
+      "plural": "die Betriebe",
+      "genitiv": "des Betriebs"
+    },
+    "examples": [
+      {
+        "de": "Unser SHK-Betrieb beschäftigt zwölf Monteure und drei Auszubildende.",
+        "tr": "SHK işletmemizde on iki montajcı ve üç çırak çalışıyor."
+      },
+      {
+        "de": "Die neue Wärmepumpe ist seit gestern im regulären Betrieb.",
+        "tr": "Yeni ısı pompası dünden beri normal işletimde."
+      }
+    ],
+    "synonyms": [
+      "Unternehmen",
+      "Firma",
+      "Lauf"
+    ],
+    "antonyms": [
+      "Stillstand"
+    ],
+    "related": [
+      "Handwerksbetrieb",
+      "Inbetriebnahme",
+      "Betriebskosten",
+      "betreiben"
+    ],
+    "tags": [
+      "beruf",
+      "meister",
+      "technik"
+    ],
+    "collections": [
+      "col-meister",
+      "col-beruf"
+    ]
+  },
+  {
+    "german": "Abteilung",
+    "article": "die",
+    "type": "noun",
+    "level": "B1",
+    "senses": [
+      {
+        "tr": "Departman, bölüm, şube",
+        "en": "department, division"
+      }
+    ],
+    "noun": {
+      "plural": "die Abteilungen",
+      "genitiv": "der Abteilung"
+    },
+    "examples": [
+      {
+        "de": "Er leitet seit fünf Jahren die Abteilung für Kundendienst und Wartung.",
+        "tr": "Beş yıldır müşteri hizmetleri ve bakım departmanını yönetiyor."
+      },
+      {
+        "de": "Die Sanitär-Abteilung im Baumarkt befindet sich im Erdgeschoss.",
+        "tr": "Yapı marketteki sıhhi tesisat bölümü zemin katta bulunuyor."
+      }
+    ],
+    "synonyms": [
+      "Bereich",
+      "Sparte"
+    ],
+    "antonyms": [],
+    "related": [
+      "Abteilungsleiter",
+      "Betrieb",
+      "Team"
+    ],
+    "tags": [
+      "beruf",
+      "meister"
+    ],
+    "collections": [
+      "col-beruf",
+      "col-meister"
+    ]
+  },
+  {
+    "german": "Gesellenbrief",
+    "article": "der",
+    "type": "noun",
+    "level": "B1",
+    "senses": [
+      {
+        "tr": "Kalfalık belgesi, kalfalık diploması",
+        "en": "journeyman's certificate"
+      }
+    ],
+    "noun": {
+      "plural": "die Gesellenbriefe",
+      "genitiv": "des Gesellenbriefs"
+    },
+    "examples": [
+      {
+        "de": "Nach dreieinhalb Jahren Ausbildung hat er endlich seinen Gesellenbrief als Anlagenmechaniker SHK erhalten.",
+        "tr": "Üç buçuk yıllık mesleki eğitimden sonra sonunda SHK tesisat mekanikeri olarak kalfalık belgesini aldı."
+      },
+      {
+        "de": "Mit dem Gesellenbrief stehen dir im Handwerk viele Türen zur Weiterbildung offen.",
+        "tr": "Kalfalık belgesiyle zanaat alanında ileri eğitim için sana birçok kapı açılır."
+      }
+    ],
+    "synonyms": [
+      "Facharbeiterbrief"
+    ],
+    "antonyms": [],
+    "related": [
+      "Geselle",
+      "Meisterbrief",
+      "Ausbildung",
+      "Handwerkskammer"
+    ],
+    "tags": [
+      "beruf",
+      "meister",
+      "ausbildung"
+    ],
+    "notes": "Almanya'da ikili mesleki eğitimin (duale Ausbildung) sonunda Handwerkskammer tarafından verilen resmi kalfalık belgesidir.",
+    "collections": [
+      "col-meister",
+      "col-beruf"
+    ]
+  },
+  {
+    "german": "Fortbildung",
+    "article": "die",
+    "type": "noun",
+    "level": "B1",
+    "senses": [
+      {
+        "tr": "Mesleki gelişim eğitimi, ileri eğitim",
+        "en": "further training, continuing education"
+      }
+    ],
+    "noun": {
+      "plural": "die Fortbildungen",
+      "genitiv": "der Fortbildung"
+    },
+    "examples": [
+      {
+        "de": "Nächste Woche besuche ich eine zweitägige Fortbildung zum Thema Wärmepumpen-Regelung.",
+        "tr": "Gelecek hafta ısı pompası kontrolü konusunda iki günlük bir ileri eğitime katılacağım."
+      },
+      {
+        "de": "Regelmäßige Fortbildungen sind wichtig, um technisch auf dem neuesten Stand zu bleiben.",
+        "tr": "Teknik olarak güncel kalmak için düzenli mesleki eğitimler önemlidir."
+      }
+    ],
+    "synonyms": [
+      "Weiterbildung",
+      "Qualifizierung"
+    ],
+    "antonyms": [],
+    "related": [
+      "Schulung",
+      "Meisterkurs",
+      "Zertifikat"
+    ],
+    "tags": [
+      "beruf",
+      "meister",
+      "bildung"
+    ],
+    "collections": [
+      "col-meister",
+      "col-beruf"
+    ]
+  },
+  {
+    "german": "Schulung",
+    "article": "die",
+    "type": "noun",
+    "level": "B1",
+    "senses": [
+      {
+        "tr": "Eğitim, seminer, kurs (uygulamalı)",
+        "en": "training session, workshop, course"
+      }
+    ],
+    "noun": {
+      "plural": "die Schulungen",
+      "genitiv": "der Schulung"
+    },
+    "examples": [
+      {
+        "de": "Der Hersteller bietet eine kostenlose Schulung für die neue Kesselserie an.",
+        "tr": "Üretici yeni kazan serisi için ücretsiz bir eğitim sunuyor."
+      },
+      {
+        "de": "Alle Mitarbeiter müssen einmal im Jahr an der Sicherheits-Schulung teilnehmen.",
+        "tr": "Tüm çalışanlar yılda bir kez iş güvenliği eğitimine katılmak zorundadır."
+      }
+    ],
+    "synonyms": [
+      "Unterweisung",
+      "Lehrgang",
+      "Kurs"
+    ],
+    "antonyms": [],
+    "related": [
+      "Fortbildung",
+      "schulen",
+      "Zertifikat"
+    ],
+    "tags": [
+      "beruf",
+      "meister",
+      "sicherheit"
+    ],
+    "collections": [
+      "col-meister",
+      "col-beruf",
+      "col-sicherheit"
+    ]
+  },
+  {
+    "german": "Probezeit",
+    "article": "die",
+    "type": "noun",
+    "level": "B1",
+    "senses": [
+      {
+        "tr": "Deneme süresi",
+        "en": "probationary period, trial period"
+      }
+    ],
+    "noun": {
+      "plural": "die Probezeiten",
+      "genitiv": "der Probezeit"
+    },
+    "examples": [
+      {
+        "de": "In den meisten Arbeitsverträgen dauert die Probezeit sechs Monate.",
+        "tr": "Çoğu iş sözleşmesinde deneme süresi altı ay sürer."
+      },
+      {
+        "de": "Während der Probezeit gilt eine verkürzte Kündigungsfrist von zwei Wochen.",
+        "tr": "Deneme süresi boyunca iki haftalık kısaltılmış bir fesih ihbar süresi geçerlidir."
+      }
+    ],
+    "synonyms": [
+      "Erprobungszeit"
+    ],
+    "antonyms": [],
+    "related": [
+      "Arbeitsvertrag",
+      "Kündigungsfrist",
+      "Betrieb"
+    ],
+    "tags": [
+      "beruf",
+      "recht",
+      "meister"
+    ],
+    "collections": [
+      "col-beruf",
+      "col-meister"
+    ]
+  },
+  {
+    "german": "Verantwortung",
+    "article": "die",
+    "type": "noun",
+    "level": "B1",
+    "senses": [
+      {
+        "tr": "Sorumluluk",
+        "en": "responsibility"
+      }
+    ],
+    "noun": {
+      "plural": "die Verantwortungen",
+      "genitiv": "der Verantwortung"
+    },
+    "examples": [
+      {
+        "de": "Als Bauleiter trägt er die volle Verantwortung für die Sicherheit auf der Baustelle.",
+        "tr": "Şantiye şefi olarak şantiyedeki güvenlikten tam sorumluluk taşıyor."
+      },
+      {
+        "de": "Bei Arbeiten an Gasleitungen haben wir eine besonders große Verantwortung.",
+        "tr": "Gaz hatlarında çalışırken özellikle büyük bir sorumluluğumuz var."
+      }
+    ],
+    "synonyms": [
+      "Zuständigkeit",
+      "Pflicht"
+    ],
+    "antonyms": [],
+    "related": [
+      "verantwortlich",
+      "übernehmen",
+      "Sicherheit"
+    ],
+    "tags": [
+      "beruf",
+      "meister",
+      "sicherheit"
+    ],
+    "collections": [
+      "col-meister",
+      "col-beruf",
+      "col-sicherheit"
+    ]
+  },
+  {
+    "german": "Erfahrung",
+    "article": "die",
+    "type": "noun",
+    "level": "B1",
+    "senses": [
+      {
+        "tr": "Deneyim, tecrübe",
+        "en": "experience"
+      }
+    ],
+    "noun": {
+      "plural": "die Erfahrungen",
+      "genitiv": "der Erfahrung"
+    },
+    "examples": [
+      {
+        "de": "Unser Altgeselle hat über zwanzig Jahre Erfahrung im Heizungsbau.",
+        "tr": "Kıdemli kalfamızın ısıtma tesisatında yirmi yılı aşkın deneyimi var."
+      },
+      {
+        "de": "Aus Erfahrung weiß ich, dass man alte Dichtungen immer komplett ersetzen sollte.",
+        "tr": "Tecrübeme dayanarak eski contaların her zaman tamamen değiştirilmesi gerektiğini biliyorum."
+      }
+    ],
+    "synonyms": [
+      "Praxis",
+      "Routine"
+    ],
+    "antonyms": [
+      "Unerfahrenheit"
+    ],
+    "related": [
+      "erfahren",
+      "Berufserfahrung",
+      "Fähigkeit"
+    ],
+    "tags": [
+      "beruf",
+      "meister",
+      "alltag"
+    ],
+    "collections": [
+      "col-beruf",
+      "col-meister"
+    ]
+  },
+  {
+    "german": "Entscheidung",
+    "article": "die",
+    "type": "noun",
+    "level": "B1",
+    "senses": [
+      {
+        "tr": "Karar",
+        "en": "decision"
+      }
+    ],
+    "noun": {
+      "plural": "die Entscheidungen",
+      "genitiv": "der Entscheidung"
+    },
+    "examples": [
+      {
+        "de": "Die Entscheidung für eine Wärmepumpe spart langfristig viel CO2 ein.",
+        "tr": "Isı pompası yönündeki karar uzun vadede çok fazla CO2 tasarrufu sağlar."
+      },
+      {
+        "de": "Vor einer wichtigen Entscheidung sprechen wir alle Optionen mit dem Kunden durch.",
+        "tr": "Önemli bir karardan önce müşteriyle tüm seçenekleri tek tek konuşuyoruz."
+      }
+    ],
+    "synonyms": [
+      "Beschluss",
+      "Wahl"
+    ],
+    "antonyms": [
+      "Unentschlossenheit"
+    ],
+    "related": [
+      "entscheiden",
+      "Vorschlag",
+      "Lösung"
+    ],
+    "tags": [
+      "meister",
+      "alltag",
+      "kommunikation"
+    ],
+    "collections": [
+      "col-meister",
+      "col-alltag"
+    ]
+  },
+  {
+    "german": "Vereinbarung",
+    "article": "die",
+    "type": "noun",
+    "level": "B1",
+    "senses": [
+      {
+        "tr": "Anlaşma, mutabakat, sözleşme maddesi",
+        "en": "agreement, arrangement"
+      }
+    ],
+    "noun": {
+      "plural": "die Vereinbarungen",
+      "genitiv": "der Vereinbarung"
+    },
+    "examples": [
+      {
+        "de": "Wir halten jede mündliche Vereinbarung mit dem Kunden sicherheitshalber schriftlich fest.",
+        "tr": "Müşteriyle yapılan her sözlü anlaşmayı tedbir olarak yazılı kayda alıyoruz."
+      },
+      {
+        "de": "Die Zahlung erfolgt nach unserer schriftlichen Vereinbarung in zwei Raten.",
+        "tr": "Ödeme yazılı anlaşmamıza göre iki taksitte yapılacaktır."
+      }
+    ],
+    "synonyms": [
+      "Absprache",
+      "Abmachung"
+    ],
+    "antonyms": [],
+    "related": [
+      "vereinbaren",
+      "Vertrag",
+      "Auftragsbestätigung"
+    ],
+    "tags": [
+      "kunden",
+      "meister",
+      "doku"
+    ],
+    "collections": [
+      "col-kunden",
+      "col-meister",
+      "col-doku"
+    ]
+  },
+  {
+    "german": "Auftragsbestätigung",
+    "article": "die",
+    "type": "noun",
+    "level": "B1",
+    "senses": [
+      {
+        "tr": "Sipariş onayı, iş onayı belgesi",
+        "en": "order confirmation"
+      }
+    ],
+    "noun": {
+      "plural": "die Auftragsbestätigungen",
+      "genitiv": "der Auftragsbestätigung"
+    },
+    "examples": [
+      {
+        "de": "Nach Annahme des Angebots senden wir Ihnen umgehend eine schriftliche Auftragsbestätigung.",
+        "tr": "Teklifin kabul edilmesinin ardından size derhal yazılı bir sipariş onayı gönderiyoruz."
+      },
+      {
+        "de": "In der Auftragsbestätigung stehen der genaue Liefertermin und der verbindliche Festpreis.",
+        "tr": "Sipariş onayında kesin teslimat tarihi ve bağlayıcı sabit fiyat yer alır."
+      }
+    ],
+    "synonyms": [
+      "Bestellbestätigung"
+    ],
+    "antonyms": [],
+    "related": [
+      "Auftrag",
+      "bestätigen",
+      "Angebot",
+      "Rechnung"
+    ],
+    "tags": [
+      "kunden",
+      "doku",
+      "meister"
+    ],
+    "collections": [
+      "col-kunden",
+      "col-doku",
+      "col-meister"
+    ]
+  },
+  {
+    "german": "Anzahlung",
+    "article": "die",
+    "type": "noun",
+    "level": "B1",
+    "senses": [
+      {
+        "tr": "Peşinat, ön ödeme, avans",
+        "en": "down payment, deposit, advance payment"
+      }
+    ],
+    "noun": {
+      "plural": "die Anzahlungen",
+      "genitiv": "der Anzahlung"
+    },
+    "examples": [
+      {
+        "de": "Bei größeren Heizungsanlagen bitten wir vor Materialbestellung um eine Anzahlung von dreißig Prozent.",
+        "tr": "Büyük ısıtma tesisatlarında malzeme siparişinden önce yüzde otuzluk bir ön ödeme rica ediyoruz."
+      },
+      {
+        "de": "Die geleistete Anzahlung wird in der Schlussrechnung vollständig abgezogen.",
+        "tr": "Yapılan ön ödeme kesin faturadan tamamen düşülür."
+      }
+    ],
+    "synonyms": [
+      "Vorauszahlung",
+      "Abschlagszahlung"
+    ],
+    "antonyms": [
+      "Schlusszahlung"
+    ],
+    "related": [
+      "bezahlen",
+      "Rechnung",
+      "Angebot"
+    ],
+    "tags": [
+      "finanzen",
+      "kunden",
+      "meister"
+    ],
+    "collections": [
+      "col-kunden",
+      "col-meister"
+    ]
+  },
+  {
+    "german": "Lagerbestand",
+    "article": "der",
+    "type": "noun",
+    "level": "B1",
+    "senses": [
+      {
+        "tr": "Stok durumu, depo mevcudu",
+        "en": "inventory, stock level"
+      }
+    ],
+    "noun": {
+      "plural": "die Lagerbestände",
+      "genitiv": "des Lagerbestands"
+    },
+    "examples": [
+      {
+        "de": "Prüf bitte vor der Bestellung unseren aktuellen Lagerbestand an Pressfittings.",
+        "tr": "Sipariş vermeden önce lütfen pres bağlantı parçalarındaki güncel stok durumumuzu kontrol et."
+      },
+      {
+        "de": "Ein gut gepflegter Lagerbestand verhindert unnötige Verzögerungen auf der Baustelle.",
+        "tr": "İyi yönetilen bir depo stoğu şantiyede gereksiz gecikmeleri önler."
+      }
+    ],
+    "synonyms": [
+      "Vorrat",
+      "Bestand"
+    ],
+    "antonyms": [],
+    "related": [
+      "Lager",
+      "Material",
+      "Bestellung",
+      "Inventur"
+    ],
+    "tags": [
+      "lager",
+      "meister",
+      "montage"
+    ],
+    "collections": [
+      "col-meister",
+      "col-montage"
+    ]
+  },
+  {
+    "german": "Bereitschaft",
+    "article": "die",
+    "type": "noun",
+    "level": "B1",
+    "senses": [
+      {
+        "tr": "Nöbet, acil durum hazır bekleme görevi",
+        "en": "on-call duty, standby"
+      },
+      {
+        "tr": "İsteklilik, hazır olma durumu",
+        "en": "readiness, willingness"
+      }
+    ],
+    "noun": {
+      "plural": "die Bereitschaften",
+      "genitiv": "der Bereitschaft"
+    },
+    "examples": [
+      {
+        "de": "Am Wochenende habe ich Bereitschaft für unseren Heizungs-Notdienst.",
+        "tr": "Hafta sonu ısıtma acil servisimiz için nöbetteyim."
+      },
+      {
+        "de": "Vielen Dank für Ihre Bereitschaft, kurzfristig für den kranken Kollegen einzuspringen.",
+        "tr": "Hasta olan meslektaşın yerine kısa sürede geçmeye hazır olduğunuz için çok teşekkür ederim."
+      }
+    ],
+    "synonyms": [
+      "Bereitschaftsdienst",
+      "Notdienst",
+      "Hilfsbereitschaft"
+    ],
+    "antonyms": [],
+    "related": [
+      "bereit",
+      "Notdienst",
+      "Schicht"
+    ],
+    "tags": [
+      "beruf",
+      "kunden",
+      "wartung"
+    ],
+    "collections": [
+      "col-beruf",
+      "col-kunden",
+      "col-wartung"
+    ]
+  },
+  {
+    "german": "übernehmen",
+    "article": null,
+    "type": "verb",
+    "level": "B1",
+    "senses": [
+      {
+        "tr": "Üstlenmek, devralmak",
+        "en": "to take over, to assume (responsibility/costs)"
+      }
+    ],
+    "verb": {
+      "praesens3": "übernimmt",
+      "praeteritum": "übernahm",
+      "partizip2": "übernommen",
+      "auxiliary": "haben",
+      "irregular": true,
+      "separable": false
+    },
+    "examples": [
+      {
+        "de": "Ich übernehme morgen die Wartung bei Familie Müller.",
+        "tr": "Yarın Müller ailesindeki bakımı ben üstleniyorum."
+      },
+      {
+        "de": "Die Versicherung hat die Kosten für den Wasserschaden komplett übernommen.",
+        "tr": "Sigorta su hasarının masraflarını tamamen üstlendi."
+      }
+    ],
+    "synonyms": [
+      "antreten",
+      "tragen"
+    ],
+    "antonyms": [
+      "abgeben"
+    ],
+    "related": [
+      "Übernahme",
+      "Verantwortung",
+      "vertreten"
+    ],
+    "tags": [
+      "verben",
+      "beruf",
+      "meister"
+    ],
+    "collections": [
+      "col-verben",
+      "col-meister",
+      "col-beruf"
+    ]
+  },
+  {
+    "german": "überlegen",
+    "article": null,
+    "type": "verb",
+    "level": "B1",
+    "senses": [
+      {
+        "tr": "Düşünmek, tartmak, gözden geçirmek",
+        "en": "to think over, to consider"
+      }
+    ],
+    "verb": {
+      "praesens3": "überlegt",
+      "praeteritum": "überlegte",
+      "partizip2": "überlegt",
+      "auxiliary": "haben",
+      "irregular": false,
+      "separable": false
+    },
+    "examples": [
+      {
+        "de": "Lass uns kurz überlegen, wie wir die Steigleitung am saubersten verlegen.",
+        "tr": "Kolon hattını en temiz nasıl döşeyebileceğimizi kısaca bir düşünelim."
+      },
+      {
+        "de": "Der Bauherr überlegt noch, ob er zusätzlich eine Solaranlage einbauen lässt.",
+        "tr": "Ev sahibi ek olarak bir güneş enerjisi sistemi de kurdurup kurdurmamayı hâlâ düşünüyor."
+      }
+    ],
+    "synonyms": [
+      "nachdenken",
+      "abwägen"
+    ],
+    "antonyms": [],
+    "related": [
+      "Überlegung",
+      "entscheiden",
+      "planen"
+    ],
+    "tags": [
+      "verben",
+      "alltag",
+      "meister"
+    ],
+    "collections": [
+      "col-verben",
+      "col-alltag",
+      "col-meister"
+    ]
+  },
+  {
+    "german": "unterstützen",
+    "article": null,
+    "type": "verb",
+    "level": "B1",
+    "senses": [
+      {
+        "tr": "Desteklemek, yardım etmek",
+        "en": "to support, to assist"
+      }
+    ],
+    "verb": {
+      "praesens3": "unterstützt",
+      "praeteritum": "unterstützte",
+      "partizip2": "unterstützt",
+      "auxiliary": "haben",
+      "irregular": false,
+      "separable": false
+    },
+    "examples": [
+      {
+        "de": "Bei der Montage des schweren Kessels unterstützt mich heute ein zweiter Monteur.",
+        "tr": "Ağır kazanın montajında bugün bana ikinci bir montajcı destek oluyor."
+      },
+      {
+        "de": "Die Solarthermie unterstützt die Heizung in der Übergangszeit sehr effektiv.",
+        "tr": "Güneş enerjisi sistemi geçiş mevsimlerinde ısıtmayı çok etkili şekilde destekler."
+      }
+    ],
+    "synonyms": [
+      "helfen",
+      "fördern",
+      "beistehen"
+    ],
+    "antonyms": [
+      "behindern"
+    ],
+    "related": [
+      "Unterstützung",
+      "hilfsbereit",
+      "Team"
+    ],
+    "tags": [
+      "verben",
+      "beruf",
+      "alltag"
+    ],
+    "collections": [
+      "col-verben",
+      "col-beruf",
+      "col-alltag"
+    ]
+  },
+  {
+    "german": "vorschlagen",
+    "article": null,
+    "type": "verb",
+    "level": "B1",
+    "senses": [
+      {
+        "tr": "Önermek, teklif etmek",
+        "en": "to suggest, to propose"
+      }
+    ],
+    "verb": {
+      "praesens3": "schlägt vor",
+      "praeteritum": "schlug vor",
+      "partizip2": "vorgeschlagen",
+      "auxiliary": "haben",
+      "irregular": true,
+      "separable": true
+    },
+    "examples": [
+      {
+        "de": "Ich schlage vor, dass wir zuerst den hydraulischen Abgleich durchführen.",
+        "tr": "Önce hidrolik dengelemeyi yapmamızı öneriyorum."
+      },
+      {
+        "de": "Welchen Termin können Sie für die Besichtigung vorschlagen?",
+        "tr": "Keşif için hangi randevu tarihini önerebilirsiniz?"
+      }
+    ],
+    "synonyms": [
+      "empfehlen",
+      "anregen"
+    ],
+    "antonyms": [
+      "ablehnen"
+    ],
+    "related": [
+      "Vorschlag",
+      "beraten",
+      "Lösung"
+    ],
+    "tags": [
+      "verben",
+      "kunden",
+      "meister"
+    ],
+    "collections": [
+      "col-verben",
+      "col-kunden",
+      "col-meister"
+    ]
+  },
+  {
+    "german": "verbessern",
+    "article": null,
+    "type": "verb",
+    "level": "B1",
+    "senses": [
+      {
+        "tr": "İyileştirmek, geliştirmek, düzeltmek",
+        "en": "to improve, to enhance, to correct"
+      }
+    ],
+    "verb": {
+      "praesens3": "verbessert",
+      "praeteritum": "verbesserte",
+      "partizip2": "verbessert",
+      "auxiliary": "haben",
+      "irregular": false
+    },
+    "examples": [
+      {
+        "de": "Durch eine bessere Rohrdämmung lässt sich die Effizienz der Anlage deutlich verbessern.",
+        "tr": "Daha iyi bir boru yalıtımıyla tesisatın verimliliği belirgin şekilde iyileştirilebilir."
+      },
+      {
+        "de": "Wir wollen unsere Arbeitsabläufe im Lager weiter verbessern.",
+        "tr": "Depodaki iş süreçlerimizi daha da iyileştirmek istiyoruz."
+      }
+    ],
+    "synonyms": [
+      "optimieren",
+      "steigern"
+    ],
+    "antonyms": [
+      "verschlechtern"
+    ],
+    "related": [
+      "Verbesserung",
+      "Effizienz",
+      "Qualität"
+    ],
+    "tags": [
+      "verben",
+      "meister",
+      "wartung"
+    ],
+    "collections": [
+      "col-verben",
+      "col-meister",
+      "col-wartung"
+    ]
+  },
+  {
+    "german": "verhindern",
+    "article": null,
+    "type": "verb",
+    "level": "B1",
+    "senses": [
+      {
+        "tr": "Önlemek, engellemek",
+        "en": "to prevent, to stop"
+      }
+    ],
+    "verb": {
+      "praesens3": "verhindert",
+      "praeteritum": "verhinderte",
+      "partizip2": "verhindert",
+      "auxiliary": "haben",
+      "irregular": false
+    },
+    "examples": [
+      {
+        "de": "Ein Rückflussverhinderer verhindert, dass Brauchwasser zurück ins Trinkwassernetz fließt.",
+        "tr": "Geri akış önleyici, kullanma suyunun içme suyu şebekesine geri akmasını engeller."
+      },
+      {
+        "de": "Durch regelmäßige Wartung lassen sich teure Folgeschäden verhindern.",
+        "tr": "Düzenli bakımla pahalı ikincil hasarlar önlenebilir."
+      }
+    ],
+    "synonyms": [
+      "vermeiden",
+      "vorbeugen"
+    ],
+    "antonyms": [
+      "zulassen",
+      "verursachen"
+    ],
+    "related": [
+      "Rückflussverhinderer",
+      "Sicherheit",
+      "Schutz"
+    ],
+    "tags": [
+      "verben",
+      "sicherheit",
+      "wartung"
+    ],
+    "collections": [
+      "col-verben",
+      "col-sicherheit",
+      "col-wartung"
+    ]
+  },
+  {
+    "german": "entwickeln",
+    "article": null,
+    "type": "verb",
+    "level": "B1",
+    "senses": [
+      {
+        "tr": "Geliştirmek",
+        "en": "to develop"
+      },
+      {
+        "tr": "Gelişmek, oluşmak (sich entwickeln)",
+        "en": "to evolve, to develop"
+      }
+    ],
+    "verb": {
+      "praesens3": "entwickelt",
+      "praeteritum": "entwickelte",
+      "partizip2": "entwickelt",
+      "auxiliary": "haben",
+      "irregular": false
+    },
+    "examples": [
+      {
+        "de": "Die Hersteller entwickeln immer leisere und sparsamere Wärmepumpen.",
+        "tr": "Üreticiler giderek daha sessiz ve daha tasarruflu ısı pompaları geliştiriyor."
+      },
+      {
+        "de": "In feuchten, schlecht belüfteten Bädern kann sich schnell Schimmel entwickeln.",
+        "tr": "Nemli ve yetersiz havalandırılan banyolarda hızla küf oluşabilir."
+      }
+    ],
+    "synonyms": [
+      "entwerfen",
+      "hervorbringen"
+    ],
+    "antonyms": [],
+    "related": [
+      "Entwicklung",
+      "Technik",
+      "Lösung"
+    ],
+    "tags": [
+      "verben",
+      "meister",
+      "technik"
+    ],
+    "collections": [
+      "col-verben",
+      "col-meister",
+      "col-techkom"
+    ]
+  },
+  {
+    "german": "entstehen",
+    "article": null,
+    "type": "verb",
+    "level": "B1",
+    "senses": [
+      {
+        "tr": "Oluşmak, ortaya çıkmak, meydana gelmek",
+        "en": "to arise, to emerge, to occur"
+      }
+    ],
+    "verb": {
+      "praesens3": "entsteht",
+      "praeteritum": "entstand",
+      "partizip2": "entstanden",
+      "auxiliary": "sein",
+      "irregular": true
+    },
+    "examples": [
+      {
+        "de": "Bei der Verbrennung von Erdgas entsteht unter anderem Kondenswasser.",
+        "tr": "Doğalgazın yanması sırasında diğer maddelerin yanı sıra yoğuşma suyu oluşur."
+      },
+      {
+        "de": "Durch die schnelle Reaktion ist zum Glück kein größerer Schaden entstanden.",
+        "tr": "Hızlı müdahale sayesinde neyse ki daha büyük bir hasar meydana gelmedi."
+      }
+    ],
+    "synonyms": [
+      "sich bilden",
+      "aufkommen"
+    ],
+    "antonyms": [
+      "verschwinden",
+      "vergehen"
+    ],
+    "related": [
+      "Entstehung",
+      "Schaden",
+      "Kondensat"
+    ],
+    "tags": [
+      "verben",
+      "technik",
+      "alltag"
+    ],
+    "collections": [
+      "col-verben",
+      "col-techkom",
+      "col-alltag"
+    ]
+  },
+  {
+    "german": "bemerken",
+    "article": null,
+    "type": "verb",
+    "level": "B1",
+    "senses": [
+      {
+        "tr": "Fark etmek, algılamak",
+        "en": "to notice, to realize"
+      }
+    ],
+    "verb": {
+      "praesens3": "bemerkt",
+      "praeteritum": "bemerkte",
+      "partizip2": "bemerkt",
+      "auxiliary": "haben",
+      "irregular": false
+    },
+    "examples": [
+      {
+        "de": "Die Kundin hat einen leichten Gasgeruch im Keller bemerkt und sofort angerufen.",
+        "tr": "Müşteri bodrumda hafif bir gaz kokusu fark etti ve hemen aradı."
+      },
+      {
+        "de": "Beim Prüfen der Leitung bemerkte ich einen feinen Riss in der Lötstelle.",
+        "tr": "Hattı kontrol ederken lehim noktasında ince bir çatlak fark ettim."
+      }
+    ],
+    "synonyms": [
+      "feststellen",
+      "wahrnehmen"
+    ],
+    "antonyms": [
+      "übersehen"
+    ],
+    "related": [
+      "Bemerkung",
+      "beobachten",
+      "finden"
+    ],
+    "tags": [
+      "verben",
+      "wartung",
+      "alltag"
+    ],
+    "collections": [
+      "col-verben",
+      "col-wartung",
+      "col-alltag"
+    ]
+  },
+  {
+    "german": "beschweren",
+    "article": null,
+    "type": "verb",
+    "level": "B1",
+    "senses": [
+      {
+        "tr": "Şikâyet etmek (sich beschweren)",
+        "en": "to complain"
+      },
+      {
+        "tr": "Ağırlık koymak, bastırmak",
+        "en": "to weigh down"
+      }
+    ],
+    "verb": {
+      "praesens3": "beschwert",
+      "praeteritum": "beschwerte",
+      "partizip2": "beschwert",
+      "auxiliary": "haben",
+      "irregular": false,
+      "reflexive": true,
+      "preposition": "über / bei",
+      "prepCase": "Akkusativ / Dativ"
+    },
+    "examples": [
+      {
+        "de": "Der Nachbar hat sich über das laute Geräusch der Außeneinheit beschwert.",
+        "tr": "Komşu dış ünitenin yüksek sesinden şikâyet etti."
+      },
+      {
+        "de": "Wenn sich ein Kunde beschwert, nehmen wir das Anliegen ernst und suchen schnell eine Lösung.",
+        "tr": "Bir müşteri şikâyet ettiğinde talebi ciddiye alır ve hızla bir çözüm ararız."
+      }
+    ],
+    "synonyms": [
+      "reklamieren",
+      "sich beklagen"
+    ],
+    "antonyms": [
+      "loben"
+    ],
+    "related": [
+      "Beschwerde",
+      "Reklamation",
+      "Kundendienst"
+    ],
+    "tags": [
+      "verben",
+      "kunden",
+      "alltag"
+    ],
+    "collections": [
+      "col-verben",
+      "col-kunden",
+      "col-alltag"
+    ]
+  },
+  {
+    "german": "bewerben",
+    "article": null,
+    "type": "verb",
+    "level": "B1",
+    "senses": [
+      {
+        "tr": "Başvurmak (iş/pozisyon için: sich bewerben)",
+        "en": "to apply (for a job)"
+      }
+    ],
+    "verb": {
+      "praesens3": "bewirbt",
+      "praeteritum": "bewarb",
+      "partizip2": "beworben",
+      "auxiliary": "haben",
+      "irregular": true,
+      "reflexive": true,
+      "preposition": "um / bei",
+      "prepCase": "Akkusativ / Dativ"
+    },
+    "examples": [
+      {
+        "de": "Ich habe mich bei einem modernen SHK-Betrieb als Kundendiensttechniker beworben.",
+        "tr": "Modern bir SHK işletmesine servis teknisyeni olarak başvurdum."
+      },
+      {
+        "de": "Auf diese Ausbildungsstelle haben sich in diesem Jahr viele junge Leute beworben.",
+        "tr": "Bu mesleki eğitim pozisyonuna bu yıl birçok genç başvurdu."
+      }
+    ],
+    "synonyms": [
+      "sich melden"
+    ],
+    "antonyms": [],
+    "related": [
+      "Bewerbung",
+      "Lebenslauf",
+      "Vorstellungsgespräch"
+    ],
+    "tags": [
+      "verben",
+      "beruf"
+    ],
+    "collections": [
+      "col-verben",
+      "col-beruf"
+    ]
+  },
+  {
+    "german": "vertreten",
+    "article": null,
+    "type": "verb",
+    "level": "B1",
+    "senses": [
+      {
+        "tr": "Vekâlet etmek, yerine bakmak, temsil etmek",
+        "en": "to represent, to stand in for"
+      }
+    ],
+    "verb": {
+      "praesens3": "vertritt",
+      "praeteritum": "vertrat",
+      "partizip2": "vertreten",
+      "auxiliary": "haben",
+      "irregular": true
+    },
+    "examples": [
+      {
+        "de": "Während seines Urlaubs vertrete ich meinen Kollegen im Kundendienst.",
+        "tr": "İzni boyunca servis bölümünde meslektaşımın yerine ben bakıyorum."
+      },
+      {
+        "de": "Der Meister vertritt den Betrieb bei der Bauabnahme gegenüber dem Architekten.",
+        "tr": "Usta yapı kabulünde işletmeyi mimara karşı temsil ediyor."
+      }
+    ],
+    "synonyms": [
+      "ersetzen",
+      "repräsentieren"
+    ],
+    "antonyms": [],
+    "related": [
+      "Vertretung",
+      "Vertreter",
+      "Urlaub"
+    ],
+    "tags": [
+      "verben",
+      "beruf",
+      "meister"
+    ],
+    "collections": [
+      "col-verben",
+      "col-beruf",
+      "col-meister"
+    ]
+  },
+  {
+    "german": "rechnen",
+    "article": null,
+    "type": "verb",
+    "level": "B1",
+    "senses": [
+      {
+        "tr": "Hesaplamak, hesap yapmak",
+        "en": "to calculate, to compute"
+      },
+      {
+        "tr": "Beklemek, hesaba katmak (rechnen mit)",
+        "en": "to expect, to count on"
+      }
+    ],
+    "verb": {
+      "praesens3": "rechnet",
+      "praeteritum": "rechnete",
+      "partizip2": "gerechnet",
+      "auxiliary": "haben",
+      "irregular": false,
+      "preposition": "mit",
+      "prepCase": "Dativ"
+    },
+    "examples": [
+      {
+        "de": "Für die komplette Badsanierung müssen wir mit etwa zwei Wochen Bauzeit rechnen.",
+        "tr": "Komple banyo tadilatı için yaklaşık iki haftalık bir çalışma süresi öngörmemiz gerekiyor."
+      },
+      {
+        "de": "Ich rechne die benötigte Heizlast noch einmal genau nach.",
+        "tr": "Gerekli ısı yükünü bir kez daha hassas şekilde hesaplıyorum."
+      }
+    ],
+    "synonyms": [
+      "kalkulieren",
+      "berechnen",
+      "erwarten"
+    ],
+    "antonyms": [],
+    "related": [
+      "Rechnung",
+      "berechnen",
+      "Kalkulation"
+    ],
+    "tags": [
+      "verben",
+      "meister",
+      "alltag"
+    ],
+    "collections": [
+      "col-verben",
+      "col-meister",
+      "col-alltag"
+    ]
+  },
+  {
+    "german": "gründlich",
+    "article": null,
+    "type": "adjective",
+    "level": "B1",
+    "senses": [
+      {
+        "tr": "Titiz, kapsamlı, iyice, derinlemesine",
+        "en": "thorough, careful, meticulous"
+      }
+    ],
+    "adjective": {
+      "komparativ": "gründlicher",
+      "superlativ": "am gründlichsten"
+    },
+    "examples": [
+      {
+        "de": "Wir spülen die Fußbodenheizung sehr gründlich, bis nur noch klares Wasser austritt.",
+        "tr": "Yerden ısıtmayı sadece berrak su çıkana kadar çok titiz bir şekilde yıkıyoruz."
+      },
+      {
+        "de": "Eine gründliche Sichtprüfung deckt kleine Mängel frühzeitig auf.",
+        "tr": "Kapsamlı bir görsel kontrol küçük kusurları erken aşamada ortaya çıkarır."
+      }
+    ],
+    "synonyms": [
+      "sorgfältig",
+      "gewissenhaft",
+      "genau"
+    ],
+    "antonyms": [
+      "oberflächlich",
+      "nachlässig"
+    ],
+    "related": [
+      "Gründlichkeit",
+      "prüfen",
+      "reinigen"
+    ],
+    "tags": [
+      "adjektiv",
+      "wartung",
+      "meister"
+    ],
+    "collections": [
+      "col-adj-adv",
+      "col-wartung",
+      "col-meister"
+    ]
+  },
+  {
+    "german": "selbstständig",
+    "article": null,
+    "type": "adjective",
+    "level": "B1",
+    "senses": [
+      {
+        "tr": "Bağımsız, kendi başına çalışabilen",
+        "en": "independent, self-reliant"
+      },
+      {
+        "tr": "Serbest çalışan, kendi işinin sahibi",
+        "en": "self-employed"
+      }
+    ],
+    "adjective": {
+      "komparativ": "selbstständiger",
+      "superlativ": "am selbstständigsten"
+    },
+    "examples": [
+      {
+        "de": "Nach der Meisterprüfung möchte er sich mit einem eigenen SHK-Betrieb selbstständig machen.",
+        "tr": "Ustalık sınavından sonra kendi SHK işletmesiyle kendi işini kurmak istiyor."
+      },
+      {
+        "de": "Wir suchen einen erfahrenen Monteur, der Aufträge selbstständig abwickeln kann.",
+        "tr": "İşleri kendi başına yürütebilen deneyimli bir montajcı arıyoruz."
+      }
+    ],
+    "synonyms": [
+      "eigenständig",
+      "unabhängig"
+    ],
+    "antonyms": [
+      "unselbstständig",
+      "abhängig"
+    ],
+    "related": [
+      "Selbstständigkeit",
+      "Meister",
+      "Betrieb"
+    ],
+    "tags": [
+      "adjektiv",
+      "meister",
+      "beruf"
+    ],
+    "collections": [
+      "col-adj-adv",
+      "col-meister",
+      "col-beruf"
+    ]
+  },
+  {
+    "german": "verantwortlich",
+    "article": null,
+    "type": "adjective",
+    "level": "B1",
+    "senses": [
+      {
+        "tr": "Sorumlu, yetkili",
+        "en": "responsible, accountable"
+      }
+    ],
+    "adjective": {
+      "komparativ": "verantwortlicher",
+      "superlativ": "am verantwortlichsten"
+    },
+    "examples": [
+      {
+        "de": "Wer ist auf dieser Baustelle für die Koordination der Gewerke verantwortlich?",
+        "tr": "Bu şantiyede iş kollarının koordinasyonundan kim sorumlu?"
+      },
+      {
+        "de": "Jeder Fachbetrieb ist für die normgerechte Ausführung seiner Arbeit verantwortlich.",
+        "tr": "Her uzman işletme işini standartlara uygun yapmaktan sorumludur."
+      }
+    ],
+    "synonyms": [
+      "zuständig",
+      "haftbar"
+    ],
+    "antonyms": [
+      "unverantwortlich"
+    ],
+    "related": [
+      "Verantwortung",
+      "Bauleiter",
+      "Sicherheit"
+    ],
+    "tags": [
+      "adjektiv",
+      "meister",
+      "sicherheit"
+    ],
+    "collections": [
+      "col-adj-adv",
+      "col-meister",
+      "col-sicherheit"
+    ]
+  },
+  {
+    "german": "robust",
+    "article": null,
+    "type": "adjective",
+    "level": "B1",
+    "senses": [
+      {
+        "tr": "Sağlam, dayanıklı, ağır hizmete uygun",
+        "en": "robust, sturdy, rugged"
+      }
+    ],
+    "adjective": {
+      "komparativ": "robuster",
+      "superlativ": "am robustesten"
+    },
+    "examples": [
+      {
+        "de": "Für den täglichen Einsatz auf dem Bau brauchen wir besonders robuste Werkzeuge.",
+        "tr": "Şantiyedeki günlük kullanım için özellikle dayanıklı aletlere ihtiyacımız var."
+      },
+      {
+        "de": "Der neue Werkzeugkoffer hat ein robustes Gehäuse und hält auch Stöße aus.",
+        "tr": "Yeni alet çantasının sağlam bir gövdesi var ve darbelere de dayanıyor."
+      }
+    ],
+    "synonyms": [
+      "stabil",
+      "widerstandsfähig",
+      "strapazierfähig"
+    ],
+    "antonyms": [
+      "empfindlich",
+      "zerbrechlich"
+    ],
+    "related": [
+      "Qualität",
+      "haltbar",
+      "Werkzeug"
+    ],
+    "tags": [
+      "adjektiv",
+      "werkzeug",
+      "montage"
+    ],
+    "collections": [
+      "col-adj-adv",
+      "col-werkzeuge",
+      "col-montage"
+    ]
+  },
+  {
+    "german": "empfindlich",
+    "article": null,
+    "type": "adjective",
+    "level": "B1",
+    "senses": [
+      {
+        "tr": "Hassas, duyarlı, kolay zarar gören",
+        "en": "sensitive, delicate, fragile"
+      }
+    ],
+    "adjective": {
+      "komparativ": "empfindlicher",
+      "superlativ": "am empfindlichsten"
+    },
+    "examples": [
+      {
+        "de": "Die elektronische Platine in der Steuerung ist sehr empfindlich gegenüber Feuchtigkeit.",
+        "tr": "Kumandadaki elektronik kart neme karşı çok hassastır."
+      },
+      {
+        "de": "Deck das empfindliche Parkett vor Beginn der Arbeiten gut mit Malervlies ab.",
+        "tr": "Çalışmaya başlamadan önce hassas parkeyi koruma keçesiyle iyice ört."
+      }
+    ],
+    "synonyms": [
+      "sensibel",
+      "anfällig"
+    ],
+    "antonyms": [
+      "robust",
+      "unempfindlich"
+    ],
+    "related": [
+      "Empfindlichkeit",
+      "Sensor",
+      "Schutz"
+    ],
+    "tags": [
+      "adjektiv",
+      "wartung",
+      "technik"
+    ],
+    "collections": [
+      "col-adj-adv",
+      "col-wartung",
+      "col-techkom"
+    ]
+  },
+  {
+    "german": "notwendig",
+    "article": null,
+    "type": "adjective",
+    "level": "B1",
+    "senses": [
+      {
+        "tr": "Gerekli, zorunlu, lüzumlu",
+        "en": "necessary, essential"
+      }
+    ],
+    "adjective": {
+      "komparativ": "notwendiger",
+      "superlativ": "am notwendigsten"
+    },
+    "examples": [
+      {
+        "de": "Vor dem Tausch der Pumpe ist ein Absperren der Ventile unbedingt notwendig.",
+        "tr": "Pompayı değiştirmeden önce vanaların kapatılması kesinlikle gereklidir."
+      },
+      {
+        "de": "Alle notwendigen Ersatzteile haben wir bereits im Servicefahrzeug.",
+        "tr": "Gerekli tüm yedek parçalar servis aracımızda zaten mevcut."
+      }
+    ],
+    "synonyms": [
+      "erforderlich",
+      "nötig",
+      "unverzichtbar"
+    ],
+    "antonyms": [
+      "unnötig",
+      "überflüssig"
+    ],
+    "related": [
+      "Notwendigkeit",
+      "brauchen",
+      "Pflicht"
+    ],
+    "tags": [
+      "adjektiv",
+      "meister",
+      "alltag"
+    ],
+    "collections": [
+      "col-adj-adv",
+      "col-meister",
+      "col-alltag"
+    ]
+  },
+  {
+    "german": "ausreichend",
+    "article": null,
+    "type": "adjective",
+    "level": "B1",
+    "senses": [
+      {
+        "tr": "Yeterli, kâfi",
+        "en": "sufficient, adequate"
+      }
+    ],
+    "adjective": {
+      "komparativ": "ausreichender",
+      "superlativ": "am ausreichendsten"
+    },
+    "examples": [
+      {
+        "de": "Achte darauf, dass im Heizungsraum eine ausreichende Belüftung vorhanden ist.",
+        "tr": "Kazan dairesinde yeterli havalandırmanın bulunduğundan emin ol."
+      },
+      {
+        "de": "Der Wasserdruck im obersten Stockwerk ist derzeit nicht ausreichend.",
+        "tr": "En üst kattaki su basıncı şu anda yeterli değil."
+      }
+    ],
+    "synonyms": [
+      "genügend",
+      "hinreichend"
+    ],
+    "antonyms": [
+      "unzureichend",
+      "knapp"
+    ],
+    "related": [
+      "ausreichen",
+      "genug",
+      "Menge"
+    ],
+    "tags": [
+      "adjektiv",
+      "technik",
+      "meister"
+    ],
+    "collections": [
+      "col-adj-adv",
+      "col-techkom",
+      "col-meister"
+    ]
+  },
+  {
+    "german": "zusätzlich",
+    "article": null,
+    "type": "adjective",
+    "level": "B1",
+    "senses": [
+      {
+        "tr": "Ek, ilave, fazladan",
+        "en": "additional, extra"
+      }
+    ],
+    "adjective": {
+      "komparativ": "",
+      "superlativ": ""
+    },
+    "examples": [
+      {
+        "de": "Für den neuen Heizkörper im Dachgeschoss benötigen wir zusätzliches Rohrmaterial.",
+        "tr": "Çatı katındaki yeni radyatör için ilave boru malzemesine ihtiyacımız var."
+      },
+      {
+        "de": "Entstehen durch diese Änderung zusätzliche Kosten für mich?",
+        "tr": "Bu değişiklik benim için ek maliyet doğuruyor mu?"
+      }
+    ],
+    "synonyms": [
+      "extra",
+      "ergänzend",
+      "weitere"
+    ],
+    "antonyms": [],
+    "related": [
+      "Zusatz",
+      "außerdem",
+      "Aufpreis"
+    ],
+    "tags": [
+      "adjektiv",
+      "kunden",
+      "montage"
+    ],
+    "collections": [
+      "col-adj-adv",
+      "col-kunden",
+      "col-montage"
+    ]
+  },
+  {
+    "german": "deutlich",
+    "article": null,
+    "type": "adjective",
+    "level": "B1",
+    "senses": [
+      {
+        "tr": "Açık, net, belirgin",
+        "en": "clear, distinct, significant"
+      }
+    ],
+    "adjective": {
+      "komparativ": "deutlicher",
+      "superlativ": "am deutlichsten"
+    },
+    "examples": [
+      {
+        "de": "Nach dem Einbau der neuen Pumpe ist der Stromverbrauch deutlich gesunken.",
+        "tr": "Yeni pompanın montajından sonra elektrik tüketimi belirgin şekilde düştü."
+      },
+      {
+        "de": "Beschrifte bitte alle Heizkreise am Verteiler klar und deutlich.",
+        "tr": "Lütfen kollektördeki tüm ısıtma devrelerini açık ve net şekilde etiketle."
+      }
+    ],
+    "synonyms": [
+      "klar",
+      "eindeutig",
+      "merklich"
+    ],
+    "antonyms": [
+      "undeutlich",
+      "unklar"
+    ],
+    "related": [
+      "verdeutlichen",
+      "verständlich"
+    ],
+    "tags": [
+      "adjektiv",
+      "technik",
+      "alltag"
+    ],
+    "collections": [
+      "col-adj-adv",
+      "col-techkom",
+      "col-alltag"
+    ]
+  },
+  {
+    "german": "anstatt",
+    "article": null,
+    "type": "preposition",
+    "level": "B1",
+    "senses": [
+      {
+        "tr": "Yerine, -in yerine",
+        "en": "instead of"
+      }
+    ],
+    "preposition": {
+      "cases": [
+        "Genitiv"
+      ],
+      "wechsel": false
+    },
+    "examples": [
+      {
+        "de": "Anstatt einer Ölheizung bauen wir eine moderne Luft-Wasser-Wärmepumpe ein.",
+        "tr": "Mazotlu kalorifer yerine modern bir hava-su ısı pompası kuruyoruz."
+      },
+      {
+        "de": "Anstatt eines einfachen Ventils verwenden wir hier ein wartungsfreies Schrägsitzventil.",
+        "tr": "Basit bir vana yerine burada bakım gerektirmeyen eğik milli bir vana kullanıyoruz."
+      }
+    ],
+    "synonyms": [
+      "statt"
+    ],
+    "antonyms": [],
+    "related": [
+      "stattdessen",
+      "Ersatz"
+    ],
+    "tags": [
+      "präposition",
+      "grammatik",
+      "genitiv"
+    ],
+    "notes": "Standart Almancada Genitiv alır ('anstatt des Rohrs'); günlük konuşma dilinde zaman zaman Dativ ile de duyulur.",
+    "collections": [
+      "col-grammatik",
+      "col-alltag"
+    ]
+  },
+  {
+    "german": "oberhalb",
+    "article": null,
+    "type": "preposition",
+    "level": "B1",
+    "senses": [
+      {
+        "tr": "Üstünde, yukarısında",
+        "en": "above"
+      }
+    ],
+    "preposition": {
+      "cases": [
+        "Genitiv"
+      ],
+      "wechsel": false
+    },
+    "examples": [
+      {
+        "de": "Der automatische Entlüfter wird am höchsten Punkt oberhalb des Kessels montiert.",
+        "tr": "Otomatik purjör kazanın yukarısındaki en yüksek noktaya monte edilir."
+      },
+      {
+        "de": "Oberhalb der Fliesen verläuft eine versteckte Elektroleitung.",
+        "tr": "Fayansların üst tarafında gizli bir elektrik hattı geçiyor."
+      }
+    ],
+    "synonyms": [
+      "über"
+    ],
+    "antonyms": [
+      "unterhalb"
+    ],
+    "related": [
+      "oben",
+      "innerhalb",
+      "außerhalb"
+    ],
+    "tags": [
+      "präposition",
+      "grammatik",
+      "genitiv"
+    ],
+    "collections": [
+      "col-grammatik",
+      "col-montage"
+    ]
+  },
+  {
+    "german": "unterhalb",
+    "article": null,
+    "type": "preposition",
+    "level": "B1",
+    "senses": [
+      {
+        "tr": "Altında, aşağısında",
+        "en": "below, underneath"
+      }
+    ],
+    "preposition": {
+      "cases": [
+        "Genitiv"
+      ],
+      "wechsel": false
+    },
+    "examples": [
+      {
+        "de": "Der Siphon sitzt direkt unterhalb des Waschbeckens.",
+        "tr": "Sifon doğrudan lavabonun altında yer alır."
+      },
+      {
+        "de": "Bei Temperaturen unterhalb des Gefrierpunkts muss die Außenleitung entleert werden.",
+        "tr": "Donma noktasının altındaki sıcaklıklarda dış hat boşaltılmalıdır."
+      }
+    ],
+    "synonyms": [
+      "unter"
+    ],
+    "antonyms": [
+      "oberhalb"
+    ],
+    "related": [
+      "unten",
+      "innerhalb",
+      "außerhalb"
+    ],
+    "tags": [
+      "präposition",
+      "grammatik",
+      "genitiv"
+    ],
+    "collections": [
+      "col-grammatik",
+      "col-montage"
+    ]
+  },
+  {
+    "german": "solange",
+    "article": null,
+    "type": "conjunction",
+    "level": "B1",
+    "senses": [
+      {
+        "tr": "-diği sürece, -dığı müddetçe",
+        "en": "as long as, while"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Solange die Hauptleitung abgesperrt ist, fließt im ganzen Haus kein Wasser.",
+        "tr": "Ana hat kapalı olduğu sürece tüm evde su akmaz."
+      },
+      {
+        "de": "Solange das Gerät noch Garantie hat, übernimmt der Hersteller die Reparatur.",
+        "tr": "Cihazın garantisi devam ettiği sürece onarımı üretici üstlenir."
+      }
+    ],
+    "synonyms": [
+      "während"
+    ],
+    "antonyms": [],
+    "related": [
+      "sobald",
+      "seitdem",
+      "lang"
+    ],
+    "tags": [
+      "konjunktion",
+      "grammatik",
+      "nebensatz"
+    ],
+    "collections": [
+      "col-grammatik",
+      "col-alltag"
+    ]
+  },
+  {
+    "german": "seitdem",
+    "article": null,
+    "type": "conjunction",
+    "level": "B1",
+    "senses": [
+      {
+        "tr": "-diğinden beri, o zamandan beri",
+        "en": "since (the time when)"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Seitdem wir die neue Hocheffizienzpumpe eingebaut haben, läuft die Heizung flüsterleise.",
+        "tr": "Yeni yüksek verimli pompayı taktığımızdan beri ısıtma fısıltı kadar sessiz çalışıyor."
+      },
+      {
+        "de": "Seitdem der hydraulische Abgleich gemacht wurde, werden auch die hinteren Zimmer warm.",
+        "tr": "Hidrolik dengeleme yapıldığından beri arka odalar da ısınıyor."
+      }
+    ],
+    "synonyms": [
+      "seit"
+    ],
+    "antonyms": [],
+    "related": [
+      "solange",
+      "nachdem",
+      "inzwischen"
+    ],
+    "tags": [
+      "konjunktion",
+      "grammatik",
+      "nebensatz"
+    ],
+    "collections": [
+      "col-grammatik",
+      "col-alltag"
+    ]
+  },
+  {
+    "german": "stattdessen",
+    "article": null,
+    "type": "adverb",
+    "level": "B1",
+    "senses": [
+      {
+        "tr": "Bunun yerine, onun yerine",
+        "en": "instead, instead of that"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Das Ersatzteil ist nicht mehr lieferbar, stattdessen bauen wir ein modernes Nachfolgemodell ein.",
+        "tr": "Yedek parça artık temin edilemiyor, bunun yerine modern bir yeni nesil model takıyoruz."
+      },
+      {
+        "de": "Wir konnten heute nicht bohren und haben stattdessen alle Rohre vorbereitet.",
+        "tr": "Bugün delme işlemi yapamadık, onun yerine tüm boruları hazırladık."
+      }
+    ],
+    "synonyms": [
+      "dafür",
+      "ersatzweise"
+    ],
+    "antonyms": [],
+    "related": [
+      "anstatt",
+      "Ersatz"
+    ],
+    "tags": [
+      "adverb",
+      "grammatik",
+      "konnektor"
+    ],
+    "collections": [
+      "col-grammatik",
+      "col-adj-adv"
+    ]
+  },
+  {
+    "german": "gleichzeitig",
+    "article": null,
+    "type": "adverb",
+    "level": "B1",
+    "senses": [
+      {
+        "tr": "Aynı anda, eş zamanlı olarak",
+        "en": "simultaneously, at the same time"
+      }
+    ],
+    "examples": [
+      {
+        "de": "Die neue Wärmepumpe kann das Haus heizen und gleichzeitig Warmwasser bereiten.",
+        "tr": "Yeni ısı pompası evi ısıtabilir ve aynı anda sıcak su hazırlayabilir."
+      },
+      {
+        "de": "Wir sollten nicht zu viele schwere Geräte gleichzeitig an eine Kabeltrommel anschließen.",
+        "tr": "Tek bir kablo makarasına aynı anda çok fazla ağır cihaz bağlamamalıyız."
+      }
+    ],
+    "synonyms": [
+      "zugleich",
+      "zeitgleich",
+      "parallel"
+    ],
+    "antonyms": [
+      "nacheinander"
+    ],
+    "related": [
+      "gleich",
+      "Zeit",
+      "parallel"
+    ],
+    "tags": [
+      "adverb",
+      "grammatik",
+      "zeit"
+    ],
+    "collections": [
+      "col-grammatik",
+      "col-adj-adv",
+      "col-alltag"
+    ]
+  }
+]
