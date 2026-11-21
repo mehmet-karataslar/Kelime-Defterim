@@ -3,16 +3,20 @@
 # 📖 Kelime Defterim
 
 **Almancayı kelime kelime değil, dilbilgisiyle birlikte öğren.**
-Kişisel sözlüğünü kur, aralıklı tekrar ile pekiştir, ilerlemeni grafikte gör — hepsi cihazında, internet bağlantısı olmadan.
+Kişisel sözlüğünü kur, aralıklı tekrar ile pekiştir, ana ekran widget'ları ile her an pratik yap — hepsi cihazında, internet bağlantısı olmadan.
 
-[![Capacitor](https://img.shields.io/badge/Capacitor-Android-4DD0E1?logo=capacitor&logoColor=white)](https://capacitorjs.com)
+[![Sürüm](https://img.shields.io/badge/S%C3%BCr%C3%BCm-v1.0.2-7C3AED?logo=github)](https://github.com/mehmet-karataslar/Kelime-Defterim/releases/latest)
+[![Capacitor](https://img.shields.io/badge/Capacitor-7.0-4DD0E1?logo=capacitor&logoColor=white)](https://capacitorjs.com)
 [![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=black)](https://react.dev)
 [![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org)
 [![Vite](https://img.shields.io/badge/Vite-6-646CFF?logo=vite&logoColor=white)](https://vitejs.dev)
-[![Çevrimdışı](https://img.shields.io/badge/çevrimdışı-%C3%A7al%C4%B1%C5%9F%C4%B1r-059669)](#-veri-yedekleme-ve-gizlilik)
-[![Dil](https://img.shields.io/badge/arayüz-TR%20%C2%B7%20DE%20%C2%B7%20EN-EA580C)](#-çoklu-dil)
+[![Android Widget](https://img.shields.io/badge/Android-Widget%20Deste%C4%9Fi-3DDC84?logo=android&logoColor=white)](#-android-ana-ekran-widget%C4%B1)
+[![Çevrimdışı](https://img.shields.io/badge/%C3%A7evrimd%C4%B1%C5%9F%C4%B1-%C3%A7al%C4%B1%C5%9F%C4%B1r-059669)](#-veri-yedekleme-ve-gizlilik)
+[![Dil](https://img.shields.io/badge/aray%C3%BCz-TR%20%C2%B7%20DE%20%C2%B7%20EN-EA580C)](#-çoklu-dil)
 
-`tek kullanıcı · sunucu yok · hesap yok · verin cihazda kalır`
+`tek kullanıcı · sunucu yok · hesap yok · verin cihazda kalır · github üzerinden güncellenir`
+
+[📥 En Son Sürümü İndir (APK v1.0.2)](https://github.com/mehmet-karataslar/Kelime-Defterim/releases/latest)
 
 </div>
 
@@ -25,7 +29,9 @@ Kişisel sözlüğünü kur, aralıklı tekrar ile pekiştir, ilerlemeni grafikt
 - [Almanca dil modeli](#-almanca-dil-modeli)
 - [Kelime yönetimi](#-kelime-yönetimi)
 - [Öğrenme modları](#-öğrenme-modları)
-- [Tekrar motoru](#-tekrar-motoru-spaced-repetition)
+- [Tekrar motoru (Spaced Repetition)](#-tekrar-motoru-spaced-repetition)
+- [Android ana ekran widget'ı](#-android-ana-ekran-widgetı)
+- [Uygulama içi APK güncelleme](#-uygulama-içi-apk-güncelleme)
 - [İstatistik ve hedefler](#-istatistik-ve-hedefler)
 - [Bildirimler](#-bildirimler)
 - [Tema ve görünüm](#-tema-ve-görünüm)
@@ -41,18 +47,20 @@ Kişisel sözlüğünü kur, aralıklı tekrar ile pekiştir, ilerlemeni grafikt
 
 ## ✨ Nedir?
 
-Kelime Defterim, Almanca öğrenen biri için tasarlanmış kişisel bir Android kelime platformudur. Basit bir "kelime → çeviri" listesinden farkı, Almancanın gerçekten dilbilgisini taşıması: isimler artikel ve çoğul biçimiyle, fiiller çekim ve yardımcı fiiliyle, sıfatlar komparativ/superlativ dereceleriyle, edatlar hangi hâli (Kasus) gerektirdiğiyle kaydedilir.
+Kelime Defterim, Almanca öğrenen biri için tasarlanmış kişisel bir Android kelime ve dilbilgisi platformudur. Basit bir "kelime → çeviri" listesinden farkı, Almancanın gerçek dilbilgisini taşıması: isimler artikel ve çoğul biçimiyle, fiiller çekim ve yardımcı fiiliyle, sıfatlar komparativ/superlativ dereceleriyle, edatlar hangi hâli (Kasus) gerektirdiğiyle kaydedilir.
 
-Uygulama tek kullanıcı içindir: kayıt ekranı, bulut hesabı veya sunucu sorgusu yoktur. Tüm veri cihazda kalır, hiçbir içerik üçüncü taraf bir servise gönderilmez. Seslendirme cihazın kendi ses motorundan gelir; ağ yalnızca Google Fonts yazı tipi indirilirken kullanılır ve bağlantı yoksa sistem yazı tipine düşülür.
+Uygulama tek kullanıcı içindir: kayıt ekranı, bulut hesabı veya sunucu sorgusu yoktur. Tüm veri cihazda saklanır, hiçbir içerik üçüncü taraf bir servise gönderilmez. Seslendirme cihazın kendi ses motorundan gelir. İnternet bağlantısı yalnızca isteğe bağlı GitHub güncellemeleri ve font indirmeleri için kullanılır.
 
-| | |
+| Özellik | Açıklama |
 |---|---|
-| 🗂 **36 örnek kelime + 5 koleksiyon** içeren hazır başlangıç verisi | 4 adımlı onboarding'de tek dokunuşla yüklenir, tek dokunuşla temizlenir |
-| 🧠 **8 öğrenme modu** + aralıklı tekrar motoru | Kart, artikel, anlam, yazma, dinleme, eşleştirme, cümle, zor kelimeler |
-| 🇩🇪 **11 kelime türü** için ayrı dilbilgisi formu | Nomen, Verb, Adjektiv, Präposition ve diğerleri |
-| 📊 **Gerçek veriden grafik** | Isı haritası, haftalık çubuklar, durum halkası, CEFR dağılımı |
-| 🎨 **8 renk paleti**, açık/koyu/sistem teması | Artikel renkleri de kullanıcı tarafından değiştirilebilir |
-| 🌍 **TR / DE / EN arayüz** | Arayüz dili ile anlam dili birbirinden bağımsız |
+| 🗂 **36 örnek kelime + 5 koleksiyon** | 4 adımlı onboarding'de tek dokunuşla yüklenir, tek dokunuşla temizlenir |
+| 🧠 **8 öğrenme modu** + aralıklı tekrar | Kart, artikel, anlam, yazma, dinleme, eşleştirme, cümle, zor kelimeler |
+| 🇩🇪 **11 kelime türü** için dinamik form | Nomen, Verb, Adjektiv, Präposition ve diğerleri |
+| 📲 **Özelleştirilebilir Ana Ekran Widget'ı** | Kart veya liste görünümü, hazır temalar, saydamlık ve canlı önizleme |
+| 🔄 **Uygulama içi GitHub Güncelleyici** | Depodaki yeni sürümleri doğrudan uygulama içinden denetler, indirir ve kurar |
+| 📊 **Gerçek veriden grafikler** | Isı haritası, haftalık çubuklar, durum halkası, CEFR dağılımı |
+| 🎨 **8 renk paleti**, açık/koyu tema | Kişiselleştirilebilir artikel renkleri ve metin boyutları |
+| 🌍 **TR / DE / EN arayüz** | Arayüz dili ile kelime anlam dili birbirinden bağımsız çalışır |
 
 ---
 
@@ -66,13 +74,13 @@ Aşağıdaki görseller projenin tasarım referansıdır (Stitch çıktıları, 
 | **Öğren & Tekrar Et** | **İstatistikler** |
 | <img src="TasarimGorselleri/extracted/stitch_kelime_defterim_german_vocabulary_app/ren_tekrar_et/screen.png" width="300" alt="Öğrenme ekranı tasarımı"> | <img src="TasarimGorselleri/extracted/stitch_kelime_defterim_german_vocabulary_app/i_statistikler/screen.png" width="300" alt="İstatistik ekranı tasarımı"> |
 
-Ekran akışı: altta 5 sekme (**Ana Sayfa · Kelimelerim · Öğren · İstatistikler · Ayarlar**), üzerinde yığınlı (stack) alt sayfalar: kelime detayı, kelime editörü, koleksiyon detayı, oturum kurulumu ve çalışma oturumu. Android geri tuşu `popstate` üzerinden yığını geri sarar ([`src/app/App.tsx:71`](src/app/App.tsx#L71)).
+Ekran akışı: altta 5 sekme (**Ana Sayfa · Kelimelerim · Öğren · İstatistikler · Ayarlar**), üzerinde yığınlı (stack) alt sayfalar: kelime detayı, kelime editörü, koleksiyon detayı, oturum kurulumu ve çalışma oturumu. Android çentikli ve kameralı ekranları için **Safe Area** boşluğu otomatik korunur; Android geri tuşu `popstate` üzerinden yığını geri sarar.
 
 ---
 
 ## 🇩🇪 Almanca dil modeli
 
-Kelime kaydı düz bir çeviri satırı değil, ilişkisel bir yapıdır. Bir kelimenin birden çok anlamı (Sense), her anlamın kendi bağlamı olabilir:
+Kelime kaydı düz bir çeviri satırı değil, zengin ilişkisel bir yapıdır. Bir kelimenin birden çok anlamı (Sense), her anlamın kendi bağlamı bulunabilir:
 
 ```ts
 // die Bank → "oturak" ve "finans kurumu" aynı kayıtta, ayrı anlamlar olarak
@@ -100,21 +108,18 @@ Kelime türü seçildiğinde editörde **o türe özgü dinamik form** açılır
 | **Präposition** | gerektirdiği hâller (Akk/Dat/Gen), Wechselpräposition işareti |
 | **Diğer** | Adverb, Pronomen, Konjunktion, Numerale, Interjektion, Redewendung/Feste Wendung, Sonstige |
 
-Yazım kuralları: metinler Unicode **NFC** olarak normalize edilir, arama `ä→a`, `ö→o`, `ü→u`, `ß→ss` katlamasıyla `Mädchen`, `maedchen` ve `madchen` girdilerinin hepsinde sonuç verir; alfabetik sıralama `de` locale'i ile yapılır. Artikel yalnızca renk değildir — metni her zaman görünür, renk sadece vurgudur ve erişilebilirlik için renk dışı kodlama korunur.
+Yazım kuralları: metinler Unicode **NFC** olarak normalize edilir; arama `ä→a`, `ö→o`, `ü→u`, `ß→ss` katlamasıyla `Mädchen`, `maedchen` ve `madchen` aramalarının hepsinde doğru sonuç verir.
 
 ---
 
 ## 🗂 Kelime yönetimi
 
-**Kelimelerim** ekranı kişisel sözlüğünün kontrol merkezidir.
-
-- 🔍 **Arama**: kelime, her anlam (TR/EN), etiket ve örnek cümlede.
-- 🎯 **Filtreler**: favori, CEFR seviyesi, kelime türü, artikel, öğrenme durumu, koleksiyon — hepsi birlikte kullanılabilir.
+- 🔍 **Arama**: kelime, her iki dildeki anlamlar (TR/EN), etiketler ve örnek cümleler içinde arama.
+- 🎯 **Filtreler**: favori, CEFR seviyesi (A1-C2), kelime türü, artikel, öğrenme durumu, koleksiyon.
 - ↕️ **Sıralama**: en yeni, en eski, alfabetik, en çok tekrar, en çok hata, vakti gelenler.
-- ✅ **Çoklu seçim**: toplu silme, koleksiyona atama, favori, tekrar listesine ekleme.
-- ↩️ **Geri alma**: silme sonrası `undoBuffer` üzerinden kelime + tekrar geçmişi + koleksiyon bağları geri yüklenir.
-- ✏️ **İki ekleme modu**: *Hızlı ekleme* (yalnızca kelime, tür ve bir anlam yeter) ve *Detaylı ekleme* (10 bölüm). Bilinmeyen artikel `Bilinmiyor` olarak kaydedilebilir; eksik alan yüzünden kayıt engellenmez.
-- 🛡 **Düzenleme güvenliği**: kelimeyi düzenlemek tekrar geçmişini silmez; aynı kelime tekrar eklenirse uyarı verilir ama farklı dil/tür/anlam yanlışlıkla engellenmez.
+- ✅ **Çoklu seçim**: toplu silme, koleksiyona atama, favorileme, tekrar listesine alma.
+- ↩️ **Geri alma**: silme sonrası `undoBuffer` üzerinden kelime + tekrar geçmişi + koleksiyon bağları tek dokunuşla geri yüklenir.
+- ✏️ **İki ekleme modu**: *Hızlı ekleme* (yalnızca kelime, tür ve anlam) ve *Detaylı ekleme* (10 bölüm, çekimler, örnekler).
 
 ---
 
@@ -131,17 +136,13 @@ Yazım kuralları: metinler Unicode **NFC** olarak normalize edilir, arama `ä�
 | `sentence` | Örnek cümledeki boşluğu/çekimi tamamla | Örneğinde kelimesi geçenler |
 | `hard` | Sürekli unutulan kelimeler üzerinde ekstra çalışma | `isStruggling()` eşleşenler |
 
-**Oturum kurulumu** ([`SessionSetupScreen.tsx`](src/features/learning/SessionSetupScreen.tsx)): mod, kelime sayısı, kaynak (tümü / vakti gelenler / yeni / favoriler), koleksiyon ve seviye seçilir; havuz boşsa modun neden uygun olmadığını anlatan boş durum ekranı gösterilir. Oturum bitişinde çalışılan kelimeler, doğru/yanlış, zorlanılanlar ve tamamlanma oranı raporlanır.
-
-✍️ Yazma testinde tolerans ayarı üç seviyedir: `strict`, `case` (büyük/küçük harf affedilir), `umlaut` (umlautlar affedilir). Almancada büyük/küçük harfin anlam taşıyabildiği varsayımıyla varsayılan `case`'dir.
-
-🔊 **Telaffuz**: native tarafta `@capacitor-community/text-to-speech` ile `de-DE` sesi, web'de `SpeechSynthesis` yedeği kullanılır; Almanca ses paketi yoksa kullanıcıya anlaşılır uyarı gösterilir, sessiz başarısızlık yapılmaz ([`src/core/audio.ts`](src/core/audio.ts)). Ses hızı ayarlardan değiştirilebilir; doğru/yanlış/kart sesi Web Audio ile üretilir (dosya yok, boyut yok).
+🔊 **Telaffuz**: native tarafta `@capacitor-community/text-to-speech` ile `de-DE` sesi, web'de `SpeechSynthesis` yedeği kullanılır. Ses hızı ayarlardan değiştirilebilir.
 
 ---
 
 ## 🧠 Tekrar motoru (Spaced Repetition)
 
-Algoritma bileşenlerden bağımsız, saf bir servistir: [`src/core/srs.ts`](src/core/srs.ts). SM-2 ailesinden, dört yanıta göre çalışan bir zamanlayıcı:
+Algoritma bileşenlerden bağımsız saf bir servistir: [`src/core/srs.ts`](src/core/srs.ts). SM-2 ailesinden, 4 yanıta göre çalışan bir zamanlayıcı:
 
 | Yanıt | Etki |
 |---|---|
@@ -150,97 +151,123 @@ Algoritma bileşenlerden bağımsız, saf bir servistir: [`src/core/srs.ts`](src
 | **Bildim (2)** | 1. seans → 1 gün, 2. seans → 3 gün, sonrası `aralık × ease` |
 | **Çok kolay (3)** | `ease + 0.15`, aralık `× ease × 1.3` |
 
-`ease` 1.3–3.0 arasında sınırlanır, aralık 21 günü geçince kelime `learned` kabul edilir. Kelime durumları: **Yeni · Öğreniliyor · Tekrar ediliyor · Yeniden öğreniliyor · Öğrenilmiş**. Zorlanma tespiti `lapses ≥ 3` veya son 4+ denemede doğruluk <%50 üzerinden yapılır.
+Kelime durumları: **Yeni · Öğreniliyor · Tekrar ediliyor · Yeniden öğreniliyor · Öğrenilmiş**. Zorlanma tespiti `lapses ≥ 3` veya son 4+ denemede doğruluk <%50 üzerinden yapılır. Tekrar zamanları cihazda kalıcı olarak saklanır.
 
-Her yanıt `reviewLogs` içine kelime, zaman, mod, puan ve doğruluk olarak yazılır; bu günlükler hem istatistiklerin hem serinin (streak) gerçek kaynağıdır. Sonraki tekrar zamanı kalıcıdır — uygulama kapansa da sıfırlanmaz. Aynı kelimenin artikeli bilinip anlamı bilinmediği için her mod kendi başına sorulur.
+---
+
+## 📲 Android ana ekran widget'ı
+
+Android ana ekranınızda her an Almanca kelimeleri görmek için gelişmiş bir yerel widget (`KelimeWidgetProvider.java`) entegre edilmiştir:
+
+- 🗂 **İki Farklı Görünüm Düzeni:**
+  - **Günün Kelimesi (Kart Modu):** Büyük Almanca kelime, renkli artikel rozeti, Türkçe karşılık ve örnek cümle.
+  - **Kelime Listesi (Çoklu Mod):** Ana ekranda alt alta 3, 4 veya 5 kelimeyi aynı anda gösteren zengin liste.
+- 🎨 **Hazır Hızlı Temalar:** Açık Kart (beyaz), Koyu Gece (lacivert), Şeffaf Cam (duvar kağıdını gösteren yarı saydam efekt), Mor Renk.
+- 🎛 **Gelişmiş Ayarlar:**
+  - Arka plan şeffaflığı (%20 - %100)
+  - Metin boyutu ölçeği (%85 - %180)
+  - Kenarlık kalınlığı ve köşe yuvarlaklığı
+  - Otomatik döngü sıklığı (30 dk - 24 saat)
+  - Kelime kaynağı (Tüm kelimeler, favoriler, günün kelimeleri veya belirli bir koleksiyon)
+- ⚡ **Android Binder IPC Güvenliği:** Yüksek çözünürlüklü ekranlarda bellek sınırlarını aşmayacak şekilde optimize edilmiş, anında yüklenen `initialLayout` şablonu ile sıfır gecikmeli render.
+
+---
+
+## 🔄 Uygulama içi APK güncelleme
+
+Uygulamanın GitHub Releases deposundaki güncellemelerini takip eden yerel bir güncelleme modülü (`UpdaterPlugin.java` + `src/features/updater/`) içerir:
+
+- 🔍 **Depo Kontrolü:** GitHub Releases API üzerinden en yeni sürümü denetler.
+- 🛡 **SHA-256 Doğrulama:** İndirilen APK dosyasının bütünlüğü ve güvenliği SHA-256 özetiyle doğrulanır.
+- 📦 **Doğrudan Kurulum:** Android `PackageInstaller` oturumu ile uygulamayı terk etmeden güncelleme paketini başlatır.
+- ⏱ **Kanal Seçimi:** Kararlı (Stable) veya Önizleme (Beta) kanalları desteklenir.
 
 ---
 
 ## 📊 İstatistik ve hedefler
 
-Rakamlar mock değildir, `words` + `reviewLogs` + `sessions` üzerinden hesaplanır ([`src/core/selectors.ts`](src/core/selectors.ts)).
+Rakamlar mock değildir, gerçek kullanıcı verileri üzerinden hesaplanır:
 
-- **Bugün**: günlük hedef halkası (tamamlanan / `dailyGoal`), vakti gelen ve gecikmiş tekrar sayısı.
-- **Seri**: pazartesi başlangıçlı haftalık çubuklar + 4 haftalık **ısı haritası** (`heatCells`).
-- **Dağılım**: durum halkası (öğrenildi / tekrar / öğreniliyor / yeni / zorlanılan) ve CEFR seviye dağılımı.
+- **Bugün**: günlük hedef çemberi (tamamlanan / `dailyGoal`), vakti gelen tekrar sayısı.
+- **Seri**: pazartesi başlangıçlı haftalık çubuklar + 4 haftalık **ısı haritası**.
+- **Dağılım**: durum halkası ve CEFR (A1-C2) seviye kırılımları.
 - **Başarı**: genel hatırlama oranı, artikel doğruluğu, en çok hata yapılan kelimeler.
-- **Hacim**: toplam kelime, bu hafta eklenen, oturum süreleri ve doğru/yanlış kırılımları.
 
 ---
 
 ## 🔔 Bildirimler
 
-Ayarlar → Bildirimler bölümünden açılır. Aralık **1 · 5 · 10 · 15 · 30 · 45 · 60 dakika · 2 · 3 · 6 saat** seçeneklerinden biridir; ayrıca **gün içinde sabit saatler** (en fazla 6 adet, `HH:MM`) ve **sessiz saatler** (başlangıç/bitiş) tanımlanabilir. Uygulama açıldığında tek seferlik hatırlatma gösterme seçeneği de vardır. İçerik üç moddan biri olur:
-
-1. **Yalnızca kelime** → `die Möglichkeit`
-2. **Kelime + anlam** → gövdeye ilk örnek cümle de eklenir
-3. **Mini soru** → `___ Möglichkeit · der / die / das?`
-
-Android'de `@capacitor/local-notifications` ile sistem planlayıcısına yazılır: kendi kanalımız (`Kelime Defterim`, önem 4, titreşim + LED), izin ihtiyaç anında istenir, ayar değişince bekleyen tüm planlar temizlenip yeniden kurulur. Kesin alarm izni verilmezse sistem **inexact** zamanlamaya düşer ve bildirim yine gelir. Web derlemesinde `setInterval` + Notification API kullanılır.
-
-Bildirim metni arayüz ve anlam dili ayarlarına uyar; "Test bildirimi gönder" gerçek bir bildirim gönderir, izin reddedilirse uygulama çalışmaya devam eder ([`src/features/notifications/service.ts`](src/features/notifications/service.ts)).
-
-> ⚠️ **Dürüst sınır**: Android tarafında bildirimler uygulama arka plandayken veya kapalıyken de planlanır — ancak Android hiçbir zamanlayıcı API'sine "dakkası dakkasına" garanti vermez (Doze, pil tasarrufu, üretici kısıtlamaları). Bu yüzden seçtiğin aralık saklanır, kesinlik vaat edilmez. Web derlemesinde ise bildirim yalnızca sekme açıkken çalışır.
+Ayarlar → Bildirimler bölümünden açılır.
+- **Aralıklar**: 1, 5, 10, 15, 30, 45, 60 dakika veya 2, 3, 6 saatte bir.
+- **Sabit saatler**: Gün içinde 6 adede kadar özel hatırlatma zamanı.
+- **Sessiz saatler**: Uyku saatlerinde bildirimleri engelleme.
+- Android `@capacitor/local-notifications` ile sistem planlayıcısına kaydedilir.
 
 ---
 
 ## 🎨 Tema ve görünüm
 
-- **Tema**: Açık / Koyu / Sistem ( `prefers-color-scheme` dinlenir, değişim anında yansır).
+- **Tema**: Açık / Koyu / Sistem.
 - **8 renk paleti**: Ultramarine · Adaçayı yeşili · Sıcak turuncu · Okyanus mavisi · Lavanta · Toprak · Bordo · Minimal gri.
-- **Artikel renkleri**: `der` mavi, `die` kırmızı, `das` yeşil — kullanıcı her üçünü ayrı ayrı değiştirebilir.
-- **Görünüm tercihleri**: yazı ölçeği, kart yoğunluğu (rahat/kompakt), animasyon azaltma.
-- Renkler CSS token'ları ile merkezden yönetilir (`data-theme`, `data-palette`, `data-density`, `--fs`, `--der/--die/--das`); bileşen içinde sabit renk yoktur. Neon, aşırı gradyan ve gereksiz gölge yerine temiz yüzey + belirgin kart disiplini ([`src/theme/app.css`](src/theme/app.css)).
+- **Artikel renkleri**: `der`, `die`, `das` renkleri kullanıcı tarafından ayrı ayrı özelleştirilebilir.
+- **Özel İkon**: Özel tasarlanmış mor-beyaz modern adaptive Android launcher ikonu.
+- **Güvenli Üst Alan (Safe Area)**: Durum çubuğu ve kamera çentiği ile çakışmayı önleyen otomatik CSS ortam değişkeni desteği.
 
 ---
 
 ## 🌍 Çoklu dil
 
-Arayüz **TR / DE / EN**; kelime anlamları **TR / EN** tutulabilir. Bu üç ayar bilinçli olarak birbirinden bağımsızdır:
+Arayüz **TR / DE / EN**; kelime anlamları **TR / EN** tutulabilir. İki ayar birbirinden tamamen bağımsızdır:
 
 ```
 Arayüz: Türkçe  ·  Öğrenilen dil: Almanca  ·  Anlam: Türkçe
 Arayüz: Almanca ·  Öğrenilen dil: Almanca  ·  Anlam: İngilizce
 ```
 
-Dil değiştirmek hiçbir kelime verisini silmez. Tüm görünen metinler `t('anahtar')` ile modüler sözlüklerden gelir; JSX içinde sabit Türkçe metin yoktur ([`src/localization/`](src/localization/index.ts)). Eksik anahtar Türkçeye düşer, interpolate (`{{n}}`) desteklenir, tarih biçimi locale'e göre kurulur.
-
 ---
 
 ## 💾 Veri, yedekleme ve gizlilik
 
-**Depolama**: Zustand + `persist` middleware ile `localStorage` anahtarı `kelime-defterim-v1`. Kelimeler, koleksiyonlar, tekrar günlükleri, oturumlar ve ayarlar tek kalıcı kayıtta tutulur. Eski bir kayıttan yüklenirken eksik kalan tercihler `defaultSettings` ile doldurulur; yani yeni sürümde eklenen bir ayar, eski kullanıcının verisini bozmaz ([`src/core/store.ts`](src/core/store.ts)).
-
-| İşlem | Format | Not |
-|---|---|---|
-| Tam yedek al | **JSON** (`version: 1`) | Kelimeler, anlamlar, örnekler, koleksiyonlar, tekrar geçmişi, oturumlar, ayarlar |
-| Yedekten dön | **JSON** | `app` + `version: 1` + kelime dizisi doğrulanır, **önizleme** (kelime/koleksiyon/tekrar kaydı sayısı) + **birleştir / değiştir** seçimi, hata durumunda mevcut veri korunur |
-| Veri durumu | **Bilgi ekranı** | Ayarlar → Kelime, koleksiyon, tekrar ve oturum sayıları ile depolama türü |
-| Kelime listesi | **CSV** dışa aktarma | `;` ayırıcı + BOM (Excel TR/DE uyumu), anlamlar ve örnekler `|` ile birleştirilir |
-
-Gizlilik: veri cihazda kalır, üçüncü taraf sunucuya otomatik gönderim yok, kaynak koduna gömülü token/anahtar yok, SQL yerine bellek içi durum olduğu için injection yüzeyi yok. Dışa aktarılan dosyalar indirilen adla kullanıcıya aittir.
+- **Depolama**: Zustand + `persist` middleware ile `localStorage` üzerinde tek kalıcı kayıtta tutulur.
+- **Tam Yedek (JSON)**: Kelimeler, anlamlar, örnekler, koleksiyonlar, tekrar geçmişi ve ayarlar dışa aktarılabilir ve geri yüklenebilir.
+- **CSV Dışa Aktarma**: Excel uyumlu UTF-8 BOM ile kelime listesi dışa aktarımı.
+- **Gizlilik**: Veri tamamen cihazınızda kalır, hiçbir sunucuya otomatik veri aktarımı yapılmaz.
 
 ---
 
 ## 🏗 Mimari
 
-Feature-first + katmanlı yapı. Tek dosyalı yaklaşım yok: ekranlar JSX, iş mantığı `core`, veri dönüşümü `features/*/` ve ortak arayüz `shared/` katmanında durur.
+Feature-first + katmanlı mimari:
 
 ```text
-src/
-├── app/            App.tsx (tema + gezinme kabuğu) · navigation.ts (stack + sekmeler)
-├── core/           types.ts · store.ts (zustand + persist) · srs.ts · selectors.ts · audio.ts · seed.ts
-├── features/
-│   ├── home/ vocabulary/ collections/ learning/ statistics/ settings/
-│   ├── notifications/ backup/ onboarding/
-├── shared/         ui.tsx (TopBar, Stepper, EmptyState, ProgressRing, Toast…) · toastStore.ts
-├── theme/          app.css — token, tema, palet, animasyon
-└── localization/   tr.ts · de.ts · en.ts · index.ts (t, useMeaning, formatLocaleDate)
+kelime-defterim/
+├── android/
+│   └── app/src/main/
+│       ├── java/com/kelimedefterim/app/
+│       │   ├── MainActivity.java
+│       │   ├── KelimeWidgetProvider.java    # Android App Widget sağlayıcısı
+│       │   ├── WidgetBridgePlugin.java       # React-Android Widget köprüsü
+│       │   ├── WidgetPinReceiver.java        # Ana ekrana sabitleme alıcısı
+│       │   └── UpdaterPlugin.java            # GitHub APK indirici ve PackageInstaller
+│       └── res/
+│           ├── layout/                       # widget_root.xml, widget_initial.xml
+│           ├── xml/                          # widget_info.xml, file_paths.xml
+│           └── mipmap-*/                     # Özel adaptive uygulama ikonları
+├── src/
+│   ├── app/                                  # App.tsx, navigation.ts
+│   ├── core/                                 # types.ts, store.ts, srs.ts, selectors.ts, audio.ts
+│   ├── features/
+│   │   ├── home/ vocabulary/ collections/ learning/ statistics/
+│   │   ├── widgets/                          # WidgetPreview.tsx, service.ts
+│   │   ├── updater/                          # service.ts (GitHub Release denetleyicisi)
+│   │   ├── settings/ notifications/ backup/ onboarding/
+│   │   └── ...
+│   ├── shared/                               # Ortak UI bileşenleri (TopBar, Switch, Modal...)
+│   ├── theme/                                # app.css (tokenlar, hazır temalar, widget stilleri)
+│   └── localization/                         # tr.ts, de.ts, en.ts
+├── package.json
+└── README.md
 ```
-
-Kurallar: ekranlarda doğrudan veri yazma yok (her mutasyon `store` aksiyonu üzerinden), tekrar algoritması React'ten bağımsız saf fonksiyon, ortak bileşenler `shared/ui.tsx`'te, dairesel bağımlılık yok, `strict` TypeScript'te tip kaçışı yok.
-
-**Kod ölçeği**: 29 kaynak dosya / ~6.170 satır TS+TSX+CSS. Üretim derlemesi ~369 kB JS (gzip ~107 kB) + 49 kB CSS.
 
 ---
 
@@ -248,47 +275,47 @@ Kurallar: ekranlarda doğrudan veri yazma yok (her mutasyon `store` aksiyonu üz
 
 | Katman | Seçim |
 |---|---|
-| Kabuk | React 18 + TypeScript 5.6 (`strict`) + Vite 6 |
-| Durum & kalıcılık | Zustand 5 + `persist` (localStorage) |
-| Native köprü | Capacitor 7 (`@capacitor/android`), `androidScheme: https`, appId `com.kelimedefterim.app` |
-| Bildirimler | `@capacitor/local-notifications` 7 (Android planlama) + Notification API (web) |
+| Kabuk & UI | React 18 + TypeScript 5.6 (`strict`) + Vite 6 |
+| Durum Yönetimi | Zustand 5 + `persist` |
+| Native Platform | Capacitor 7 (`@capacitor/android`), appId `com.kelimedefterim.app` |
+| Android Native Modüller | `KelimeWidgetProvider` (App Widget), `UpdaterPlugin` (APK Installer) |
+| Bildirimler | `@capacitor/local-notifications` 7 |
 | Seslendirme | `@capacitor-community/text-to-speech` + Web SpeechSynthesis yedeği |
 | İkonlar | lucide-react |
-| İstatistik | SVG + CSS ile elle çizilmiş halka/çubuk/ısı haritası (grafik kütüphanesi yok) |
-| Yazı tipi | Plus Jakarta Sans (Google Fonts, çevrimdışıyken sistem yedeğine düşer) |
+| Grafikler | Saf SVG + CSS ile sıfır kütüphane bağımlılığı |
 
 ---
 
 ## 🚀 Kurulum ve Android derlemesi
 
 ```bash
-# 1. Bağımlılıklar
+# 1. Bağımlılıkları yükle
 npm install
 
-# 2. Tarayıcıda geliştirme
+# 2. Tarayıcıda geliştirme sunucusunu başlat
 npm run dev
 
-# 3. Tip kontrolü + üretim derlemesi
+# 3. Tip kontrolü ve web üretimi
 npm run build
 
-# 4. Web derlemesini Android projesine kopyala
+# 4. Web derlemesini Android projesine senkronize et
 npx cap sync android
 
-# 5. APK
+# 5. Debug APK derle (Geliştirici testi için)
 cd android && gradlew assembleDebug
-# çıktı: android/app/build/outputs/apk/debug/app-debug.apk
+# Çıktı: android/app/build/outputs/apk/debug/app-debug.apk
 
-# Android Studio ile çalıştırmak için
-npx cap open android
+# 6. Release APK derle (Dağıtım için)
+cd android && gradlew assembleRelease
+# Çıktı: android/app/build/outputs/apk/release/app-release.apk
+
+# Telefona doğrudan yüklemek için (ADB)
+adb install -r -d android/app/build/outputs/apk/debug/app-debug.apk
 ```
-
-Gereksinimler: Node 18+, JDK 17+, Android SDK 35 (`compileSdk`/`targetSdk` 35, `minSdk` 23). `android/` klasörü Capacitor tarafından üretilmiş ve depoya eklenmiştir; `npx cap sync` web asset'lerini ve plugin kayıtlarını yeniler.
 
 ---
 
 ## 🧭 Durum: ne tamamlandı, ne eksik
-
-Gereksinim dokümanında (`KELİME DEFTERİM — PROFESYONEL ANDROID UYGULAMASI GELİŞTİRME TALİMATI`) tanımlı kapsama göre dürüst durum:
 
 | Konu | Durum |
 |---|---|
@@ -296,43 +323,23 @@ Gereksinim dokümanında (`KELİME DEFTERİM — PROFESYONEL ANDROID UYGULAMASI 
 | Kelime listesi, arama, filtre, sıralama, çoklu seçim, geri alma | ✅ Tamam |
 | Hızlı + detaylı ekleme, düzenlemede geçmişin korunması | ✅ Tamam |
 | 8 öğrenme modu, oturum kurulumu ve sonuç raporu | ✅ Tamam |
-| Aralıklı tekrar motoru, kalıcı tekrar zamanları, zor kelime tespiti | ✅ Tamam |
+| Aralıklı tekrar motoru (SRS), kalıcı tekrar zamanları | ✅ Tamam |
 | İstatistikler, hedefler, seri, ısı haritası | ✅ Tamam |
 | TR/DE/EN arayüz, arayüz–anlam dili ayrımı | ✅ Tamam |
-| Tema, 8 palet, artikel renkleri, yazı ölçeği, yoğunluk | ✅ Tamam |
+| Tema, 8 palet, artikel renkleri, yazı ölçeği | ✅ Tamam |
+| Özel adaptive launcher uygulama ikonu | ✅ Tamam |
+| Çentik ve durum çubuğu Safe Area uyumu | ✅ Tamam |
+| Android yerel ana ekran widget'ı (Kart & Liste modları, şeffaflık, temalar) | ✅ Tamam |
+| GitHub Releases üzerinden uygulama içi APK güncelleme | ✅ Tamam |
 | Telaffuz (native + web) ve hız ayarı | ✅ Tamam |
 | JSON tam yedek / geri yükleme, CSV dışa aktarma | ✅ Tamam |
-| Onboarding + örnek veri | ✅ Tamam |
-| Bildirimler | ✅ Native planlama: aralık + sabit saatler + sessiz saatler + açılış bildirimi (web'de yalnızca sekme açıkken) |
-| CSV içe aktarma | 🟡 Dışa aktarma var, içe aktarma yok |
-| SQLite veritabanı + migration | ❌ Yerine localStorage kullanılıyor |
-| Android ana ekran widget'ları | ❌ Yok |
-| GitHub Releases üzerinden APK güncelleme | ❌ Yok |
-| Firebase-free yapı, hesap/ giriş ekranı olmaması | ✅ Gereksinime uygun |
-| Otomatik kelime önerisi (sözlük/AI servisi) | ❌ Yalnızca manuel giriş |
-| Birim/entegrasyon testleri, CI/CD, imzalı release | ❌ Yok |
+| Yerel bildirim planlaması (aralık + sabit saatler) | ✅ Tamam |
+| Firebase-free yapı, hesap / giriş ekranı olmaması | ✅ Gereksinime uygun |
+| CSV içe aktarma | 🟡 Dışa aktarma var, içe aktarma sonraki sürümde |
+| SQLite veritabanı sürücüsü | 🟡 Yerine optimize edilmiş Zustand/localStorage çalışıyor |
 
 ---
 
-## 🗺 Yol haritası
+## 📄 Lisans
 
-1. **SQLite katmanı** — mevcut `store` aksiyon arayüzü korunarak veri erişimi repository'ye taşınır, `schema_migrations` ile güncellemelerde veri korunur.
-2. **Zamanlama doğrulaması** — gerçek cihaz matrisinde Doze/pil tasarrufu altında gecikme ölçümü; gerekiyorsa `WorkManager` tabanlı planlamaya geçiş ve yeniden başlatma sonrası plan onarımı.
-3. **Ana ekran widget'ları** — Kotlin `AppWidgetProvider` + günün kelimesi / hedef / tekrar widget'ları, ayarlar `widgetId` bazında.
-4. **GitHub updater** — Release kontrolü, SHA-256 doğrulaması, `PackageInstaller` akışı ve GitHub Actions ile imzalı APK yayını.
-5. **Test altyapısı** — `srs.ts`, `selectors.ts`, `foldForSearch`, sürüm/yedek doğrulama birim testleri; Vitest + Android native testler.
-6. **CSV içe aktarma** ve otomatik öneri sağlayıcısı için takılabilir arayüz.
-
----
-
-## 🤝 Katkı
-
-Her bağımsız iş tek commit olsun; conventional commit kullanılıyor (`feat:`, `fix:`, `test:`, `docs:`). Bir özelliği "bitti" saymadan önce UI, veri kalıcılığı, uygulamayı kapatıp açtıktan sonra verinin durması ve hata senaryoları kontrol edilmeli.
-
-Değişiklik öncesi `npm run build` (tip kontrolü dahil) temiz geçmeli.
-
----
-
-## 📄 Lisans ve kaynaklar
-
-Bu depoda henüz bir `LICENSE` dosyası yoktur. Tasarım referansları `TasarimGorselleri/` içinde, uygulama ekran eşleşmeleri `src/features/` altında. Sorun ve öneriler için depo issue'larını kullanabilirsin.
+Bu proje kişisel Almanca öğrenim platformu olarak geliştirilmektedir. Sorun ve önerileriniz için [GitHub Issues](https://github.com/mehmet-karataslar/Kelime-Defterim/issues) sayfasını kullanabilirsiniz.
