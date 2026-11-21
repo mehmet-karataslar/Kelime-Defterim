@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import { Capacitor } from '@capacitor/core';
 import { Home, BookOpen, GraduationCap, BarChart3, Settings as SettingsIcon } from 'lucide-react';
 import { useStore } from '../core/store';
 import { useNav, Tab, Route } from './navigation';
@@ -42,6 +43,12 @@ export default function App() {
   const stack = useNav((s) => s.stack);
   const setTab = useNav((s) => s.setTab);
   const back = useNav((s) => s.back);
+
+  useEffect(() => {
+    if (Capacitor.isNativePlatform()) {
+      document.documentElement.classList.add('is-native');
+    }
+  }, []);
 
   useEffect(() => {
     const root = document.documentElement;
