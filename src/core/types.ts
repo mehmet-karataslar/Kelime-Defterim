@@ -143,6 +143,44 @@ export interface Settings {
   notificationsOn: boolean;
   notificationInterval: number; // minutes
   notificationContent: 'word' | 'wordMeaning' | 'quiz';
+  notificationTimesOn: boolean;
+  notificationTimes: string[]; // daily "HH:MM"
+  notifyOnOpen: boolean;
+  quietHoursOn: boolean;
+  quietStart: string; // "HH:MM"
+  quietEnd: string; // "HH:MM"
+  widgets: WidgetDesign[];
+  updateRepo: string; // "owner/repo" on GitHub
+  updateChannel: 'stable' | 'beta';
+}
+
+export type WidgetType = 'word' | 'compact' | 'goal' | 'review' | 'quiz';
+
+export interface WidgetConfig {
+  type: WidgetType;
+  size: 'small' | 'medium' | 'large';
+  bg: string;
+  text: string;
+  accent: string;
+  border: string;
+  borderWidth: number;
+  font: 'sans' | 'serif' | 'mono';
+  fontScale: number;
+  radius: number;
+  align: 'left' | 'center';
+  detailed: boolean;
+  showArticle: boolean;
+  showMeaning: boolean;
+  showExample: boolean;
+  source: 'all' | 'favorites' | 'daily' | 'collection';
+  collectionId: string | null;
+  refreshMinutes: number;
+}
+
+export interface WidgetDesign {
+  id: string;
+  name: string;
+  config: WidgetConfig;
 }
 
 export const WORD_TYPES: WordType[] = [

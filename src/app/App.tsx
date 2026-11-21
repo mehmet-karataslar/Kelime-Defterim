@@ -15,7 +15,8 @@ import StatsScreen from '../features/statistics/StatsScreen';
 import SettingsScreen from '../features/settings/SettingsScreen';
 import { CollectionsScreen, CollectionDetailScreen } from '../features/collections/CollectionsScreen';
 import Onboarding from '../features/onboarding/Onboarding';
-import { syncNotificationSchedule } from '../features/notifications/service';
+import { syncNotificationSchedule, notifyOnOpen } from '../features/notifications/service';
+import { syncWidgetSnapshot } from '../features/widgets/service';
 
 function RouteView({ route }: { route: Route }) {
   switch (route.name) {
@@ -31,6 +32,8 @@ function RouteView({ route }: { route: Route }) {
 const TAB_ICONS: Record<Tab, typeof Home> = {
   home: Home, words: BookOpen, learn: GraduationCap, stats: BarChart3, settings: SettingsIcon,
 };
+
+let openNotified = false;
 
 export default function App() {
   const { t } = useI18n();
@@ -65,8 +68,24 @@ export default function App() {
   }, [settings.palette, settings.density, settings.reduceMotion, settings.fontScale, settings.articleColors, settings.uiLang]);
 
   useEffect(() => {
-    syncNotificationSchedule();
-  }, [settings.notificationsOn, settings.notificationInterval, settings.notificationContent]);
+    void syncNotificationSchedule();
+  }, [settings.notificationsOn, settings.notificationInterval, settings.notificationContent,
+      settings.notificationTimesOn, settings.notificationTimes, settings.quietHoursOn,
+      settings.quietStart, settings.quietEnd]);
+
+  useEffect(() => {
+    if (settings.onboarded && !openNotified) {
+      openNotified = true;
+      void notifyOnOpen();
+    }
+  }, [settings.onboarded]);
+
+  const words = useStore((s) => s.words);
+  const reviewCount = useStore((s) => s.reviewLogs.length);
+  useEffect(() => {
+    const id = setTimeout(() => void syncWidgetSnapshot(), 400);
+    return () => clearTimeout(id);
+  }, [settings.widgets, words, reviewCount, settings.meaningLang, settings.dailyGoal]);
 
   useEffect(() => {
     const h = (e: PopStateEvent) => {

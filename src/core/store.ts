@@ -23,6 +23,24 @@ export const defaultSettings: Settings = {
   notificationsOn: false,
   notificationInterval: 60,
   notificationContent: 'wordMeaning',
+  notificationTimesOn: false,
+  notificationTimes: ['20:00'],
+  notifyOnOpen: false,
+  quietHoursOn: false,
+  quietStart: '22:00',
+  quietEnd: '08:00',
+  widgets: [{
+    id: 'w-default',
+    name: 'Widget 1',
+    config: {
+      type: 'word', size: 'medium', bg: '#FFFFFF', text: '#1E1B2E', accent: '#4338CA',
+      border: '#E5E1F5', borderWidth: 0, font: 'sans', fontScale: 1, radius: 20, align: 'left',
+      detailed: true, showArticle: true, showMeaning: true, showExample: false,
+      source: 'all', collectionId: null, refreshMinutes: 60,
+    },
+  }],
+  updateRepo: 'mehmet-karataslar/Kelime-Defterim',
+  updateChannel: 'stable',
 };
 
 interface UndoBuffer {
@@ -230,6 +248,10 @@ export const useStore = create<AppState>()(
     }),
     {
       name: 'kelime-defterim-v1',
+      merge: (persisted, current) => {
+        const p = (persisted ?? {}) as Partial<AppState>;
+        return { ...current, ...p, settings: { ...defaultSettings, ...(p.settings ?? {}) } };
+      },
       partialize: (s) => ({
         words: s.words, collections: s.collections, reviewLogs: s.reviewLogs,
         sessions: s.sessions, settings: s.settings, sampleData: s.sampleData,

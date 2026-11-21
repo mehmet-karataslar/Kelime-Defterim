@@ -4,4 +4,6 @@
     <string name="title_activity_main">Kelime Defterim</string>
     <string name="package_name">com.kelimedefterim.app</string>
     <string name="custom_url_scheme">com.kelimedefterim.app</string>
+    <string name="widget_desc">Kelime Defterim Ana Ekran Widget\'ı</string>
 </resources>
+
