@@ -653,7 +653,7 @@ export default function SettingsScreen() {
               <img src="/icon.png" alt="Kelime Defterim" style={{ width: '3rem', height: '3rem', borderRadius: '0.9rem' }} />
               <div>
                 <div style={{ fontWeight: 800 }}>Kelime Defterim</div>
-                <div className="muted-3" style={{ fontSize: '0.75rem', fontWeight: 600 }}>{t('settings.version')} 1.0.0 · {t('settings.storageInfo')}</div>
+                <div className="muted-3" style={{ fontSize: '0.75rem', fontWeight: 600 }}>{t('settings.version')} {APP_VERSION} · {t('settings.storageInfo')}</div>
               </div>
             </div>
             <p className="muted" style={{ fontSize: '0.8rem', lineHeight: 1.6, marginTop: '0.8rem' }}>{t('settings.aboutDesc')}</p>

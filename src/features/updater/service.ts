@@ -1,6 +1,7 @@
 import { Capacitor, registerPlugin, PluginListenerHandle } from '@capacitor/core';
+import pkg from '../../../package.json';
 
-export const APP_VERSION = '1.1.1';
+export const APP_VERSION: string = pkg.version;
 
 interface AppUpdaterPlugin {
   download(opts: { url: string; sha256: string }): Promise<{ state: string; path?: string }>;
