@@ -1,11 +1,14 @@
 import {
   BookOpen, ArrowLeft, Flame, Play, ArrowRight, ChevronRight, SlidersHorizontal,
   Copy, Tag, ClipboardList, PenLine, Headphones, CircleDot, AlignLeft, Zap,
+  Stethoscope, Building2, FileCheck2, Check,
 } from 'lucide-react';
 import { useStore } from '../../core/store';
 import { useNav } from '../../app/navigation';
 import { useI18n } from '../../localization';
-import { StudyMode, DAY, startOfDay } from '../../core/types';
+import {
+  StudyMode, DAY, LEARN_LEVELS, Level, matchesSelectedLevels, startOfDay,
+} from '../../core/types';
 import { dueWords, isStruggling } from '../../core/srs';
 import { todayProgress, computeStreak } from '../../core/selectors';
 import { ProgressRing } from '../../shared/ui';
@@ -28,12 +31,23 @@ export default function LearnScreen() {
   const logs = useStore((s) => s.reviewLogs);
   const sessions = useStore((s) => s.sessions);
   const settings = useStore((s) => s.settings);
+  const updateSettings = useStore((s) => s.updateSettings);
   const { push, back, stack } = useNav();
 
+  const selectedLevels: Level[] = settings.learnLevels ?? [];
+  const toggleLevel = (lvl: Level) => {
+    const next = selectedLevels.includes(lvl)
+      ? selectedLevels.filter((x) => x !== lvl)
+      : [...selectedLevels, lvl];
+    updateSettings({ learnLevels: next });
+  };
+  const clearLevels = () => updateSettings({ learnLevels: [] });
+
+  const scopedWords = words.filter((w) => matchesSelectedLevels(w.level, selectedLevels));
   const now = Date.now();
-  const due = dueWords(words, now);
-  const newWords = words.filter((w) => w.srs.state === 'new');
-  const hard = words.filter(isStruggling);
+  const due = dueWords(scopedWords, now);
+  const newWords = scopedWords.filter((w) => w.srs.state === 'new');
+  const hard = scopedWords.filter(isStruggling);
   const done = todayProgress(logs, now);
   const goalPct = settings.dailyGoal > 0 ? Math.min(100, Math.round((done / settings.dailyGoal) * 100)) : 0;
   const streak = computeStreak(logs, now);
@@ -41,7 +55,12 @@ export default function LearnScreen() {
   const smartStart = () => {
     const pool = [...due, ...newWords].slice(0, 20);
     if (pool.length === 0) { toast(t('learn.notEnough'), 'info'); return; }
-    push({ name: 'session', mode: 'flashcard', wordIds: pool.map((w) => w.id) });
+    push({
+      name: 'session',
+      mode: 'flashcard',
+      wordIds: pool.map((w) => w.id),
+      level: selectedLevels.length === 1 ? selectedLevels[0] : null,
+    });
   };
 
   const relTime = (ts: number): string => {
@@ -76,6 +95,40 @@ export default function LearnScreen() {
             </div>
             <ProgressRing pct={goalPct} size={62} stroke={7} small />
           </div>
+
+          <div className="level-check-section">
+            <div className="level-check-head">
+              <span className="eyebrow" style={{ margin: 0 }}>SEVİYE SEÇİMİ</span>
+              {selectedLevels.length > 0 ? (
+                <button className="link-btn" style={{ fontSize: '0.72rem' }} onClick={clearLevels}>
+                  Tümü ({words.length})
+                </button>
+              ) : (
+                <span className="muted-3" style={{ fontSize: '0.72rem', fontWeight: 600 }}>Tümü aktif</span>
+              )}
+            </div>
+            <div className="level-check-grid">
+              {LEARN_LEVELS.map((lvl) => {
+                const checked = selectedLevels.includes(lvl);
+                return (
+                  <button
+                    key={lvl}
+                    type="button"
+                    role="checkbox"
+                    aria-checked={checked}
+                    className={`level-check-pill ${checked ? 'on' : ''}`}
+                    onClick={() => toggleLevel(lvl)}
+                  >
+                    <span className={`mini-cb ${checked ? 'on' : ''}`}>
+                      {checked ? <Check size={11} strokeWidth={3.2} /> : null}
+                    </span>
+                    <span>{lvl}</span>
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+
           <div className="learn-stats">
             <div className="learn-stat indigo"><div className="n">{due.length}</div><div className="l">{t('learn.dueCount')}</div></div>
             <div className="learn-stat green"><div className="n">{newWords.length}</div><div className="l">{t('learn.newCount')}</div></div>
@@ -83,6 +136,38 @@ export default function LearnScreen() {
           </div>
           <button className="btn gradient block lg" onClick={smartStart}>
             <Play size={17} fill="currentColor" /> {t('learn.smartReview')}
+            {selectedLevels.length > 0 ? ` (${selectedLevels.join(', ')})` : ''}
+          </button>
+        </div>
+
+        <div className="section-head">
+          <span className="section-title">Pratik & İletişim</span>
+          <span className="chip">B1.2 – B2</span>
+        </div>
+        <div className="practice-hub anim-in-1">
+          <button className="card practice-card" onClick={() => push({ name: 'doctorDialogues' })}>
+            <span className="mode-icon rose"><Stethoscope size={20} /></span>
+            <div className="practice-card-body">
+              <div className="practice-card-title">Hasta–Doktor Diyalogları <span className="level-chip">B2</span></div>
+              <div className="practice-card-desc">Randevu, şikâyet, muayene, teşhis, ilaç ve kontrol testleri</div>
+            </div>
+            <ChevronRight size={18} className="muted-3" />
+          </button>
+          <button className="card practice-card" onClick={() => push({ name: 'officialComms' })}>
+            <span className="mode-icon blue"><Building2 size={20} /></span>
+            <div className="practice-card-body">
+              <div className="practice-card-title">Resmî Kurumlarla İletişim <span className="level-chip">B1.2</span></div>
+              <div className="practice-card-desc">Bürgeramt, Ausländerbehörde, Jobcenter, Finanzamt & e-posta rehberi</div>
+            </div>
+            <ChevronRight size={18} className="muted-3" />
+          </button>
+          <button className="card practice-card" onClick={() => push({ name: 'writingReview' })}>
+            <span className="mode-icon green"><FileCheck2 size={20} /></span>
+            <div className="practice-card-body">
+              <div className="practice-card-title">Metin Yazma & Gramer İnceleme</div>
+              <div className="practice-card-desc">Almanca metin yaz, hatalarını gör, kişiselleştirilmiş gramer testi çöz</div>
+            </div>
+            <ChevronRight size={18} className="muted-3" />
           </button>
         </div>
 

@@ -66,11 +66,13 @@ export function statusDistribution(words: Word[]): Distribution[] {
 }
 
 export function cefrDistribution(words: Word[]): { level: Level; count: number; learned: number }[] {
-  const levels: Level[] = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
-  return levels.map((level) => {
-    const ws = words.filter((w) => w.level === level);
-    return { level, count: ws.length, learned: ws.filter((w) => w.srs.state === 'learned').length };
-  });
+  const levels: Level[] = ['A1', 'A2', 'B1', 'B1.1', 'B1.2', 'B2', 'C1', 'C2'];
+  return levels
+    .map((level) => {
+      const ws = words.filter((w) => w.level === level);
+      return { level, count: ws.length, learned: ws.filter((w) => w.srs.state === 'learned').length };
+    })
+    .filter((row) => row.count > 0 || ['A1', 'A2', 'B1.2', 'B2', 'C1'].includes(row.level));
 }
 
 export function articleAccuracy(logs: ReviewLog[]): number {

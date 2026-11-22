@@ -1,0 +1,500 @@
+[
+  {
+    "german": "abgewöhnen",
+    "article": null,
+    "type": "verb",
+    "level": "B1.2",
+    "senses": [{ "tr": "Alışkanlıktan vazgeçmek, bırakmak", "en": "to give up a habit", "context": "Günlük Yaşam" }],
+    "verb": { "praesens3": "gewöhnt ab", "praeteritum": "gewöhnte ab", "partizip2": "abgewöhnt", "auxiliary": "haben", "irregular": false, "separable": true, "reflexive": true },
+    "examples": [
+      { "de": "Ich möchte mir das Rauchen endlich abgewöhnen.", "tr": "Sigara içmeyi sonunda bırakmak istiyorum." },
+      { "de": "Er hat sich angewöhnt, spät zu essen, und will sich das nun abgewöhnen.", "tr": "Geç yemeye alıştı ve şimdi bu alışkanlıktan vazgeçmek istiyor." }
+    ],
+    "synonyms": ["aufgeben"],
+    "antonyms": ["angewöhnen"],
+    "related": ["Gewohnheit", "gewöhnen"],
+    "tags": ["b1.2", "fiil", "alltag"],
+    "notes": "Dönüşlü (sich Dativ + etwas Akkusativ) ve ayrılabilir fiil."
+  },
+  {
+    "german": "abschaffen",
+    "article": null,
+    "type": "verb",
+    "level": "B1.2",
+    "senses": [{ "tr": "Yürürlükten kaldırmak, son vermek", "en": "to abolish, to phase out", "context": "Resmî İşlemler" }],
+    "verb": { "praesens3": "schafft ab", "praeteritum": "schaffte ab", "partizip2": "abgeschafft", "auxiliary": "haben", "irregular": false, "separable": true },
+    "examples": [
+      { "de": "Die Behörde hat das alte Papierformular vollständig abgeschafft.", "tr": "Kurum eski kâğıt formu tamamen yürürlükten kaldırdı." },
+      { "de": "Viele Bürger fordern, unnötige Gebühren abzuschaffen.", "tr": "Birçok vatandaş gereksiz harçların kaldırılmasını talep ediyor." }
+    ],
+    "synonyms": ["aufheben", "beseitigen"],
+    "antonyms": ["einführen"],
+    "related": ["Abschaffung"],
+    "tags": ["b1.2", "fiil", "behoerden"]
+  },
+  {
+    "german": "aufatmen",
+    "article": null,
+    "type": "verb",
+    "level": "B1.2",
+    "senses": [{ "tr": "Rahat bir nefes almak", "en": "to breathe a sigh of relief", "context": "Sağlık" }],
+    "verb": { "praesens3": "atmet auf", "praeteritum": "atmete auf", "partizip2": "aufgeatmet", "auxiliary": "haben", "irregular": false, "separable": true },
+    "examples": [
+      { "de": "Nach dem unauffälligen Befund konnte der Patient endlich aufatmen.", "tr": "Normal çıkan tahlil sonucundan sonra hasta sonunda rahat bir nefes alabildi." },
+      { "de": "Als die Genehmigung eintraf, atmete die ganze Familie auf.", "tr": "Onay ulaştığında bütün aile rahat bir nefes aldı." }
+    ],
+    "synonyms": ["sich erleichtern"],
+    "antonyms": ["erschrecken"],
+    "related": ["Atem", "atmen"],
+    "tags": ["b1.2", "fiil", "gesundheit"]
+  },
+  {
+    "german": "ausdenken",
+    "article": null,
+    "type": "verb",
+    "level": "B1.2",
+    "senses": [{ "tr": "Düşünüp bulmak, uydurmak, tasarlamak", "en": "to think up, to invent", "context": "Eğitim" }],
+    "verb": { "praesens3": "denkt aus", "praeteritum": "dachte aus", "partizip2": "ausgedacht", "auxiliary": "haben", "irregular": true, "separable": true, "reflexive": true },
+    "examples": [
+      { "de": "Wir müssen uns eine praktische Lösung für das Problem ausdenken.", "tr": "Sorun için pratik bir çözüm düşünüp bulmalıyız." },
+      { "de": "Die Gruppe hat sich ein spannendes Projekt für den Unterricht ausgedacht.", "tr": "Grup ders için ilgi çekici bir proje tasarladı." }
+    ],
+    "synonyms": ["erfinden", "entwickeln"],
+    "antonyms": [],
+    "related": ["denken", "Gedanke"],
+    "tags": ["b1.2", "fiil", "bildung"]
+  },
+  {
+    "german": "auskennen",
+    "article": null,
+    "type": "verb",
+    "level": "B1.2",
+    "senses": [{ "tr": "İyi bilmek, hâkim olmak, yolunu bilmek", "en": "to know one's way around, to be familiar with", "context": "İş Hayatı" }],
+    "verb": { "praesens3": "kennt aus", "praeteritum": "kannte aus", "partizip2": "ausgekannt", "auxiliary": "haben", "irregular": true, "separable": true, "reflexive": true, "preposition": "mit", "prepCase": "Dativ" },
+    "examples": [
+      { "de": "Mein Meister kennt sich hervorragend mit modernen Wärmepumpen aus.", "tr": "Ustam modern ısı pompalarına mükemmel derecede hâkimdir." },
+      { "de": "Kennst du dich mit den Formularen vom Finanzamt aus?", "tr": "Vergi dairesi formlarına hâkim misin?" }
+    ],
+    "synonyms": ["Bescheid wissen"],
+    "antonyms": [],
+    "related": ["kennen", "Kenntnis"],
+    "tags": ["b1.2", "fiil", "beruf"]
+  },
+  {
+    "german": "auskommen",
+    "article": null,
+    "type": "verb",
+    "level": "B1.2",
+    "senses": [
+      { "tr": "Geçinmek, anlaşmak", "en": "to get along with", "context": "Sosyal Yaşam" },
+      { "tr": "İdare etmek, yetinmek", "en": "to manage, to make do", "context": "Günlük Yaşam" }
+    ],
+    "verb": { "praesens3": "kommt aus", "praeteritum": "kam aus", "partizip2": "ausgekommen", "auxiliary": "sein", "irregular": true, "separable": true, "preposition": "mit", "prepCase": "Dativ" },
+    "examples": [
+      { "de": "Ich komme mit meinen neuen Kollegen sehr gut aus.", "tr": "Yeni iş arkadaşlarımla çok iyi anlaşıyorum." },
+      { "de": "Mit meinem Gehalt komme ich monatlich gut aus.", "tr": "Maaşımla aylık olarak rahatça geçiniyorum." }
+    ],
+    "synonyms": ["klarkommen", "zurechtkommen"],
+    "antonyms": ["streiten"],
+    "related": ["Auskommen"],
+    "tags": ["b1.2", "fiil", "soziales"]
+  },
+  {
+    "german": "ausmachen",
+    "article": null,
+    "type": "verb",
+    "level": "B1.2",
+    "senses": [
+      { "tr": "Kararlaştırmak, sözleşmek", "en": "to arrange, to agree on", "context": "İletişim" },
+      { "tr": "Sorun teşkil etmek (etwas ausmachen)", "en": "to mind, to matter", "context": "Günlük Yaşam" }
+    ],
+    "verb": { "praesens3": "macht aus", "praeteritum": "machte aus", "partizip2": "ausgemacht", "auxiliary": "haben", "irregular": false, "separable": true },
+    "examples": [
+      { "de": "Wir haben für morgen früh einen Termin ausgemacht.", "tr": "Yarın sabah için bir randevu kararlaştırdık." },
+      { "de": "Macht es Ihnen etwas aus, wenn ich das Fenster öffne?", "tr": "Pencereyi açsam sizin için bir sakıncası olur mu?" }
+    ],
+    "synonyms": ["vereinbaren", "verabreden"],
+    "antonyms": ["absagen"],
+    "related": ["machen"],
+    "tags": ["b1.2", "fiil", "kommunikation"]
+  },
+  {
+    "german": "auswirken",
+    "article": null,
+    "type": "verb",
+    "level": "B1.2",
+    "senses": [{ "tr": "Etki etmek, yansımak, sonuç doğurmak", "en": "to have an effect on", "context": "İş Hayatı" }],
+    "verb": { "praesens3": "wirkt aus", "praeteritum": "wirkte aus", "partizip2": "ausgewirkt", "auxiliary": "haben", "irregular": false, "separable": true, "reflexive": true, "preposition": "auf", "prepCase": "Akkusativ" },
+    "examples": [
+      { "de": "Schlafmangel wirkt sich negativ auf die Konzentration aus.", "tr": "Uykusuzluk konsantrasyon üzerinde olumsuz etki yapar." },
+      { "de": "Die neue Regelung wirkt sich positiv auf die Energiekosten aus.", "tr": "Yeni düzenleme enerji maliyetlerine olumlu yansıyor." }
+    ],
+    "synonyms": ["beeinflussen"],
+    "antonyms": [],
+    "related": ["Auswirkung", "wirken"],
+    "tags": ["b1.2", "fiil", "beruf"]
+  },
+  {
+    "german": "beabsichtigen",
+    "article": null,
+    "type": "verb",
+    "level": "B1.2",
+    "senses": [{ "tr": "Niyetlenmek, amaçlamak, planlamak", "en": "to intend, to plan", "context": "Resmî İşlemler" }],
+    "verb": { "praesens3": "beabsichtigt", "praeteritum": "beabsichtigte", "partizip2": "beabsichtigt", "auxiliary": "haben", "irregular": false, "separable": false },
+    "examples": [
+      { "de": "Ich beabsichtige, im nächsten Jahr die Meisterprüfung abzulegen.", "tr": "Gelecek yıl ustalık sınavına girmeyi amaçlıyorum." },
+      { "de": "Die Firma beabsichtigt, zwei weitere Auszubildende einzustellen.", "tr": "Şirket iki yeni çırak daha işe almayı planlıyor." }
+    ],
+    "synonyms": ["vorhaben", "planen"],
+    "antonyms": [],
+    "related": ["Absicht", "absichtlich"],
+    "tags": ["b1.2", "fiil", "behoerden"]
+  },
+  {
+    "german": "bedauern",
+    "article": null,
+    "type": "verb",
+    "level": "B1.2",
+    "senses": [{ "tr": "Üzülmek, esef duymak", "en": "to regret", "context": "İletişim" }],
+    "verb": { "praesens3": "bedauert", "praeteritum": "bedauerte", "partizip2": "bedauert", "auxiliary": "haben", "irregular": false, "separable": false },
+    "examples": [
+      { "de": "Wir bedauern die Verzögerung bei der Bearbeitung Ihres Antrags.", "tr": "Başvurunuzun işlenmesindeki gecikmeden dolayı üzüntü duyuyoruz." },
+      { "de": "Ich bedaure sehr, dass ich den Termin verschieben muss.", "tr": "Randevuyu ertelemek zorunda kaldığım için çok üzgünüm." }
+    ],
+    "synonyms": ["bereuen"],
+    "antonyms": ["begrüßen"],
+    "related": ["Bedauern", "bedauerlich"],
+    "tags": ["b1.2", "fiil", "kommunikation"]
+  },
+  {
+    "german": "befürchten",
+    "article": null,
+    "type": "verb",
+    "level": "B1.2",
+    "senses": [{ "tr": "Endişe etmek, korkmak (kötü bir durumdan)", "en": "to fear, to be afraid that", "context": "İletişim" }],
+    "verb": { "praesens3": "befürchtet", "praeteritum": "befürchtete", "partizip2": "befürchtet", "auxiliary": "haben", "irregular": false, "separable": false },
+    "examples": [
+      { "de": "Der Patient befürchtet, dass die Beschwerden chronisch werden.", "tr": "Hasta şikâyetlerin kronikleşmesinden endişe ediyor." },
+      { "de": "Wir befürchten längere Lieferzeiten für die Ersatzteile.", "tr": "Yedek parçalar için daha uzun teslimat sürelerinden endişe ediyoruz." }
+    ],
+    "synonyms": ["fürchten", "sich sorgen"],
+    "antonyms": ["hoffen"],
+    "related": ["Befürchtung", "Furcht"],
+    "tags": ["b1.2", "fiil", "kommunikation"]
+  },
+  {
+    "german": "beherrschen",
+    "article": null,
+    "type": "verb",
+    "level": "B1.2",
+    "senses": [
+      { "tr": "Hâkim olmak, ustalıkla bilmek (dil/beceri)", "en": "to master, to have command of", "context": "Eğitim" },
+      { "tr": "Kendini tutmak (sich beherrschen)", "en": "to control oneself", "context": "Sosyal Yaşam" }
+    ],
+    "verb": { "praesens3": "beherrscht", "praeteritum": "beherrschte", "partizip2": "beherrscht", "auxiliary": "haben", "irregular": false, "separable": false },
+    "examples": [
+      { "de": "Für diese Stelle muss man Deutsch sicher in Wort und Schrift beherrschen.", "tr": "Bu pozisyon için Almancaya sözlü ve yazılı olarak iyi hâkim olmak gerekiyor." },
+      { "de": "Er beherrscht alle wichtigen Techniken der Heizungsinstallation.", "tr": "Isıtma tesisatının tüm önemli tekniklerine hâkimdir." }
+    ],
+    "synonyms": ["können", "meistern"],
+    "antonyms": [],
+    "related": ["Beherrschung"],
+    "tags": ["b1.2", "fiil", "bildung"]
+  },
+  {
+    "german": "beklagen",
+    "article": null,
+    "type": "verb",
+    "level": "B1.2",
+    "senses": [{ "tr": "Yakınmak, şikâyet etmek", "en": "to complain about", "context": "İletişim" }],
+    "verb": { "praesens3": "beklagt", "praeteritum": "beklagte", "partizip2": "beklagt", "auxiliary": "haben", "irregular": false, "separable": false, "reflexive": true, "preposition": "über", "prepCase": "Akkusativ" },
+    "examples": [
+      { "de": "Viele Mieter beklagen sich über die hohen Nebenkosten.", "tr": "Birçok kiracı yüksek yan giderlerden yakınıyor." },
+      { "de": "Der Patient beklagte sich über starke Kopfschmerzen am Morgen.", "tr": "Hasta sabahları şiddetli baş ağrısından şikâyet etti." }
+    ],
+    "synonyms": ["sich beschweren"],
+    "antonyms": ["loben"],
+    "related": ["Klage", "klagen"],
+    "tags": ["b1.2", "fiil", "kommunikation"]
+  },
+  {
+    "german": "bemühen",
+    "article": null,
+    "type": "verb",
+    "level": "B1.2",
+    "senses": [{ "tr": "Çabalamak, gayret göstermek", "en": "to make an effort, to strive", "context": "İş Hayatı" }],
+    "verb": { "praesens3": "bemüht", "praeteritum": "bemühte", "partizip2": "bemüht", "auxiliary": "haben", "irregular": false, "separable": false, "reflexive": true, "preposition": "um", "prepCase": "Akkusativ" },
+    "examples": [
+      { "de": "Ich bemühe mich, jeden Tag zwanzig neue Wörter zu lernen.", "tr": "Her gün yirmi yeni kelime öğrenmek için çabalıyorum." },
+      { "de": "Das Team bemüht sich um eine schnelle Lösung für den Kunden.", "tr": "Ekip müşteri için hızlı bir çözüm bulmaya gayret ediyor." }
+    ],
+    "synonyms": ["sich anstrengen", "versuchen"],
+    "antonyms": ["vernachlässigen"],
+    "related": ["Bemühung", "Mühe"],
+    "tags": ["b1.2", "fiil", "beruf"]
+  },
+  {
+    "german": "benehmen",
+    "article": null,
+    "type": "verb",
+    "level": "B1.2",
+    "senses": [{ "tr": "Davranmak, hal ve hareket sergilemek", "en": "to behave", "context": "Sosyal Yaşam" }],
+    "verb": { "praesens3": "benimmt", "praeteritum": "benahm", "partizip2": "benommen", "auxiliary": "haben", "irregular": true, "separable": false, "reflexive": true },
+    "examples": [
+      { "de": "Bei Kunden sollte man sich stets höflich und professionell benehmen.", "tr": "Müşterilerin yanında her zaman nazik ve profesyonel davranılmalıdır." },
+      { "de": "Die Kinder haben sich im Wartezimmer sehr ruhig benommen.", "tr": "Çocuklar bekleme odasında çok sakin davrandı." }
+    ],
+    "synonyms": ["sich verhalten"],
+    "antonyms": [],
+    "related": ["Benehmen"],
+    "tags": ["b1.2", "fiil", "soziales"]
+  },
+  {
+    "german": "beobachten",
+    "article": null,
+    "type": "verb",
+    "level": "B1.2",
+    "senses": [{ "tr": "Gözlemlemek, takip etmek", "en": "to observe, to monitor", "context": "Sağlık" }],
+    "verb": { "praesens3": "beobachtet", "praeteritum": "beobachtete", "partizip2": "beobachtet", "auxiliary": "haben", "irregular": false, "separable": false },
+    "examples": [
+      { "de": "Bitte beobachten Sie Ihre Symptome in den nächsten drei Tagen genau.", "tr": "Lütfen önümüzdeki üç gün boyunca belirtilerinizi dikkatle gözlemleyin." },
+      { "de": "Der Auszubildende beobachtet den Meister bei der Druckprüfung.", "tr": "Çırak basınç testi sırasında ustayı gözlemliyor." }
+    ],
+    "synonyms": ["verfolgen", "überwachen"],
+    "antonyms": ["ignorieren"],
+    "related": ["Beobachtung"],
+    "tags": ["b1.2", "fiil", "gesundheit"]
+  },
+  {
+    "german": "bereuen",
+    "article": null,
+    "type": "verb",
+    "level": "B1.2",
+    "senses": [{ "tr": "Pişman olmak", "en": "to regret, to repent", "context": "Sosyal Yaşam" }],
+    "verb": { "praesens3": "bereut", "praeteritum": "bereute", "partizip2": "bereut", "auxiliary": "haben", "irregular": false, "separable": false },
+    "examples": [
+      { "de": "Ich bereue meine Entscheidung für diese Ausbildung kein bisschen.", "tr": "Bu mesleki eğitim için verdiğim karardan zerre kadar pişman değilim." },
+      { "de": "Er bereute es später, den Termin nicht rechtzeitig abgesagt zu haben.", "tr": "Randevuyu zamanında iptal etmediğine sonradan pişman oldu." }
+    ],
+    "synonyms": ["bedauern"],
+    "antonyms": [],
+    "related": ["Reue"],
+    "tags": ["b1.2", "fiil", "soziales"]
+  },
+  {
+    "german": "beschließen",
+    "article": null,
+    "type": "verb",
+    "level": "B1.2",
+    "senses": [{ "tr": "Kararlaştırmak, karar almak (resmî/ortak)", "en": "to decide, to resolve", "context": "Resmî İşlemler" }],
+    "verb": { "praesens3": "beschließt", "praeteritum": "beschloss", "partizip2": "beschlossen", "auxiliary": "haben", "irregular": true, "separable": false },
+    "examples": [
+      { "de": "Der Gemeinderat hat neue Förderungen für Wärmepumpen beschlossen.", "tr": "Belediye meclisi ısı pompaları için yeni destekler kararlaştırdı." },
+      { "de": "Wir haben gemeinsam beschlossen, den Kurs im Herbst zu beginnen.", "tr": "Kursa sonbaharda başlamaya birlikte karar verdik." }
+    ],
+    "synonyms": ["entscheiden", "festlegen"],
+    "antonyms": ["aufschieben"],
+    "related": ["Beschluss"],
+    "tags": ["b1.2", "fiil", "behoerden"]
+  },
+  {
+    "german": "beschränken",
+    "article": null,
+    "type": "verb",
+    "level": "B1.2",
+    "senses": [{ "tr": "Sınırlandırmak, kısıtlamak", "en": "to limit, to restrict", "context": "Resmî İşlemler" }],
+    "verb": { "praesens3": "beschränkt", "praeteritum": "beschränkte", "partizip2": "beschränkt", "auxiliary": "haben", "irregular": false, "separable": false, "preposition": "auf", "prepCase": "Akkusativ" },
+    "examples": [
+      { "de": "Bitte beschränken Sie Ihre Antwort auf die wichtigsten Punkte.", "tr": "Lütfen cevabınızı en önemli noktalarla sınırlandırın." },
+      { "de": "Die Aufenthaltserlaubnis ist zunächst auf zwei Jahre beschränkt.", "tr": "Oturum izni ilk etapta iki yılla sınırlandırılmıştır." }
+    ],
+    "synonyms": ["begrenzen", "einschränken"],
+    "antonyms": ["erweitern"],
+    "related": ["Beschränkung", "Schranke"],
+    "tags": ["b1.2", "fiil", "behoerden"]
+  },
+  {
+    "german": "beteiligen",
+    "article": null,
+    "type": "verb",
+    "level": "B1.2",
+    "senses": [{ "tr": "Katılmak, iştirak etmek, pay almak", "en": "to participate in, to take part", "context": "Sosyal Yaşam" }],
+    "verb": { "praesens3": "beteiligt", "praeteritum": "beteiligte", "partizip2": "beteiligt", "auxiliary": "haben", "irregular": false, "separable": false, "reflexive": true, "preposition": "an", "prepCase": "Dativ" },
+    "examples": [
+      { "de": "Die Krankenkasse beteiligt sich an den Kosten für den Gesundheitskurs.", "tr": "Sağlık sigortası sağlık kursunun masraflarına katılıyor." },
+      { "de": "Alle Mitarbeiter haben sich aktiv an der Diskussion beteiligt.", "tr": "Tüm çalışanlar tartışmaya aktif olarak katıldı." }
+    ],
+    "synonyms": ["teilnehmen", "mitwirken"],
+    "antonyms": ["sich heraushalten"],
+    "related": ["Beteiligung", "Anteil"],
+    "tags": ["b1.2", "fiil", "soziales"]
+  },
+  {
+    "german": "betrachten",
+    "article": null,
+    "type": "verb",
+    "level": "B1.2",
+    "senses": [{ "tr": "İncelemek, bakmak, değerlendirmek", "en": "to look at, to consider, to view", "context": "Eğitim" }],
+    "verb": { "praesens3": "betrachtet", "praeteritum": "betrachtete", "partizip2": "betrachtet", "auxiliary": "haben", "irregular": false, "separable": false },
+    "examples": [
+      { "de": "Man muss dieses Thema aus verschiedenen Perspektiven betrachten.", "tr": "Bu konuya farklı bakış açılarından bakmak gerekir." },
+      { "de": "Der Arzt betrachtet das Röntgenbild sehr sorgfältig.", "tr": "Doktor röntgen filmini çok dikkatli inceliyor." }
+    ],
+    "synonyms": ["ansehen", "beurteilen"],
+    "antonyms": ["übersehen"],
+    "related": ["Betrachtung", "beträchtlich"],
+    "tags": ["b1.2", "fiil", "bildung"]
+  },
+  {
+    "german": "betreffen",
+    "article": null,
+    "type": "verb",
+    "level": "B1.2",
+    "senses": [{ "tr": "İlgilendirmek, etkilemek, kapsamak", "en": "to concern, to affect", "context": "Resmî İşlemler" }],
+    "verb": { "praesens3": "betrifft", "praeteritum": "betraf", "partizip2": "betroffen", "auxiliary": "haben", "irregular": true, "separable": false },
+    "examples": [
+      { "de": "Diese neue gesetzliche Regelung betrifft alle Hausbesitzer.", "tr": "Bu yeni yasal düzenleme tüm ev sahiplerini ilgilendiriyor." },
+      { "de": "Was meinen Antrag betrifft, habe ich noch keine Rückmeldung erhalten.", "tr": "Başvuruma gelince, henüz bir geri dönüş almadım." }
+    ],
+    "synonyms": ["angehen", "berühren"],
+    "antonyms": [],
+    "related": ["Betreff", "betroffen"],
+    "tags": ["b1.2", "fiil", "behoerden"]
+  },
+  {
+    "german": "bezeichnen",
+    "article": null,
+    "type": "verb",
+    "level": "B1.2",
+    "senses": [{ "tr": "Adlandırmak, nitelemek, tanımlamak", "en": "to describe as, to designate", "context": "Eğitim" }],
+    "verb": { "praesens3": "bezeichnet", "praeteritum": "bezeichnete", "partizip2": "bezeichnet", "auxiliary": "haben", "irregular": false, "separable": false },
+    "examples": [
+      { "de": "Diesen Vorgang bezeichnet man in der Fachsprache als Kondensation.", "tr": "Bu işlem teknik dilde yoğuşma olarak adlandırılır." },
+      { "de": "Er bezeichnete die Zusammenarbeit mit dem Team als sehr erfolgreich.", "tr": "Ekiple olan iş birliğini çok başarılı olarak niteledi." }
+    ],
+    "synonyms": ["nennen", "definieren"],
+    "antonyms": [],
+    "related": ["Bezeichnung", "Zeichen"],
+    "tags": ["b1.2", "fiil", "bildung"]
+  },
+  {
+    "german": "beziehen",
+    "article": null,
+    "type": "verb",
+    "level": "B1.2",
+    "senses": [
+      { "tr": "Atıfta bulunmak, dayanmak (sich beziehen auf)", "en": "to refer to", "context": "Resmî İşlemler" },
+      { "tr": "Almak (maaş/yardım) veya yeni eve taşınmak", "en": "to receive (benefits), to move into", "context": "Günlük Yaşam" }
+    ],
+    "verb": { "praesens3": "bezieht", "praeteritum": "bezog", "partizip2": "bezogen", "auxiliary": "haben", "irregular": true, "separable": false, "reflexive": true, "preposition": "auf", "prepCase": "Akkusativ" },
+    "examples": [
+      { "de": "Ich beziehe mich auf Ihr Schreiben vom 14. Oktober.", "tr": "14 Ekim tarihli yazınıza atıfta bulunuyorum." },
+      { "de": "Nächsten Monat beziehen wir unsere neue Wohnung.", "tr": "Gelecek ay yeni dairemize taşınıyoruz." }
+    ],
+    "synonyms": ["verweisen"],
+    "antonyms": [],
+    "related": ["Bezug", "Beziehung"],
+    "tags": ["b1.2", "fiil", "behoerden"]
+  },
+  {
+    "german": "durchsetzen",
+    "article": null,
+    "type": "verb",
+    "level": "B1.2",
+    "senses": [{ "tr": "Kabul ettirmek, uygulatmak, başarıya ulaşmak", "en": "to enforce, to assert oneself", "context": "İş Hayatı" }],
+    "verb": { "praesens3": "setzt durch", "praeteritum": "setzte durch", "partizip2": "durchgesetzt", "auxiliary": "haben", "irregular": false, "separable": true },
+    "examples": [
+      { "de": "In der Sitzung konnte sie ihren Vorschlag erfolgreich durchsetzen.", "tr": "Toplantıda önerisini başarıyla kabul ettirebildi." },
+      { "de": "Wärmepumpen setzen sich im Neubau immer stärker durch.", "tr": "Isı pompaları yeni binalarda giderek daha fazla yaygınlaşıyor." }
+    ],
+    "synonyms": ["durchbringen"],
+    "antonyms": ["nachgeben"],
+    "related": ["Durchsetzung"],
+    "tags": ["b1.2", "fiil", "beruf"]
+  },
+  {
+    "german": "eignen",
+    "article": null,
+    "type": "verb",
+    "level": "B1.2",
+    "senses": [{ "tr": "Uygun olmak, elverişli olmak", "en": "to be suitable for", "context": "İş Hayatı" }],
+    "verb": { "praesens3": "eignet", "praeteritum": "eignete", "partizip2": "geeignet", "auxiliary": "haben", "irregular": false, "separable": false, "reflexive": true, "preposition": "für", "prepCase": "Akkusativ" },
+    "examples": [
+      { "de": "Dieses Material eignet sich besonders gut für Trinkwasserleitungen.", "tr": "Bu malzeme özellikle içme suyu hatları için çok uygundur." },
+      { "de": "Der Kurs eignet sich ideal zur Vorbereitung auf die B2-Prüfung.", "tr": "Kurs B2 sınavına hazırlık için ideal biçimde uygundur." }
+    ],
+    "synonyms": ["passen"],
+    "antonyms": [],
+    "related": ["Eignung", "geeignet"],
+    "tags": ["b1.2", "fiil", "beruf"]
+  },
+  {
+    "german": "einfallen",
+    "article": null,
+    "type": "verb",
+    "level": "B1.2",
+    "senses": [{ "tr": "Aklına gelmek", "en": "to come to mind, to occur to", "context": "Günlük Yaşam" }],
+    "verb": { "praesens3": "fällt ein", "praeteritum": "fiel ein", "partizip2": "eingefallen", "auxiliary": "sein", "irregular": true, "separable": true },
+    "examples": [
+      { "de": "Mir fällt der genaue Fachbegriff gerade nicht ein.", "tr": "Tam teknik terim şu an aklıma gelmiyor." },
+      { "de": "Zum Glück ist mir noch rechtzeitig eingefallen, den Pass mitzunehmen.", "tr": "Neyse ki pasaportu yanıma almak zamanında aklıma geldi." }
+    ],
+    "synonyms": ["sich erinnern"],
+    "antonyms": ["vergessen"],
+    "related": ["Einfall"],
+    "tags": ["b1.2", "fiil", "alltag"],
+    "notes": "Dativ ile kullanılır (mir fällt ein) ve Perfekt'te 'sein' alır."
+  },
+  {
+    "german": "eingehen",
+    "article": null,
+    "type": "verb",
+    "level": "B1.2",
+    "senses": [
+      { "tr": "Değinmek, üzerinde durmak (eingehen auf)", "en": "to address, to respond to", "context": "İletişim" },
+      { "tr": "Ulaşmak, gelmek (başvuru/ödeme)", "en": "to arrive, to be received", "context": "Resmî İşlemler" }
+    ],
+    "verb": { "praesens3": "geht ein", "praeteritum": "ging ein", "partizip2": "eingegangen", "auxiliary": "sein", "irregular": true, "separable": true, "preposition": "auf", "prepCase": "Akkusativ" },
+    "examples": [
+      { "de": "Der Arzt ist geduldig auf alle meine Fragen eingegangen.", "tr": "Doktor tüm sorularımı sabırla ele aldı." },
+      { "de": "Ihr Antrag ist fristgerecht bei uns eingegangen.", "tr": "Başvurunuz süresi içinde tarafımıza ulaşmıştır." }
+    ],
+    "synonyms": ["antworten", "ankommen"],
+    "antonyms": ["ignorieren"],
+    "related": ["Eingang", "Eingangsbestätigung"],
+    "tags": ["b1.2", "fiil", "kommunikation"]
+  },
+  {
+    "german": "entschließen",
+    "article": null,
+    "type": "verb",
+    "level": "B1.2",
+    "senses": [{ "tr": "Karar vermek, kesin karar almak", "en": "to decide, to make up one's mind", "context": "Günlük Yaşam" }],
+    "verb": { "praesens3": "entschließt", "praeteritum": "entschloss", "partizip2": "entschlossen", "auxiliary": "haben", "irregular": true, "separable": false, "reflexive": true, "preposition": "zu", "prepCase": "Dativ" },
+    "examples": [
+      { "de": "Nach langem Überlegen habe ich mich zu einer Weiterbildung entschlossen.", "tr": "Uzun süre düşündükten sonra bir ileri eğitime karar verdim." },
+      { "de": "Sie entschloss sich, den Arzt zu wechseln.", "tr": "Doktorunu değiştirmeye karar verdi." }
+    ],
+    "synonyms": ["sich entscheiden"],
+    "antonyms": ["zögern"],
+    "related": ["Entschluss", "entschlossen"],
+    "tags": ["b1.2", "fiil", "alltag"]
+  },
+  {
+    "german": "entsprechen",
+    "article": null,
+    "type": "verb",
+    "level": "B1.2",
+    "senses": [{ "tr": "Karşılık gelmek, uymak, uygun düşmek", "en": "to correspond to, to comply with", "context": "Resmî İşlemler" }],
+    "verb": { "praesens3": "entspricht", "praeteritum": "entsprach", "partizip2": "entsprochen", "auxiliary": "haben", "irregular": true, "separable": false },
+    "examples": [
+      { "de": "Die Anlage entspricht allen aktuellen DIN-Normen.", "tr": "Sistem tüm güncel DIN normlarına uygundur." },
+      { "de": "Das Ergebnis entspricht genau unseren Erwartungen.", "tr": "Sonuç tam olarak beklentilerimize karşılık geliyor." }
+    ],
+    "synonyms": ["übereinstimmen"],
+    "antonyms": ["widersprechen"],
+    "related": ["entsprechend", "Entsprechung"],
+    "tags": ["b1.2", "fiil", "behoerden"],
+    "notes": "Dativ ister: entspricht den Vorschriften."
+  }
+]

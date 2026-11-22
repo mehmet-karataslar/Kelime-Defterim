@@ -15,6 +15,9 @@ import SessionScreen from '../features/learning/SessionScreen';
 import StatsScreen from '../features/statistics/StatsScreen';
 import SettingsScreen from '../features/settings/SettingsScreen';
 import { CollectionsScreen, CollectionDetailScreen } from '../features/collections/CollectionsScreen';
+import DoctorDialoguesScreen from '../features/practice/DoctorDialoguesScreen';
+import OfficialCommsScreen from '../features/practice/OfficialCommsScreen';
+import WritingReviewScreen from '../features/practice/WritingReviewScreen';
 import Onboarding from '../features/onboarding/Onboarding';
 import { syncNotificationSchedule, notifyOnOpen } from '../features/notifications/service';
 import { syncWidgetSnapshot } from '../features/widgets/service';
@@ -28,6 +31,9 @@ function RouteView({ route }: { route: Route }) {
     case 'wordEditor': return <WordEditorScreen id={route.id} />;
     case 'sessionSetup': return <SessionSetupScreen mode={route.mode} collectionId={route.collectionId} />;
     case 'session': return <SessionScreen mode={route.mode} wordIds={route.wordIds} collectionId={route.collectionId} level={route.level} />;
+    case 'doctorDialogues': return <DoctorDialoguesScreen />;
+    case 'officialComms': return <OfficialCommsScreen />;
+    case 'writingReview': return <WritingReviewScreen promptTitle={route.promptTitle} promptDesc={route.promptDesc} targetLevel={route.targetLevel} formal={route.formal} />;
   }
 }
 

@@ -107,11 +107,12 @@ input, select, textarea { font-family: inherit; color: inherit; }
 }
 
 .screen { flex: 1; display: flex; flex-direction: column; min-height: 100dvh; }
-.screen-body { flex: 1; padding: 0 1rem 6.5rem; overflow-y: auto; }
-.screen-body.no-nav { padding-bottom: 2rem; }
+.screen-body { flex: 1; padding: 0 1rem calc(8.2rem + var(--sab)); overflow-y: auto; }
+.screen-body.no-nav { padding-bottom: calc(3.6rem + var(--sab)); }
 
 .is-native {
   --sat: max(env(safe-area-inset-top, 0px), 36px);
+  --sab: max(env(safe-area-inset-bottom, 0px), 18px);
 }
 
 /* ---------- top bar ---------- */
@@ -957,3 +958,272 @@ input[type='range'] { width: 100%; accent-color: var(--primary); height: 1.4rem;
 [data-reduce-motion='true'] * { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
 [data-density='compact'] { --gap-card: 0.5rem; }
 [data-density='compact'] .word-card { padding-top: 0.65rem; padding-bottom: 0.65rem; }
+
+
+/* ---------- v1.2 enhancements: flashcard TR translation, multi-level checkboxes & practice modules ---------- */
+.flash-example-tr {
+  margin-top: 0.45rem;
+  padding-top: 0.45rem;
+  border-top: 1px dashed var(--border);
+  font-style: normal;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--text-2);
+  line-height: 1.45;
+}
+
+.level-check-section {
+  margin: 0.85rem 0 0.9rem;
+  padding: 0.75rem;
+  border-radius: var(--r-md);
+  background: var(--surface-2);
+  border: 1px solid var(--border-soft);
+}
+.level-check-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.55rem;
+}
+.level-check-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.45rem;
+}
+.level-check-pill {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  padding: 0.48rem 0.5rem;
+  border-radius: 0.65rem;
+  border: 1.5px solid var(--border);
+  background: var(--surface);
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--text-2);
+  transition: all 0.14s ease;
+}
+.level-check-pill.on {
+  border-color: var(--primary);
+  background: var(--tint);
+  color: var(--primary);
+}
+.mini-cb {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 0.3rem;
+  border: 1.5px solid var(--border);
+  display: grid;
+  place-items: center;
+  background: var(--surface);
+  flex-shrink: 0;
+}
+.mini-cb.on {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: #fff;
+}
+
+.practice-hub {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+.practice-card {
+  width: 100%;
+  padding: 0.95rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  text-align: left;
+  transition: transform 0.12s ease;
+}
+.practice-card:active { transform: scale(0.985); }
+.practice-card-body { flex: 1; min-width: 0; }
+.practice-card-title {
+  font-weight: 800;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  flex-wrap: wrap;
+}
+.practice-card-sub {
+  font-size: 0.76rem;
+  font-weight: 700;
+  color: var(--primary);
+  margin-top: 0.15rem;
+}
+.practice-card-desc {
+  font-size: 0.76rem;
+  color: var(--text-2);
+  margin-top: 0.2rem;
+  line-height: 1.4;
+}
+
+.dialogue-bubble {
+  padding: 0.9rem 1rem;
+  border-left: 3.5px solid var(--primary);
+}
+.dialogue-bubble.patient {
+  border-left-color: var(--green);
+}
+.dialogue-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.45rem;
+}
+.dialogue-de {
+  font-weight: 700;
+  font-size: 0.88rem;
+  line-height: 1.5;
+}
+.dialogue-tr {
+  font-size: 0.8rem;
+  color: var(--text-2);
+  margin-top: 0.4rem;
+  padding-top: 0.4rem;
+  border-top: 1px dashed var(--border-soft);
+  line-height: 1.45;
+}
+
+.formal-box {
+  padding: 1rem;
+}
+.formal-box.tr {
+  background: var(--surface-2);
+}
+.formal-pre {
+  font-family: inherit;
+  white-space: pre-wrap;
+  word-break: break-word;
+  font-size: 0.82rem;
+  line-height: 1.6;
+  margin: 0;
+}
+.rule-ex-box {
+  padding: 0.65rem 0.8rem;
+  border-radius: 0.65rem;
+  background: var(--surface-2);
+  margin-bottom: 0.45rem;
+}
+
+.writing-area {
+  width: 100%;
+  border: 1.5px solid var(--border);
+  border-radius: var(--r-md);
+  padding: 0.75rem 0.85rem;
+  background: var(--surface-2);
+  font-size: 0.86rem;
+  line-height: 1.55;
+  resize: vertical;
+  outline: none;
+}
+.writing-area:focus {
+  border-color: var(--primary);
+  background: var(--surface);
+}
+.score-badge {
+  min-width: 3.3rem;
+  height: 3.3rem;
+  border-radius: 1rem;
+  background: var(--tint);
+  color: var(--primary);
+  font-weight: 800;
+  font-size: 1rem;
+  display: grid;
+  place-items: center;
+}
+.issue-card {
+  padding: 0.9rem 1rem;
+  border-left: 3.5px solid var(--rose);
+}
+.issue-diff {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  flex-wrap: wrap;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+.issue-wrong {
+  padding: 0.15rem 0.45rem;
+  border-radius: 0.4rem;
+  background: var(--rose-tint);
+  color: var(--rose-text);
+  text-decoration: line-through;
+}
+.issue-right {
+  padding: 0.15rem 0.45rem;
+  border-radius: 0.4rem;
+  background: var(--green-tint);
+  color: var(--green-text);
+}
+
+/* live background duplicate check in WordEditorScreen */
+.live-dup-card {
+  margin-top: 0.55rem;
+  padding: 0.7rem 0.85rem;
+  border-radius: var(--r-md);
+  background: var(--amber-tint);
+  border: 1.5px solid var(--amber-border);
+}
+.live-dup-head {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.78rem;
+  font-weight: 800;
+  color: var(--amber);
+  margin-bottom: 0.4rem;
+}
+.live-dup-row {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+.live-dup-word {
+  font-weight: 800;
+  font-size: 0.86rem;
+  color: var(--text);
+}
+.live-dup-tr {
+  font-size: 0.76rem;
+  color: var(--text-2);
+  margin-top: 0.1rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.live-match-box {
+  margin-top: 0.5rem;
+  border-radius: var(--r-md);
+  background: var(--surface-2);
+  border: 1px solid var(--border-soft);
+  overflow: hidden;
+}
+.live-match-head {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.4rem 0.7rem;
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: var(--text-3);
+  border-bottom: 1px solid var(--border-soft);
+}
+.live-match-item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.48rem 0.7rem;
+  text-align: left;
+  border-bottom: 1px solid var(--border-soft);
+}
+.live-match-item:last-child { border-bottom: none; }
+.live-match-item:active { background: var(--tint); }
+.live-match-de { font-weight: 700; font-size: 0.8rem; color: var(--text); flex-shrink: 0; }
+.live-match-tr { font-size: 0.74rem; color: var(--text-2); flex: 1; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }

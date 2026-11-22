@@ -1,13 +1,13 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import {
   BookOpen, Languages, Shapes, MessageSquare, Link2, Tag, Mic, GraduationCap,
-  Plus, X, Save, AlertTriangle,
+  Plus, X, Save, AlertTriangle, ExternalLink, Search,
 } from 'lucide-react';
 import { useStore, newWord } from '../../core/store';
 import { useNav } from '../../app/navigation';
 import { useI18n } from '../../localization';
 import {
-  ARTICLES, Article, LEVELS, Level, WORD_TYPES, Word, WordType, normalizeGerman, uid,
+  ARTICLES, Article, LEVELS, Level, WORD_TYPES, Word, WordType, foldForSearch, normalizeGerman, uid,
 } from '../../core/types';
 import { TopBar, Modal, Switch } from '../../shared/ui';
 import { toast } from '../../shared/toastStore';
@@ -20,7 +20,7 @@ export default function WordEditorScreen({ id }: { id?: string }) {
   const updateWord = useStore((s) => s.updateWord);
   const addSense = useStore((s) => s.addSense);
   const assignToCollection = useStore((s) => s.assignToCollection);
-  const { back } = useNav();
+  const { back, push } = useNav();
 
   const existing = id ? words.find((w) => w.id === id) : undefined;
   const [draft, setDraft] = useState<Word>(() => existing ? structuredClone(existing) : newWord());
@@ -35,8 +35,52 @@ export default function WordEditorScreen({ id }: { id?: string }) {
   const [synText, setSynText] = useState(draft.synonyms.join(', '));
   const [antText, setAntText] = useState(draft.antonyms.join(', '));
   const [relText, setRelText] = useState(draft.related.join(', '));
+  const [liveCheck, setLiveCheck] = useState<{ exact: Word | null; matches: Word[] }>({ exact: null, matches: [] });
 
   const patch = (p: Partial<Word>) => { setDraft((d) => ({ ...d, ...p })); setDirty(true); };
+
+  // Pre-index words once for instant background lookup while typing
+  const lookupIndex = useMemo(
+    () =>
+      words
+        .filter((w) => w.id !== draft.id)
+        .map((w) => ({
+          w,
+          lower: w.german.normalize('NFC').toLocaleLowerCase('de-DE'),
+          folded: foldForSearch(w.german),
+        })),
+    [words, draft.id],
+  );
+
+  // Instant background lookup starting from the 2nd character
+  useEffect(() => {
+    const raw = normalizeGerman(draft.german);
+    if (raw.length < 2) {
+      setLiveCheck({ exact: null, matches: [] });
+      return;
+    }
+    const timer = setTimeout(() => {
+      const lower = raw.toLocaleLowerCase('de-DE');
+      const folded = foldForSearch(raw);
+      let exact: Word | null = null;
+      const prefix: Word[] = [];
+      const contains: Word[] = [];
+
+      for (const item of lookupIndex) {
+        if (item.lower === lower || item.folded === folded) {
+          if (!exact || item.w.type === draft.type) exact = item.w;
+          continue;
+        }
+        if (item.folded.startsWith(folded)) {
+          if (prefix.length < 4) prefix.push(item.w);
+        } else if (folded.length >= 3 && item.folded.includes(folded)) {
+          if (contains.length < 3) contains.push(item.w);
+        }
+      }
+      setLiveCheck({ exact, matches: [...prefix, ...contains].slice(0, 4) });
+    }, 100);
+    return () => clearTimeout(timer);
+  }, [draft.german, draft.type, lookupIndex]);
 
   const duplicate = useMemo(() => {
     const g = normalizeGerman(draft.german).toLocaleLowerCase('de-DE');
@@ -106,7 +150,7 @@ export default function WordEditorScreen({ id }: { id?: string }) {
   return (
     <div className="screen">
       <TopBar title={existing ? t('editor.editTitle') : t('editor.addTitle')} icon={<BookOpen size={19} />} onBack={tryBack} />
-      <div className="screen-body no-nav" style={{ paddingBottom: '1rem' }}>
+      <div className="screen-body no-nav">
         <div className="seg-inline" style={{ margin: '1rem 0', width: 'fit-content' }}>
           <button className={mode === 'quick' ? 'active' : ''} onClick={() => setMode('quick')}>{t('editor.quick')}</button>
           <button className={mode === 'detailed' ? 'active' : ''} onClick={() => setMode('detailed')}>{t('editor.detailed')}</button>
@@ -127,7 +171,52 @@ export default function WordEditorScreen({ id }: { id?: string }) {
                 <button onClick={() => patch({ german: capitalSuggestion })}>{t('editor.useSuggestion')}</button>
               </div>
             ) : null}
-            {duplicate ? <div className="field-hint" style={{ color: 'var(--amber)' }}>⚠ {t('words.duplicateWarn')}: {duplicate.german}</div> : null}
+            {liveCheck.exact ? (
+              <div className="live-dup-card anim-in">
+                <div className="live-dup-head">
+                  <AlertTriangle size={15} />
+                  <span>Bu kelime veritabanında zaten var!</span>
+                </div>
+                <div className="live-dup-row">
+                  <div style={{ flex: 1, minWidth: 0 }}>
+                    <div className="live-dup-word">
+                      {liveCheck.exact.article ? `${liveCheck.exact.article} ` : ''}{liveCheck.exact.german}
+                      {liveCheck.exact.level ? <span className="level-chip" style={{ marginLeft: '0.4rem' }}>{liveCheck.exact.level}</span> : null}
+                    </div>
+                    <div className="live-dup-tr">{liveCheck.exact.senses[0]?.tr}</div>
+                  </div>
+                  <button
+                    type="button"
+                    className="btn outline"
+                    style={{ padding: '0.35rem 0.65rem', fontSize: '0.74rem' }}
+                    onClick={() => push({ name: 'wordDetail', id: liveCheck.exact!.id })}
+                  >
+                    <ExternalLink size={13} /> Aç
+                  </button>
+                </div>
+              </div>
+            ) : null}
+            {!liveCheck.exact && liveCheck.matches.length > 0 ? (
+              <div className="live-match-box anim-in">
+                <div className="live-match-head">
+                  <Search size={12} /> Defterdeki benzer kayıtlar ({liveCheck.matches.length})
+                </div>
+                {liveCheck.matches.map((m) => (
+                  <button
+                    key={m.id}
+                    type="button"
+                    className="live-match-item"
+                    onClick={() => push({ name: 'wordDetail', id: m.id })}
+                  >
+                    <span className="live-match-de">
+                      {m.article ? `${m.article} ` : ''}{m.german}
+                    </span>
+                    <span className="live-match-tr">{m.senses[0]?.tr}</span>
+                    {m.level ? <span className="level-chip">{m.level}</span> : null}
+                  </button>
+                ))}
+              </div>
+            ) : null}
           </div>
 
           <div className="field">

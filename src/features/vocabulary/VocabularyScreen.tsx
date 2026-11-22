@@ -113,37 +113,53 @@ export default function VocabularyScreen() {
   const selecting = selected.size > 0;
   const extraFilters = [typeFilter, statusFilter, articleFilter, colFilter].filter(Boolean).length;
 
+  const searchIndex = useMemo(
+    () =>
+      words.map((w) => ({
+        w,
+        blob: foldForSearch(
+          [
+            w.article ?? '',
+            w.german,
+            ...w.senses.map((s) => `${s.tr} ${s.en ?? ''}`),
+            ...w.tags,
+            ...w.examples.map((e) => `${e.de} ${e.tr}`),
+          ].join(' '),
+        ),
+      })),
+    [words],
+  );
+
   const filtered = useMemo(() => {
-    let list = words;
-    if (quick === 'fav') list = list.filter((w) => w.favorite);
-    else if (quick !== 'all') list = list.filter((w) => w.level === quick);
-    if (typeFilter) list = list.filter((w) => w.type === typeFilter);
-    if (articleFilter) list = list.filter((w) => w.article === articleFilter);
-    if (statusFilter) list = list.filter((w) => statusOf(w) === statusFilter);
-    if (colFilter) {
-      const col = collections.find((c) => c.id === colFilter);
-      const ids = new Set(col?.wordIds ?? []);
-      list = list.filter((w) => ids.has(w.id));
+    const colIds = colFilter ? new Set(collections.find((c) => c.id === colFilter)?.wordIds ?? []) : null;
+    const q = query.trim() ? foldForSearch(query) : '';
+
+    const list: Word[] = [];
+    for (const item of searchIndex) {
+      const w = item.w;
+      if (quick === 'fav') {
+        if (!w.favorite) continue;
+      } else if (quick !== 'all') {
+        if (w.level !== quick && !(quick === 'B1.1' && w.level === 'B1')) continue;
+      }
+      if (typeFilter && w.type !== typeFilter) continue;
+      if (articleFilter && w.article !== articleFilter) continue;
+      if (statusFilter && statusOf(w) !== statusFilter) continue;
+      if (colIds && !colIds.has(w.id)) continue;
+      if (q && !item.blob.includes(q)) continue;
+      list.push(w);
     }
-    if (query.trim()) {
-      const q = foldForSearch(query);
-      list = list.filter((w) =>
-        foldForSearch(w.german).includes(q) ||
-        w.senses.some((s) => foldForSearch(s.tr).includes(q) || (s.en && foldForSearch(s.en).includes(q))) ||
-        w.tags.some((tag) => foldForSearch(tag).includes(q)) ||
-        w.examples.some((e) => foldForSearch(e.de).includes(q)));
-    }
-    const sorted = [...list];
+
     switch (sort) {
-      case 'newest': sorted.sort((a, b) => b.createdAt - a.createdAt); break;
-      case 'oldest': sorted.sort((a, b) => a.createdAt - b.createdAt); break;
-      case 'alpha': sorted.sort((a, b) => a.german.localeCompare(b.german, 'de')); break;
-      case 'reviewed': sorted.sort((a, b) => b.stats.reviews - a.stats.reviews); break;
-      case 'wrong': sorted.sort((a, b) => b.stats.wrong - a.stats.wrong); break;
-      case 'due': sorted.sort((a, b) => (a.srs.due ?? Infinity) - (b.srs.due ?? Infinity)); break;
+      case 'newest': list.sort((a, b) => b.createdAt - a.createdAt); break;
+      case 'oldest': list.sort((a, b) => a.createdAt - b.createdAt); break;
+      case 'alpha': list.sort((a, b) => a.german.localeCompare(b.german, 'de')); break;
+      case 'reviewed': list.sort((a, b) => b.stats.reviews - a.stats.reviews); break;
+      case 'wrong': list.sort((a, b) => b.stats.wrong - a.stats.wrong); break;
+      case 'due': list.sort((a, b) => (a.srs.due ?? Infinity) - (b.srs.due ?? Infinity)); break;
     }
-    return sorted;
-  }, [words, collections, query, quick, sort, typeFilter, statusFilter, articleFilter, colFilter]);
+    return list;
+  }, [searchIndex, collections, query, quick, sort, typeFilter, statusFilter, articleFilter, colFilter]);
 
   useEffect(() => {
     setVisibleCount(60);
@@ -213,7 +229,7 @@ export default function VocabularyScreen() {
         <div className="filter-row anim-in-2">
           <button className={`filter-chip ${quick === 'all' ? 'active' : ''}`} onClick={() => setQuick('all')}>{t('common.all')}</button>
           <button className={`filter-chip ${quick === 'fav' ? 'active' : ''}`} onClick={() => setQuick('fav')}>{t('common.favorites')}</button>
-          {(['A1', 'A2', 'B1', 'B2', 'C1'] as Level[]).map((l) => (
+          {(['A1', 'A2', 'B1.1', 'B1.2', 'B2', 'C1'] as Level[]).map((l) => (
             <button key={l} className={`filter-chip ${quick === l ? 'active' : ''}`} onClick={() => setQuick(quick === l ? 'all' : l)}>{l}</button>
           ))}
           <button className={`filter-icon-btn ${extraFilters > 0 ? 'on' : ''}`} onClick={() => setFilterOpen(true)} aria-label={t('words.filterTitle')}>

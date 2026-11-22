@@ -1,9 +1,9 @@
 import { useMemo, useState } from 'react';
-import { SlidersHorizontal, Play, BookOpen } from 'lucide-react';
+import { SlidersHorizontal, Play, BookOpen, Check } from 'lucide-react';
 import { useStore } from '../../core/store';
 import { useNav } from '../../app/navigation';
 import { useI18n } from '../../localization';
-import { LEVELS, Level, StudyMode, Word } from '../../core/types';
+import { LEARN_LEVELS, Level, StudyMode, Word, matchesSelectedLevels } from '../../core/types';
 import { dueWords, isStruggling } from '../../core/srs';
 import { TopBar, Stepper, EmptyState } from '../../shared/ui';
 
@@ -23,13 +23,25 @@ export default function SessionSetupScreen({ mode: initialMode, collectionId: in
   const { t } = useI18n();
   const words = useStore((s) => s.words);
   const collections = useStore((s) => s.collections);
+  const savedLevels = useStore((s) => s.settings.learnLevels ?? []);
+  const updateSettings = useStore((s) => s.updateSettings);
   const { push, back } = useNav();
 
   const [mode, setMode] = useState<StudyMode>(initialMode ?? 'flashcard');
   const [count, setCount] = useState(10);
-  const [source, setSource] = useState<'all' | 'due' | 'new' | 'fav'>(initialMode === 'hard' ? 'all' : 'all');
+  const [source, setSource] = useState<'all' | 'due' | 'new' | 'fav'>('all');
   const [colId, setColId] = useState<string>(initialCol ?? '');
-  const [level, setLevel] = useState<Level | ''>('');
+  const [levels, setLevels] = useState<Level[]>(savedLevels);
+
+  const toggleLevel = (lvl: Level) => {
+    const next = levels.includes(lvl) ? levels.filter((x) => x !== lvl) : [...levels, lvl];
+    setLevels(next);
+    updateSettings({ learnLevels: next });
+  };
+  const clearLevels = () => {
+    setLevels([]);
+    updateSettings({ learnLevels: [] });
+  };
 
   const pool = useMemo(() => {
     let list = eligibleWords(words, mode);
@@ -40,20 +52,28 @@ export default function SessionSetupScreen({ mode: initialMode, collectionId: in
       const ids = new Set(collections.find((c) => c.id === colId)?.wordIds ?? []);
       list = list.filter((w) => ids.has(w.id));
     }
-    if (level) list = list.filter((w) => w.level === level);
+    if (levels.length > 0) {
+      list = list.filter((w) => matchesSelectedLevels(w.level, levels));
+    }
     return list;
-  }, [words, mode, source, colId, level, collections]);
+  }, [words, mode, source, colId, levels, collections]);
 
   const start = () => {
     const shuffled = [...pool].sort(() => Math.random() - 0.5).slice(0, count);
-    push({ name: 'session', mode, wordIds: shuffled.map((w) => w.id), collectionId: colId || undefined, level: level || null });
+    push({
+      name: 'session',
+      mode,
+      wordIds: shuffled.map((w) => w.id),
+      collectionId: colId || undefined,
+      level: levels.length === 1 ? levels[0] : null,
+    });
   };
 
   const emptyMsg =
     mode === 'article' ? t('learn.noNouns')
-    : mode === 'sentence' ? t('learn.noExamples')
-    : mode === 'hard' ? t('learn.noHard')
-    : t('learn.notEnough');
+      : mode === 'sentence' ? t('learn.noExamples')
+        : mode === 'hard' ? t('learn.noHard')
+          : t('learn.notEnough');
 
   return (
     <div className="screen">
@@ -88,12 +108,33 @@ export default function SessionSetupScreen({ mode: initialMode, collectionId: in
             </div>
           ) : null}
           <div className="field">
-            <label className="field-label">{t('learn.levelFilter')}</label>
-            <div className="level-picker">
-              <button className={`level-pick ${level === '' ? 'on' : ''}`} onClick={() => setLevel('')}>{t('learn.allLevels')}</button>
-              {LEVELS.map((l) => (
-                <button key={l} className={`level-pick ${level === l ? 'on' : ''}`} onClick={() => setLevel(level === l ? '' : l)}>{l}</button>
-              ))}
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '0.4rem' }}>
+              <label className="field-label" style={{ margin: 0 }}>{t('learn.levelFilter')}</label>
+              {levels.length > 0 ? (
+                <button type="button" className="link-btn" style={{ fontSize: '0.72rem' }} onClick={clearLevels}>
+                  {t('learn.allLevels')}
+                </button>
+              ) : null}
+            </div>
+            <div className="level-check-grid">
+              {LEARN_LEVELS.map((l) => {
+                const checked = levels.includes(l);
+                return (
+                  <button
+                    key={l}
+                    type="button"
+                    role="checkbox"
+                    aria-checked={checked}
+                    className={`level-check-pill ${checked ? 'on' : ''}`}
+                    onClick={() => toggleLevel(l)}
+                  >
+                    <span className={`mini-cb ${checked ? 'on' : ''}`}>
+                      {checked ? <Check size={11} strokeWidth={3.2} /> : null}
+                    </span>
+                    <span>{l}</span>
+                  </button>
+                );
+              })}
             </div>
           </div>
           <div className="toggle-line" style={{ paddingTop: '0.8rem' }}>
@@ -107,7 +148,9 @@ export default function SessionSetupScreen({ mode: initialMode, collectionId: in
         ) : (
           <div className="card" style={{ padding: '1rem 1.1rem', display: 'flex', alignItems: 'center', gap: '0.7rem' }}>
             <span className="chip">{t('collections.wordsCount', { n: Math.min(pool.length, count) })}</span>
-            <span className="muted-3" style={{ fontSize: '0.75rem', fontWeight: 600 }}>{t(`learn.${mode}`)}</span>
+            <span className="muted-3" style={{ fontSize: '0.75rem', fontWeight: 600 }}>
+              {t(`learn.${mode}`)} · {pool.length} uygun kelime
+            </span>
           </div>
         )}
 

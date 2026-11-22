@@ -2,7 +2,7 @@ export type Article = 'der' | 'die' | 'das';
 export type WordType =
   | 'noun' | 'verb' | 'adjective' | 'adverb' | 'preposition' | 'pronoun'
   | 'conjunction' | 'numeral' | 'interjection' | 'phrase' | 'other';
-export type Level = 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2';
+export type Level = 'A1' | 'A2' | 'B1' | 'B1.1' | 'B1.2' | 'B2' | 'C1' | 'C2';
 export type SrsState = 'new' | 'learning' | 'review' | 'relearning' | 'learned';
 export type Rating = 0 | 1 | 2 | 3; // again, hard, good, easy
 export type StudyMode =
@@ -152,6 +152,7 @@ export interface Settings {
   widgets: WidgetDesign[];
   updateRepo: string; // "owner/repo" on GitHub
   updateChannel: 'stable' | 'beta';
+  learnLevels?: Level[];
 }
 
 export type WidgetType = 'word' | 'list' | 'compact' | 'goal' | 'review' | 'quiz';
@@ -189,7 +190,17 @@ export const WORD_TYPES: WordType[] = [
   'noun', 'verb', 'adjective', 'adverb', 'preposition', 'pronoun',
   'conjunction', 'numeral', 'interjection', 'phrase', 'other',
 ];
-export const LEVELS: Level[] = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
+export const LEVELS: Level[] = ['A1', 'A2', 'B1', 'B1.1', 'B1.2', 'B2', 'C1', 'C2'];
+export const LEARN_LEVELS: Level[] = ['A1', 'A2', 'B1.1', 'B1.2', 'B2', 'C1'];
+
+export function matchesSelectedLevels(wordLevel: Level | null, selected: Level[]): boolean {
+  if (selected.length === 0) return true;
+  if (!wordLevel) return false;
+  if (selected.includes(wordLevel)) return true;
+  // Legacy 'B1' words are included when user selects 'B1.1'
+  if (wordLevel === 'B1' && selected.includes('B1.1')) return true;
+  return false;
+}
 export const ARTICLES: Article[] = ['der', 'die', 'das'];
 
 export const uid = (): string =>

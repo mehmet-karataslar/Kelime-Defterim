@@ -9,7 +9,10 @@ export type Route =
   | { name: 'wordDetail'; id: string }
   | { name: 'wordEditor'; id?: string }
   | { name: 'sessionSetup'; mode?: StudyMode; collectionId?: string }
-  | { name: 'session'; mode: StudyMode; wordIds: string[]; collectionId?: string; level?: Level | null };
+  | { name: 'session'; mode: StudyMode; wordIds: string[]; collectionId?: string; level?: Level | null }
+  | { name: 'doctorDialogues' }
+  | { name: 'officialComms' }
+  | { name: 'writingReview'; promptTitle?: string; promptDesc?: string; targetLevel?: Level; formal?: boolean };
 
 interface NavState {
   tab: Tab;

@@ -355,7 +355,14 @@ export default function SessionScreen({
                   <div className="flash-meaning">{meaning(current)}</div>
                   {current.noun?.plural ? <div className="muted" style={{ fontSize: '0.82rem', marginTop: '0.4rem' }}>{t('common.plural')}: {current.noun.plural}</div> : null}
                   {current.verb?.partizip2 ? <div className="muted" style={{ fontSize: '0.82rem', marginTop: '0.4rem' }}>Perfekt: {current.verb.auxiliary === 'sein' ? 'ist' : 'hat'} {current.verb.partizip2}</div> : null}
-                  {current.examples[0] ? <div className="flash-example">“{current.examples[0].de}”</div> : null}
+                  {current.examples[0] ? (
+                    <div className="flash-example">
+                      <div>“{current.examples[0].de}”</div>
+                      {current.examples[0].tr ? (
+                        <div className="flash-example-tr">{current.examples[0].tr}</div>
+                      ) : null}
+                    </div>
+                  ) : null}
                 </div>
               </div>
             </div>

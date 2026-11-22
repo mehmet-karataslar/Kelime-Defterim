@@ -42,6 +42,7 @@ export const defaultSettings: Settings = {
   }],
   updateRepo: 'mehmet-karataslar/Kelime-Defterim',
   updateChannel: 'stable',
+  learnLevels: [],
 };
 
 interface UndoBuffer {

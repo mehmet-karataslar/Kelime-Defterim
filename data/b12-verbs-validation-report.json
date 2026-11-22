@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-11-22T09:34:12.018Z",
+  "rawCount": 540,
+  "uniqueB12Verbs": 505,
+  "targetMet": true,
+  "categoryCounts": {
+    "Günlük Yaşam": 73,
+    "İş Hayatı": 70,
+    "Sağlık": 62,
+    "Eğitim": 64,
+    "Resmî İşlemler": 76,
+    "İletişim": 78,
+    "Sosyal Yaşam": 82
+  },
+  "skippedOverlapCount": 0,
+  "skippedInternalDupCount": 35,
+  "errorsCount": 0,
+  "errors": [],
+  "packBytes": 627418,
+  "packKB": 613
+}
